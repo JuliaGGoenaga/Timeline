@@ -1,0 +1,221 @@
+[
+  {
+    "id": "mies-van-der-rohe",
+    "title": "Mies van der Rohe",
+    "type": "person",
+    "disciplines": ["architecture"],
+    "historicalPeriods": ["early-20th", "cold-war"],
+    "startDate": "1886-03-27",
+    "endDate": "1969-08-17",
+    "datePrecision": "exact",
+    "summary": "Arquitecto alemán-estadounidense, último director del Bauhaus y padre del minimalismo moderno con su lema 'less is more' y el uso del acero y el vidrio.",
+    "description": "Ludwig Mies van der Rohe (Aquisgrán, 1886 – Chicago, 1969) es uno de los padres del Movimiento Moderno en arquitectura. Último director del Bauhaus (1930–1933) antes de su cierre por los nazis, emigró a EEUU en 1938 donde dirigió la escuela de arquitectura del Illinois Institute of Technology (IIT). Sus principios: estructura de acero visible, espacios diáfanos y continuos, paredes de vidrio, detalles perfectos. Obras clave: el Pabellón Alemán de Barcelona (1929, reconstruido en 1986), el Campus del IIT (desde 1940), el edificio Seagram en Nueva York (1958, con Philip Johnson) y el Neue Nationalgalerie de Berlín (1968). Su lema 'less is more' (menos es más) y su concepto de Beinahe Nichts (casi nada) son las síntesis de su estética.",
+    "importance": 10,
+    "regions": ["Europe", "North America"],
+    "places": [
+      { "name": "Chicago", "lat": 41.853, "lng": -87.624, "wikidataId": "Q1297", "role": "Illinois Institute of Technology (1938–1958), base de su obra americana" },
+      { "name": "Berlín", "lat": 52.520, "lng": 13.405, "wikidataId": "Q64", "role": "formación, Neue Nationalgalerie (1968)" }
+    ],
+    "relations": [
+      { "targetId": "bauhaus", "relationType": "part_of", "strength": 5 },
+      { "targetId": "le-corbusier", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "frank-lloyd-wright", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "adolf-loos", "relationType": "influenced_by", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Mies van der Rohe",
+        "author": "Schulze, Franz",
+        "publisher": "University of Chicago Press",
+        "year": "1985",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Mies van der Rohe",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Ludwig-Mies-van-der-Rohe",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["less is more", "acero", "vidrio", "Bauhaus", "minimalismo", "Seagram"]
+  },
+  {
+    "id": "frank-lloyd-wright",
+    "title": "Frank Lloyd Wright",
+    "type": "person",
+    "disciplines": ["architecture"],
+    "historicalPeriods": ["belle-epoque", "early-20th", "cold-war"],
+    "startDate": "1867-06-8",
+    "endDate": "1959-04-9",
+    "datePrecision": "year",
+    "summary": "El mayor arquitecto americano del siglo XX, creador de la arquitectura orgánica y del Prairie Style, autor de Fallingwater y el Guggenheim de Nueva York.",
+    "description": "Frank Lloyd Wright (Richland Center, Wisconsin, 1867 – Phoenix, Arizona, 1959) fue el arquitecto más influyente de América en el siglo XX. Trabajó con Louis Sullivan ('el padre del rascacielos') antes de desarrollar su propio lenguaje: el Prairie Style (casas de tejados horizontales bajos integradas en el paisaje, 1900–1910) y la 'arquitectura orgánica' (edificios que crecen del lugar como plantas). Obras clave: Robie House (Chicago, 1910), Fallingwater o Casa de la Cascada (Mill Run, 1939), Johnson Wax Building (Racine, 1939) y el Guggenheim Museum de Nueva York (1959). Su producción abarcó más de 1.000 obras diseñadas en 70 años de práctica. En 2019, ocho de sus obras fueron declaradas Patrimonio de la Humanidad por la UNESCO.",
+    "importance": 10,
+    "regions": ["North America", "Europe"],
+    "places": [
+      { "name": "Chicago", "lat": 41.853, "lng": -87.624, "wikidataId": "Q1297", "role": "Prairie Style, formación con Sullivan" },
+      { "name": "Nueva York", "lat": 40.783, "lng": -73.959, "wikidataId": "Q60", "role": "Guggenheim Museum (1959)" }
+    ],
+    "relations": [
+      { "targetId": "le-corbusier", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "mies-van-der-rohe", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "bauhaus", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "Frank Lloyd Wright: A Life",
+        "author": "Huxtable, Ada Louise",
+        "publisher": "Viking",
+        "year": "2004",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "UNESCO: 20th-Century Architecture of Frank Lloyd Wright",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1496/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["orgánico", "Prairie Style", "Fallingwater", "Guggenheim", "horizontal", "UNESCO"]
+  },
+  {
+    "id": "fallingwater",
+    "title": "Fallingwater (Casa de la Cascada)",
+    "type": "building",
+    "disciplines": ["architecture"],
+    "historicalPeriods": ["early-20th"],
+    "startDate": "1936",
+    "endDate": "1939",
+    "datePrecision": "year",
+    "summary": "Casa diseñada por Frank Lloyd Wright en Pennsylvania, construida en voladizo sobre una cascada, icono de la arquitectura orgánica del siglo XX.",
+    "description": "Fallingwater o Casa Kaufmann (Mill Run, Pennsylvania, 1936–1939) es la obra más celebrada de Frank Lloyd Wright y una de las más famosas de la arquitectura del siglo XX. Construida para el industrial Edgar J. Kaufmann como residencia de fin de semana, está literalmente edificada sobre una cascada del arroyo Bear Run mediante audaces voladizos de hormigón armado. La integración de la construcción con la naturaleza —el agua, las rocas, el bosque— hace de Fallingwater el paradigma de la arquitectura orgánica de Wright. El Time la incluyó como 'la mejor obra de arquitectura americana del siglo XX'. UNESCO desde 2019.",
+    "importance": 9,
+    "regions": ["North America"],
+    "places": [
+      { "name": "Mill Run, Pennsylvania", "lat": 39.906, "lng": -79.468, "wikidataId": "Q271527", "role": "Bear Run Nature Reserve, condado de Fayette" }
+    ],
+    "relations": [
+      { "targetId": "frank-lloyd-wright", "relationType": "created", "strength": 5 },
+      { "targetId": "le-corbusier", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "Fallingwater Rising",
+        "author": "Toker, Franklin",
+        "publisher": "Alfred A. Knopf",
+        "year": "2003",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "UNESCO: 20th-Century Architecture of Frank Lloyd Wright",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1496/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["voladizo", "cascada", "Wright", "orgánico", "Pennsylvania", "UNESCO"]
+  },
+  {
+    "id": "alvar-aalto",
+    "title": "Alvar Aalto",
+    "type": "person",
+    "disciplines": ["architecture", "design"],
+    "historicalPeriods": ["early-20th", "cold-war"],
+    "startDate": "1898-02-3",
+    "endDate": "1976-05-11",
+    "datePrecision": "year",
+    "summary": "El mayor arquitecto finlandés, maestro del humanismo moderno que integró madera y naturaleza en el Movimiento Moderno, creador del Sanatorio de Paimio y el Finlandia Hall.",
+    "description": "Alvar Aalto (Kuortane, 1898 – Helsinki, 1976) es la figura central de la arquitectura moderna escandinava. Formado en el racionalismo, desarrolló un 'modernismo humanista' que combina los principios funcionalistas con materiales naturales —especialmente la madera— y formas orgánicas inspiradas en el paisaje finlandés. Obras fundamentales: Sanatorio de Paimio (1929–1933, pionero en arquitectura sanitaria), Biblioteca de Viipuri (actual Vyborg, 1935), Pabellón de Finlandia en la Exposición Universal de Nueva York (1939) y Villa Mairea (1940). También diseñó el florero Savoy (1936) y muebles de madera curvada que son clásicos del diseño industrial. El Finlandia Hall de Helsinki (1971) fue su último gran edificio.",
+    "importance": 9,
+    "regions": ["Europe", "North America"],
+    "places": [
+      { "name": "Helsinki", "lat": 60.169, "lng": 24.938, "wikidataId": "Q1757", "role": "capital de Finlandia, base principal de su actividad" },
+      { "name": "Paimio", "lat": 60.457, "lng": 22.687, "wikidataId": "Q978813", "role": "Sanatorio de Paimio (1933), obra clave" }
+    ],
+    "relations": [
+      { "targetId": "le-corbusier", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "mies-van-der-rohe", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "bauhaus", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "Alvar Aalto",
+        "author": "Weston, Richard",
+        "publisher": "Phaidon Press",
+        "year": "1995",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Alvar Aalto",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Alvar-Aalto",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["humanismo", "madera", "Finlandia", "Paimio", "orgánico", "diseño escandinavo"]
+  },
+  {
+    "id": "oscar-niemeyer",
+    "title": "Óscar Niemeyer",
+    "type": "person",
+    "disciplines": ["architecture", "urbanism"],
+    "historicalPeriods": ["cold-war", "contemporary"],
+    "startDate": "1907-12-15",
+    "endDate": "2012-12-05",
+    "datePrecision": "exact",
+    "summary": "El mayor arquitecto brasileño, discípulo de Le Corbusier y proyectista de Brasilia, que transformó el hormigón armado curvo en poesía arquitectónica.",
+    "description": "Óscar Niemeyer (Río de Janeiro, 1907 – 2012) fue el arquitecto más importante de Brasil y uno de los grandes maestros de la arquitectura del siglo XX. Colaboró con Le Corbusier en el Ministerio de Educación de Río de Janeiro (1936–1943). Su estética se basa en la curva libre del hormigón armado como expresión de una arquitectura poética y sensual. Su obra cumbre es la nueva capital de Brasil, Brasília (1956–1960), diseñada con el urbanista Lúcio Costa: el Congreso Nacional, el Palacio da Alvorada, el Palacio do Planalto y la Catedral Metropolitana. También construyó el Museu de Arte Contemporânea de Niterói (1996, en forma de copa sobre el mar). Murió a los 104 años, diez días antes de cumplir 105.",
+    "importance": 9,
+    "regions": ["South America", "Europe"],
+    "places": [
+      { "name": "Brasilia", "lat": -15.779, "lng": -47.930, "wikidataId": "Q2455289", "role": "capital diseñada por Niemeyer y Lúcio Costa (1956–1960)" },
+      { "name": "Río de Janeiro", "lat": -22.906, "lng": -43.172, "wikidataId": "Q8678", "role": "ciudad natal y estudios" }
+    ],
+    "relations": [
+      { "targetId": "le-corbusier", "relationType": "influenced_by", "strength": 5 },
+      { "targetId": "mies-van-der-rohe", "relationType": "contemporary_of", "strength": 2 },
+      { "targetId": "frank-lloyd-wright", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "Oscar Niemeyer and the Architecture of Brazil",
+        "author": "Philippou, Styliane",
+        "publisher": "Rizzoli",
+        "year": "2008",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "UNESCO: Brasília",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/445/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Brasilia", "curva", "hormigón", "Brasil", "Le Corbusier", "UNESCO"]
+  }
+]

@@ -1,0 +1,551 @@
+[
+  {
+    "id": "bach",
+    "title": "Johann Sebastian Bach",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["early-modern"],
+    "startDate": "1685-03-31",
+    "endDate": "1750-07-28",
+    "datePrecision": "year",
+    "summary": "Compositor alemán del Barroco tardío, autor de una obra de extraordinaria profundidad técnica y espiritual que abarca todas las formas musicales de su época.",
+    "description": "Johann Sebastian Bach (Eisenach, 1685 – Leipzig, 1750) es considerado uno de los mayores compositores de la historia occidental. Organista y maestro de capilla, trabajó en Arnstadt, Mühlhausen, Weimar, Köthen y Leipzig, donde fue Thomaskantor desde 1723 hasta su muerte. Compuso más de 1.000 obras: las Pasiones (San Mateo, San Juan), las Misas (en si menor), los Conciertos de Brandeburgo, El clave bien temperado, las Variaciones Goldberg y las Suites para violonchelo solo. Fue redescubierto por Mendelssohn en el siglo XIX.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Leipzig", "lat": 51.34, "lng": 12.37, "wikidataId": "Q2079", "role": "Thomaskantor 1723–1750, obra principal" },
+      { "name": "Eisenach", "lat": 50.97, "lng": 10.31, "wikidataId": "Q7070", "role": "ciudad natal" }
+    ],
+    "relations": [
+      { "targetId": "baroque", "relationType": "part_of", "strength": 5 },
+      { "targetId": "mozart", "relationType": "influenced", "strength": 4 },
+      { "targetId": "beethoven", "relationType": "influenced", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Johann Sebastian Bach: The Learned Musician",
+        "author": "Wolff, Christoph",
+        "publisher": "W. W. Norton",
+        "year": "2000",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Johann Sebastian Bach",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Johann-Sebastian-Bach",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["Barroco", "Leipzig", "Pasión según San Mateo", "contrapunto"]
+  },
+  {
+    "id": "mozart",
+    "title": "Wolfgang Amadeus Mozart",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["enlightenment"],
+    "startDate": "1756-01-27",
+    "endDate": "1791-12-05",
+    "datePrecision": "year",
+    "summary": "Compositor austriaco del Clasicismo vienés, prodigio que produjo 626 obras en 35 años de vida abarcando todos los géneros musicales.",
+    "description": "Wolfgang Amadeus Mozart (Salzburgo, 1756 – Viena, 1791) es una figura central del Clasicismo musical. Niño prodigio, viajó por Europa con su padre Leopoldo. Compuso 41 sinfonías, 27 conciertos para piano, 23 cuartetos de cuerda, 18 misas y 22 óperas, entre ellas La flauta mágica (1791), Don Giovanni (1787) y Las bodas de Fígaro (1786). Murió a los 35 años; su Réquiem quedó inacabado. Trabajó en Salzburgo al servicio del arzobispo y desde 1781 en Viena como compositor independiente.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Salzburgo", "lat": 47.80, "lng": 13.04, "wikidataId": "Q34713", "role": "ciudad natal, formación" },
+      { "name": "Viena", "lat": 48.21, "lng": 16.37, "wikidataId": "Q1741", "role": "período de madurez 1781–1791" }
+    ],
+    "relations": [
+      { "targetId": "bach", "relationType": "influenced_by", "strength": 4 },
+      { "targetId": "beethoven", "relationType": "influenced", "strength": 5 },
+      { "targetId": "enlightenment-movement", "relationType": "contemporary_of", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Mozart: A Life",
+        "author": "Solomon, Maynard",
+        "publisher": "HarperCollins",
+        "year": "1995",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Wolfgang Amadeus Mozart",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Wolfgang-Amadeus-Mozart",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["Clasicismo", "Salzburgo", "Viena", "ópera", "Réquiem"]
+  },
+  {
+    "id": "leonardo-da-vinci",
+    "title": "Leonardo da Vinci",
+    "type": "person",
+    "disciplines": ["art", "science", "technology"],
+    "historicalPeriods": ["renaissance"],
+    "startDate": "1452-04-15",
+    "endDate": "1519-05-02",
+    "datePrecision": "year",
+    "summary": "Genio universal del Renacimiento: pintor, escultor, arquitecto, ingeniero, anatomista y científico que encarnó el ideal humanista.",
+    "description": "Leonardo da Vinci (Vinci, 1452 – Amboise, 1519) es el paradigma del hombre del Renacimiento. Formado en el taller de Verrocchio en Florencia, trabajó también en Milán (al servicio de Ludovico Sforza) y en Roma. Sus obras pictóricas más célebres son la Mona Lisa y La Última Cena (Santa Maria delle Grazie, Milán, c. 1495–98). Sus cuadernos manuscritos contienen miles de páginas con estudios de anatomía, ingeniería, botánica y óptica. Diseñó máquinas voladoras, vehículos y mecanismos siglos antes de su realización.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Florencia", "lat": 43.77, "lng": 11.25, "wikidataId": "Q2044", "role": "formación con Verrocchio, obras tempranas" },
+      { "name": "Milán", "lat": 45.46, "lng": 9.19, "wikidataId": "Q490", "role": "La Última Cena, servicio a Ludovico Sforza" },
+      { "name": "Amboise", "lat": 47.41, "lng": 0.98, "wikidataId": "Q182298", "role": "últimos años, invitado por Francisco I de Francia" }
+    ],
+    "relations": [
+      { "targetId": "renaissance", "relationType": "part_of", "strength": 5 },
+      { "targetId": "michelangelo", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "scientific-revolution", "relationType": "preceded", "strength": 3, "note": "Sus estudios científicos anticiparon métodos de la Revolución Científica" }
+    ],
+    "sources": [
+      {
+        "title": "Leonardo da Vinci",
+        "author": "Isaacson, Walter",
+        "publisher": "Simon & Schuster",
+        "year": "2017",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Leonardo da Vinci",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Leonardo-da-Vinci",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["Renacimiento", "Mona Lisa", "Florencia", "polímata", "anatomía"]
+  },
+  {
+    "id": "michelangelo",
+    "title": "Miguel Ángel",
+    "type": "person",
+    "disciplines": ["art", "architecture"],
+    "historicalPeriods": ["renaissance"],
+    "startDate": "1475-03-06",
+    "endDate": "1564-02-18",
+    "datePrecision": "year",
+    "summary": "Escultor, pintor y arquitecto del Alto Renacimiento, autor del David, la Capilla Sixtina y la cúpula de la Basílica de San Pedro.",
+    "description": "Michelangelo di Lodovico Buonarroti Simoni (Caprese, 1475 – Roma, 1564) dominó tres artes al máximo nivel durante más de 70 años de actividad. Sus esculturas más célebres son el David (1501–1504, Florencia) y la Pietà (1498–1499, Vaticano). La decoración de la bóveda de la Capilla Sixtina (1508–1512) y El Juicio Final (1536–1541) son los frescos más importantes de la historia occidental. Como arquitecto, diseñó la cúpula de la Basílica de San Pedro en Roma (completada póstumamente en 1590).",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Florencia", "lat": 43.77, "lng": 11.25, "wikidataId": "Q2044", "role": "David, obras tempranas" },
+      { "name": "Roma", "lat": 41.89, "lng": 12.49, "wikidataId": "Q220", "role": "Capilla Sixtina, San Pedro, Pietà" }
+    ],
+    "relations": [
+      { "targetId": "renaissance", "relationType": "part_of", "strength": 5 },
+      { "targetId": "leonardo-da-vinci", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "baroque", "relationType": "preceded", "strength": 3, "note": "La escultura de Miguel Ángel anticipó el dinamismo del Barroco" }
+    ],
+    "sources": [
+      {
+        "title": "Michelangelo and the Pope's Ceiling",
+        "author": "King, Ross",
+        "publisher": "Walker & Company",
+        "year": "2002",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Michelangelo",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Michelangelo",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["David", "Capilla Sixtina", "Pietà", "cúpula", "Florencia", "Roma"]
+  },
+  {
+    "id": "isaac-newton",
+    "title": "Isaac Newton",
+    "type": "person",
+    "disciplines": ["science", "mathematics", "philosophy"],
+    "historicalPeriods": ["early-modern"],
+    "startDate": "1643-01-04",
+    "endDate": "1727-03-31",
+    "datePrecision": "year",
+    "summary": "Físico y matemático inglés que formuló las leyes del movimiento y la gravitación universal, síntesis cumbre de la Revolución Científica.",
+    "description": "Isaac Newton (Woolsthorpe, 1643 – Londres, 1727) es la figura central de la Revolución Científica. Sus Principia Mathematica (1687) establecieron las tres leyes del movimiento y la ley de gravitación universal, unificando la mecánica terrestre y la celeste. Desarrolló el cálculo infinitesimal (simultáneamente con Leibniz). Sus Óptica (1704) describieron la descomposición de la luz blanca y la naturaleza corpuscular de la luz. Presidente de la Royal Society desde 1703 y director de la Casa de la Moneda (1699). Fue enterrado en la Abadía de Westminster.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Cambridge", "lat": 52.20, "lng": 0.12, "wikidataId": "Q350", "role": "Trinity College, trabajo científico principal" },
+      { "name": "Londres", "lat": 51.51, "lng": -0.12, "wikidataId": "Q84", "role": "Royal Society, Casa de la Moneda" }
+    ],
+    "relations": [
+      { "targetId": "scientific-revolution", "relationType": "part_of", "strength": 5 },
+      { "targetId": "enlightenment-movement", "relationType": "influenced", "strength": 5, "note": "Newton fue el paradigma del pensamiento ilustrado" }
+    ],
+    "sources": [
+      {
+        "title": "Isaac Newton",
+        "author": "Gleick, James",
+        "publisher": "Pantheon Books",
+        "year": "2003",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Isaac Newton",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Isaac-Newton",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["gravitación", "Principia", "Royal Society", "cálculo", "óptica"]
+  },
+  {
+    "id": "charles-darwin",
+    "title": "Charles Darwin",
+    "type": "person",
+    "disciplines": ["science"],
+    "historicalPeriods": ["19th-century"],
+    "startDate": "1809-02-12",
+    "endDate": "1882-04-19",
+    "datePrecision": "year",
+    "summary": "Naturalista inglés que formuló la teoría de la evolución por selección natural, transformando radicalmente la biología y el pensamiento occidental.",
+    "description": "Charles Darwin (Shrewsbury, 1809 – Down, Kent, 1882) realizó el viaje del HMS Beagle (1831–1836) por América del Sur y las islas Galápagos, recopilando observaciones que le llevaron a formular la teoría de la evolución por selección natural. Su obra El origen de las especies (1859) es uno de los libros más influyentes de la historia. Transformó la biología, la antropología, la filosofía y la teología, al proponer que todas las especies comparten un origen común y que la variación y la selección explican la diversidad de la vida.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Cambridge", "lat": 52.20, "lng": 0.12, "wikidataId": "Q350", "role": "formación universitaria, Christ's College" },
+      { "name": "Down House", "lat": 51.34, "lng": 0.04, "wikidataId": "Q1248764", "role": "residencia desde 1842, donde desarrolló su obra" }
+    ],
+    "relations": [
+      { "targetId": "scientific-revolution", "relationType": "followed", "strength": 3 },
+      { "targetId": "industrial-revolution", "relationType": "contemporary_of", "strength": 2 },
+      { "targetId": "realism-movement", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "Darwin: The Life of a Tormented Evolutionist",
+        "author": "Desmond, Adrian; Moore, James",
+        "publisher": "Warner Books",
+        "year": "1991",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Charles Darwin",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Charles-Darwin",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["evolución", "selección natural", "Beagle", "Galápagos", "El origen de las especies"]
+  },
+  {
+    "id": "karl-marx",
+    "title": "Karl Marx",
+    "type": "person",
+    "disciplines": ["philosophy", "economy", "politics"],
+    "historicalPeriods": ["19th-century"],
+    "startDate": "1818-05-05",
+    "endDate": "1883-03-14",
+    "datePrecision": "year",
+    "summary": "Filósofo, economista e historiador alemán cuyo análisis del capitalismo y la teoría comunista transformaron la política y el pensamiento del siglo XX.",
+    "description": "Karl Marx (Tréveris, 1818 – Londres, 1883) desarrolló una crítica filosófica, económica e histórica del capitalismo industrial. Junto con Friedrich Engels publicó el Manifiesto Comunista (1848), que llamaba a la revolución del proletariado. Su obra principal, El Capital (vol. I, 1867), analizó el modo de producción capitalista, la plusvalía y la explotación del trabajo. Vivió exiliado principalmente en París, Bruselas y Londres. Su pensamiento fue la base ideológica de numerosos movimientos socialistas, comunistas y revolucionarios del siglo XX.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Tréveris", "lat": 49.75, "lng": 6.63, "wikidataId": "Q3246", "role": "ciudad natal" },
+      { "name": "Londres", "lat": 51.51, "lng": -0.12, "wikidataId": "Q84", "role": "exilio principal, redacción de El Capital, British Museum" }
+    ],
+    "relations": [
+      { "targetId": "industrial-revolution", "relationType": "response_to", "strength": 5, "note": "El análisis del capitalismo industrial es el eje de su obra" },
+      { "targetId": "french-revolution", "relationType": "influenced_by", "strength": 3 },
+      { "targetId": "enlightenment-movement", "relationType": "influenced_by", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Karl Marx: A Nineteenth-Century Life",
+        "author": "Sperber, Jonathan",
+        "publisher": "W. W. Norton",
+        "year": "2013",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Karl Marx",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Karl-Marx",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["comunismo", "capitalismo", "El Capital", "Manifiesto", "proletariado"]
+  },
+  {
+    "id": "freud",
+    "title": "Sigmund Freud",
+    "type": "person",
+    "disciplines": ["science", "philosophy"],
+    "historicalPeriods": ["belle-epoque", "early-20th"],
+    "startDate": "1856-05-06",
+    "endDate": "1939-09-23",
+    "datePrecision": "year",
+    "summary": "Médico y neurológo austriaco fundador del psicoanálisis, cuya teoría del inconsciente transformó la psicología, la cultura y las artes del siglo XX.",
+    "description": "Sigmund Freud (Freiberg, Moravia, 1856 – Londres, 1939) desarrolló el psicoanálisis como método clínico y teoría de la mente. La interpretación de los sueños (1900) expuso la idea de que los sueños revelan deseos inconscientes reprimidos. Formuló el modelo topográfico (consciente/preconsciente/inconsciente) y luego el estructural (ello/yo/superyó). Sus teorías sobre la sexualidad (Tres ensayos de teoría sexual, 1905) y la neurosis fueron polémicas pero influyentes. Vivió y trabajó en Viena hasta 1938; huyó del nazismo y murió en Londres.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Viena", "lat": 48.21, "lng": 16.37, "wikidataId": "Q1741", "role": "consulta médica y elaboración del psicoanálisis, 1886–1938" },
+      { "name": "Londres", "lat": 51.51, "lng": -0.12, "wikidataId": "Q84", "role": "exilio 1938–1939" }
+    ],
+    "relations": [
+      { "targetId": "surrealism", "relationType": "influenced", "strength": 5 },
+      { "targetId": "expressionism", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "symbolism", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "Freud: A Life for Our Time",
+        "author": "Gay, Peter",
+        "publisher": "W. W. Norton",
+        "year": "1988",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Sigmund Freud",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Sigmund-Freud",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["psicoanálisis", "inconsciente", "Viena", "sueños", "neurosis"]
+  },
+  {
+    "id": "picasso",
+    "title": "Pablo Picasso",
+    "type": "person",
+    "disciplines": ["art"],
+    "historicalPeriods": ["belle-epoque", "early-20th", "cold-war"],
+    "startDate": "1881-10-25",
+    "endDate": "1973-04-08",
+    "datePrecision": "year",
+    "summary": "Pintor y escultor malagueño, cofundador del Cubismo y una de las figuras más influyentes del arte del siglo XX.",
+    "description": "Pablo Ruiz Picasso (Málaga, 1881 – Mougins, 1973) es el artista más influyente del siglo XX. Junto con Georges Braque fundó el Cubismo (1907–1914). Su obra abarca el Período Azul (1901–1904), el Período Rosa (1904–1906), el Cubismo analítico y sintético, el Neoclasicismo y el Surrealismo. Guernica (1937), pintado en respuesta al bombardeo de la ciudad vasca durante la Guerra Civil Española, es el icono político más poderoso del arte moderno. Produjo más de 20.000 obras.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Málaga", "lat": 36.72, "lng": -4.42, "wikidataId": "Q8821", "role": "ciudad natal" },
+      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "ciudad donde desarrolló su obra principal" },
+      { "name": "Barcelona", "lat": 41.38, "lng": 2.17, "wikidataId": "Q1492", "role": "formación juvenil, Museo Picasso" }
+    ],
+    "relations": [
+      { "targetId": "cubism", "relationType": "founded", "strength": 5 },
+      { "targetId": "post-impressionism", "relationType": "influenced_by", "strength": 4 },
+      { "targetId": "surrealism", "relationType": "contemporary_of", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Picasso: A Biography",
+        "author": "Richardson, John",
+        "publisher": "Alfred A. Knopf",
+        "year": "1991",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Pablo Picasso",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/artists/4609",
+        "type": "museum",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["Cubismo", "Guernica", "París", "Período Azul", "siglo XX"]
+  },
+  {
+    "id": "colosseum",
+    "title": "Coliseo de Roma",
+    "type": "building",
+    "disciplines": ["architecture", "history"],
+    "historicalPeriods": ["classical-antiquity"],
+    "startDate": "72",
+    "endDate": "80",
+    "datePrecision": "year",
+    "summary": "Anfiteatro romano construido bajo los emperadores Vespasiano y Tito, símbolo máximo de la arquitectura del Imperio Romano.",
+    "description": "El Coliseo (Amphitheatrum Flavium) fue construido entre los años 72 y 80 d.C. bajo los emperadores Vespasiano y Tito de la dinastía Flavia. Con capacidad para entre 50.000 y 80.000 espectadores, es el mayor anfiteatro de la Antigüedad. Se usó para combates de gladiadores, cacerías de animales y ejecuciones públicas. Su sistema de bóvedas de cañón y graderías en concreto romano (opus cementicium) es un hito de la ingeniería constructiva. Fue declarado Patrimonio de la Humanidad por la UNESCO en 1980.",
+    "importance": 10,
+    "regions": ["Europe", "Mediterranean"],
+    "places": [
+      { "name": "Roma", "lat": 41.890, "lng": 12.492, "wikidataId": "Q10285", "role": "ubicación, centro del Imperio" }
+    ],
+    "relations": [
+      { "targetId": "roman-empire", "relationType": "part_of", "strength": 5 },
+      { "targetId": "parthenon", "relationType": "contemporary_of", "strength": 1, "note": "El Partenón es anterior en 500 años, pero ambos son símbolos de arquitectura clásica" }
+    ],
+    "sources": [
+      {
+        "title": "The Colosseum",
+        "author": "Hopkins, Keith; Beard, Mary",
+        "publisher": "Harvard University Press",
+        "year": "2005",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "UNESCO: Rome: Historic Centre",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/91/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg",
+        "caption": "El Coliseo de Roma",
+        "source": "Wikimedia Commons",
+        "rights": "CC BY-SA 4.0"
+      }
+    ],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["Roma", "gladiadores", "anfiteatro", "Imperio Romano", "UNESCO"]
+  },
+  {
+    "id": "notre-dame-paris",
+    "title": "Catedral de Notre-Dame de París",
+    "type": "building",
+    "disciplines": ["architecture", "religion"],
+    "historicalPeriods": ["middle-ages"],
+    "startDate": "1163",
+    "endDate": "1345",
+    "datePrecision": "approximate",
+    "summary": "Catedral gótica de París, uno de los ejemplos más completos de arquitectura gótica francesa y símbolo de la ciudad desde el siglo XII.",
+    "description": "La construcción de Notre-Dame de París comenzó en 1163 bajo el obispo Maurice de Sully y fue sustancialmente completada hacia 1345. Es uno de los ejemplos más completos de arquitectura gótica: sus arbotantes permiten fachadas de vidrieras de gran tamaño, y sus torres gemelas (69 metros) dominaron el horizonte de París durante siglos. En ella fue coronado Napoleón (1804). El incendio de abril de 2019 destruyó la aguja del siglo XIX y parte del tejado; la restauración está en marcha. UNESCO Patrimonio de la Humanidad (inclusión en el conjunto de París, 1991).",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "París", "lat": 48.853, "lng": 2.350, "wikidataId": "Q2981", "role": "Île de la Cité" }
+    ],
+    "relations": [
+      { "targetId": "middle-ages", "relationType": "part_of", "strength": 5 },
+      { "targetId": "haussmann-paris", "relationType": "preceded", "strength": 3 },
+      { "targetId": "renaissance", "relationType": "preceded", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "Notre-Dame de Paris",
+        "publisher": "Cathédrale Notre-Dame de Paris",
+        "url": "https://www.notredamedeparis.fr/la-cathedrale/architecture/",
+        "type": "archive",
+        "reliability": "high"
+      },
+      {
+        "title": "Notre-Dame de Paris",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Notre-Dame-de-Paris-cathedral",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Cath%C3%A9drale_Notre-Dame_de_Paris%2C_4_October_2017.jpg/1280px-Cath%C3%A9drale_Notre-Dame_de_Paris%2C_4_October_2017.jpg",
+        "caption": "Catedral de Notre-Dame de París",
+        "source": "Wikimedia Commons",
+        "rights": "CC BY-SA 4.0"
+      }
+    ],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["gótico", "París", "arbotantes", "vidrieras", "incendio 2019"]
+  },
+  {
+    "id": "palace-versailles",
+    "title": "Palacio de Versalles",
+    "type": "building",
+    "disciplines": ["architecture", "politics", "art"],
+    "historicalPeriods": ["early-modern"],
+    "startDate": "1661",
+    "endDate": "1710",
+    "datePrecision": "year",
+    "summary": "Residencia real de Luis XIV en Versalles, paradigma de la arquitectura y el urbanismo del absolutismo francés y modelo para las cortes europeas.",
+    "description": "El Palacio de Versalles fue transformado por Luis XIV (el Rey Sol) desde 1661, con los arquitectos Louis Le Vau y Jules Hardouin-Mansart, y los jardines de André Le Nôtre. Su Galería de los Espejos (1678–1684) es uno de los interiores más grandiosos del mundo. Fue la residencia principal de los reyes de Francia hasta la Revolución de 1789. El Tratado de Versalles que puso fin a la Primera Guerra Mundial fue firmado en su Galería de los Espejos (1919). UNESCO Patrimonio de la Humanidad desde 1979.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Versalles", "lat": 48.805, "lng": 2.120, "wikidataId": "Q621", "role": "ubicación, a 20 km de París" }
+    ],
+    "relations": [
+      { "targetId": "baroque", "relationType": "part_of", "strength": 5 },
+      { "targetId": "french-revolution", "relationType": "preceded", "strength": 4, "note": "La Revolución puso fin a la monarquía absoluta que Versalles simbolizaba" },
+      { "targetId": "neoclassicism", "relationType": "contemporary_of", "strength": 2 },
+      { "targetId": "world-war-1", "relationType": "followed", "strength": 2, "note": "Tratado de Versalles firmado en la Galería de los Espejos, 1919" }
+    ],
+    "sources": [
+      {
+        "title": "Versailles: A Biography of a Palace",
+        "author": "Spawforth, Tony",
+        "publisher": "St. Martin's Press",
+        "year": "2008",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "UNESCO: Palace and Park of Versailles",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/83/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Palace_of_Versailles_from_the_Gardens%2C_Galerie_des_Glaces_and_North_Wing.jpg/1280px-Palace_of_Versailles_from_the_Gardens%2C_Galerie_des_Glaces_and_North_Wing.jpg",
+        "caption": "Palacio de Versalles desde los jardines",
+        "source": "Wikimedia Commons",
+        "rights": "Public domain"
+      }
+    ],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["Luis XIV", "absolutismo", "Le Nôtre", "Galería de los Espejos", "UNESCO"]
+  }
+]

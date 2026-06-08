@@ -1,0 +1,230 @@
+[
+  {
+    "id": "franz-schubert",
+    "title": "Franz Schubert",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["revolutionary-age"],
+    "startDate": "1797-01-31",
+    "endDate": "1828-11-19",
+    "datePrecision": "exact",
+    "summary": "El compositor de Lieder por excelencia, autor de más de 600 canciones para voz y piano, nueve sinfonías y música de cámara de extraordinaria sensibilidad lírica.",
+    "description": "Franz Schubert (Viena, 1797 – 1828) murió a los 31 años habiendo compuesto más de 1.500 obras, incluyendo más de 600 Lieder (canciones para voz y piano), nueve sinfonías, 21 sonatas para piano y abundante música de cámara. Sus Lieder —Erlkönig (1815), Der Erlkönig, Gretchen am Spinnrade, Winterreise (1827), Schwanengesang (1828)— elevaron el género a su máxima expresión. La Sinfonía n.º 8 'Inacabada' (1822) y la n.º 9 'La Grande' (1825–1826) son sus obras orquestales más celebradas. Murió de tifus (aunque también se ha sugerido complicaciones de sífilis) antes de que su genio fuera plenamente reconocido.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Viena", "lat": 48.208, "lng": 16.373, "wikidataId": "Q1741", "role": "nacimiento, vida y muerte; publicó y estrenó obras en Viena" }
+    ],
+    "relations": [
+      { "targetId": "romanticism", "relationType": "part_of", "strength": 5 },
+      { "targetId": "beethoven", "relationType": "contemporary_of", "strength": 4, "note": "Admirador de Beethoven; portó su antorcha en el funeral (1827)" },
+      { "targetId": "mozart", "relationType": "influenced_by", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Schubert",
+        "author": "Newbould, Brian",
+        "publisher": "University of California Press",
+        "year": "1997",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Franz Schubert",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Franz-Schubert",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Lied", "Winterreise", "Inacabada", "Viena", "Romanticismo", "canción"]
+  },
+  {
+    "id": "frederic-chopin",
+    "title": "Frédéric Chopin",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["19th-century"],
+    "startDate": "1810-03-01",
+    "endDate": "1849-10-17",
+    "datePrecision": "debated",
+    "summary": "El compositor más importante de música para piano del Romanticismo, cuyas mazurcas, nocturnos y estudios son la cumbre lírica y técnica del instrumento.",
+    "description": "Frédéric Chopin (Żelazowa Wola, Polonia, 1810 – París, 1849) es el compositor más representativo del piano romántico. Aunque polaco de nacimiento, vivió y trabajó principalmente en París desde 1831. Su obra —íntegramente para piano o con piano— comprende 2 conciertos, 27 estudios (incluyendo el 'Revolucionario', Op. 10 n.º 12), 24 preludios, 58 mazurcas, 20 nocturnos, 18 polonesas, 4 scherzos y 3 sonatas. Su estilo une el bel canto italiano, la armonía romántica y el alma folclórica polaca. Mantuvo una tormentosa relación con la escritora George Sand (1838–1847). Murió de tuberculosis a los 39 años. Su corazón está enterrado en Varsovia.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "París", "lat": 48.856, "lng": 2.352, "wikidataId": "Q90", "role": "residencia principal 1831–1849, Salones, Place Vendôme" },
+      { "name": "Varsovia", "lat": 52.232, "lng": 21.008, "wikidataId": "Q270", "role": "ciudad natal (Żelazowa Wola, cerca), símbolo de su identidad polaca" }
+    ],
+    "relations": [
+      { "targetId": "romanticism", "relationType": "part_of", "strength": 5 },
+      { "targetId": "franz-liszt", "relationType": "contemporary_of", "strength": 4, "note": "Amigos y rivales en París; Liszt escribió su primera biografía" },
+      { "targetId": "robert-schumann", "relationType": "contemporary_of", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Chopin: A Life",
+        "author": "Zamoyski, Adam",
+        "publisher": "HarperCollins",
+        "year": "2010",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Frédéric Chopin",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Frederic-Chopin",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "partially_verified",
+      "lastReviewed": "2025-06-05",
+      "notes": "Fecha de nacimiento: 1 de marzo de 1810 según el registro bautismal; algunos documentos indican el 22 de febrero. La de mayor peso historiográfico es el 1 de marzo."
+    },
+    "layer": "detailed",
+    "tags": ["piano", "Lied", "nocturno", "mazurca", "Polonia", "París", "Romanticismo"]
+  },
+  {
+    "id": "robert-schumann",
+    "title": "Robert Schumann",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["19th-century"],
+    "startDate": "1810-06-08",
+    "endDate": "1856-07-29",
+    "datePrecision": "exact",
+    "summary": "Compositor alemán del Romanticismo, maestro de la canción y la música para piano, así como crítico musical influyente que descubrió a Brahms y Chopin.",
+    "description": "Robert Schumann (Zwickau, 1810 – Endenich, 1856) fue uno de los compositores más originales del Romanticismo alemán, así como el crítico musical más influyente de su época. Sus obras para piano —Carnaval (1835), Kinderszenen (1838), Kreisleriana (1838)— y sus ciclos de Lieder —Dichterliebe (1840), Frauenliebe und -leben— son cimas del género. Sus cuatro sinfonías y el Concierto para piano en La menor (1845) amplían su lenguaje al ámbito orquestal. Fundador de la Neue Zeitschrift für Musik (1834), publicó las primeras críticas favorables a Chopin y Brahms. Casado con la gran pianista Clara Wieck, sufrió colapsos mentales desde 1850 y murió en un sanatorio.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Leipzig", "lat": 51.340, "lng": 12.375, "wikidataId": "Q2079", "role": "Neue Zeitschrift für Musik, Conservatorio" },
+      { "name": "Düsseldorf", "lat": 51.227, "lng": 6.773, "wikidataId": "Q1718", "role": "director musical 1850–1854" }
+    ],
+    "relations": [
+      { "targetId": "romanticism", "relationType": "part_of", "strength": 5 },
+      { "targetId": "frederic-chopin", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "johannes-brahms", "relationType": "influenced", "strength": 5, "note": "Schumann fue el primero en reconocer públicamente el genio de Brahms (1853)" },
+      { "targetId": "beethoven", "relationType": "influenced_by", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "Schumann: The Inner Voices of a Musical Genius",
+        "author": "Ostwald, Peter",
+        "publisher": "Northeastern University Press",
+        "year": "1985",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Robert Schumann",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Robert-Schumann",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Lied", "piano", "crítico", "Leipzig", "Romanticismo", "Brahms", "Clara Wieck"]
+  },
+  {
+    "id": "johannes-brahms",
+    "title": "Johannes Brahms",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["19th-century", "belle-epoque"],
+    "startDate": "1833-05-07",
+    "endDate": "1897-04-03",
+    "datePrecision": "exact",
+    "summary": "Compositor alemán que equilibró la herencia clásica de Bach y Beethoven con la expresividad romántica, figura central de la 'guerra de los románticos' frente a Wagner.",
+    "description": "Johannes Brahms (Hamburgo, 1833 – Viena, 1897) es el gran sintetizador del Romanticismo alemán: en él conviven la arquitectura formal de Bach y Beethoven con la profundidad emocional romántica. Sus cuatro sinfonías (1876, 1877, 1883, 1885), el Concierto para violín (1879), los dos Conciertos para piano y el Réquiem Alemán (Ein deutsches Requiem, 1868) son pilares del repertorio orquestal. Fue descubierto por Robert Schumann (1853) y amigo íntimo de Clara Schumann. El debate 'Brahms o Wagner' dividió a la crítica y al público de la época en torno a si la música debía ser 'absoluta' (Brahms) o 'programática' (Wagner). Vivió sus últimos 35 años en Viena.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Viena", "lat": 48.208, "lng": 16.373, "wikidataId": "Q1741", "role": "residencia 1862–1897, centro de toda su madurez creativa" },
+      { "name": "Hamburgo", "lat": 53.550, "lng": 10.000, "wikidataId": "Q1055", "role": "ciudad natal" }
+    ],
+    "relations": [
+      { "targetId": "romanticism", "relationType": "part_of", "strength": 5 },
+      { "targetId": "robert-schumann", "relationType": "influenced_by", "strength": 5 },
+      { "targetId": "beethoven", "relationType": "influenced_by", "strength": 5 },
+      { "targetId": "wagner", "relationType": "opposed", "strength": 4, "note": "La 'guerra de los románticos': Brahms (música absoluta) vs. Wagner (drama musical total)" },
+      { "targetId": "gustav-mahler", "relationType": "preceded", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Brahms: His Life and Work",
+        "author": "Geiringer, Karl",
+        "publisher": "Da Capo Press",
+        "year": "1982",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Johannes Brahms",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Johannes-Brahms",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["sinfonía", "Réquiem Alemán", "Viena", "Hamburgo", "Schumann", "guerra románticos"]
+  },
+  {
+    "id": "franz-liszt",
+    "title": "Franz Liszt",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["19th-century"],
+    "startDate": "1811-10-22",
+    "endDate": "1886-07-31",
+    "datePrecision": "exact",
+    "summary": "El mayor virtuoso del piano del siglo XIX, inventor del poema sinfónico, mecenas de Wagner y figura central de la vida musical romántica europea.",
+    "description": "Franz Liszt (Raiding, 1811 – Bayreuth, 1886) fue el pianista más célebre y técnicamente prodigioso del siglo XIX —el primero en ofrecer recitales para piano solo— y un compositor de extraordinaria audacia armónica. Creó el género del poema sinfónico (Les Préludes, Mazeppa). Sus Estudios Trascendentales y la Sonata en si menor (1853) son cimas del repertorio pianístico. Vivió en Weimar (1848–1861), donde dirigió el Court Theater y apoyó a Wagner y Berlioz. Fue padre de Cosima, que se casaría con Wagner. Sus transcripciones para piano de las sinfonías de Beethoven y obras de Schubert hicieron accesible el repertorio orquestal a toda Europa. En sus últimos años, recibió las órdenes menores y vivió entre Weimar, Roma y Budapest.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Weimar", "lat": 50.979, "lng": 11.329, "wikidataId": "Q3603", "role": "director del Court Theater 1848–1861, centro musical de Alemania" },
+      { "name": "Bayreuth", "lat": 49.946, "lng": 11.578, "wikidataId": "Q3923", "role": "muerte en 1886, durante el Festival de Bayreuth de su yerno Wagner" }
+    ],
+    "relations": [
+      { "targetId": "romanticism", "relationType": "part_of", "strength": 5 },
+      { "targetId": "wagner", "relationType": "collaborated_with", "strength": 5, "note": "Suegro de Wagner; apoyó financieramente su obra toda su vida" },
+      { "targetId": "frederic-chopin", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "robert-schumann", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "beethoven", "relationType": "influenced_by", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "Liszt (3 vols.)",
+        "author": "Walker, Alan",
+        "publisher": "Cornell University Press",
+        "year": "1996",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Franz Liszt",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Franz-Liszt",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["piano", "virtuoso", "poema sinfónico", "Weimar", "Wagner", "Romanticismo"]
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "id": "claude-monet",
+    "title": "Claude Monet",
+    "type": "person",
+    "disciplines": ["art"],
+    "historicalPeriods": ["19th-century", "belle-epoque"],
+    "startDate": "1840-11-14",
+    "endDate": "1926-12-05",
+    "datePrecision": "exact",
+    "summary": "Pintor francés, padre del Impresionismo, conocido por sus series de la Catedral de Ruán, los Almiares y las Ninfeas del jardín de Giverny.",
+    "description": "Claude Monet (París, 1840 – Giverny, 1926) es el fundador indiscutible del Impresionismo: su cuadro Impression, soleil levant (1872) dio nombre al movimiento. Desarrolló el método de pintar en plein air con rapidez para capturar la luz cambiante. Sus series —Almiares (1890–91), Álamos (1891), Catedral de Ruán (1892–94), Nenúfares (c. 1896–1926)— exploran la transformación de la luz sobre un mismo motivo. Desde 1883 vivió en Giverny, donde construyó su famoso jardín con estanque como estudio al aire libre permanente. Sus grandes lienzos de Nenúfares (Orangerie, París) son de una escala casi abstracta.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Giverny", "lat": 49.077, "lng": 1.532, "wikidataId": "Q185660", "role": "residencia desde 1883, jardín-estudio y ciclo de las Ninfeas" },
+      { "name": "París", "lat": 48.856, "lng": 2.352, "wikidataId": "Q90", "role": "formación, exposiciones impresionistas" }
+    ],
+    "relations": [
+      { "targetId": "impressionism", "relationType": "part_of", "strength": 5 },
+      { "targetId": "realism-movement", "relationType": "followed", "strength": 3 },
+      { "targetId": "camille-pissarro", "relationType": "collaborated_with", "strength": 4, "note": "Co-fundadores del grupo impresionista" },
+      { "targetId": "pierre-auguste-renoir", "relationType": "collaborated_with", "strength": 4 },
+      { "targetId": "post-impressionism", "relationType": "preceded", "strength": 4, "note": "Las series de Monet anticipan la abstracción" }
+    ],
+    "sources": [
+      {
+        "title": "Monet: A Biography",
+        "author": "Stuckey, Charles F.",
+        "publisher": "Rizzoli",
+        "year": "1995",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Claude Monet",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/toah/hd/mnot/hd_mnot.htm",
+        "type": "museum",
+        "reliability": "high"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/1280px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",
+        "caption": "Impression, soleil levant. Claude Monet, 1872. Musée Marmottan Monet, París.",
+        "source": "Wikimedia Commons",
+        "rights": "Public domain"
+      }
+    ],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Ninfeas", "Giverny", "series", "luz", "plein air", "Impresionismo"]
+  },
+  {
+    "id": "pierre-auguste-renoir",
+    "title": "Pierre-Auguste Renoir",
+    "type": "person",
+    "disciplines": ["art"],
+    "historicalPeriods": ["19th-century", "belle-epoque"],
+    "startDate": "1841-02-25",
+    "endDate": "1919-12-03",
+    "datePrecision": "exact",
+    "summary": "Pintor impresionista francés que celebró la alegría de vivir, la danza y el cuerpo femenino con una paleta luminosa y sensual.",
+    "description": "Pierre-Auguste Renoir (Limoges, 1841 – Cagnes-sur-Mer, 1919) fue uno de los impresionistas más prolíficos y populares. Formado como pintor de porcelana en Limoges, llegó a París donde estudió en el taller de Gleyre junto a Monet. Sus obras más célebres —Bal du moulin de la Galette (1876, Musée d'Orsay) y Almuerzo de los remeros (The Luncheon of the Boating Party, 1881, Phillips Collection)— celebran la vida social y los placeres cotidianos de la burguesía parisina. En sus últimos años, aquejado de artritis severa, pintó con el pincel atado a la mano desde su villa en Cagnes-sur-Mer.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "París", "lat": 48.856, "lng": 2.352, "wikidataId": "Q90", "role": "formación y obra principal, Moulin de la Galette" },
+      { "name": "Cagnes-sur-Mer", "lat": 43.664, "lng": 7.149, "wikidataId": "Q170953", "role": "últimos años, Les Collettes (villa y taller)" }
+    ],
+    "relations": [
+      { "targetId": "impressionism", "relationType": "part_of", "strength": 5 },
+      { "targetId": "claude-monet", "relationType": "collaborated_with", "strength": 4 },
+      { "targetId": "camille-pissarro", "relationType": "contemporary_of", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Renoir: An Intimate Biography",
+        "author": "White, Barbara Ehrlich",
+        "publisher": "Thames and Hudson",
+        "year": "1984",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Pierre-Auguste Renoir",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Pierre-Auguste-Renoir",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Moulin de la Galette", "alegría", "danza", "plein air", "Impresionismo"]
+  },
+  {
+    "id": "edgar-degas",
+    "title": "Edgar Degas",
+    "type": "person",
+    "disciplines": ["art"],
+    "historicalPeriods": ["19th-century", "belle-epoque"],
+    "startDate": "1834-07-19",
+    "endDate": "1917-09-27",
+    "datePrecision": "exact",
+    "summary": "Pintor y escultor francés, maestro del movimiento y el instante capturado, conocido por sus bailarinas y escenas de café.",
+    "description": "Edgar Degas (París, 1834 – 1917) es una figura singular dentro del Impresionismo: prefería el estudio interior a la pintura al aire libre, y el movimiento y el gesto a los efectos de luz atmosférica. Formado en la tradición clásica y admirador de Ingres, su obra explora bailarinas de ballet (más de mil obras sobre el tema), escenas de carreras de caballos, mujeres bañándose y ambientes de café. La clase de danza (c. 1874, Musée d'Orsay) y L'Absinthe (1876, Musée d'Orsay) son sus obras más célebres. También trabajó la escultura en cera, el pastel y la fotografía.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "París", "lat": 48.856, "lng": 2.352, "wikidataId": "Q90", "role": "vivió y trabajó toda su vida en París" }
+    ],
+    "relations": [
+      { "targetId": "impressionism", "relationType": "part_of", "strength": 4, "note": "Degas participó en las exposiciones impresionistas pero rechazó muchos de sus postulados" },
+      { "targetId": "realism-movement", "relationType": "influenced_by", "strength": 4 },
+      { "targetId": "claude-monet", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "camille-pissarro", "relationType": "contemporary_of", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Degas",
+        "author": "Loyrette, Henri",
+        "publisher": "Yale University Press",
+        "year": "1988",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Edgar Degas",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Edgar-Degas",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["bailarinas", "ballet", "movimiento", "pastel", "L'Absinthe", "Impresionismo"]
+  },
+  {
+    "id": "camille-pissarro",
+    "title": "Camille Pissarro",
+    "type": "person",
+    "disciplines": ["art"],
+    "historicalPeriods": ["19th-century"],
+    "startDate": "1830-07-10",
+    "endDate": "1903-11-13",
+    "datePrecision": "exact",
+    "summary": "Pintor impresionista franco-caribeño, el único que participó en las ocho exposiciones impresionistas, mentor de Cézanne y Gauguin.",
+    "description": "Camille Pissarro (Charlotte Amalie, Saint Thomas, 1830 – París, 1903) fue el miembro más constante del grupo impresionista: el único que participó en las ocho exposiciones del movimiento (1874–1886). Nacido en una familia judía en las Antillas Danesas (hoy Islas Vírgenes de EEUU), se instaló en Francia en 1855. Pionero de la pintura al aire libre de paisajes rurales y escenas de la vida campesina, fue también figura generosa que mentorizó a Cézanne, Gauguin y Seurat. En sus últimas décadas pintó series de panoramas urbanos desde ventanas (bulevares de París, Ruán, Le Havre), con técnica puntillista.",
+    "importance": 8,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Pontoise", "lat": 49.052, "lng": 2.100, "wikidataId": "Q182855", "role": "base rural 1866–1882, pintura de paisajes" },
+      { "name": "Éragny-sur-Epte", "lat": 49.301, "lng": 1.682, "wikidataId": "Q2085095", "role": "residencia 1884–1903, jardín y naturaleza" },
+      { "name": "París", "lat": 48.856, "lng": 2.352, "wikidataId": "Q90", "role": "exposiciones y mercado artístico" }
+    ],
+    "relations": [
+      { "targetId": "impressionism", "relationType": "part_of", "strength": 5 },
+      { "targetId": "claude-monet", "relationType": "collaborated_with", "strength": 4 },
+      { "targetId": "pierre-auguste-renoir", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "post-impressionism", "relationType": "influenced", "strength": 4, "note": "Mentorizó directamente a Cézanne y Gauguin, padres del postimpresionismo" }
+    ],
+    "sources": [
+      {
+        "title": "Pissarro",
+        "author": "Shikes, Ralph E.; Harper, Paula",
+        "publisher": "Horizon Press",
+        "year": "1980",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Camille Pissarro",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Camille-Pissarro",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["rural", "plein air", "puntillismo", "Cézanne", "Gauguin", "Antillas"]
+  }
+]

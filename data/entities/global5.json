@@ -1,0 +1,363 @@
+[
+  {
+    "id": "silk-road",
+    "title": "Ruta de la Seda",
+    "type": "period",
+    "disciplines": ["history", "economy", "society", "technology"],
+    "historicalPeriods": ["classical-antiquity", "late-antiquity", "middle-ages"],
+    "startDate": "-200",
+    "endDate": "1453",
+    "datePrecision": "approximate",
+    "summary": "Red de rutas comerciales que conectaron China con el Mediterráneo durante 1.600 años, transportando seda, especias, ideas, religiones y enfermedades entre Oriente y Occidente.",
+    "description": "La Ruta de la Seda no fue un único camino sino una red de rutas terrestres y marítimas que conectó China con el Mediterráneo durante más de dieciséis siglos. Establecida formalmente bajo la dinastía Han (c. 200 a.C.), transportó seda, porcelana, especias, oro y lápislázuli, pero también ideas: el budismo viajó de India a China, el islam de Arabia a Asia Central, el papel y la imprenta de China a Europa. Las ciudades que jalonaban la ruta —Samarkanda, Bujará, Ctesifonte, Antioquía, Alejandría— florecieron como centros cosmopolitas. La Ruta de la Seda también fue vector de epidemias: la Peste de Justiniano (541) y la Peste Negra (1347) llegaron a Europa por sus caminos. Declinó con la caída de Constantinopla (1453), que impulsó la búsqueda de rutas marítimas alternativas.",
+    "importance": 10,
+    "regions": ["Asia", "Middle East", "Europe", "North Africa"],
+    "places": [
+      { "name": "Samarkanda", "lat": 39.627, "lng": 66.975, "wikidataId": "Q41392", "role": "nudo principal de la Ruta, capital del imperio timurid" },
+      { "name": "Dunhuang", "lat": 40.142, "lng": 94.662, "wikidataId": "Q193517", "role": "encrucijada en el extremo chino, cuevas de Mogao (UNESCO)" }
+    ],
+    "relations": [
+      { "targetId": "china-imperial", "relationType": "part_of", "strength": 5 },
+      { "targetId": "mongol-empire", "relationType": "contemporary_of", "strength": 4, "note": "La Pax Mongolica permitió el viaje de Marco Polo por la Ruta de la Seda" },
+      { "targetId": "islamic-golden-age", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "black-death", "relationType": "caused", "strength": 4, "note": "La Peste Negra viajó desde Asia Central a Europa por las rutas comerciales" },
+      { "targetId": "age-of-exploration", "relationType": "preceded", "strength": 4, "note": "El bloqueo otomano de la ruta impulsó la búsqueda de rutas marítimas alternativas" }
+    ],
+    "sources": [
+      {
+        "title": "The Silk Roads: A New History",
+        "author": "Frankopan, Peter",
+        "publisher": "Bloomsbury",
+        "year": "2015",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Silk Road",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Silk-Road-trade-route",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["comercio", "Samarkanda", "seda", "intercambio cultural", "Polo", "epidemias"]
+  },
+  {
+    "id": "viking-age",
+    "title": "Era Vikinga",
+    "type": "period",
+    "disciplines": ["history", "society", "technology"],
+    "historicalPeriods": ["middle-ages"],
+    "startDate": "793",
+    "endDate": "1066",
+    "datePrecision": "year",
+    "summary": "El período de expansión nórdica (793–1066) que llevó a los escandinavos a colonizar Islandia y Groenlandia, fundar Rusia, atacar Europa y llegar a América cinco siglos antes que Colón.",
+    "description": "La Era Vikinga (793–1066) fue el período de máxima expansión escandinava. Comenzó con el raid de los monjes de Lindisfarne (793) y terminó convencionalmente con la batalla de Hastings (1066), en la que el normando Guillermo el Conquistador —descendiente de vikingos— tomó el control de Inglaterra. Los nórdicos colonizaron Islandia (874), Groenlandia (985) y llegaron a América del Norte (Vinlandia, c. 1000, Leif Eriksson). En el este, los varegos suecos fundaron los principados de Kiev y Nóvgorod, dando origen a Rusia. En el oeste, los daneses y noruegos saquearon y colonizaron partes de las Islas Británicas, Francia (Normandía, 911), el Mediterráneo y Sicilia. Sus dramkar (barcos de guerra) fueron la tecnología naval más avanzada de su época.",
+    "importance": 8,
+    "regions": ["Europe", "North America"],
+    "places": [
+      { "name": "Lindisfarne", "lat": 55.681, "lng": -1.800, "wikidataId": "Q188715", "role": "primer raid vikingo documentado (793)" },
+      { "name": "Birka", "lat": 59.329, "lng": 17.549, "wikidataId": "Q241959", "role": "principal ciudad comercial vikinga (Suecia, UNESCO)" }
+    ],
+    "relations": [
+      { "targetId": "middle-ages", "relationType": "part_of", "strength": 4 },
+      { "targetId": "byzantine-empire", "relationType": "contemporary_of", "strength": 3, "note": "La Guardia Varega del Imperio Bizantino estaba formada por vikingos" },
+      { "targetId": "silk-road", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "The Vikings",
+        "author": "Roesdahl, Else",
+        "publisher": "Penguin Books",
+        "year": "1998",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Viking",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Viking",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["nórdicos", "Lindisfarne", "Islandia", "Rusia", "América", "drákkar", "Normandía"]
+  },
+  {
+    "id": "the-crusades",
+    "title": "Las Cruzadas",
+    "type": "period",
+    "disciplines": ["history", "religion", "politics"],
+    "historicalPeriods": ["middle-ages"],
+    "startDate": "1095",
+    "endDate": "1291",
+    "datePrecision": "year",
+    "summary": "Las guerras santas promovidas por el papado para recuperar Tierra Santa del control musulmán, que transformaron el Mediterráneo medieval y generaron intercambios culturales fundamentales.",
+    "description": "Las Cruzadas fueron campañas militares promovidas por la Iglesia Católica con el objetivo de recuperar Jerusalén y Tierra Santa del control islámico. La Primera Cruzada (1096–1099), convocada por el papa Urbano II en el Concilio de Clermont (1095), culminó con la toma de Jerusalén. Se sucedieron nueve cruzadas principales hasta que Acre, el último bastión cristiano, cayó en 1291. Las Cruzadas tuvieron consecuencias profundas: aceleraron el intercambio cultural y comercial entre Oriente y Occidente, introdujeron en Europa productos como el papel, la pólvora y las matemáticas árabes, y generaron tensiones entre cristianismo e islam que perduran hasta hoy. También hubo cruzadas en la Península Ibérica (Reconquista) y el Báltico.",
+    "importance": 9,
+    "regions": ["Europe", "Middle East"],
+    "places": [
+      { "name": "Jerusalén", "lat": 31.768, "lng": 35.213, "wikidataId": "Q1218", "role": "objetivo principal de las Cruzadas" },
+      { "name": "Clermont", "lat": 45.777, "lng": 3.087, "wikidataId": "Q1163547", "role": "Concilio de Clermont (1095): convocatoria de la Primera Cruzada" }
+    ],
+    "relations": [
+      { "targetId": "middle-ages", "relationType": "part_of", "strength": 5 },
+      { "targetId": "islamic-golden-age", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "byzantine-empire", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "silk-road", "relationType": "influenced", "strength": 3, "note": "Las Cruzadas abrieron rutas de comercio con Oriente Próximo" }
+    ],
+    "sources": [
+      {
+        "title": "The Crusades: A Short History",
+        "author": "Riley-Smith, Jonathan",
+        "publisher": "Yale University Press",
+        "year": "1987",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Crusades",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Crusades",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Jerusalén", "Tierra Santa", "papado", "islam", "Reconquista", "intercambio cultural"]
+  },
+  {
+    "id": "japan-feudal",
+    "title": "Japón Feudal (Shogunato)",
+    "type": "civilization",
+    "disciplines": ["history", "society", "art", "philosophy"],
+    "historicalPeriods": ["middle-ages", "early-modern", "revolutionary-age"],
+    "startDate": "1185",
+    "endDate": "1868",
+    "datePrecision": "year",
+    "summary": "El período feudal japonés (1185–1868) dominado por shogunatos militares y la clase samurái, con el zen, el teatro noh, la cerámica y una estética singular de gran influencia global.",
+    "description": "El Japón feudal abarca desde el primer shogunato de Kamakura (1185) hasta la Restauración Meiji (1868). Bajo este sistema, el poder real lo ejercían los shogunes (jefes militares) mientras el Emperador mantenía su rol simbólico. La clase guerrera (samurái) con su código de honor (Bushido) definió la cultura militar y artística. El período Edo (Tokugawa, 1603–1868) fue de paz prolongada y aislamiento deliberado (sakoku): florecieron el teatro kabuki, el haiku (Matsuo Bashō), la xilografía ukiyo-e (Hokusai, Hiroshige) y la cerámica. La apertura forzada por EEUU (1853–1854, Comodoro Perry) terminó el aislamiento e inició la modernización acelerada (Meiji).",
+    "importance": 9,
+    "regions": ["Asia"],
+    "places": [
+      { "name": "Kioto", "lat": 35.011, "lng": 135.768, "wikidataId": "Q34600", "role": "sede imperial y capital cultural durante todo el período feudal" },
+      { "name": "Edo (Tokio)", "lat": 35.682, "lng": 139.759, "wikidataId": "Q1490", "role": "capital del shogunato Tokugawa (1603–1868)" }
+    ],
+    "relations": [
+      { "targetId": "china-imperial", "relationType": "influenced_by", "strength": 4, "note": "Japón adoptó escritura, budismo y estructura estatal de China" },
+      { "targetId": "middle-ages", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "impressionism", "relationType": "influenced", "strength": 4, "note": "El japonismo (ukiyo-e) influyó decisivamente en Monet, Degas y Van Gogh" }
+    ],
+    "sources": [
+      {
+        "title": "A History of Japan",
+        "author": "Totman, Conrad",
+        "publisher": "Blackwell Publishers",
+        "year": "2000",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Japan: history",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/Japan/History",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["samurái", "shogunato", "Edo", "Bushido", "ukiyo-e", "sakoku", "Meiji"]
+  },
+  {
+    "id": "mali-empire",
+    "title": "Imperio de Mali",
+    "type": "civilization",
+    "disciplines": ["history", "economy", "religion"],
+    "historicalPeriods": ["middle-ages"],
+    "startDate": "1235",
+    "endDate": "1600",
+    "datePrecision": "approximate",
+    "summary": "El mayor Imperio de África occidental, gobernado por Mansa Musa (el hombre más rico de la historia), con Timbuktu como centro de comercio e islam africano.",
+    "description": "El Imperio de Mali (c. 1235–1600) fue el estado más rico y poderoso de África occidental. Fundado por Sundiata Keita tras la batalla de Kirina (1235), controló las rutas de oro y sal del Sáhara. En su apogeo bajo Mansa Musa (r. 1312–1337) —frecuentemente citado como el hombre más rico de la historia— se extendía desde el Atlántico hasta el río Níger. La peregrinación de Mansa Musa a La Meca en 1324–1325, con una caravana de 60.000 personas y cargamentos de oro que depreciaron el metal en el Mediterráneo durante años, le hizo famoso en todo el mundo islámico. Timbuktu fue un gran centro de aprendizaje islámico con universidades y bibliotecas. El Imperio declinó ante los ataques de los songhai y los tuareg en el siglo XV.",
+    "importance": 9,
+    "regions": ["Africa"],
+    "places": [
+      { "name": "Timbuktu", "lat": 16.773, "lng": -3.009, "wikidataId": "Q3561", "role": "capital intelectual, Universidad de Sankore, UNESCO 1988" },
+      { "name": "Niani", "lat": 11.361, "lng": -9.619, "wikidataId": "Q3327963", "role": "capital política del Imperio" }
+    ],
+    "relations": [
+      { "targetId": "islamic-golden-age", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "mongol-empire", "relationType": "contemporary_of", "strength": 2 },
+      { "targetId": "middle-ages", "relationType": "part_of", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "Ancient Africa for Kids: Empires of the Sahara",
+        "author": "Haywood, John",
+        "publisher": "Rosen Publishing",
+        "year": "2007",
+        "type": "book",
+        "reliability": "medium"
+      },
+      {
+        "title": "Mali Empire",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/Mali-Empire",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "partially_verified",
+      "lastReviewed": "2025-06-05",
+      "notes": "Las fuentes sobre el Imperio Mali son escasas; las principales son el historiador Ibn Battuta y al-Umari. Las cifras de la peregrinación de Mansa Musa son aproximadas."
+    },
+    "layer": "global",
+    "tags": ["Mansa Musa", "Timbuktu", "oro", "sal", "Islam africano", "África occidental"]
+  },
+  {
+    "id": "russian-revolution-1917",
+    "title": "Revolución Rusa (1917)",
+    "type": "event",
+    "disciplines": ["politics", "history", "society"],
+    "historicalPeriods": ["early-20th"],
+    "startDate": "1917",
+    "endDate": "1922",
+    "datePrecision": "year",
+    "summary": "La doble revolución de 1917 que derrocó al zar e instaló el primer Estado comunista del mundo, la URSS, que definiría la política global durante siete décadas.",
+    "description": "La Revolución Rusa comprende dos fases de 1917: la Revolución de Febrero (marzo 1917, calendario occidental), que derrocó al zar Nicolás II e instauró un gobierno provisional; y la Revolución de Octubre (noviembre 1917), en que los bolcheviques de Lenin tomaron el poder mediante un golpe de Estado. La posterior guerra civil (1917–1922) entre el Ejército Rojo y los contrarrevolucionarios terminó con la victoria bolchevique y la fundación de la URSS (1922). Fue el acontecimiento político más influyente del siglo XX: creó el primer Estado comunista, inspiró movimientos revolucionarios en todo el mundo, determinó la política de la Guerra Fría y remodelando los conflictos del siglo XX.",
+    "importance": 10,
+    "regions": ["Europe", "Asia"],
+    "places": [
+      { "name": "San Petersburgo (Petrogrado)", "lat": 59.934, "lng": 30.335, "wikidataId": "Q656", "role": "escenario de ambas revoluciones de 1917" },
+      { "name": "Moscú", "lat": 55.756, "lng": 37.617, "wikidataId": "Q649", "role": "capital de la URSS desde 1918" }
+    ],
+    "relations": [
+      { "targetId": "world-war-1", "relationType": "followed", "strength": 5, "note": "La guerra aceleró el colapso del zarismo" },
+      { "targetId": "cold-war-period", "relationType": "preceded", "strength": 5 },
+      { "targetId": "french-revolution", "relationType": "influenced_by", "strength": 3 },
+      { "targetId": "karl-marx", "relationType": "influenced_by", "strength": 5, "note": "El marxismo fue la ideología de los bolcheviques" }
+    ],
+    "sources": [
+      {
+        "title": "The Russian Revolution",
+        "author": "Pipes, Richard",
+        "publisher": "Alfred A. Knopf",
+        "year": "1990",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Russian Revolution of 1917",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Russian-Revolution-of-1917",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Lenin", "bolcheviques", "URSS", "comunismo", "Petrogrado", "zarismo", "guerra civil"]
+  },
+  {
+    "id": "axum-empire",
+    "title": "Imperio de Aksum",
+    "type": "civilization",
+    "disciplines": ["history", "religion", "architecture", "economy"],
+    "historicalPeriods": ["classical-antiquity", "late-antiquity"],
+    "startDate": "100",
+    "endDate": "940",
+    "datePrecision": "approximate",
+    "summary": "El gran Imperio cristiano del África Oriental (actual Etiopía/Eritrea), potencia del Mar Rojo que acuñó moneda propia y erigio obeliscos de hasta 33 metros.",
+    "description": "El Imperio de Aksum (c. 100–940 d.C.) fue uno de los cuatro grandes imperios del mundo antiguo tardío, junto a Roma, Persia y China. Situado en la actual Etiopía y Eritrea, controló el comercio del Mar Rojo y fue el intermediario entre el Mediterráneo romano y el océano Índico. En el siglo IV, el rey Ezana adoptó el cristianismo como religión oficial (c. 333 d.C.), convirtiéndose en uno de los primeros estados cristianos del mundo, anterior incluso a Roma. Aksum acuñó moneda de oro, plata y bronce propia, signo de una economía sofisticada. Sus famosas estelas (obeliscos de granito de hasta 33 m) son monumentos funerarios únicos. El Imperio declinó con el auge islámico y la competencia comercial árabe en el siglo VII.",
+    "importance": 8,
+    "regions": ["Africa", "Middle East"],
+    "places": [
+      { "name": "Aksum", "lat": 14.129, "lng": 38.718, "wikidataId": "Q131178", "role": "capital imperial, estelas, UNESCO 1980" },
+      { "name": "Adulis", "lat": 15.270, "lng": 39.635, "wikidataId": "Q2817459", "role": "principal puerto comercial en el Mar Rojo" }
+    ],
+    "relations": [
+      { "targetId": "roman-empire", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "islamic-golden-age", "relationType": "preceded", "strength": 3, "note": "El islam en Arabia redujo el comercio aksumita y precipitó su declive" },
+      { "targetId": "byzantine-empire", "relationType": "contemporary_of", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Aksum: An African Civilisation of Late Antiquity",
+        "author": "Munro-Hay, Stuart",
+        "publisher": "Edinburgh University Press",
+        "year": "1991",
+        "url": "http://www.archive.org/details/aksumafricaniciv0000munr",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Aksum",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/Aksum",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Etiopía", "Eritrea", "Mar Rojo", "cristianismo", "estelas", "moneda", "UNESCO"]
+  },
+  {
+    "id": "digital-revolution",
+    "title": "Revolución Digital",
+    "type": "period",
+    "disciplines": ["technology", "science", "society", "economy"],
+    "historicalPeriods": ["cold-war", "contemporary"],
+    "startDate": "1969",
+    "endDate": null,
+    "datePrecision": "year",
+    "summary": "La transformación global desencadenada por el ordenador personal, internet y el smartphone, que digitalizó la economía, la cultura y las relaciones humanas.",
+    "description": "La Revolución Digital comenzó con ARPANET (1969), la red precursora de internet desarrollada por el Departamento de Defensa de EEUU. El microprocesador (Intel 4004, 1971) hizo posible el ordenador personal (Apple II, 1977; IBM PC, 1981). Tim Berners-Lee inventó la World Wide Web en el CERN (1991), abriendo internet al gran público. El buscador Google (1998), el iPod (2001), las redes sociales (Facebook, 2004; YouTube, 2005; Twitter, 2006) y el iPhone (2007) completaron la transformación de la sociedad. La digitalización reestructuró la economía global, transformó los medios de comunicación, cambió las relaciones sociales y creó nuevas formas de poder y desigualdad. La inteligencia artificial generativa (2022–) inicia una nueva fase de esta revolución.",
+    "importance": 10,
+    "regions": ["North America", "Europe", "Asia"],
+    "places": [
+      { "name": "Silicon Valley", "lat": 37.387, "lng": -122.083, "wikidataId": "Q170252", "role": "epicentro global de la industria tecnológica (California, EEUU)" },
+      { "name": "Ginebra (CERN)", "lat": 46.234, "lng": 6.055, "wikidataId": "Q944", "role": "nacimiento de la World Wide Web (Tim Berners-Lee, 1991)" }
+    ],
+    "relations": [
+      { "targetId": "cold-war-period", "relationType": "followed", "strength": 3, "note": "ARPANET nació de la investigación militar de la Guerra Fría" },
+      { "targetId": "industrial-revolution", "relationType": "followed", "strength": 4 },
+      { "targetId": "scientific-revolution", "relationType": "followed", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution",
+        "author": "Isaacson, Walter",
+        "publisher": "Simon & Schuster",
+        "year": "2014",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Digital revolution",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/technology/digital-revolution",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["internet", "Silicon Valley", "ARPANET", "WWW", "iPhone", "IA", "Berners-Lee"]
+  }
+]

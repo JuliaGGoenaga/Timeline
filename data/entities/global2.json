@@ -1,0 +1,182 @@
+[
+  {
+    "id": "islamic-golden-age",
+    "title": "Edad de Oro del Islam",
+    "type": "period",
+    "disciplines": ["science", "philosophy", "architecture", "literature"],
+    "historicalPeriods": ["middle-ages"],
+    "startDate": "750",
+    "endDate": "1258",
+    "datePrecision": "approximate",
+    "summary": "Florecimiento intelectual del califato abasí que preservó y amplió el saber clásico en ciencias, matemáticas, medicina y filosofía.",
+    "description": "La Edad de Oro islámica floreció bajo el califato abasí (750–1258), con centro en Bagdad y la Casa de la Sabiduría (Bayt al-Hikma). Eruditos como al-Khwarizmi (álgebra), Ibn al-Haytham (óptica), Ibn Sina/Avicena (medicina) e Ibn Rushd/Averroes (filosofía aristotélica) realizaron contribuciones fundamentales. La transmisión de textos griegos traducidos al árabe preservó el saber clásico y lo amplió antes de su llegada a Europa medieval. Finalizó con la invasión mongola y la destrucción de Bagdad en 1258.",
+    "importance": 9,
+    "regions": ["Middle East", "North Africa", "Europe"],
+    "places": [
+      { "name": "Bagdad", "lat": 33.34, "lng": 44.40, "wikidataId": "Q1530", "role": "capital del califato abasí, Casa de la Sabiduría" },
+      { "name": "Córdoba", "lat": 37.88, "lng": -4.78, "wikidataId": "Q5818", "role": "capital del Califato de Córdoba, Al-Ándalus" },
+      { "name": "El Cairo", "lat": 30.05, "lng": 31.24, "wikidataId": "Q85", "role": "centro cultural fatimí" }
+    ],
+    "relations": [
+      { "targetId": "classical-greece", "relationType": "influenced_by", "strength": 5, "note": "Tradujo y amplió el saber filosófico y científico griego" },
+      { "targetId": "renaissance", "relationType": "influenced", "strength": 4, "note": "Los textos árabes fueron clave para el Renacimiento europeo vía traducciones latinas" },
+      { "targetId": "middle-ages", "relationType": "contemporary_of", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "The House of Wisdom: How Arabic Science Saved Ancient Knowledge and Gave Us the Renaissance",
+        "author": "Lyons, Jonathan",
+        "publisher": "Bloomsbury",
+        "year": "2009",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Islamic Golden Age",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Islamic-Golden-Age",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "global",
+    "tags": ["Islam", "Bagdad", "álgebra", "medicina", "Al-Ándalus"]
+  },
+  {
+    "id": "protestant-reformation",
+    "title": "Reforma Protestante",
+    "type": "event",
+    "disciplines": ["religion", "politics", "society", "philosophy"],
+    "historicalPeriods": ["early-modern"],
+    "startDate": "1517",
+    "endDate": "1648",
+    "datePrecision": "year",
+    "summary": "Movimiento religioso iniciado por Martín Lutero en 1517 que fragmentó la unidad de la Iglesia occidental y transformó la política europea.",
+    "description": "La Reforma Protestante se inicia con la publicación de las 95 Tesis de Martín Lutero en Wittenberg (1517). Cuestionó la autoridad del papado, la venta de indulgencias y la mediación eclesiástica, afirmando la lectura directa de las Escrituras y la justificación por la fe. Calvino extendió la Reforma desde Ginebra. La respuesta católica fue la Contrarreforma y el Concilio de Trento (1545–1563). Las Guerras de Religión terminaron con la Paz de Westfalia (1648), que estableció el principio de soberanía estatal moderna.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Wittenberg", "lat": 51.87, "lng": 12.64, "wikidataId": "Q7994", "role": "Lutero publica las 95 Tesis, 1517" },
+      { "name": "Ginebra", "lat": 46.20, "lng": 6.15, "wikidataId": "Q71", "role": "centro del calvinismo" },
+      { "name": "Roma", "lat": 41.89, "lng": 12.49, "wikidataId": "Q220", "role": "sede papal, Concilio de Trento" }
+    ],
+    "relations": [
+      { "targetId": "middle-ages", "relationType": "followed", "strength": 3 },
+      { "targetId": "enlightenment-movement", "relationType": "preceded", "strength": 4, "note": "La Reforma preparó el terreno para el libre examen y la secularización ilustrada" },
+      { "targetId": "baroque", "relationType": "contemporary_of", "strength": 3, "note": "El arte Barroco fue en parte instrumento de la Contrarreforma" }
+    ],
+    "sources": [
+      {
+        "title": "The Reformation: A History",
+        "author": "MacCulloch, Diarmaid",
+        "publisher": "Viking",
+        "year": "2003",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Protestant Reformation",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Reformation",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "global",
+    "tags": ["Lutero", "Calvino", "protestantismo", "95 Tesis", "Westfalia"]
+  },
+  {
+    "id": "world-war-1",
+    "title": "Primera Guerra Mundial",
+    "type": "event",
+    "disciplines": ["politics", "history", "technology", "society"],
+    "historicalPeriods": ["early-20th"],
+    "startDate": "1914",
+    "endDate": "1918",
+    "datePrecision": "year",
+    "summary": "Primera guerra de escala industrial global, que causó más de 20 millones de muertos y transformó el mapa político de Europa.",
+    "description": "La Primera Guerra Mundial (1914–1918) enfrentó a la Triple Entente (Francia, Gran Bretaña, Rusia, luego EEUU) contra las Potencias Centrales (Alemania, Austria-Hungría, Imperio Otomano). Fue la primera guerra de escala industrial: gas venenoso, aviación, tanques, trincheras. Causó entre 17 y 20 millones de muertos. El Tratado de Versalles (1919) impuso condiciones durísimas a Alemania, sembrando las causas de la Segunda Guerra Mundial. Puso fin a los imperios ruso, austro-húngaro, alemán y otomano.",
+    "importance": 10,
+    "regions": ["Europe", "Middle East", "Africa"],
+    "places": [
+      { "name": "Sarajevo", "lat": 43.85, "lng": 18.39, "wikidataId": "Q131747", "role": "asesinato del archiduque Francisco Fernando, detonante de la guerra" },
+      { "name": "Verdún", "lat": 49.16, "lng": 5.38, "wikidataId": "Q132751", "role": "batalla más larga (1916), símbolo del horror de las trincheras" },
+      { "name": "Versalles", "lat": 48.80, "lng": 2.12, "wikidataId": "Q621", "role": "Tratado de Versalles, 1919" }
+    ],
+    "relations": [
+      { "targetId": "world-war-2", "relationType": "preceded", "strength": 5, "note": "Las condiciones del Tratado de Versalles causaron directamente la WWII" },
+      { "targetId": "bauhaus", "relationType": "preceded", "strength": 3, "note": "Gropius fundó el Bauhaus tras volver de la guerra, como proyecto de reconstrucción cultural" },
+      { "targetId": "expressionism", "relationType": "contemporary_of", "strength": 3, "note": "El Expresionismo alemán reflejó la angustia de la guerra" },
+      { "targetId": "surrealism", "relationType": "preceded", "strength": 3, "note": "El trauma de la guerra influyó en el Surrealismo" }
+    ],
+    "sources": [
+      {
+        "title": "The First World War",
+        "author": "Keegan, John",
+        "publisher": "Alfred A. Knopf",
+        "year": "1999",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "World War I",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/World-War-I",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "global",
+    "tags": ["trincheras", "Versalles", "imperialismo", "armisticio"]
+  },
+  {
+    "id": "world-war-2",
+    "title": "Segunda Guerra Mundial",
+    "type": "event",
+    "disciplines": ["politics", "history", "technology", "society"],
+    "historicalPeriods": ["early-20th"],
+    "startDate": "1939",
+    "endDate": "1945",
+    "datePrecision": "year",
+    "summary": "Conflicto global de mayor escala de la historia, con entre 70 y 85 millones de muertos, el Holocausto y el uso de la bomba atómica.",
+    "description": "La Segunda Guerra Mundial (1939–1945) enfrentó a los Aliados (Gran Bretaña, URSS, EEUU, Francia Libre) contra las Potencias del Eje (Alemania nazi, Italia fascista, Japón imperial). Causó entre 70 y 85 millones de muertos, incluyendo el Holocausto (exterminio de 6 millones de judíos). Terminó con la rendición de Alemania (mayo 1945) y Japón (agosto 1945) tras el lanzamiento de las bombas atómicas sobre Hiroshima y Nagasaki. La posguerra estableció la ONU (1945) y el orden bipolar de la Guerra Fría.",
+    "importance": 10,
+    "regions": ["Europe", "Asia", "Africa", "North America"],
+    "places": [
+      { "name": "Berlín", "lat": 52.52, "lng": 13.40, "wikidataId": "Q64", "role": "capital del Tercer Reich, caída mayo 1945" },
+      { "name": "Hiroshima", "lat": 34.38, "lng": 132.45, "wikidataId": "Q34664", "role": "primera bomba atómica, 6 agosto 1945" },
+      { "name": "Normandía", "lat": 49.18, "lng": -0.37, "wikidataId": "Q18677875", "role": "desembarco aliado, D-Day 6 junio 1944" }
+    ],
+    "relations": [
+      { "targetId": "world-war-1", "relationType": "followed", "strength": 5 },
+      { "targetId": "le-corbusier", "relationType": "contemporary_of", "strength": 2, "note": "Le Corbusier diseñó planes de reconstrucción urbana postbélica" }
+    ],
+    "sources": [
+      {
+        "title": "The Second World War",
+        "author": "Beevor, Antony",
+        "publisher": "Weidenfeld & Nicolson",
+        "year": "2012",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "World War II",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/World-War-II",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "global",
+    "tags": ["Holocausto", "bomba atómica", "ONU", "nazismo", "Aliados"]
+  }
+]

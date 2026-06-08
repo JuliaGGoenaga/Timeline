@@ -1,0 +1,275 @@
+[
+  {
+    "id": "brunelleschi",
+    "title": "Filippo Brunelleschi",
+    "type": "person",
+    "disciplines": ["architecture", "technology"],
+    "historicalPeriods": ["renaissance"],
+    "startDate": "1377",
+    "endDate": "1446-04-15",
+    "datePrecision": "year",
+    "summary": "Arquitecto florentino que diseñó la cúpula de Santa Maria del Fiore y fundó los principios de la perspectiva lineal moderna.",
+    "description": "Filippo Brunelleschi (Florencia, 1377 – 1446) es el fundador de la arquitectura renacentista. Su obra maestra es la cúpula de la catedral de Florencia (1420–1436), la mayor cúpula construida desde la Antigüedad, levantada sin cimbra gracias a una estructura de doble casco y una ingeniería sin precedentes. También desarrolló la teoría matemática de la perspectiva lineal (c. 1413), transformando la representación del espacio en la pintura occidental. Otras obras: Hospital de los Inocentes (1419–1445), Basílica de San Lorenzo (1421) y la Capilla Pazzi (1441). Perdió a Donatello y a Ghiberti en sus grandes concursos, pero terminó superándolos en influencia arquitectónica.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Florencia", "lat": 43.773, "lng": 11.256, "wikidataId": "Q2044", "role": "ciudad natal y centro de toda su obra" }
+    ],
+    "relations": [
+      { "targetId": "renaissance", "relationType": "part_of", "strength": 5 },
+      { "targetId": "dome-florence", "relationType": "created", "strength": 5 },
+      { "targetId": "donatello", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "alberti", "relationType": "influenced", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "Brunelleschi's Dome: How a Renaissance Genius Reinvented Architecture",
+        "author": "King, Ross",
+        "publisher": "Walker & Company",
+        "year": "2000",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Filippo Brunelleschi",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Filippo-Brunelleschi",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["perspectiva", "cúpula", "Florencia", "Renacimiento", "ingeniería"]
+  },
+  {
+    "id": "dome-florence",
+    "title": "Cúpula de Santa Maria del Fiore",
+    "type": "building",
+    "disciplines": ["architecture", "technology"],
+    "historicalPeriods": ["renaissance"],
+    "startDate": "1420",
+    "endDate": "1436",
+    "datePrecision": "year",
+    "summary": "La mayor cúpula de ladrillo del mundo, diseñada por Brunelleschi, primera gran cúpula construida desde la Antigüedad sin andamiaje.",
+    "description": "La cúpula de Santa Maria del Fiore (diámetro interno 44,9 m) fue construida por Brunelleschi entre 1420 y 1436 mediante una técnica sin precedentes: doble casco autoportante, sin cimbra de madera, con una disposición de ladrillos en espina de pez que distribuye el empuje sin necesidad de andamiaje. Resolvió un problema técnico que había dejado incompleta la catedral durante 140 años. La linterna fue añadida entre 1446 y 1461. Es Patrimonio de la Humanidad por la UNESCO (1982) como parte del centro histórico de Florencia. Sigue siendo la mayor cúpula de ladrillo del mundo.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Florencia", "lat": 43.773, "lng": 11.256, "wikidataId": "Q131013", "role": "Piazza del Duomo" }
+    ],
+    "relations": [
+      { "targetId": "brunelleschi", "relationType": "created", "strength": 5 },
+      { "targetId": "renaissance", "relationType": "part_of", "strength": 5 },
+      { "targetId": "sagrada-familia", "relationType": "influenced", "strength": 2, "note": "Referente histórico de la cúpula como reto estructural" }
+    ],
+    "sources": [
+      {
+        "title": "Brunelleschi's Dome",
+        "author": "King, Ross",
+        "publisher": "Walker & Company",
+        "year": "2000",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "UNESCO: Historic Centre of Florence",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/174/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Firenze_-_Florence_-_Cattedrale_di_Santa_Maria_del_Fiore_%28Duomo%29.jpg/1280px-Firenze_-_Florence_-_Cattedrale_di_Santa_Maria_del_Fiore_%28Duomo%29.jpg",
+        "caption": "Cúpula de Santa Maria del Fiore, Florencia",
+        "source": "Wikimedia Commons",
+        "rights": "CC BY-SA 3.0"
+      }
+    ],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["cúpula", "ladrillo", "Brunelleschi", "Florencia", "UNESCO"]
+  },
+  {
+    "id": "rafael-sanzio",
+    "title": "Rafael Sanzio",
+    "type": "person",
+    "disciplines": ["art"],
+    "historicalPeriods": ["renaissance"],
+    "startDate": "1483-04-06",
+    "endDate": "1520-04-06",
+    "datePrecision": "year",
+    "summary": "Pintor del Alto Renacimiento, maestro de la armonía compositiva y la gracia ideal, autor de la Escuela de Atenas y las Estancias del Vaticano.",
+    "description": "Raffaello Sanzio da Urbino (Urbino, 1483 – Roma, 1520) encarna el ideal de equilibrio y perfección del Alto Renacimiento. Formado con Perugino en Perugia, llegó a Florencia (1504) donde estudió a Leonardo y Miguel Ángel. Al servicio de los papas Julio II y León X en Roma (1508–1520) decoró las Estancias Vaticanas: La Escuela de Atenas (1509–1511) y La disputa del Sacramento son sus obras más célebres. Pintó decenas de Madonnas y retratos de humanistas. A su muerte prematura a los 37 años —en su propio cumpleaños— dejó inacabada La Transfiguración. Fue también arquitecto: sucedió a Bramante como director de obras de San Pedro.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Urbino", "lat": 43.724, "lng": 12.637, "wikidataId": "Q14591", "role": "ciudad natal" },
+      { "name": "Roma", "lat": 41.903, "lng": 12.454, "wikidataId": "Q220", "role": "obra madura en los Museos Vaticanos (1508–1520)" },
+      { "name": "Florencia", "lat": 43.773, "lng": 11.256, "wikidataId": "Q2044", "role": "estudió a Leonardo y Miguel Ángel (1504–1508)" }
+    ],
+    "relations": [
+      { "targetId": "renaissance", "relationType": "part_of", "strength": 5 },
+      { "targetId": "leonardo-da-vinci", "relationType": "influenced_by", "strength": 4 },
+      { "targetId": "michelangelo", "relationType": "influenced_by", "strength": 4 },
+      { "targetId": "brunelleschi", "relationType": "followed", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "Raphael",
+        "author": "Jones, Roger; Penny, Nicholas",
+        "publisher": "Yale University Press",
+        "year": "1983",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Raphael",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Raphael-Italian-painter-and-architect",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Escuela de Atenas", "Vaticano", "Madona", "Alto Renacimiento", "Urbino"]
+  },
+  {
+    "id": "botticelli",
+    "title": "Sandro Botticelli",
+    "type": "person",
+    "disciplines": ["art"],
+    "historicalPeriods": ["renaissance"],
+    "startDate": "1445",
+    "endDate": "1510-05-17",
+    "datePrecision": "approximate",
+    "summary": "Pintor florentino del Renacimiento temprano, conocido por La Primavera y El nacimiento de Venus, símbolos del humanismo neoplatónico mediceo.",
+    "description": "Sandro Botticelli (Florencia, c. 1445 – 1510), cuyo nombre real era Alessandro di Mariano di Vanni Filipepi, fue el pintor más celebrado de la Florencia de Lorenzo de Medici. Sus obras más famosas —La Primavera (c. 1477–1482) y El nacimiento de Venus (c. 1484–1486), ambas en los Uffizi— son expresión visual del humanismo neoplatónico del círculo del Platón Academy. Participó en la decoración de la Capilla Sixtina (1481–1482). Tras el fervor de Savonarola (1490s), abandonó casi por completo la pintura mitológica y cayó en el olvido hasta su redescubrimiento por los prerrafaelitas en el siglo XIX.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Florencia", "lat": 43.769, "lng": 11.255, "wikidataId": "Q2044", "role": "vivió y trabajó toda su vida en Florencia" }
+    ],
+    "relations": [
+      { "targetId": "renaissance", "relationType": "part_of", "strength": 5 },
+      { "targetId": "leonardo-da-vinci", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "brunelleschi", "relationType": "followed", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "Botticelli: Life and Work",
+        "author": "Zöllner, Frank",
+        "publisher": "Prestel",
+        "year": "2015",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Sandro Botticelli",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Sandro-Botticelli",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Primavera", "Venus", "Médici", "Florencia", "neoplatonismo"]
+  },
+  {
+    "id": "alberti",
+    "title": "Leon Battista Alberti",
+    "type": "person",
+    "disciplines": ["architecture", "literature", "philosophy"],
+    "historicalPeriods": ["renaissance"],
+    "startDate": "1404-02-18",
+    "endDate": "1472-04-25",
+    "datePrecision": "year",
+    "summary": "Arquitecto, teórico y humanista renacentista, autor de De Re Aedificatoria, primer tratado moderno de arquitectura, y de obras como la fachada de Santa Maria Novella.",
+    "description": "Leon Battista Alberti (Génova, 1404 – Roma, 1472) fue el gran teórico del arte y la arquitectura del Renacimiento italiano. Su De Re Aedificatoria (1452, dedicado al papa Nicolás V) fue el primer tratado arquitectónico moderno desde Vitruvio, y estableció los principios del clasicismo renacentista. Como arquitecto diseñó la fachada de Santa Maria Novella en Florencia (1458–1470), el Templo Malatestiano en Rímini (c. 1450), el Palazzo Rucellai en Florencia (1446–1451) y la Basílica de Sant'Andrea en Mantua (comenzada en 1472). Escribió también tratados sobre la pintura (De Pictura, 1435) y la escultura (De Statua, c. 1464).",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Florencia", "lat": 43.769, "lng": 11.255, "wikidataId": "Q2044", "role": "Palazzo Rucellai, fachada Santa Maria Novella" },
+      { "name": "Mantua", "lat": 45.157, "lng": 10.791, "wikidataId": "Q6372", "role": "Basílica de Sant'Andrea (1472)" },
+      { "name": "Roma", "lat": 41.89, "lng": 12.49, "wikidataId": "Q220", "role": "trabajo para la curia papal, De Re Aedificatoria" }
+    ],
+    "relations": [
+      { "targetId": "renaissance", "relationType": "part_of", "strength": 5 },
+      { "targetId": "brunelleschi", "relationType": "influenced_by", "strength": 4 },
+      { "targetId": "le-corbusier", "relationType": "influenced", "strength": 3, "note": "Alberti como referente teórico de toda la arquitectura moderna" }
+    ],
+    "sources": [
+      {
+        "title": "Leon Battista Alberti: Master Builder of the Italian Renaissance",
+        "author": "Grafton, Anthony",
+        "publisher": "Hill and Wang",
+        "year": "2000",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Leon Battista Alberti",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Leon-Battista-Alberti",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["De Re Aedificatoria", "tratado", "Florencia", "humanismo", "clasicismo"]
+  },
+  {
+    "id": "donatello",
+    "title": "Donatello",
+    "type": "person",
+    "disciplines": ["art"],
+    "historicalPeriods": ["renaissance"],
+    "startDate": "1386",
+    "endDate": "1466-12-13",
+    "datePrecision": "approximate",
+    "summary": "Escultor florentino del Renacimiento temprano, renovador de la escultura occidental con el primer desnudo monumental desde la Antigüedad y el relieve pictórico.",
+    "description": "Donatello (Florencia, c. 1386 – 1466), cuyo nombre completo era Donato di Niccolò di Betto Bardi, transformó la escultura europea con una expresividad psicológica y una maestría técnica sin precedentes. Su David en bronce (c. 1440–1443, Bargello, Florencia) fue el primer desnudo exento de tamaño natural desde la Antigüedad. El San Jorge (c. 1415–1417) introdujo el nuevo ideal de héroe renacentista. La estatua ecuestre del Gattamelata (1443–1453, Padua) revivió el género romano. Trabajó en Florencia, Roma, Siena y Padua. Su influencia sobre Miguel Ángel fue directa y reconocida.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Florencia", "lat": 43.769, "lng": 11.255, "wikidataId": "Q2044", "role": "ciudad natal y obra principal (David, San Jorge)" },
+      { "name": "Padua", "lat": 45.407, "lng": 11.877, "wikidataId": "Q617", "role": "Gattamelata (1443–1453) y altar de la Basílica de San Antonio" }
+    ],
+    "relations": [
+      { "targetId": "renaissance", "relationType": "part_of", "strength": 5 },
+      { "targetId": "brunelleschi", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "michelangelo", "relationType": "influenced", "strength": 5, "note": "Miguel Ángel reconoció la deuda directa con Donatello" }
+    ],
+    "sources": [
+      {
+        "title": "Donatello",
+        "author": "Avery, Charles",
+        "publisher": "Phaidon Press",
+        "year": "1994",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Donatello",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Donatello",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["David", "Gattamelata", "escultura", "bronce", "Florencia"]
+  }
+]

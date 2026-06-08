@@ -1,0 +1,477 @@
+[
+  {
+    "id": "steam-engine",
+    "title": "Máquina de vapor (Watt)",
+    "type": "invention",
+    "disciplines": ["technology", "science", "economy"],
+    "historicalPeriods": ["revolutionary-age"],
+    "startDate": "1769",
+    "endDate": "1769",
+    "datePrecision": "year",
+    "summary": "Mejora fundamental de la máquina de vapor por James Watt, que hizo viable la mecanización industrial.",
+    "description": "James Watt patentó en 1769 su mejora de la máquina de vapor de Newcomen, introduciendo el condensador separado, que multiplicó su eficiencia. En 1784 desarrolló el movimiento rotativo, lo que permitió aplicarla a máquinas textiles, bombas y locomotoras. La sociedad Boulton & Watt fabricó más de 500 máquinas entre 1775 y 1800. La máquina de vapor fue el motor energético de la Revolución Industrial.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Birmingham", "lat": 52.48, "lng": -1.90, "wikidataId": "Q2256", "role": "fábrica Boulton & Watt" },
+      { "name": "Glasgow", "lat": 55.86, "lng": -4.25, "wikidataId": "Q4093", "role": "experimentos de Watt en la Universidad de Glasgow" }
+    ],
+    "relations": [
+      { "targetId": "industrial-revolution", "relationType": "part_of", "strength": 5 },
+      { "targetId": "railway-expansion", "relationType": "caused", "strength": 5 }
+    ],
+    "sources": [
+      {
+        "title": "James Watt: Making the World Anew",
+        "author": "Marsden, Ben",
+        "publisher": "Reaktion Books",
+        "year": "2002",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Steam engine",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/technology/steam-engine",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["Watt", "vapor", "energía", "industrialización"]
+  },
+  {
+    "id": "beethoven",
+    "title": "Ludwig van Beethoven",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["enlightenment", "revolutionary-age"],
+    "startDate": "1770-12-17",
+    "endDate": "1827-03-26",
+    "datePrecision": "year",
+    "summary": "Compositor alemán, figura de transición entre el Clasicismo y el Romanticismo, autor de nueve sinfonías fundamentales.",
+    "description": "Ludwig van Beethoven (Bonn, 1770 – Viena, 1827) estudió con Haydn en Viena. Fue el gran puente entre el clasicismo vienés (Haydn, Mozart) y el Romanticismo. A pesar de quedar completamente sordo a partir de 1816, compuso algunas de sus obras más importantes, incluyendo la 9.ª Sinfonía (1824). Sus 9 sinfonías, 32 sonatas para piano y 16 cuartetos de cuerda son obras fundacionales del repertorio occidental.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Bonn", "lat": 50.73, "lng": 7.10, "wikidataId": "Q586", "role": "ciudad natal" },
+      { "name": "Viena", "lat": 48.21, "lng": 16.37, "wikidataId": "Q1741", "role": "ciudad donde vivió y compuso casi toda su vida" }
+    ],
+    "relations": [
+      { "targetId": "romanticism", "relationType": "part_of", "strength": 5 },
+      { "targetId": "wagner", "relationType": "influenced", "strength": 5 }
+    ],
+    "sources": [
+      {
+        "title": "Beethoven: Anguish and Triumph",
+        "author": "Swafford, Jan",
+        "publisher": "Houghton Mifflin Harcourt",
+        "year": "2014",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Ludwig van Beethoven",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Ludwig-van-Beethoven",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["sinfonía", "Viena", "sordera", "clasicismo", "romanticismo"]
+  },
+  {
+    "id": "wagner",
+    "title": "Richard Wagner",
+    "type": "person",
+    "disciplines": ["music", "philosophy", "literature"],
+    "historicalPeriods": ["19th-century"],
+    "startDate": "1813-05-22",
+    "endDate": "1883-02-13",
+    "datePrecision": "year",
+    "summary": "Compositor alemán que transformó la ópera en Gesamtkunstwerk y cuya música influyó en el arte, la filosofía y la política del siglo XX.",
+    "description": "Richard Wagner (Leipzig, 1813 – Venecia, 1883) revolucionó la ópera occidental con el concepto de Gesamtkunstwerk (obra de arte total), integrando música, drama, poesía, escenografía y filosofía. El ciclo El anillo del nibelungo (1876) y Parsifal (1882) son sus obras cumbres. Construyó su propio teatro en Bayreuth (1876). Influyó directamente en Nietzsche, el simbolismo literario, el cine moderno y la armonía de Debussy y Mahler.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Leipzig", "lat": 51.34, "lng": 12.37, "wikidataId": "Q2079", "role": "ciudad natal" },
+      { "name": "Bayreuth", "lat": 49.95, "lng": 11.58, "wikidataId": "Q3923", "role": "Festspielhaus de Wagner (inaugurado 1876)" },
+      { "name": "Viena", "lat": 48.21, "lng": 16.37, "wikidataId": "Q1741", "role": "exilio y estreno de obras" }
+    ],
+    "relations": [
+      { "targetId": "beethoven", "relationType": "influenced_by", "strength": 5 },
+      { "targetId": "romanticism", "relationType": "part_of", "strength": 5 }
+    ],
+    "sources": [
+      {
+        "title": "Wagner: Race, Nation, and Opera",
+        "author": "Rose, Paul Lawrence",
+        "publisher": "Cambridge University Press",
+        "year": "1992",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Richard Wagner",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Richard-Wagner",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["ópera", "Gesamtkunstwerk", "Bayreuth", "Nibelung"]
+  },
+  {
+    "id": "haussmann-paris",
+    "title": "Reforma urbana de París (Haussmann)",
+    "type": "event",
+    "disciplines": ["urbanism", "architecture", "politics"],
+    "historicalPeriods": ["19th-century"],
+    "startDate": "1853",
+    "endDate": "1870",
+    "datePrecision": "year",
+    "summary": "Transformación radical del tejido urbano medieval de París bajo la dirección del barón Haussmann por encargo de Napoleón III.",
+    "description": "El barón Georges-Eugène Haussmann, prefecto del Sena nombrado por Napoleón III, dirigió entre 1853 y 1870 la mayor transformación urbana de Europa del siglo XIX. Demolió barrios medievales y abrió una red de bulevares amplios y rectilíneos, construyó la ópera (Garnier), mercados, parques, alcantarillado y alineó las fachadas en piedra calcárea. El modelo haussmanniano se difundió por toda Europa y América Latina.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "ciudad transformada" }
+    ],
+    "relations": [
+      { "targetId": "industrial-revolution", "relationType": "influenced_by", "strength": 4 },
+      { "targetId": "french-revolution", "relationType": "influenced_by", "strength": 3 },
+      { "targetId": "impressionism", "relationType": "influenced", "strength": 3 },
+      { "targetId": "eiffel-tower", "relationType": "preceded", "strength": 3 },
+      { "targetId": "garnier-opera", "relationType": "part_of", "strength": 5 }
+    ],
+    "sources": [
+      {
+        "title": "Haussmann: His Life and Times, and the Making of Modern Paris",
+        "author": "Carmona, Michel",
+        "publisher": "Ivan R. Dee",
+        "year": "2002",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["bulevares", "Haussmann", "Napoleón III", "urbanismo moderno", "París"]
+  },
+  {
+    "id": "garnier-opera",
+    "title": "Ópera de París (Palais Garnier)",
+    "type": "building",
+    "disciplines": ["architecture", "music"],
+    "historicalPeriods": ["19th-century"],
+    "startDate": "1861",
+    "endDate": "1875",
+    "datePrecision": "year",
+    "summary": "Monumental teatro de ópera diseñado por Charles Garnier, símbolo del eclecticismo napoleónico y del Segundo Imperio.",
+    "description": "El Palais Garnier fue diseñado por Charles Garnier y construido entre 1861 y 1875. Es el mayor teatro de ópera del mundo por superficie (11.237 m²). Su estilo ecléctico combina elementos barrocos, renacentistas y neoclásicos. El Gran Foyer y la gran escalera de mármol son piezas fundamentales de la arquitectura de representación del Segundo Imperio francés. Sigue en uso como sede de la Ópera Nacional de París.",
+    "importance": 8,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "París", "lat": 48.87, "lng": 2.33, "wikidataId": "Q184615", "role": "ubicación" }
+    ],
+    "relations": [
+      { "targetId": "haussmann-paris", "relationType": "part_of", "strength": 5 },
+      { "targetId": "eiffel-tower", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "Palais Garnier",
+        "publisher": "Opéra National de Paris",
+        "url": "https://www.operadeparis.fr/en/the-opera-de-paris/the-palais-garnier",
+        "type": "museum",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["Garnier", "ópera", "eclecticismo", "Segundo Imperio", "París"]
+  },
+  {
+    "id": "eiffel-tower",
+    "title": "Torre Eiffel",
+    "type": "building",
+    "disciplines": ["architecture", "technology"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1887",
+    "endDate": "1889",
+    "datePrecision": "year",
+    "summary": "Estructura de hierro diseñada por Gustave Eiffel para la Exposición Universal de París de 1889.",
+    "description": "La Torre Eiffel fue diseñada por el ingeniero Gustave Eiffel y construida entre 1887 y 1889 para la Exposición Universal de París, que conmemoró el centenario de la Revolución Francesa. Con 300 metros de altura, fue la estructura más alta del mundo hasta 1930. Construida íntegramente en hierro pudelado, fue un hito de la ingeniería estructural y demostró las posibilidades del metal como material constructivo.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "París", "lat": 48.858, "lng": 2.294, "wikidataId": "Q243", "role": "ubicación, Campo de Marte" }
+    ],
+    "relations": [
+      { "targetId": "railway-expansion", "relationType": "influenced_by", "strength": 3, "note": "Técnicas del hierro estructural del ferrocarril" },
+      { "targetId": "haussmann-paris", "relationType": "followed", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "The Eiffel Tower",
+        "publisher": "Société d'Exploitation de la Tour Eiffel",
+        "url": "https://www.toureiffel.paris/en/the-monument/history",
+        "type": "museum",
+        "reliability": "high"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Camponotus_flavomarginatus_ant.jpg/640px-Camponotus_flavomarginatus_ant.jpg",
+        "caption": "Torre Eiffel",
+        "source": "Wikimedia Commons",
+        "rights": "Public domain"
+      }
+    ],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["Eiffel", "hierro", "Exposición Universal", "París", "1889"]
+  },
+  {
+    "id": "sagrada-familia",
+    "title": "Basílica de la Sagrada Família",
+    "type": "building",
+    "disciplines": ["architecture", "religion"],
+    "historicalPeriods": ["belle-epoque", "early-20th", "cold-war", "contemporary"],
+    "startDate": "1882",
+    "endDate": null,
+    "datePrecision": "year",
+    "summary": "Basílica expitatoria diseñada por Antoni Gaudí en Barcelona, símbolo del Modernisme catalán e icono arquitectónico universal.",
+    "description": "Las obras de la Sagrada Família comenzaron en 1882 bajo el arquitecto Francisco de Paula del Villar. En 1883, Antoni Gaudí asumió la dirección y transformó radicalmente el proyecto, que se convirtió en la obra de su vida. Gaudí murió en 1926, dejando solo el ábside, la cripta y parte de la fachada del Nacimiento terminados. La construcción, financiada con donaciones, continúa hasta hoy; la basílica fue consagrada por Benedicto XVI en 2010. Fue declarada Patrimonio de la Humanidad por la UNESCO en 1984.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Barcelona", "lat": 41.404, "lng": 2.174, "wikidataId": "Q5317", "role": "ubicación" }
+    ],
+    "relations": [
+      { "targetId": "art-nouveau", "relationType": "part_of", "strength": 4 },
+      { "targetId": "gaudi", "relationType": "created", "strength": 5 }
+    ],
+    "sources": [
+      {
+        "title": "La Sagrada Família",
+        "publisher": "Fundació Junta Constructora del Temple Expiatori de la Sagrada Família",
+        "url": "https://sagradafamilia.org/en/",
+        "type": "archive",
+        "reliability": "high"
+      },
+      {
+        "title": "UNESCO World Heritage: Works of Antoni Gaudí",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/320/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sagrada_Familia_01.jpg/1280px-Sagrada_Familia_01.jpg",
+        "caption": "Basílica de la Sagrada Família, Barcelona",
+        "source": "Wikimedia Commons",
+        "rights": "CC BY-SA 3.0"
+      }
+    ],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["Gaudí", "Barcelona", "Modernisme", "gótico orgánico", "en construcción"]
+  },
+  {
+    "id": "gaudi",
+    "title": "Antoni Gaudí",
+    "type": "person",
+    "disciplines": ["architecture", "art"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1852-06-25",
+    "endDate": "1926-06-10",
+    "datePrecision": "year",
+    "summary": "Arquitecto catalán, máximo exponente del Modernisme, creador de un lenguaje arquitectónico único inspirado en la naturaleza.",
+    "description": "Antoni Gaudí i Cornet (Reus, 1852 – Barcelona, 1926) fue el arquitecto más singular del siglo XIX tardío. Desarrolló un estilo propio que fundía formas orgánicas inspiradas en la naturaleza con estructuras funiculares de gran eficiencia estructural. Sus obras principales en Barcelona (Sagrada Família, Casa Milà, Casa Batlló, Parque Güell) son Patrimonio de la Humanidad desde 2005. Murió atropellado por un tranvía en Barcelona en 1926.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Barcelona", "lat": 41.38, "lng": 2.17, "wikidataId": "Q1492", "role": "ciudad donde desarrolló toda su obra madura" },
+      { "name": "Reus", "lat": 41.15, "lng": 1.10, "wikidataId": "Q18634", "role": "ciudad natal" }
+    ],
+    "relations": [
+      { "targetId": "sagrada-familia", "relationType": "created", "strength": 5 },
+      { "targetId": "art-nouveau", "relationType": "part_of", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "Gaudí",
+        "author": "Van Zandt, Cynthia",
+        "publisher": "Taschen",
+        "year": "2010",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "UNESCO: Works of Antoni Gaudí",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/320/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["Modernisme", "orgánico", "Barcelona", "naturaleza", "Patrimonio UNESCO"]
+  },
+  {
+    "id": "bauhaus",
+    "title": "Bauhaus",
+    "type": "institution",
+    "disciplines": ["architecture", "design", "art", "technology"],
+    "historicalPeriods": ["early-20th"],
+    "startDate": "1919",
+    "endDate": "1933",
+    "datePrecision": "year",
+    "summary": "Escuela de diseño, arquitectura y arte fundada en Weimar en 1919, que integró arte y producción industrial y es fundamento del diseño moderno.",
+    "description": "La Bauhaus fue fundada en 1919 por Walter Gropius en Weimar (Alemania), trasladada a Dessau en 1925 y a Berlín en 1932, donde fue clausurada por los nazis en 1933. Su objetivo era integrar bellas artes, artesanía y producción industrial. Reunió a maestros como Klee, Kandinsky, Mies van der Rohe, Marcel Breuer y László Moholy-Nagy. Su pedagogía (taller + teoría) y su estética funcionalista (menos es más) definieron el diseño del siglo XX.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Weimar", "lat": 50.98, "lng": 11.33, "wikidataId": "Q3603", "role": "sede 1919–1925" },
+      { "name": "Dessau", "lat": 51.83, "lng": 12.24, "wikidataId": "Q16853", "role": "sede 1925–1932, edificio icónico de Gropius" },
+      { "name": "Berlín", "lat": 52.52, "lng": 13.40, "wikidataId": "Q64", "role": "sede 1932–1933" }
+    ],
+    "relations": [
+      { "targetId": "art-nouveau", "relationType": "response_to", "strength": 3, "note": "El Bauhaus rechazó el ornamento del Art Nouveau" },
+      { "targetId": "cubism", "relationType": "influenced_by", "strength": 3 },
+      { "targetId": "expressionism", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "le-corbusier", "relationType": "contemporary_of", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "Bauhaus",
+        "author": "Droste, Magdalena",
+        "publisher": "Taschen",
+        "year": "2019",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "UNESCO: Bauhaus and its Sites in Weimar, Dessau and Bernau",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/729/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["Gropius", "diseño", "funcionalismo", "Mies", "Kandinsky", "modernidad"]
+  },
+  {
+    "id": "le-corbusier",
+    "title": "Le Corbusier",
+    "type": "person",
+    "disciplines": ["architecture", "urbanism", "art"],
+    "historicalPeriods": ["early-20th", "cold-war"],
+    "startDate": "1887-10-06",
+    "endDate": "1965-08-27",
+    "datePrecision": "year",
+    "summary": "Arquitecto, urbanista y teórico suizo-francés, una de las figuras más influyentes de la arquitectura moderna del siglo XX.",
+    "description": "Charles-Édouard Jeanneret-Gris, conocido como Le Corbusier (La Chaux-de-Fonds, 1887 – Roquebrune-Cap-Martin, 1965), formuló los fundamentos de la arquitectura moderna: planta libre, fachada libre, pilotis, ventanas longitudinales y terraza jardín ('Cinco puntos de la arquitectura', 1927). Diseñó la Villa Savoye (1929), Chandigarh (India, 1950s), la Unité d'Habitation (Marsella, 1952) y la capilla de Ronchamp (1955). Sus teorías urbanas (Plan Voisin, 1925) fueron profundamente influyentes y muy debatidas.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "estudio y obra principal" },
+      { "name": "Chandigarh", "lat": 30.73, "lng": 76.78, "wikidataId": "Q43024", "role": "capital proyectada íntegramente por Le Corbusier" }
+    ],
+    "relations": [
+      { "targetId": "bauhaus", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "cubism", "relationType": "influenced_by", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Le Corbusier: Ideas and Forms",
+        "author": "Curtis, William J. R.",
+        "publisher": "Phaidon Press",
+        "year": "1986",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "UNESCO: The Architectural Work of Le Corbusier",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/1321/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["modernismo", "pilotis", "planta libre", "urbanismo", "Villa Savoye"]
+  },
+  {
+    "id": "parthenon",
+    "title": "Partenón",
+    "type": "building",
+    "disciplines": ["architecture", "religion", "art"],
+    "historicalPeriods": ["classical-antiquity"],
+    "startDate": "-447",
+    "endDate": "-432",
+    "datePrecision": "year",
+    "summary": "Templo dórico de mármol erigido en la Acrópolis de Atenas, consagrado a la diosa Atenea y símbolo máximo de la arquitectura griega clásica.",
+    "description": "El Partenón fue construido entre 447 y 432 a.C. en la Acrópolis de Atenas bajo la dirección de Pericles. Los arquitectos fueron Ictino y Calícrates, y el escultor Fidias supervisó la decoración. Es el templo dórico más perfecto conocido: sus columnas están ligeramente inclinadas hacia dentro y abombadas (éntasis) para crear una ilusión de verticalidad perfecta. La estatua criselefantina de Atenea de Fidias presidía el interior. Fue declarado Patrimonio de la Humanidad en 1987.",
+    "importance": 10,
+    "regions": ["Europe", "Mediterranean"],
+    "places": [
+      { "name": "Atenas", "lat": 37.971, "lng": 23.726, "wikidataId": "Q131491", "role": "Acrópolis de Atenas" }
+    ],
+    "relations": [
+      { "targetId": "classical-greece", "relationType": "part_of", "strength": 5 },
+      { "targetId": "renaissance", "relationType": "influenced", "strength": 4, "note": "Modelo de referencia del Renacimiento y el Neoclasicismo" }
+    ],
+    "sources": [
+      {
+        "title": "The Parthenon",
+        "author": "Beard, Mary",
+        "publisher": "Harvard University Press",
+        "year": "2010",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "UNESCO: Acropolis of Athens",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/404/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [
+      {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Parthenon_in_Athens.jpg/1280px-The_Parthenon_in_Athens.jpg",
+        "caption": "El Partenón, Acrópolis de Atenas",
+        "source": "Wikimedia Commons",
+        "rights": "Public domain"
+      }
+    ],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "detailed",
+    "tags": ["dórico", "Atenea", "Pericles", "Fidias", "mármol"]
+  }
+]

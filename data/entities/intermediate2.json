@@ -1,0 +1,210 @@
+[
+  {
+    "id": "baroque",
+    "title": "Barroco",
+    "type": "movement",
+    "disciplines": ["art", "architecture", "music", "literature"],
+    "historicalPeriods": ["early-modern"],
+    "startDate": "1600",
+    "endDate": "1750",
+    "datePrecision": "approximate",
+    "summary": "Estilo artístico europeo de intensa dramatismo, movimiento y emoción, ligado a la Contrarreforma católica y las monarquías absolutas.",
+    "description": "El Barroco surgió en Roma hacia 1600, impulsado por la Iglesia Católica como respuesta visual a la Reforma Protestante. Sus rasgos característicos son el dinamismo, el contraste de luces y sombras (tenebrismo), la ornamentación exuberante y la voluntad de impactar emocionalmente al espectador. En pintura: Caravaggio, Rubens, Rembrandt, Velázquez, Vermeer. En arquitectura: Bernini, Borromini, Guarini. En música: Monteverdi, Vivaldi, Handel, Bach. Se extendió por toda Europa con variantes nacionales hasta su reemplazo por el Rococó y el Neoclasicismo.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Roma", "lat": 41.89, "lng": 12.49, "wikidataId": "Q220", "role": "epicentro del Barroco inicial (Bernini, Borromini)" },
+      { "name": "Amberes", "lat": 51.22, "lng": 4.40, "wikidataId": "Q12892", "role": "Rubens, Barroco flamenco" },
+      { "name": "Amsterdam", "lat": 52.37, "lng": 4.89, "wikidataId": "Q727", "role": "Rembrandt, Vermeer, Barroco holandés" }
+    ],
+    "relations": [
+      { "targetId": "protestant-reformation", "relationType": "response_to", "strength": 4, "note": "El Barroco fue en parte un instrumento de la Contrarreforma" },
+      { "targetId": "neoclassicism", "relationType": "evolved_into", "strength": 4 },
+      { "targetId": "bach", "relationType": "part_of", "strength": 5 },
+      { "targetId": "renaissance", "relationType": "followed", "strength": 4 },
+      { "targetId": "enlightenment-movement", "relationType": "contemporary_of", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Baroque Art and Architecture",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/art/Baroque-period",
+        "type": "encyclopedia",
+        "reliability": "high"
+      },
+      {
+        "title": "The Baroque",
+        "author": "Minor, Vernon Hyde",
+        "publisher": "Prentice Hall",
+        "year": "1999",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "intermediate",
+    "tags": ["Caravaggio", "Bernini", "tenebrismo", "Contrarreforma", "Bach"]
+  },
+  {
+    "id": "neoclassicism",
+    "title": "Neoclasicismo",
+    "type": "movement",
+    "disciplines": ["art", "architecture", "literature"],
+    "historicalPeriods": ["enlightenment", "revolutionary-age"],
+    "startDate": "1750",
+    "endDate": "1850",
+    "datePrecision": "approximate",
+    "summary": "Movimiento artístico europeo de retorno a los modelos de la Antigüedad clásica, ideológicamente ligado a la Ilustración y la Revolución Francesa.",
+    "description": "El Neoclasicismo surgió hacia 1750 como reacción a los excesos ornamentales del Barroco y el Rococó, y en paralelo a la efervescencia de la Ilustración. Se inspiró directamente en Grecia y Roma, con rigor formal, líneas claras y valores cívicos y morales. En pintura: Jacques-Louis David (Juramento de los Horacios, 1784). En arquitectura: Soufflot (Panteón de París), Thomas Jefferson (Monticello). El teórico alemán Johann Joachim Winckelmann (Historia del Arte en la Antigüedad, 1764) fue su gran ideólogo.",
+    "importance": 8,
+    "regions": ["Europe", "North America"],
+    "places": [
+      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "Jacques-Louis David, Panteón" },
+      { "name": "Londres", "lat": 51.51, "lng": -0.12, "wikidataId": "Q84", "role": "Robert Adam, arquitectura georgiana" }
+    ],
+    "relations": [
+      { "targetId": "baroque", "relationType": "response_to", "strength": 4 },
+      { "targetId": "enlightenment-movement", "relationType": "part_of", "strength": 4 },
+      { "targetId": "french-revolution", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "romanticism", "relationType": "evolved_into", "strength": 3 },
+      { "targetId": "classical-greece", "relationType": "influenced_by", "strength": 5 },
+      { "targetId": "roman-empire", "relationType": "influenced_by", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "Neoclassicism",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/toah/hd/ncls/hd_ncls.htm",
+        "type": "museum",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "intermediate",
+    "tags": ["David", "Winckelmann", "Panteón", "Antigüedad", "Ilustración"]
+  },
+  {
+    "id": "symbolism",
+    "title": "Simbolismo",
+    "type": "movement",
+    "disciplines": ["literature", "art", "music"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1886",
+    "endDate": "1910",
+    "datePrecision": "year",
+    "summary": "Movimiento literario y artístico que reaccionó contra el naturalismo expresando ideas y emociones a través de símbolos, lo irracional y lo misterioso.",
+    "description": "El Simbolismo surgió en Francia con el Manifiesto Simbolista de Jean Moréas (1886). En poesía: Baudelaire (precursor), Verlaine, Rimbaud, Mallarmé. En pintura: Gustave Moreau, Odilon Redon, Félicien Rops; en Austria, Klimt integró simbolismo y Art Nouveau. En música influyó en Debussy y Wagner. Rechazó el Naturalismo y el Realismo y prefirió la sugestión y la ambigüedad al significado explícito. Fue una fuente directa del Modernismo literario y del Surrealismo.",
+    "importance": 7,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "epicentro: Mallarmé, Verlaine, Rimbaud" },
+      { "name": "Viena", "lat": 48.21, "lng": 16.37, "wikidataId": "Q1741", "role": "Klimt, Secesión vienesa" },
+      { "name": "Bruselas", "lat": 50.85, "lng": 4.35, "wikidataId": "Q239", "role": "Maeterlinck, simbolismo belga" }
+    ],
+    "relations": [
+      { "targetId": "romanticism", "relationType": "influenced_by", "strength": 4 },
+      { "targetId": "art-nouveau", "relationType": "influenced", "strength": 4, "note": "El Simbolismo fue fuente iconográfica del Art Nouveau" },
+      { "targetId": "surrealism", "relationType": "evolved_into", "strength": 3 },
+      { "targetId": "post-impressionism", "relationType": "contemporary_of", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Symbolism",
+        "publisher": "The Metropolitan Museum of Art",
+        "url": "https://www.metmuseum.org/toah/hd/symb/hd_symb.htm",
+        "type": "museum",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "intermediate",
+    "tags": ["Mallarmé", "Verlaine", "Klimt", "sugestión", "decadentismo"]
+  },
+  {
+    "id": "surrealism",
+    "title": "Surrealismo",
+    "type": "movement",
+    "disciplines": ["art", "literature", "cinema"],
+    "historicalPeriods": ["early-20th"],
+    "startDate": "1924",
+    "endDate": "1966",
+    "datePrecision": "year",
+    "summary": "Movimiento de vanguardia que exploró el inconsciente, los sueños y lo irracional como fuente de creatividad artística.",
+    "description": "El Surrealismo fue fundado por André Breton con el Primer Manifiesto Surrealista (1924, París). Se inspiró en las teorías del inconsciente de Freud y buscó liberar la mente de la lógica racional. Sus artistas (Dalí, Magritte, Ernst, Miró, de Chirico) exploraron el mundo onírico, la paranoia, los automatismos y las asociaciones inesperadas. En cine: Buñuel y Dalí (Un perro andaluz, 1929). En fotografía: Man Ray. Tuvo influencia duradera en la publicidad, el diseño y la cultura visual del siglo XX.",
+    "importance": 8,
+    "regions": ["Europe", "North America"],
+    "places": [
+      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "epicentro del movimiento, Breton, Ernst, Man Ray" },
+      { "name": "Cadaqués", "lat": 42.29, "lng": 3.28, "wikidataId": "Q1020413", "role": "residencia de Salvador Dalí" }
+    ],
+    "relations": [
+      { "targetId": "cubism", "relationType": "influenced_by", "strength": 3 },
+      { "targetId": "world-war-1", "relationType": "response_to", "strength": 4, "note": "El trauma de la guerra impulsó la búsqueda del inconsciente" },
+      { "targetId": "symbolism", "relationType": "influenced_by", "strength": 3 },
+      { "targetId": "picasso", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "freud", "relationType": "influenced_by", "strength": 5, "note": "Las teorías de Freud sobre el inconsciente y los sueños fueron fundamentales" },
+      { "targetId": "bauhaus", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "Surrealism",
+        "publisher": "MoMA",
+        "url": "https://www.moma.org/collection/terms/surrealism",
+        "type": "museum",
+        "reliability": "high"
+      },
+      {
+        "title": "Surrealism: A Very Short Introduction",
+        "author": "Hopkins, David",
+        "publisher": "Oxford University Press",
+        "year": "2004",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "intermediate",
+    "tags": ["Dalí", "Magritte", "Breton", "inconsciente", "sueños"]
+  },
+  {
+    "id": "art-deco",
+    "title": "Art Déco",
+    "type": "style",
+    "disciplines": ["architecture", "art", "design"],
+    "historicalPeriods": ["early-20th"],
+    "startDate": "1920",
+    "endDate": "1940",
+    "datePrecision": "approximate",
+    "summary": "Estilo decorativo internacional de entreguerras caracterizado por geometría elegante, materiales lujosos y optimismo modernista.",
+    "description": "El Art Déco tomó su nombre de la Exposition Internationale des Arts Décoratifs et Industriels Modernes (París, 1925). Combinó geometría estilizada, influencias del Cubismo, el arte africano y prehispánico, con materiales de lujo (cromo, mármol, laca). Sus referentes arquitectónicos más icónicos son el Empire State Building (Shreve, Lamb & Harmon, 1931) y el Chrysler Building (Van Alen, 1930) en Nueva York. Convivió con el Bauhaus aunque en estética opuesta: el Déco privilegió el ornamento frente al funcionalismo.",
+    "importance": 7,
+    "regions": ["Europe", "North America"],
+    "places": [
+      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "Exposition des Arts Décoratifs, 1925" },
+      { "name": "Nueva York", "lat": 40.71, "lng": -74.00, "wikidataId": "Q60", "role": "Empire State, Chrysler Building" }
+    ],
+    "relations": [
+      { "targetId": "cubism", "relationType": "influenced_by", "strength": 3 },
+      { "targetId": "bauhaus", "relationType": "contemporary_of", "strength": 3, "note": "Coexistencia con estética opuesta: ornamento vs. funcionalismo" },
+      { "targetId": "surrealism", "relationType": "contemporary_of", "strength": 2 },
+      { "targetId": "world-war-1", "relationType": "followed", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Art Deco",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/art/Art-Deco",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "layer": "intermediate",
+    "tags": ["entreguerras", "geometría", "lujo", "Chrysler", "Empire State"]
+  }
+]

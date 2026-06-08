@@ -1,0 +1,418 @@
+[
+  {
+    "id": "monteverdi",
+    "title": "Claudio Monteverdi",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["renaissance", "early-modern"],
+    "startDate": "1567",
+    "endDate": "1643-11-29",
+    "datePrecision": "year",
+    "summary": "Compositor cremonés considerado el padre de la ópera y figura puente entre el Renacimiento y el Barroco musical.",
+    "description": "Claudio Monteverdi (Cremona, 1567 – Venecia, 1643), bautizado el 15 de mayo de 1567, es uno de los compositores más influyentes de la historia occidental. Músico de corte en Mantua bajo los Gonzaga (1590–1612), compuso ocho libros de madrigales que transformaron el lenguaje armónico de su época. En 1607 estrenó L'Orfeo, considerada la primera gran ópera de la historia musical. Desde 1613 hasta su muerte fue maestro de capilla de la Basílica de San Marcos de Venecia, el cargo musical más prestigioso de Italia. Su última ópera, L'incoronazione di Poppea (1643), usa por primera vez un argumento histórico en lugar de mitológico.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Cremona", "lat": 45.134, "lng": 10.022, "wikidataId": "Q5714", "role": "ciudad natal" },
+      { "name": "Mantua", "lat": 45.157, "lng": 10.791, "wikidataId": "Q6372", "role": "músico de corte de los Gonzaga (1590–1612)" },
+      { "name": "Venecia", "lat": 45.437, "lng": 12.335, "wikidataId": "Q641", "role": "maestro de capilla de San Marcos (1613–1643)" }
+    ],
+    "relations": [
+      { "targetId": "baroque", "relationType": "part_of", "strength": 4, "note": "Considerado fundador del Barroco musical temprano" },
+      { "targetId": "renaissance", "relationType": "followed", "strength": 4, "note": "Sus madrigales tardíos rompen con la polifonía renacentista" },
+      { "targetId": "lorfeo-monteverdi", "relationType": "created", "strength": 5 }
+    ],
+    "sources": [
+      {
+        "title": "Monteverdi",
+        "author": "Whenham, John",
+        "publisher": "Oxford University Press",
+        "year": "1997",
+        "url": "https://www.britannica.com/biography/Claudio-Monteverdi",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Claudio Monteverdi",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Claudio-Monteverdi",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05",
+      "notes": "Fecha de nacimiento inferida del registro de bautismo del 15 de mayo de 1567"
+    },
+    "layer": "detailed",
+    "tags": ["ópera", "madrigal", "San Marcos", "Mantua", "L'Orfeo"]
+  },
+  {
+    "id": "arcangelo-corelli",
+    "title": "Arcangelo Corelli",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["early-modern"],
+    "startDate": "1653-02-17",
+    "endDate": "1713-01-08",
+    "datePrecision": "exact",
+    "summary": "Violinista y compositor italiano que estableció las formas del concerto grosso y la sonata barroca, influyendo decisivamente en Vivaldi, Händel y Bach.",
+    "description": "Arcangelo Corelli (Fusignano, 1653 – Roma, 1713) desarrolló toda su carrera en Roma bajo el mecenazgo del cardenal Pietro Ottoboni. Publicó seis opus: cuatro colecciones de sonatas de iglesia y de cámara (Op. 1–4), un conjunto de sonatas para violín y bajo continuo (Op. 5, 1700) y los Concerti Grossi Op. 6 (publicados póstumamente en 1714). Estableció el concerto grosso como forma estándar del Barroco. Su influencia sobre la técnica violinística y la estructura tonal fue enorme: Vivaldi, Händel y Bach asimilaron sus principios compositivos. Fue también maestro de violín de decenas de intérpretes europeos.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Fusignano", "lat": 44.468, "lng": 11.955, "wikidataId": "Q207527", "role": "ciudad natal" },
+      { "name": "Roma", "lat": 41.896, "lng": 12.482, "wikidataId": "Q220", "role": "carrera principal bajo mecenazgo del cardenal Ottoboni" }
+    ],
+    "relations": [
+      { "targetId": "baroque", "relationType": "part_of", "strength": 5 },
+      { "targetId": "antonio-vivaldi", "relationType": "influenced", "strength": 5, "note": "Vivaldi adoptó y expandió la forma del concerto grosso de Corelli" },
+      { "targetId": "handel", "relationType": "influenced", "strength": 4, "note": "Händel estudió en Roma y conoció personalmente a Corelli" },
+      { "targetId": "bach", "relationType": "influenced", "strength": 3, "note": "Bach transcribió y adaptó obras de Corelli" }
+    ],
+    "sources": [
+      {
+        "title": "Corelli: His Life, His Work",
+        "author": "Pincherle, Marc",
+        "publisher": "W. W. Norton",
+        "year": "1956",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Arcangelo Corelli",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Arcangelo-Corelli",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["concerto grosso", "violín", "Roma", "Ottoboni", "sonata"]
+  },
+  {
+    "id": "antonio-vivaldi",
+    "title": "Antonio Vivaldi",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["early-modern"],
+    "startDate": "1678-03-04",
+    "endDate": "1741-07-28",
+    "datePrecision": "exact",
+    "summary": "Compositor y violinista veneciano, 'il Prete Rosso', autor de más de 500 conciertos y Las Cuatro Estaciones, cima del Barroco instrumental.",
+    "description": "Antonio Vivaldi (Venecia, 1678 – Viena, 1741) fue ordenado sacerdote en 1703 (apodado 'il Prete Rosso' por su pelo rojo) pero dedicó su vida a la música. Maestro de violín en el Ospedale della Pietà de Venecia (orfanato femenino), compuso allí la mayoría de sus más de 500 conciertos, 50 óperas y abundante música sacra. Sus Concerti Op. 8 Il cimento dell'armonia e dell'inventione (Ámsterdam, 1725) incluyen los cuatro conciertos conocidos como Le quattro stagioni, las obras barrocas instrumentales más interpretadas de todos los tiempos. Murió en Viena en la pobreza; su redescubrimiento fue obra del siglo XX, con Alfredo Casella organizando la primera retrospectiva en 1939.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Venecia", "lat": 45.437, "lng": 12.335, "wikidataId": "Q641", "role": "nacimiento, Ospedale della Pietà (1703–1740)" },
+      { "name": "Viena", "lat": 48.208, "lng": 16.373, "wikidataId": "Q1741", "role": "últimos meses de vida, muerte en 1741" }
+    ],
+    "relations": [
+      { "targetId": "baroque", "relationType": "part_of", "strength": 5 },
+      { "targetId": "arcangelo-corelli", "relationType": "influenced_by", "strength": 5 },
+      { "targetId": "bach", "relationType": "contemporary_of", "strength": 4, "note": "Bach transcribió nueve conciertos de Vivaldi para teclado" },
+      { "targetId": "handel", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "four-seasons-vivaldi", "relationType": "created", "strength": 5 }
+    ],
+    "sources": [
+      {
+        "title": "Vivaldi",
+        "author": "Talbot, Michael",
+        "publisher": "Oxford University Press",
+        "year": "2000",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Antonio Vivaldi",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Antonio-Vivaldi",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["concierto", "violín", "Venecia", "Pietà", "Cuatro Estaciones"]
+  },
+  {
+    "id": "handel",
+    "title": "Georg Friedrich Händel",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["early-modern", "enlightenment"],
+    "startDate": "1685-02-23",
+    "endDate": "1759-04-14",
+    "datePrecision": "exact",
+    "summary": "Compositor germano-británico, maestro de la ópera barroca y el oratorio inglés, autor del Mesías y la Música acuática.",
+    "description": "Georg Friedrich Händel (Halle, 1685 – Londres, 1759) es la figura central del Barroco tardío en el ámbito anglosajón. Tras formarse en Hamburgo y realizar un período decisivo en Italia (1706–1710, donde conoció a Corelli y Scarlatti), se instaló definitivamente en Londres en 1712 y adoptó la ciudadanía británica en 1727. Compuso 42 óperas (Rinaldo, 1711; Giulio Cesare, 1724), 25 oratorios y grandes obras orquestales (Música acuática, 1717; Música para los reales fuegos artificiales, 1749). Su oratorio El Mesías (compuesto en 24 días en 1741, estrenado en Dublín el 13 de abril de 1742) es la obra coral más interpretada de la historia. Murió ciego y con honores de estado; está enterrado en la Abadía de Westminster.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Halle", "lat": 51.482, "lng": 11.970, "wikidataId": "Q6494", "role": "ciudad natal" },
+      { "name": "Londres", "lat": 51.507, "lng": -0.127, "wikidataId": "Q84", "role": "residencia desde 1712, carrera operística y oratoria" },
+      { "name": "Roma", "lat": 41.896, "lng": 12.482, "wikidataId": "Q220", "role": "formación italiana (1706–1710), contacto con Corelli" }
+    ],
+    "relations": [
+      { "targetId": "baroque", "relationType": "part_of", "strength": 5 },
+      { "targetId": "bach", "relationType": "contemporary_of", "strength": 4, "note": "Nacieron el mismo año (1685); nunca se conocieron personalmente" },
+      { "targetId": "antonio-vivaldi", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "arcangelo-corelli", "relationType": "influenced_by", "strength": 4 },
+      { "targetId": "messiah-handel", "relationType": "created", "strength": 5 }
+    ],
+    "sources": [
+      {
+        "title": "Handel",
+        "author": "Burrows, Donald",
+        "publisher": "Oxford University Press",
+        "year": "1994",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "George Frideric Handel",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/George-Frideric-Handel",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["ópera", "oratorio", "Londres", "Mesías", "Música acuática"]
+  },
+  {
+    "id": "henry-purcell",
+    "title": "Henry Purcell",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["early-modern"],
+    "startDate": "1659",
+    "endDate": "1695-11-21",
+    "datePrecision": "approximate",
+    "summary": "Compositor inglés del Barroco temprano, considerado el mayor músico de la historia de Inglaterra, autor de Dido y Eneas.",
+    "description": "Henry Purcell (Westminster, c. 1659 – Westminster, 1695) es el más grande compositor inglés anterior al siglo XX. Organista de la Abadía de Westminster (1679) y compositor de la Chapel Royal, compuso música para ceremonias reales, odes para Santa Cecilia, música incidental para más de 40 obras teatrales y la primera gran ópera inglesa: Dido and Aeneas (c. 1689), estrenada en un colegio femenino de Chelsea. Su música combina el contrapunto de la tradición inglesa con las innovaciones armónicas del Barroco continental francés e italiano. Murió a los 36 años dejando una obra de enorme variedad e inventiva.",
+    "importance": 8,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Londres", "lat": 51.507, "lng": -0.127, "wikidataId": "Q84", "role": "vida y obra; organista de Westminster, Chapel Royal" }
+    ],
+    "relations": [
+      { "targetId": "baroque", "relationType": "part_of", "strength": 4 },
+      { "targetId": "monteverdi", "relationType": "influenced_by", "strength": 3, "note": "Conoció la ópera italiana a través de fuentes secundarias" },
+      { "targetId": "handel", "relationType": "preceded", "strength": 3, "note": "Purcell murió una década antes de que Händel llegara a Londres" }
+    ],
+    "sources": [
+      {
+        "title": "Henry Purcell",
+        "author": "Holst, Imogen",
+        "publisher": "Faber and Faber",
+        "year": "1961",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Henry Purcell",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Henry-Purcell",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "partially_verified",
+      "lastReviewed": "2025-06-05",
+      "notes": "Año de nacimiento c. 1659 es aproximado; no se conserva acta de bautismo"
+    },
+    "layer": "detailed",
+    "tags": ["ópera inglesa", "Westminster", "Chapel Royal", "Dido y Eneas"]
+  },
+  {
+    "id": "domenico-scarlatti",
+    "title": "Domenico Scarlatti",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["early-modern"],
+    "startDate": "1685-10-26",
+    "endDate": "1757-07-23",
+    "datePrecision": "exact",
+    "summary": "Compositor napolitano que revolucionó la música para clave con 555 sonatas de incomparable inventiva armónica y rítmica.",
+    "description": "Domenico Scarlatti (Nápoles, 1685 – Madrid, 1757) nació el mismo año que Bach y Händel. Hijo del compositor Alessandro Scarlatti, pasó la primera parte de su carrera en Nápoles, Roma y Lisboa (al servicio de la corte portuguesa). Desde 1729 hasta su muerte estuvo en Madrid como maestro de música de la reina María Bárbara de Portugal. Compuso 555 sonatas para clave (llamadas Esercizi), de una página cada una, que exploran una riqueza de ideas rítmicas, armónicas y técnicas sin precedentes y anticipan el estilo galante y el lenguaje del Clasicismo. Su influencia en Chopin, Brahms y Ravel fue explícitamente reconocida.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Nápoles", "lat": 40.851, "lng": 14.268, "wikidataId": "Q2634", "role": "ciudad natal" },
+      { "name": "Lisboa", "lat": 38.716, "lng": -9.142, "wikidataId": "Q597", "role": "maestro de música de la corte portuguesa (1720–1729)" },
+      { "name": "Madrid", "lat": 40.416, "lng": -3.703, "wikidataId": "Q2807", "role": "servicio a la reina María Bárbara de Portugal (1729–1757)" }
+    ],
+    "relations": [
+      { "targetId": "baroque", "relationType": "part_of", "strength": 5 },
+      { "targetId": "handel", "relationType": "contemporary_of", "strength": 4, "note": "Nacieron el mismo año (1685); se conocieron en Roma y compitieron en un duelo al clave (c. 1709)" },
+      { "targetId": "bach", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "neoclassicism", "relationType": "influenced", "strength": 3, "note": "Sus sonatas anticipan el estilo clásico que sucedería al Barroco" }
+    ],
+    "sources": [
+      {
+        "title": "Domenico Scarlatti: Master of Music",
+        "author": "Boyd, Malcolm",
+        "publisher": "Weidenfeld & Nicolson",
+        "year": "1986",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Domenico Scarlatti",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Domenico-Scarlatti",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["clave", "sonata", "Madrid", "Nápoles", "Esercizi"]
+  },
+  {
+    "id": "lorfeo-monteverdi",
+    "title": "L'Orfeo (Monteverdi, 1607)",
+    "type": "work",
+    "disciplines": ["music", "literature"],
+    "historicalPeriods": ["early-modern"],
+    "startDate": "1607",
+    "endDate": null,
+    "datePrecision": "year",
+    "summary": "Primera gran ópera de la historia, estrenada en Mantua en 1607; establece el recitativo, la aria y el uso expresivo de la orquesta.",
+    "description": "L'Orfeo, favola in musica de Claudio Monteverdi con libreto de Alessandro Striggio, fue estrenada en el Palazzo Ducale de Mantua en el Carnaval de 1607 (probablemente el 24 de febrero). Es la primera ópera con partitura completa conservada y la primera en emplear una gran orquesta (unos 40 instrumentos), el recitativo expresivo y la aria diferenciada. Basada en el mito griego de Orfeo y Eurídice, incluye la célebre aria 'Possente spirto'. Fue publicada en 1609 por Ricciardo Amadino en Venecia. Es el punto de partida formal de la historia de la ópera occidental.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Mantua", "lat": 45.157, "lng": 10.791, "wikidataId": "Q6372", "role": "estreno en el Palazzo Ducale, Carnaval de 1607" },
+      { "name": "Venecia", "lat": 45.437, "lng": 12.335, "wikidataId": "Q641", "role": "publicación de la partitura (1609, Ricciardo Amadino)" }
+    ],
+    "relations": [
+      { "targetId": "monteverdi", "relationType": "belonged_to", "strength": 5 },
+      { "targetId": "baroque", "relationType": "part_of", "strength": 4 },
+      { "targetId": "renaissance", "relationType": "followed", "strength": 3, "note": "Última resonancia del humanismo renacentista aplicada a la música" }
+    ],
+    "sources": [
+      {
+        "title": "Monteverdi: Orfeo",
+        "author": "Whenham, John (ed.)",
+        "publisher": "Cambridge University Press",
+        "year": "1986",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "L'Orfeo",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/LOrfeo",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["ópera", "Mantua", "1607", "Orfeo", "primer ópera"]
+  },
+  {
+    "id": "four-seasons-vivaldi",
+    "title": "Las Cuatro Estaciones (Vivaldi)",
+    "type": "work",
+    "disciplines": ["music"],
+    "historicalPeriods": ["early-modern"],
+    "startDate": "1725",
+    "endDate": null,
+    "datePrecision": "approximate",
+    "summary": "Ciclo de cuatro conciertos para violín de Vivaldi (Op. 8, 1725), la obra del Barroco instrumental más interpretada de todos los tiempos.",
+    "description": "Las Cuatro Estaciones (Le quattro stagioni) son los cuatro primeros conciertos del Op. 8 de Antonio Vivaldi, Il cimento dell'armonia e dell'inventione, publicado en Ámsterdam por Michel Le Cène en 1725. Cada concierto (Primavera, RV 269; Verano, RV 315; Otoño, RV 293; Invierno, RV 297) va acompañado de un soneto (probablemente del propio Vivaldi) que describe la estación representada. Escritos para violín solista, cuerdas y clave, son el ejemplo más celebrado de música programática del Barroco. Copias manuscritas en Dresden sugieren una composición anterior a 1717. Son las obras barrocas más grabadas e interpretadas de la historia.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Venecia", "lat": 45.437, "lng": 12.335, "wikidataId": "Q641", "role": "lugar de composición, Ospedale della Pietà" },
+      { "name": "Ámsterdam", "lat": 52.374, "lng": 4.890, "wikidataId": "Q727", "role": "publicación por Michel Le Cène (1725)" }
+    ],
+    "relations": [
+      { "targetId": "antonio-vivaldi", "relationType": "belonged_to", "strength": 5 },
+      { "targetId": "baroque", "relationType": "part_of", "strength": 5 }
+    ],
+    "sources": [
+      {
+        "title": "The Cambridge Companion to Vivaldi",
+        "author": "Talbot, Michael (ed.)",
+        "publisher": "Cambridge University Press",
+        "year": "2004",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "The Four Seasons",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/The-Four-Seasons-musical-work-Vivaldi",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05",
+      "notes": "Fecha de composición aproximada; publicadas en 1725 pero manuscritos de Dresden fechados c. 1716–1717"
+    },
+    "layer": "detailed",
+    "tags": ["concierto", "violín", "programa", "barroco", "Vivaldi"]
+  },
+  {
+    "id": "messiah-handel",
+    "title": "El Mesías (Händel, 1741)",
+    "type": "work",
+    "disciplines": ["music", "religion"],
+    "historicalPeriods": ["enlightenment"],
+    "startDate": "1741",
+    "endDate": null,
+    "datePrecision": "year",
+    "summary": "Oratorio de Händel compuesto en 24 días (1741) y estrenado en Dublín en 1742; la obra coral sacra más interpretada de la historia occidental.",
+    "description": "El Mesías (Messiah, HWV 56) es el oratorio en inglés de Georg Friedrich Händel, con texto compilado por Charles Jennens a partir de la Biblia del Rey Jacobo y el Libro de Oración Común. Händel lo compuso entre el 22 de agosto y el 14 de septiembre de 1741 en Londres, en apenas 24 días. El estreno tuvo lugar en Dublín el 13 de abril de 1742 en el New Musick Hall de Fishamble Street, ante un público de 700 personas. La primera representación en Londres (Covent Garden, 23 de marzo de 1743) se realizó ante el rey Jorge II. Consta de tres partes y 53 números; el 'Coro del Aleluya' es su momento más célebre. Es la obra coral sacra más interpretada en el mundo occidental.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Londres", "lat": 51.507, "lng": -0.127, "wikidataId": "Q84", "role": "composición (agosto–septiembre 1741)" },
+      { "name": "Dublín", "lat": 53.333, "lng": -6.249, "wikidataId": "Q1761", "role": "estreno mundial, 13 de abril de 1742" }
+    ],
+    "relations": [
+      { "targetId": "handel", "relationType": "belonged_to", "strength": 5 },
+      { "targetId": "baroque", "relationType": "part_of", "strength": 4 },
+      { "targetId": "protestant-reformation", "relationType": "influenced_by", "strength": 3, "note": "El oratorio en inglés surgió en el contexto protestante anglosajón" }
+    ],
+    "sources": [
+      {
+        "title": "Handel's Messiah: A Touchstone of Taste",
+        "author": "Smither, Howard E.",
+        "publisher": "University of North Carolina Press",
+        "year": "1987",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Messiah",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Messiah-oratorio",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["oratorio", "Aleluya", "Dublín", "1742", "coral"]
+  }
+]

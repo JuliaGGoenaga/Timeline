@@ -1,0 +1,1994 @@
+[
+  {
+    "id": "filosofia-griega-clasica",
+    "title": "Filosofía griega clásica",
+    "type": "movement",
+    "disciplines": [
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
+    "startDate": "-600",
+    "endDate": "-300",
+    "datePrecision": "century",
+    "summary": "Desarrollo del pensamiento racional griego desde los presocráticos hasta Platón y Aristóteles.",
+    "description": "El período abarca desde los filósofos naturalistas de Mileto hasta las grandes escuelas de Atenas. Estableció las bases de la lógica, la metafísica, la ética y la política occidental.",
+    "importance": 10,
+    "regions": [
+      "mediterranean"
+    ],
+    "places": [
+      {
+        "name": "Atenas",
+        "lat": 37.97,
+        "lng": 23.72,
+        "role": "centro filosófico principal"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "estoicismo",
+        "relationType": "precedes",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Oxford Handbook of Greek Philosophy",
+        "author": "Warren, J.",
+        "publisher": "Oxford University Press",
+        "year": "2009",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "estoicismo",
+    "title": "Estoicismo",
+    "type": "movement",
+    "disciplines": [
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity",
+      "late-antiquity"
+    ],
+    "startDate": "-300",
+    "endDate": "200",
+    "datePrecision": "century",
+    "summary": "Escuela filosófica fundada por Zenón de Citio que enseña la virtud como único bien verdadero.",
+    "description": "El estoicismo enseñaba que la felicidad se alcanza viviendo según la razón y la naturaleza, aceptando lo que no podemos cambiar. Tuvo enorme influencia en Roma a través de Séneca, Epicteto y Marco Aurelio.",
+    "importance": 9,
+    "regions": [
+      "mediterranean"
+    ],
+    "places": [
+      {
+        "name": "Atenas",
+        "lat": 37.97,
+        "lng": 23.72,
+        "role": "origen"
+      },
+      {
+        "name": "Roma",
+        "lat": 41.9,
+        "lng": 12.5,
+        "role": "difusión romana"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "filosofia-griega-clasica",
+        "relationType": "evolves-from",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Stoics",
+        "author": "Rist, J.M.",
+        "publisher": "University of California Press",
+        "year": "1978",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "neoplatonismo",
+    "title": "Neoplatonismo",
+    "type": "movement",
+    "disciplines": [
+      "philosophy",
+      "religion"
+    ],
+    "historicalPeriods": [
+      "late-antiquity"
+    ],
+    "startDate": "200",
+    "endDate": "600",
+    "datePrecision": "century",
+    "summary": "Corriente filosófica que reinterpreta a Platón integrando elementos místicos y religiosos.",
+    "description": "Fundado por Plotino, el neoplatonismo sintetizó la filosofía platónica con elementos orientales y religiosos. Influyó profundamente en la teología cristiana y en el pensamiento islámico y judío medievales.",
+    "importance": 8,
+    "regions": [
+      "mediterranean"
+    ],
+    "places": [
+      {
+        "name": "Alejandría",
+        "lat": 31.2,
+        "lng": 29.92,
+        "role": "centro intelectual"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "escolastica",
+        "relationType": "influences",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Neoplatonism",
+        "author": "Gerson, L.P.",
+        "publisher": "Routledge",
+        "year": "1994",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "escolastica",
+    "title": "Escolástica",
+    "type": "movement",
+    "disciplines": [
+      "philosophy",
+      "religion"
+    ],
+    "historicalPeriods": [
+      "middle-ages"
+    ],
+    "startDate": "1100",
+    "endDate": "1400",
+    "datePrecision": "century",
+    "summary": "Método filosófico-teológico medieval que intentó conciliar la fe cristiana con la razón aristotélica.",
+    "description": "La escolástica dominó las universidades medievales europeas. Con figuras como Tomás de Aquino y Alberto Magno, buscó armonizar la filosofía griega —especialmente Aristóteles— con la doctrina cristiana.",
+    "importance": 9,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "centro universitario"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "humanismo-renacimiento",
+        "relationType": "precedes",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Medieval Philosophy",
+        "author": "Marenbon, J.",
+        "publisher": "Routledge",
+        "year": "2007",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "humanismo-renacimiento",
+    "title": "Humanismo renacentista",
+    "type": "movement",
+    "disciplines": [
+      "philosophy",
+      "literature"
+    ],
+    "historicalPeriods": [
+      "renaissance"
+    ],
+    "startDate": "1350",
+    "endDate": "1600",
+    "datePrecision": "decade",
+    "summary": "Movimiento intelectual que situó al ser humano en el centro del pensamiento, recuperando la cultura clásica grecolatina.",
+    "description": "El humanismo renacentista rechazó la visión teocéntrica medieval y reivindicó el valor de la dignidad humana, la educación clásica y la experiencia. Fue el fundamento cultural del Renacimiento europeo.",
+    "importance": 10,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Florencia",
+        "lat": 43.77,
+        "lng": 11.25,
+        "role": "epicentro intelectual"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "racionalismo",
+        "relationType": "precedes",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Renaissance",
+        "author": "Burckhardt, J.",
+        "publisher": "Phaidon Press",
+        "year": "1945",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "racionalismo",
+    "title": "Racionalismo",
+    "type": "movement",
+    "disciplines": [
+      "philosophy",
+      "science"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
+    "startDate": "1600",
+    "endDate": "1750",
+    "datePrecision": "decade",
+    "summary": "Corriente filosófica que considera la razón como fuente primaria del conocimiento.",
+    "description": "Representado por Descartes, Spinoza y Leibniz, el racionalismo postulaba que el conocimiento verdadero se obtiene mediante la razón pura, independientemente de los sentidos. Transformó la epistemología y la metafísica modernas.",
+    "importance": 9,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Amsterdam",
+        "lat": 52.37,
+        "lng": 4.9,
+        "role": "centro de publicación"
+      },
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Descartes"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "empirismo",
+        "relationType": "opposes",
+        "strength": 4
+      },
+      {
+        "targetId": "ilustracion-mov",
+        "relationType": "precedes",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rationalism",
+        "author": "Cottingham, J.",
+        "publisher": "Paladin",
+        "year": "1984",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "empirismo",
+    "title": "Empirismo",
+    "type": "movement",
+    "disciplines": [
+      "philosophy",
+      "science"
+    ],
+    "historicalPeriods": [
+      "early-modern",
+      "enlightenment"
+    ],
+    "startDate": "1620",
+    "endDate": "1780",
+    "datePrecision": "decade",
+    "summary": "Corriente que sostiene que el conocimiento proviene principalmente de la experiencia sensible.",
+    "description": "Bacon, Locke, Berkeley y Hume desarrollaron la idea de que la mente es una tabula rasa y el conocimiento se construye a partir de la experiencia. Influyó directamente en el método científico y en la filosofía política liberal.",
+    "importance": 9,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "role": "centro de desarrollo"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "racionalismo",
+        "relationType": "opposes",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Empiricism and the Philosophy of Mind",
+        "author": "Sellars, W.",
+        "publisher": "Harvard University Press",
+        "year": "1997",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "idealismo-aleman",
+    "title": "Idealismo alemán",
+    "type": "movement",
+    "disciplines": [
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "revolutionary-age",
+      "19th-century"
+    ],
+    "startDate": "1780",
+    "endDate": "1850",
+    "datePrecision": "decade",
+    "summary": "Corriente filosófica alemana que desarrolló la idea de que la realidad es fundamentalmente mental o espiritual.",
+    "description": "De Kant a Hegel, pasando por Fichte y Schelling, el idealismo alemán transformó la filosofía occidental. La dialéctica hegeliana y el concepto de Geist (espíritu) influyeron en Marx, el existencialismo y la teoría crítica.",
+    "importance": 9,
+    "regions": [
+      "central-europe"
+    ],
+    "places": [
+      {
+        "name": "Berlín",
+        "lat": 52.52,
+        "lng": 13.4,
+        "role": "Hegel"
+      },
+      {
+        "name": "Königsberg",
+        "lat": 54.71,
+        "lng": 20.51,
+        "role": "Kant"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "marxismo",
+        "relationType": "influences",
+        "strength": 5
+      },
+      {
+        "targetId": "existencialismo",
+        "relationType": "influences",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "German Idealism",
+        "author": "Beiser, F.",
+        "publisher": "Harvard University Press",
+        "year": "2002",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "marxismo",
+    "title": "Marxismo",
+    "type": "movement",
+    "disciplines": [
+      "philosophy",
+      "politics",
+      "economy"
+    ],
+    "historicalPeriods": [
+      "19th-century",
+      "early-20th",
+      "cold-war"
+    ],
+    "startDate": "1848",
+    "endDate": "1991",
+    "datePrecision": "year",
+    "summary": "Teoría política, económica y filosófica basada en el análisis materialista de la historia y la lucha de clases.",
+    "description": "Desarrollado por Karl Marx y Friedrich Engels, el marxismo analizó el capitalismo y propuso su superación mediante la revolución proletaria. Influyó en movimientos sociales, partidos políticos y gobiernos en todo el mundo durante los siglos XIX y XX.",
+    "importance": 10,
+    "regions": [
+      "europe",
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "role": "Marx escribió El Capital"
+      },
+      {
+        "name": "Moscú",
+        "lat": 55.75,
+        "lng": 37.62,
+        "role": "aplicación soviética"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "idealismo-aleman",
+        "relationType": "evolves-from",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Communist Manifesto",
+        "author": "Marx, K.; Engels, F.",
+        "publisher": "Various",
+        "year": "1848",
+        "type": "primary_source",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "existencialismo",
+    "title": "Existencialismo",
+    "type": "movement",
+    "disciplines": [
+      "philosophy",
+      "literature"
+    ],
+    "historicalPeriods": [
+      "early-20th",
+      "cold-war"
+    ],
+    "startDate": "1840",
+    "endDate": "1970",
+    "datePrecision": "decade",
+    "summary": "Corriente filosófica que sitúa la existencia individual, la libertad y la responsabilidad en el centro de la reflexión.",
+    "description": "Desde Kierkegaard y Nietzsche hasta Heidegger, Sartre y Camus, el existencialismo exploró la condición humana ante la angustia, la libertad y la absurdidad. Tuvo un enorme impacto cultural en la literatura y el arte del siglo XX.",
+    "importance": 9,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "existencialismo francés"
+      },
+      {
+        "name": "Copenhague",
+        "lat": 55.68,
+        "lng": 12.57,
+        "role": "Kierkegaard"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "idealismo-aleman",
+        "relationType": "responds-to",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Existentialism",
+        "author": "Sartre, J.P.",
+        "publisher": "Philosophical Library",
+        "year": "1947",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "positivismo",
+    "title": "Positivismo",
+    "type": "movement",
+    "disciplines": [
+      "philosophy",
+      "science"
+    ],
+    "historicalPeriods": [
+      "19th-century"
+    ],
+    "startDate": "1830",
+    "endDate": "1920",
+    "datePrecision": "decade",
+    "summary": "Corriente filosófica que considera el conocimiento científico como el único conocimiento válido.",
+    "description": "Auguste Comte sistematizó el positivismo como la doctrina de que solo el conocimiento basado en hechos observables tiene valor. Influyó decisivamente en el desarrollo de las ciencias sociales y en la visión científica del mundo en el siglo XIX.",
+    "importance": 8,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Comte desarrolló la doctrina"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "The Course of Positive Philosophy",
+        "author": "Comte, A.",
+        "publisher": "Various",
+        "year": "1830",
+        "type": "primary_source",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "canto-gregoriano",
+    "title": "Canto gregoriano",
+    "type": "movement",
+    "disciplines": [
+      "music",
+      "religion"
+    ],
+    "historicalPeriods": [
+      "middle-ages"
+    ],
+    "startDate": "600",
+    "endDate": "1200",
+    "datePrecision": "century",
+    "summary": "Música vocal litúrgica monofónica de la Iglesia católica romana que dominó la tradición musical medieval.",
+    "description": "El canto gregoriano, codificado durante el papado de Gregorio I, constituyó la base de toda la música occidental posterior. Su notación y modos influyeron directamente en el desarrollo de la polifonía y la armonía tonal.",
+    "importance": 9,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Roma",
+        "lat": 41.9,
+        "lng": 12.5,
+        "role": "origen litúrgico"
+      },
+      {
+        "name": "Montecassino",
+        "lat": 41.47,
+        "lng": 13.82,
+        "role": "monasterio benedictino clave"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "polifonia-medieval",
+        "relationType": "precedes",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "The New Grove Dictionary of Music and Musicians",
+        "author": "Sadie, S. (ed.)",
+        "publisher": "Macmillan",
+        "year": "2001",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "polifonia-medieval",
+    "title": "Polifonía medieval",
+    "type": "movement",
+    "disciplines": [
+      "music"
+    ],
+    "historicalPeriods": [
+      "middle-ages"
+    ],
+    "startDate": "1100",
+    "endDate": "1400",
+    "datePrecision": "century",
+    "summary": "Desarrollo de la música con múltiples voces simultáneas independientes.",
+    "description": "La polifonía emergió en Notre Dame de París con Léonin y Pérotin. Evolucionó hacia el Ars Nova del siglo XIV con Guillaume de Machaut. Transformó radicalmente la concepción musical europea.",
+    "importance": 9,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Escuela de Notre Dame"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "canto-gregoriano",
+        "relationType": "evolves-from",
+        "strength": 5
+      },
+      {
+        "targetId": "musica-renacimiento",
+        "relationType": "precedes",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The New Grove Dictionary of Music and Musicians",
+        "author": "Sadie, S. (ed.)",
+        "publisher": "Macmillan",
+        "year": "2001",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "musica-renacimiento",
+    "title": "Música del Renacimiento",
+    "type": "movement",
+    "disciplines": [
+      "music"
+    ],
+    "historicalPeriods": [
+      "renaissance"
+    ],
+    "startDate": "1400",
+    "endDate": "1600",
+    "datePrecision": "decade",
+    "summary": "Período musical caracterizado por la polifonía vocal elaborada, la música secular y el humanismo musical.",
+    "description": "La música renacentista, con la escuela francoflamente (Dufay, Josquin des Prez) y la escuela veneciana (Giovanni Gabrieli), desarrolló la música vocal polifónica y sentó las bases del sistema tonal moderno.",
+    "importance": 8,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Venecia",
+        "lat": 45.44,
+        "lng": 12.33,
+        "role": "Escuela veneciana"
+      },
+      {
+        "name": "Roma",
+        "lat": 41.9,
+        "lng": 12.5,
+        "role": "Capilla Sixtina"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "polifonia-medieval",
+        "relationType": "evolves-from",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Music in the Renaissance",
+        "author": "Reese, G.",
+        "publisher": "Norton",
+        "year": "1954",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "clasicismo-musical",
+    "title": "Clasicismo musical",
+    "type": "movement",
+    "disciplines": [
+      "music"
+    ],
+    "historicalPeriods": [
+      "enlightenment",
+      "revolutionary-age"
+    ],
+    "startDate": "1750",
+    "endDate": "1820",
+    "datePrecision": "decade",
+    "summary": "Período musical dominado por Haydn, Mozart y Beethoven, caracterizado por la forma sonata y la sinfonía.",
+    "description": "El clasicismo musical desarrolló formas estructuradas como la sinfonía, el cuarteto de cuerda y la ópera. Viena fue su centro principal. La claridad formal y el equilibrio emocional definen este período.",
+    "importance": 9,
+    "regions": [
+      "central-europe"
+    ],
+    "places": [
+      {
+        "name": "Viena",
+        "lat": 48.21,
+        "lng": 16.37,
+        "role": "capital musical del clasicismo"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "The Classical Style",
+        "author": "Rosen, C.",
+        "publisher": "Norton",
+        "year": "1971",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "jazz",
+    "title": "Jazz",
+    "type": "movement",
+    "disciplines": [
+      "music"
+    ],
+    "historicalPeriods": [
+      "early-20th",
+      "cold-war"
+    ],
+    "startDate": "1895",
+    "endDate": "1975",
+    "datePrecision": "decade",
+    "summary": "Género musical nacido en Nueva Orleans que combinó tradiciones africanas y europeas mediante la improvisación.",
+    "description": "El jazz emergió en el sur de Estados Unidos a finales del siglo XIX. Pasó por el ragtime, el blues, el swing, el bebop y el jazz modal. Influyó en toda la música popular del siglo XX y se convirtió en símbolo de libertad e innovación.",
+    "importance": 9,
+    "regions": [
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Nueva Orleans",
+        "lat": 29.95,
+        "lng": -90.07,
+        "role": "ciudad de origen"
+      },
+      {
+        "name": "Nueva York",
+        "lat": 40.71,
+        "lng": -74.01,
+        "role": "Harlem Renaissance y bebop"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "The History of Jazz",
+        "author": "Gioia, T.",
+        "publisher": "Oxford University Press",
+        "year": "1997",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "cine-silente",
+    "title": "Cine silente",
+    "type": "movement",
+    "disciplines": [
+      "cinema"
+    ],
+    "historicalPeriods": [
+      "belle-epoque",
+      "early-20th"
+    ],
+    "startDate": "1895",
+    "endDate": "1930",
+    "datePrecision": "year",
+    "summary": "Primera etapa del cine, sin sonido sincronizado, que desarrolló el lenguaje visual cinematográfico.",
+    "description": "Desde los Lumière hasta Chaplin, Griffith y Eisenstein, el cine silente inventó los fundamentos del lenguaje cinematográfico: el montaje, el primer plano, el travelling y la narrativa visual. Sus innovaciones formales siguen siendo la base del cine moderno.",
+    "importance": 9,
+    "regions": [
+      "western-europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Lumière, origen del cine"
+      },
+      {
+        "name": "Hollywood",
+        "lat": 34.09,
+        "lng": -118.33,
+        "role": "industria americana"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "neorrealismo-italiano",
+        "relationType": "precedes",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "A History of Narrative Film",
+        "author": "Cook, D.A.",
+        "publisher": "Norton",
+        "year": "2004",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "neorrealismo-italiano",
+    "title": "Neorrealismo italiano",
+    "type": "movement",
+    "disciplines": [
+      "cinema"
+    ],
+    "historicalPeriods": [
+      "cold-war"
+    ],
+    "startDate": "1942",
+    "endDate": "1960",
+    "datePrecision": "year",
+    "summary": "Movimiento cinematográfico italiano que retrató la realidad social de posguerra con rodajes en exteriores y actores no profesionales.",
+    "description": "Con Rossellini, De Sica y Visconti, el neorrealismo filmó en las calles destruidas de la Italia de posguerra. Roma, ciudad abierta, Ladrón de bicicletas o La tierra tiembla redefinieron el compromiso social del cine. Influyó en la Nouvelle Vague y en el cine independiente mundial.",
+    "importance": 9,
+    "regions": [
+      "southern-europe"
+    ],
+    "places": [
+      {
+        "name": "Roma",
+        "lat": 41.9,
+        "lng": 12.5,
+        "role": "epicentro del movimiento"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "nouvelle-vague",
+        "relationType": "influences",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Italian Neorealism",
+        "author": "Sitney, P.A.",
+        "publisher": "Yale University Press",
+        "year": "1995",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "nouvelle-vague",
+    "title": "Nouvelle Vague",
+    "type": "movement",
+    "disciplines": [
+      "cinema"
+    ],
+    "historicalPeriods": [
+      "cold-war"
+    ],
+    "startDate": "1958",
+    "endDate": "1973",
+    "datePrecision": "year",
+    "summary": "Movimiento cinematográfico francés que rompió con el cine clásico mediante cámara libre, rodaje en exteriores y referencias cinéfilas.",
+    "description": "Godard, Truffaut, Chabrol y Rohmer revolucionaron el cine con presupuestos mínimos, cámaras ligeras y una nueva libertad narrativa. La politique des auteurs convirtió al director en autor. Transformó el cine mundial.",
+    "importance": 9,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "origen y desarrollo"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "neorrealismo-italiano",
+        "relationType": "evolves-from",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The French New Wave",
+        "author": "Marie, M.",
+        "publisher": "Wiley-Blackwell",
+        "year": "2003",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "feudalismo",
+    "title": "Feudalismo",
+    "type": "movement",
+    "disciplines": [
+      "society",
+      "politics"
+    ],
+    "historicalPeriods": [
+      "middle-ages"
+    ],
+    "startDate": "800",
+    "endDate": "1400",
+    "datePrecision": "century",
+    "summary": "Sistema político y económico medieval basado en la jerarquía de señores y vasallos y la economía agraria.",
+    "description": "El feudalismo organizó la sociedad medieval europea en torno a la tierra, la lealtad personal y el servicio militar. Aunque varió enormemente según región y época, estructuró la vida política, económica y social durante siglos.",
+    "importance": 9,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Francia",
+        "lat": 46,
+        "lng": 2,
+        "role": "modelo feudal clásico"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "colonialismo-europeo",
+        "relationType": "precedes",
+        "strength": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "Feudal Society",
+        "author": "Bloch, M.",
+        "publisher": "University of Chicago Press",
+        "year": "1961",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "colonialismo-europeo",
+    "title": "Colonialismo europeo",
+    "type": "movement",
+    "disciplines": [
+      "politics",
+      "society",
+      "economy"
+    ],
+    "historicalPeriods": [
+      "early-modern",
+      "enlightenment",
+      "revolutionary-age",
+      "19th-century"
+    ],
+    "startDate": "1492",
+    "endDate": "1960",
+    "datePrecision": "year",
+    "summary": "Proceso de expansión, conquista y dominación europea sobre otros territorios y pueblos.",
+    "description": "El colonialismo europeo comenzó con los viajes de exploración portugueses y españoles. Rediseñó el mapa mundial, destruyó civilizaciones, generó riqueza sin precedentes en Europa y dejó secuelas económicas, políticas y culturales que perduran hasta hoy.",
+    "importance": 10,
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Lisboa",
+        "lat": 38.72,
+        "lng": -9.14,
+        "role": "inicio de la expansión portuguesa"
+      },
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "role": "Imperio Británico"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "Colonialism: A Theoretical Overview",
+        "author": "Osterhammel, J.",
+        "publisher": "Markus Wiener",
+        "year": "1997",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "capitalismo-industrial",
+    "title": "Capitalismo industrial",
+    "type": "movement",
+    "disciplines": [
+      "economy",
+      "society"
+    ],
+    "historicalPeriods": [
+      "revolutionary-age",
+      "19th-century"
+    ],
+    "startDate": "1760",
+    "endDate": "1914",
+    "datePrecision": "decade",
+    "summary": "Sistema económico basado en la propiedad privada de los medios de producción industriales y el trabajo asalariado.",
+    "description": "La Revolución Industrial transformó la economía artesanal en un sistema de fábricas, salarios y mercados globales. La acumulación de capital, la división del trabajo y la innovación tecnológica redefinieron la sociedad, la ciudad y las relaciones laborales.",
+    "importance": 10,
+    "regions": [
+      "western-europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Manchester",
+        "lat": 53.48,
+        "lng": -2.24,
+        "role": "primera ciudad industrial"
+      },
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "role": "centro financiero"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "marxismo",
+        "relationType": "generates",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Age of Capital",
+        "author": "Hobsbawm, E.",
+        "publisher": "Weidenfeld & Nicolson",
+        "year": "1975",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "movimiento-obrero",
+    "title": "Movimiento obrero",
+    "type": "movement",
+    "disciplines": [
+      "society",
+      "politics"
+    ],
+    "historicalPeriods": [
+      "19th-century",
+      "early-20th"
+    ],
+    "startDate": "1830",
+    "endDate": "1945",
+    "datePrecision": "decade",
+    "summary": "Organización colectiva de trabajadores para defender sus derechos frente al capitalismo industrial.",
+    "description": "Sindicatos, cooperativas, partidos socialistas y anarquistas canalizaron la resistencia obrera. La jornada de ocho horas, el sufragio universal y los derechos laborales son conquistas directas de este movimiento.",
+    "importance": 9,
+    "regions": [
+      "western-europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Manchester",
+        "lat": 53.48,
+        "lng": -2.24,
+        "role": "primeros sindicatos"
+      },
+      {
+        "name": "Chicago",
+        "lat": 41.88,
+        "lng": -87.63,
+        "role": "Primero de Mayo 1886"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "marxismo",
+        "relationType": "influenced-by",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Working-Class Formation",
+        "author": "Katznelson, I.; Zolberg, A.",
+        "publisher": "Princeton University Press",
+        "year": "1986",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "globalizacion",
+    "title": "Globalización",
+    "type": "movement",
+    "disciplines": [
+      "economy",
+      "society"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
+    "startDate": "1980",
+    "endDate": "2025",
+    "datePrecision": "decade",
+    "summary": "Integración económica, cultural y política de los países a escala mundial acelerada por internet y el libre comercio.",
+    "description": "La caída del muro de Berlín, internet, el libre comercio y las cadenas de suministro globales transformaron la economía y la cultura. Generó crecimiento y redujo la pobreza en algunos países, pero también desigualdad y pérdida de identidades locales.",
+    "importance": 9,
+    "regions": [
+      "global"
+    ],
+    "places": [],
+    "relations": [],
+    "sources": [
+      {
+        "title": "The Globalization Paradox",
+        "author": "Rodrik, D.",
+        "publisher": "Norton",
+        "year": "2011",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "fisica-moderna",
+    "title": "Física moderna",
+    "type": "movement",
+    "disciplines": [
+      "science"
+    ],
+    "historicalPeriods": [
+      "early-20th"
+    ],
+    "startDate": "1895",
+    "endDate": "1950",
+    "datePrecision": "year",
+    "summary": "Revolución científica que transformó la física con la relatividad, la mecánica cuántica y la física nuclear.",
+    "description": "Einstein, Bohr, Heisenberg, Planck y Curie redefinieron la naturaleza del espacio, el tiempo, la materia y la energía. La relatividad especial y la mecánica cuántica rompieron con la física newtoniana y abrieron la era nuclear y tecnológica.",
+    "importance": 10,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Berlín",
+        "lat": 52.52,
+        "lng": 13.4,
+        "role": "Einstein, Planck"
+      },
+      {
+        "name": "Copenhague",
+        "lat": 55.68,
+        "lng": 12.57,
+        "role": "Bohr, interpretación de Copenhague"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "The Making of the Atomic Bomb",
+        "author": "Rhodes, R.",
+        "publisher": "Simon & Schuster",
+        "year": "1986",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "revolucion-digital",
+    "title": "Revolución digital",
+    "type": "movement",
+    "disciplines": [
+      "technology",
+      "science"
+    ],
+    "historicalPeriods": [
+      "cold-war",
+      "contemporary"
+    ],
+    "startDate": "1950",
+    "endDate": "2025",
+    "datePrecision": "decade",
+    "summary": "Transformación de la sociedad provocada por la informática, internet y la digitalización de la información.",
+    "description": "Del transistor al ordenador personal, de internet a los smartphones y la inteligencia artificial: la revolución digital ha transformado la economía, la comunicación, la cultura y las relaciones humanas más rápidamente que cualquier revolución anterior.",
+    "importance": 10,
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Silicon Valley",
+        "lat": 37.38,
+        "lng": -122.08,
+        "role": "epicentro tecnológico"
+      },
+      {
+        "name": "Cambridge",
+        "lat": 52.2,
+        "lng": 0.12,
+        "role": "Turing y los orígenes de la computación"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "globalizacion",
+        "relationType": "enables",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Second Machine Age",
+        "author": "Brynjolfsson, E.; McAfee, A.",
+        "publisher": "Norton",
+        "year": "2014",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "arte-rupestre",
+    "title": "Arte rupestre paleolítico",
+    "type": "movement",
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "prehistory"
+    ],
+    "startDate": "-40000",
+    "endDate": "-10000",
+    "datePrecision": "approximate",
+    "summary": "Primeras manifestaciones artísticas humanas en cuevas, representando animales y figuras humanas.",
+    "description": "Las pinturas de Altamira, Lascaux y Chauvet constituyen las primeras expresiones artísticas conocidas. Representan bisontes, mamuts y rituales. Su sofisticación revela capacidades cognitivas y simbólicas plenamente desarrolladas en el Homo sapiens.",
+    "importance": 10,
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Altamira",
+        "lat": 43.38,
+        "lng": -4.11,
+        "role": "cueva con pinturas paleolíticas"
+      },
+      {
+        "name": "Lascaux",
+        "lat": 45.05,
+        "lng": 1.08,
+        "role": "cueva con pinturas paleolíticas"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "The Creative Explosion",
+        "author": "Pfeiffer, J.",
+        "publisher": "Harper & Row",
+        "year": "1982",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "partially_verified",
+      "lastReviewed": "2024-01-01",
+      "notes": "Fechas aproximadas basadas en datación por carbono-14"
+    }
+  },
+  {
+    "id": "arte-egipcio",
+    "title": "Arte egipcio",
+    "type": "style",
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "ancient-east"
+    ],
+    "startDate": "-3100",
+    "endDate": "-30",
+    "datePrecision": "century",
+    "summary": "Tradición artística y arquitectónica del antiguo Egipto, caracterizada por su rigidez formal, simbología religiosa y escala monumental.",
+    "description": "El arte egipcio mantuvo una coherencia estilística extraordinaria durante tres milenios. Sus cánones de representación —figura en doble perspectiva, jerarquía de tamaño, frontalidad— respondían a funciones religiosas y políticas. Pirámides, templos y estatuaria son sus expresiones más conocidas.",
+    "importance": 10,
+    "regions": [
+      "middle-east",
+      "africa"
+    ],
+    "places": [
+      {
+        "name": "Menfis",
+        "lat": 29.85,
+        "lng": 31.25,
+        "role": "capital del Imperio Antiguo"
+      },
+      {
+        "name": "Tebas",
+        "lat": 25.72,
+        "lng": 32.64,
+        "role": "capital del Imperio Nuevo"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "Egyptian Art",
+        "author": "Robins, G.",
+        "publisher": "Harvard University Press",
+        "year": "1997",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "arte-romanico",
+    "title": "Arte románico",
+    "type": "style",
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "middle-ages"
+    ],
+    "startDate": "1000",
+    "endDate": "1200",
+    "datePrecision": "century",
+    "summary": "Estilo artístico y arquitectónico medieval europeo caracterizado por los arcos de medio punto, los muros gruesos y la iconografía religiosa.",
+    "description": "El románico se desarrolló en los monasterios y catedrales del Camino de Santiago. Sus iglesias de nave única o tres naves, capiteles historiados y tímpanos esculpidos constituyeron el primer gran estilo internacional europeo tras la caída de Roma.",
+    "importance": 8,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Cluny",
+        "lat": 46.43,
+        "lng": 4.66,
+        "role": "abadía principal del románico"
+      },
+      {
+        "name": "Santiago de Compostela",
+        "lat": 42.88,
+        "lng": -8.54,
+        "role": "destino del Camino"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "arquitectura-gotica",
+        "relationType": "precedes",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Romanesque Architecture",
+        "author": "Conant, K.J.",
+        "publisher": "Penguin",
+        "year": "1959",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "manierismo",
+    "title": "Manierismo",
+    "type": "style",
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
+    "startDate": "1520",
+    "endDate": "1600",
+    "datePrecision": "decade",
+    "summary": "Estilo artístico que siguió al Alto Renacimiento, caracterizado por la artificiosidad, la elegancia extrema y la tensión compositiva.",
+    "description": "El manierismo surgió como reacción al equilibrio clásico del Alto Renacimiento. Pontormo, Rosso Fiorentino, Parmigianino y el Greco cultivaron figuras alargadas, colores ácidos y composiciones complejas. Reflejó la crisis espiritual y política de la Europa post-Saco de Roma.",
+    "importance": 8,
+    "regions": [
+      "southern-europe"
+    ],
+    "places": [
+      {
+        "name": "Florencia",
+        "lat": 43.77,
+        "lng": 11.25,
+        "role": "centro inicial del manierismo"
+      },
+      {
+        "name": "Toledo",
+        "lat": 39.86,
+        "lng": -4.03,
+        "role": "El Greco"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "Mannerism",
+        "author": "Shearman, J.",
+        "publisher": "Penguin",
+        "year": "1967",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "constructivismo",
+    "title": "Constructivismo ruso",
+    "type": "movement",
+    "disciplines": [
+      "art",
+      "architecture",
+      "design"
+    ],
+    "historicalPeriods": [
+      "early-20th"
+    ],
+    "startDate": "1915",
+    "endDate": "1932",
+    "datePrecision": "year",
+    "summary": "Vanguardia artística soviética que integró arte, industria y política en un proyecto de transformación social.",
+    "description": "El constructivismo —con Tatlin, Rodchenko, Lissitzky y Popova— rechazó el arte puro y abogó por el arte al servicio de la revolución. Diseño gráfico, arquitectura, teatro y cine se convirtieron en herramientas de construcción del nuevo Estado soviético.",
+    "importance": 9,
+    "regions": [
+      "eastern-europe"
+    ],
+    "places": [
+      {
+        "name": "Moscú",
+        "lat": 55.75,
+        "lng": 37.62,
+        "role": "epicentro del constructivismo"
+      },
+      {
+        "name": "Petrogrado",
+        "lat": 59.94,
+        "lng": 30.32,
+        "role": "segunda ciudad clave"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "The Great Utopia: The Russian and Soviet Avant-Garde",
+        "author": "Guggenheim Museum",
+        "publisher": "Guggenheim Museum",
+        "year": "1992",
+        "type": "museum",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "pop-art",
+    "title": "Pop Art",
+    "type": "movement",
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "cold-war"
+    ],
+    "startDate": "1955",
+    "endDate": "1975",
+    "datePrecision": "year",
+    "summary": "Movimiento artístico que incorporó imágenes de la cultura de masas, la publicidad y el consumo en la alta cultura.",
+    "description": "Andy Warhol, Roy Lichtenstein, Jasper Johns y Richard Hamilton convirtieron latas de sopa, cómics y celebridades en arte. El Pop Art cuestionó los límites entre cultura alta y baja, entre original y reproducción, y anticipó la estetización total de la vida contemporánea.",
+    "importance": 9,
+    "regions": [
+      "north-america",
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Nueva York",
+        "lat": 40.71,
+        "lng": -74.01,
+        "role": "Warhol, Factory"
+      },
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "role": "precursores británicos"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "Pop Art",
+        "author": "Livingstone, M.",
+        "publisher": "Thames and Hudson",
+        "year": "1990",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "brutalismo",
+    "title": "Brutalismo",
+    "type": "style",
+    "disciplines": [
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "cold-war"
+    ],
+    "startDate": "1950",
+    "endDate": "1980",
+    "datePrecision": "decade",
+    "summary": "Estilo arquitectónico caracterizado por la exposición del hormigón en bruto y la honestidad de los materiales estructurales.",
+    "description": "El brutalismo, derivado del béton brut de Le Corbusier, definió la arquitectura pública y universitaria de la posguerra. Smithsons, Stirling, Rudolph y Utzon construyeron edificios de una expresividad radical que hoy despiertan tan devoción como rechazo.",
+    "importance": 8,
+    "regions": [
+      "western-europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "role": "South Bank Centre, Barbican"
+      },
+      {
+        "name": "Marsella",
+        "lat": 43.3,
+        "lng": 5.37,
+        "role": "Unidad de Habitación de Le Corbusier"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "The New Brutalism",
+        "author": "Banham, R.",
+        "publisher": "Architectural Press",
+        "year": "1966",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "arquitectura-posmoderna",
+    "title": "Arquitectura posmoderna",
+    "type": "style",
+    "disciplines": [
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "cold-war",
+      "contemporary"
+    ],
+    "startDate": "1966",
+    "endDate": "2000",
+    "datePrecision": "year",
+    "summary": "Reacción al racionalismo moderno que incorporó referencias históricas, ironía y decoración.",
+    "description": "Venturi, Jencks, Graves y Moore rechazaron el dogma del Movimiento Moderno y reivindicaron la historia, el ornamento y la comunicación popular. El posmodernismo arquitectónico celebró la complejidad, la contradicción y la pluralidad de lenguajes formales.",
+    "importance": 8,
+    "regions": [
+      "north-america",
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Los Ángeles",
+        "lat": 34.05,
+        "lng": -118.24,
+        "role": "Gehry, Venturi"
+      },
+      {
+        "name": "Roma",
+        "lat": 41.9,
+        "lng": 12.5,
+        "role": "Aldo Rossi"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "The Language of Post-Modern Architecture",
+        "author": "Jencks, C.",
+        "publisher": "Academy Editions",
+        "year": "1977",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "naturalismo-literario",
+    "title": "Naturalismo",
+    "type": "movement",
+    "disciplines": [
+      "literature"
+    ],
+    "historicalPeriods": [
+      "19th-century"
+    ],
+    "startDate": "1865",
+    "endDate": "1900",
+    "datePrecision": "decade",
+    "summary": "Movimiento literario que aplicó el método científico a la descripción de la sociedad y el comportamiento humano.",
+    "description": "Zola, Flaubert y Maupassant elevaron el realismo a una observación casi científica de la determinación biológica y social del ser humano. La herencia, el medio ambiente y la clase social determinan los personajes de novelas como Germinal o Madame Bovary.",
+    "importance": 8,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "epicentro del naturalismo francés"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "The Experimental Novel",
+        "author": "Zola, E.",
+        "publisher": "Various",
+        "year": "1880",
+        "type": "primary_source",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "vanguardias-literarias",
+    "title": "Vanguardias literarias",
+    "type": "movement",
+    "disciplines": [
+      "literature"
+    ],
+    "historicalPeriods": [
+      "early-20th"
+    ],
+    "startDate": "1909",
+    "endDate": "1945",
+    "datePrecision": "year",
+    "summary": "Conjunto de movimientos que rompieron con las convenciones literarias del siglo XIX: futurismo, dadaísmo, expresionismo y surrealismo.",
+    "description": "Joyce, Kafka, Woolf, Borges, Eliot y Proust renovaron el lenguaje narrativo con el monólogo interior, la fragmentación temporal y la experimentación formal. Las vanguardias transformaron la literatura en un laboratorio de formas y conceptos.",
+    "importance": 9,
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "epicentro de las vanguardias literarias"
+      },
+      {
+        "name": "Zurich",
+        "lat": 47.38,
+        "lng": 8.54,
+        "role": "dadaísmo"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "The Pound Era",
+        "author": "Kenner, H.",
+        "publisher": "University of California Press",
+        "year": "1971",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  },
+  {
+    "id": "rock-popular",
+    "title": "Rock y música popular",
+    "type": "movement",
+    "disciplines": [
+      "music"
+    ],
+    "historicalPeriods": [
+      "cold-war",
+      "contemporary"
+    ],
+    "startDate": "1950",
+    "endDate": "2000",
+    "datePrecision": "decade",
+    "summary": "Géneros musicales populares surgidos en los años 50 que transformaron la cultura juvenil global.",
+    "description": "El rock and roll, el rhythm & blues, el pop, el punk, el hip-hop y sus derivados redefinieron la relación entre música, identidad y política. De Elvis y los Beatles a Michael Jackson y Nirvana, la música popular se convirtió en el lenguaje cultural dominante del siglo XX.",
+    "importance": 9,
+    "regions": [
+      "north-america",
+      "western-europe",
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Memphis",
+        "lat": 35.15,
+        "lng": -90.05,
+        "role": "origen del rock and roll"
+      },
+      {
+        "name": "Liverpool",
+        "lat": 53.4,
+        "lng": -2.99,
+        "role": "The Beatles"
+      }
+    ],
+    "relations": [],
+    "sources": [
+      {
+        "title": "The Rolling Stone Illustrated History of Rock & Roll",
+        "author": "Miller, J. (ed.)",
+        "publisher": "Rolling Stone Press",
+        "year": "1976",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
+  }
+]

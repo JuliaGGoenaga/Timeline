@@ -1,0 +1,114 @@
+[
+  {
+    "id": "prehistory",
+    "title": "Prehistoria",
+    "startYear": -3000000,
+    "endYear": -3200,
+    "summary": "Desde el surgimiento del Homo sapiens hasta la aparición de la escritura.",
+    "color": "#6b7280"
+  },
+  {
+    "id": "ancient-east",
+    "title": "Antigüedad oriental",
+    "startYear": -3200,
+    "endYear": -800,
+    "summary": "Primeras civilizaciones de Mesopotamia, Egipto, India y China.",
+    "color": "#92400e"
+  },
+  {
+    "id": "classical-antiquity",
+    "title": "Antigüedad clásica",
+    "startYear": -800,
+    "endYear": 476,
+    "summary": "Grecia clásica, Roma, civilizaciones helenísticas.",
+    "color": "#1d4ed8"
+  },
+  {
+    "id": "late-antiquity",
+    "title": "Antigüedad tardía",
+    "startYear": 200,
+    "endYear": 700,
+    "summary": "Transformación del mundo romano, expansión del cristianismo, migraciones.",
+    "color": "#7c3aed"
+  },
+  {
+    "id": "middle-ages",
+    "title": "Edad Media",
+    "startYear": 476,
+    "endYear": 1453,
+    "summary": "Europa feudal, Islam clásico, Bizancio, Cruzadas, gótico.",
+    "color": "#065f46"
+  },
+  {
+    "id": "renaissance",
+    "title": "Renacimiento",
+    "startYear": 1300,
+    "endYear": 1600,
+    "summary": "Renacimiento cultural e intelectual en Europa. Humanismo, perspectiva, imprenta.",
+    "color": "#b45309"
+  },
+  {
+    "id": "early-modern",
+    "title": "Edad Moderna temprana",
+    "startYear": 1500,
+    "endYear": 1700,
+    "summary": "Reforma protestante, expansión colonial, Barroco, Revolución científica.",
+    "color": "#0e7490"
+  },
+  {
+    "id": "enlightenment",
+    "title": "Ilustración",
+    "startYear": 1680,
+    "endYear": 1800,
+    "summary": "Razón, ciencia y filosofía como guías del progreso humano.",
+    "color": "#d97706"
+  },
+  {
+    "id": "revolutionary-age",
+    "title": "Era de las Revoluciones",
+    "startYear": 1760,
+    "endYear": 1850,
+    "summary": "Revolución Industrial, Revolución Francesa, independencias americanas.",
+    "color": "#dc2626"
+  },
+  {
+    "id": "19th-century",
+    "title": "Siglo XIX",
+    "startYear": 1815,
+    "endYear": 1914,
+    "summary": "Romanticismo, nacionalismos, industrialización, imperialismo, positivismo.",
+    "color": "#7c3aed"
+  },
+  {
+    "id": "belle-epoque",
+    "title": "Belle Époque y Modernismo",
+    "startYear": 1880,
+    "endYear": 1914,
+    "summary": "Florecimiento cultural europeo, Art Nouveau, modernismo, nuevas tecnologías.",
+    "color": "#059669"
+  },
+  {
+    "id": "early-20th",
+    "title": "Entreguerras y Vanguardias",
+    "startYear": 1914,
+    "endYear": 1945,
+    "summary": "Primera Guerra Mundial, vanguardias artísticas, crisis de 1929, Segunda Guerra Mundial.",
+    "color": "#b91c1c"
+  },
+  {
+    "id": "cold-war",
+    "title": "Guerra Fría y Posguerra",
+    "startYear": 1945,
+    "endYear": 1991,
+    "summary": "Bipolaridad, descolonización, modernismo tardío, contracultura, tecnología.",
+    "color": "#1e40af"
+  },
+  {
+    "id": "contemporary",
+    "title": "Era Contemporánea",
+    "startYear": 1991,
+    "endYear": 2025,
+    "summary": "Globalización, era digital, internet, posmodernismo.",
+    "color": "#0f766e"
+  }
+]

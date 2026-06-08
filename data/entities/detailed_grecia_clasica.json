@@ -1,0 +1,180 @@
+[
+  {
+    "id": "socrates",
+    "title": "Sócrates",
+    "type": "person",
+    "disciplines": ["philosophy"],
+    "historicalPeriods": ["classical-antiquity"],
+    "startDate": "-470",
+    "endDate": "-399",
+    "datePrecision": "approximate",
+    "summary": "Filósofo ateniense fundador de la filosofía occidental, maestro de Platón, cuyo método de interrogación dialéctica y muerte ejemplar definieron la ética y el pensamiento crítico.",
+    "description": "Sócrates (Atenas, c. 470 – 399 a.C.) no dejó escritos propios; lo conocemos a través de Platón, Jenofonte y Aristófanes. Desarrolló el método socrático (mayéutica): preguntas sistemáticas para llevar al interlocutor a descubrir la verdad o su propia ignorancia ('solo sé que no sé nada'). Cuestionó las convenciones morales y políticas de Atenas, lo que le granjeó enemigos. Fue juzgado en 399 a.C. acusado de impiedad y corrupción de la juventud; condenado a muerte, rechazó la huida y bebió la cicuta. Su vida y muerte se convirtieron en el paradigma del filósofo íntegro. Fue maestro directo de Platón.",
+    "importance": 10,
+    "regions": ["Europe", "Mediterranean"],
+    "places": [
+      { "name": "Atenas", "lat": 37.973, "lng": 23.726, "wikidataId": "Q1524", "role": "vivió, enseñó y murió en Atenas" }
+    ],
+    "relations": [
+      { "targetId": "classical-greece", "relationType": "part_of", "strength": 5 },
+      { "targetId": "plato", "relationType": "influenced", "strength": 5, "note": "Platón fue su discípulo directo y transmitió su pensamiento" },
+      { "targetId": "parthenon", "relationType": "contemporary_of", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Socrates: A Very Short Introduction",
+        "author": "Taylor, C. C. W.",
+        "publisher": "Oxford University Press",
+        "year": "1998",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Socrates",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Socrates",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05", "notes": "Fechas de nacimiento aproximadas; muerte en 399 a.C. bien documentada en fuentes antiguas" },
+    "layer": "detailed",
+    "tags": ["mayéutica", "Atenas", "dialéctica", "cicuta", "filosofía moral"]
+  },
+  {
+    "id": "plato",
+    "title": "Platón",
+    "type": "person",
+    "disciplines": ["philosophy"],
+    "historicalPeriods": ["classical-antiquity"],
+    "startDate": "-428",
+    "endDate": "-348",
+    "datePrecision": "approximate",
+    "summary": "Filósofo ateniense, discípulo de Sócrates y maestro de Aristóteles, cuya teoría de las Ideas y sus diálogos fundaron la tradición filosófica occidental.",
+    "description": "Platón (Atenas, c. 428 – 348 a.C.) es, junto con Aristóteles, el filósofo más influyente de la historia occidental. Discípulo de Sócrates, fundó la Academia de Atenas (c. 387 a.C.), primera institución de educación superior de Occidente. Sus diálogos (República, Simposio, Fedón, Timeo, Menón) abordan la ética, la política, el conocimiento y la belleza. Su teoría de las Ideas (o Formas) sostiene que la realidad verdadera son entidades abstractas e inmutables de las que el mundo sensible es mera sombra. Whitehead escribió que toda la filosofía occidental es 'una serie de notas a pie de página de Platón'.",
+    "importance": 10,
+    "regions": ["Europe", "Mediterranean"],
+    "places": [
+      { "name": "Atenas", "lat": 37.973, "lng": 23.726, "wikidataId": "Q1524", "role": "nacimiento, Academia y enseñanza" },
+      { "name": "Siracusa", "lat": 37.075, "lng": 15.287, "wikidataId": "Q21537", "role": "tres viajes al servicio de los tiranos de Siracusa" }
+    ],
+    "relations": [
+      { "targetId": "classical-greece", "relationType": "part_of", "strength": 5 },
+      { "targetId": "socrates", "relationType": "influenced_by", "strength": 5 },
+      { "targetId": "aristotle", "relationType": "influenced", "strength": 5 },
+      { "targetId": "renaissance", "relationType": "influenced", "strength": 4, "note": "El neoplatonismo fue clave en el pensamiento del Renacimiento" },
+      { "targetId": "enlightenment-movement", "relationType": "influenced", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Plato: A Very Short Introduction",
+        "author": "Annas, Julia",
+        "publisher": "Oxford University Press",
+        "year": "2003",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Plato",
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/plato/",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05", "notes": "Fechas aproximadas; el año -428 o -427 según fuentes" },
+    "layer": "detailed",
+    "tags": ["Academia", "Ideas", "República", "Sócrates", "diálogos"]
+  },
+  {
+    "id": "aristotle",
+    "title": "Aristóteles",
+    "type": "person",
+    "disciplines": ["philosophy", "science", "politics", "literature"],
+    "historicalPeriods": ["classical-antiquity"],
+    "startDate": "-384",
+    "endDate": "-322",
+    "datePrecision": "year",
+    "summary": "Filósofo macedonio, discípulo de Platón y tutor de Alejandro Magno, que sistematizó el conocimiento del mundo antiguo en lógica, biología, ética, política y poética.",
+    "description": "Aristóteles (Estagira, Macedonia, 384 a.C. – Calcis, Eubea, 322 a.C.) estudió en la Academia de Platón durante 20 años. Fue tutor de Alejandro Magno (343–335 a.C.) y fundó su propia escuela, el Liceo, en Atenas (335 a.C.). Su obra abarca lógica (Organon), ciencias naturales (Historia Animalium), metafísica, ética (Ética a Nicómaco), política (Política) y poética (Poética). Creó el primer sistema de lógica formal. Sus escritos biológicos describieron más de 500 especies con notable precisión. Fue la autoridad científica y filosófica dominante en Europa y el Islam medieval durante más de 1.500 años.",
+    "importance": 10,
+    "regions": ["Europe", "Middle East", "Mediterranean"],
+    "places": [
+      { "name": "Atenas", "lat": 37.973, "lng": 23.726, "wikidataId": "Q1524", "role": "Academia de Platón (367–347 a.C.), Liceo (335–323 a.C.)" },
+      { "name": "Estagira", "lat": 40.522, "lng": 23.767, "wikidataId": "Q202239", "role": "ciudad natal" }
+    ],
+    "relations": [
+      { "targetId": "classical-greece", "relationType": "part_of", "strength": 5 },
+      { "targetId": "plato", "relationType": "influenced_by", "strength": 5 },
+      { "targetId": "islamic-golden-age", "relationType": "influenced", "strength": 5, "note": "Los textos de Aristóteles fueron traducidos al árabe y desarrollados por Averroes, Avicena y otros" },
+      { "targetId": "scientific-revolution", "relationType": "influenced", "strength": 4, "note": "La Revolución Científica se definió en parte por superar el aristotelismo" },
+      { "targetId": "renaissance", "relationType": "influenced", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "Aristotle: A Very Short Introduction",
+        "author": "Barnes, Jonathan",
+        "publisher": "Oxford University Press",
+        "year": "2000",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Aristotle",
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/aristotle/",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Liceo", "lógica", "Ética a Nicómaco", "Alejandro Magno", "biología"]
+  },
+  {
+    "id": "pericles",
+    "title": "Pericles",
+    "type": "person",
+    "disciplines": ["politics", "history"],
+    "historicalPeriods": ["classical-antiquity"],
+    "startDate": "-495",
+    "endDate": "-429",
+    "datePrecision": "approximate",
+    "summary": "Estadista ateniense que lideró Atenas en su Siglo de Oro, impulsó la construcción del Partenón y consolidó la democracia.",
+    "description": "Pericles (Atenas, c. 495 – 429 a.C.) fue el líder político más influyente de Atenas durante su apogeo (461–429 a.C.), período conocido como la 'Edad de Pericles'. Impulsó la democracia ateniense, extendiendo la participación ciudadana y el pago de magistraturas. Bajo su dirección se construyó el Partenón (447–432 a.C.), los Propileos y el Erecteion en la Acrópolis, como símbolo de la hegemonía ateniense. Fue el principal estratega de la Liga de Delos y convirtió Atenas en el centro cultural del mundo griego. Murió de la gran plaga de Atenas (430–429 a.C.). Su oración fúnebre, conservada por Tucídides, es un texto fundacional de la democracia occidental.",
+    "importance": 9,
+    "regions": ["Europe", "Mediterranean"],
+    "places": [
+      { "name": "Atenas", "lat": 37.973, "lng": 23.726, "wikidataId": "Q1524", "role": "centro de su actividad política" }
+    ],
+    "relations": [
+      { "targetId": "classical-greece", "relationType": "part_of", "strength": 5 },
+      { "targetId": "parthenon", "relationType": "commissioned", "strength": 5 },
+      { "targetId": "socrates", "relationType": "contemporary_of", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "Pericles of Athens and the Birth of Democracy",
+        "author": "Kagan, Donald",
+        "publisher": "The Free Press",
+        "year": "1991",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Pericles",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Pericles-Athenian-statesman",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05", "notes": "Fecha de nacimiento aproximada; muerte en 429 a.C. bien documentada (Tucídides)" },
+    "layer": "detailed",
+    "tags": ["Acrópolis", "democracia", "Partenón", "Atenas", "Liga de Delos"]
+  }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "id": "michael-faraday",
+    "title": "Michael Faraday",
+    "type": "person",
+    "disciplines": ["science", "technology"],
+    "historicalPeriods": ["revolutionary-age", "19th-century"],
+    "startDate": "1791-09-22",
+    "endDate": "1867-08-25",
+    "datePrecision": "exact",
+    "summary": "Físico y químico británico que descubrió la inducción electromagnética (1831), sentando las bases de la electricidad moderna y los generadores eléctricos.",
+    "description": "Michael Faraday (Newington Butts, 1791 – Hampton Court, 1867) fue uno de los científicos experimentales más influyentes de la historia. Autodidacta, trabajó toda su vida en la Royal Institution de Londres. Sus descubrimientos de la inducción electromagnética (1831) y las leyes de la electrólisis fueron fundacionales para la tecnología eléctrica. Demostró que un campo magnético variable genera corriente eléctrica (principio del generador). Inventó el primer motor eléctrico primitivo y la jaula de Faraday. Sus ideas sobre campos fueron desarrolladas matemáticamente por James Clerk Maxwell y dieron lugar a la teoría del electromagnetismo.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Londres", "lat": 51.509, "lng": -0.137, "wikidataId": "Q84", "role": "Royal Institution, toda su carrera científica" }
+    ],
+    "relations": [
+      { "targetId": "industrial-revolution", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "isaac-newton", "relationType": "followed", "strength": 3 },
+      { "targetId": "thomas-edison", "relationType": "influenced", "strength": 5, "note": "Los descubrimientos de Faraday hicieron posible la generación eléctrica de Edison" },
+      { "targetId": "nikola-tesla", "relationType": "influenced", "strength": 5 }
+    ],
+    "sources": [
+      {
+        "title": "Michael Faraday: A Very Short Introduction",
+        "author": "James, Frank A. J. L.",
+        "publisher": "Oxford University Press",
+        "year": "2010",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Michael Faraday",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Michael-Faraday",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["electromagnetismo", "inducción", "Royal Institution", "generador", "electrólisis"]
+  },
+  {
+    "id": "thomas-edison",
+    "title": "Thomas Edison",
+    "type": "person",
+    "disciplines": ["technology", "science"],
+    "historicalPeriods": ["19th-century", "belle-epoque"],
+    "startDate": "1847-02-11",
+    "endDate": "1931-10-18",
+    "datePrecision": "exact",
+    "summary": "Inventor estadounidense prolífico que desarrolló el fonógrafo (1877), la bombilla incandescente práctica (1879) y el primer sistema de distribución eléctrica.",
+    "description": "Thomas Alva Edison (Milan, Ohio, 1847 – West Orange, NJ, 1931) fue el inventor más prolífico de la historia, con 1.093 patentes registradas en EEUU. En el laboratorio de Menlo Park (Nueva Jersey, fundado en 1876) creó el fonógrafo (1877) y desarrolló la primera bombilla incandescente de uso práctico (1879). En 1882 inauguró en Nueva York la primera central eléctrica pública del mundo (Pearl Street Station), que alimentó 59 clientes con corriente continua. Su rivalidad con Nikola Tesla ('guerra de las corrientes', 1880s-1890s) fue decisiva para la adopción del sistema de corriente alterna. Creó el primer estudio de cine (1893, Black Maria).",
+    "importance": 10,
+    "regions": ["North America"],
+    "places": [
+      { "name": "Menlo Park", "lat": 40.558, "lng": -74.405, "wikidataId": "Q868638", "role": "laboratorio principal 1876–1882, 'la fábrica de inventos'" },
+      { "name": "West Orange", "lat": 40.791, "lng": -74.241, "wikidataId": "Q986597", "role": "laboratorio principal 1887–1931" },
+      { "name": "Nueva York", "lat": 40.713, "lng": -74.005, "wikidataId": "Q60", "role": "Pearl Street Station (1882), primera central eléctrica pública" }
+    ],
+    "relations": [
+      { "targetId": "michael-faraday", "relationType": "influenced_by", "strength": 5 },
+      { "targetId": "nikola-tesla", "relationType": "opposed", "strength": 4, "note": "Guerra de las corrientes: Edison (CC) vs. Tesla/Westinghouse (CA)" },
+      { "targetId": "industrial-revolution", "relationType": "followed", "strength": 3 },
+      { "targetId": "railway-expansion", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "The Wizard of Menlo Park: How Thomas Alva Edison Invented the Modern World",
+        "author": "Stross, Randall",
+        "publisher": "Crown Publishers",
+        "year": "2007",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Thomas Edison",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Thomas-Edison",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["bombilla", "fonógrafo", "electricidad", "Menlo Park", "Pearl Street", "inventos"]
+  },
+  {
+    "id": "nikola-tesla",
+    "title": "Nikola Tesla",
+    "type": "person",
+    "disciplines": ["technology", "science"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1856-07-10",
+    "endDate": "1943-01-07",
+    "datePrecision": "exact",
+    "summary": "Inventor y físico serbio-estadounidense que desarrolló el sistema de corriente alterna y el motor de inducción, base de la electrificación global del siglo XX.",
+    "description": "Nikola Tesla (Smiljan, 1856 – Nueva York, 1943) fue el inventor del sistema de corriente alterna (CA) que hoy alimenta el mundo. Formado en Graz y Praga, llegó a EEUU en 1884 y trabajó brevemente para Edison antes de romper con él. Con el apoyo de Westinghouse demostró en la Exposición Universal de Chicago (1893) la viabilidad del sistema CA. La central de las cataratas del Niágara (1895), diseñada por Tesla, fue la primera gran central eléctrica CA. Inventó la bobina de Tesla (1891), sistemas de transmisión inalámbrica y patentó más de 300 inventos. Murió solo y en la pobreza en el Hotel New Yorker.",
+    "importance": 10,
+    "regions": ["North America", "Europe"],
+    "places": [
+      { "name": "Nueva York", "lat": 40.713, "lng": -74.005, "wikidataId": "Q60", "role": "laboratorio y residencia principal" },
+      { "name": "Smiljan", "lat": 44.566, "lng": 15.382, "wikidataId": "Q862671", "role": "ciudad natal (actual Croacia)" },
+      { "name": "Niágara Falls", "lat": 43.083, "lng": -79.072, "wikidataId": "Q72468", "role": "central eléctrica de CA (1895), primera gran planta CA del mundo" }
+    ],
+    "relations": [
+      { "targetId": "michael-faraday", "relationType": "influenced_by", "strength": 5 },
+      { "targetId": "thomas-edison", "relationType": "opposed", "strength": 4, "note": "Guerra de las corrientes: Tesla/Westinghouse (CA) ganó a Edison (CC)" }
+    ],
+    "sources": [
+      {
+        "title": "Tesla: Man Out of Time",
+        "author": "Cheney, Margaret",
+        "publisher": "Prentice Hall",
+        "year": "1981",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Nikola Tesla",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Nikola-Tesla",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["corriente alterna", "motor de inducción", "bobina", "Niágara", "inalámbrico"]
+  },
+  {
+    "id": "alexander-graham-bell",
+    "title": "Alexander Graham Bell",
+    "type": "person",
+    "disciplines": ["technology", "science"],
+    "historicalPeriods": ["19th-century"],
+    "startDate": "1847-03-03",
+    "endDate": "1922-08-02",
+    "datePrecision": "exact",
+    "summary": "Inventor escocés-estadounidense que patentó el teléfono (1876) y fundó la Bell Telephone Company, transformando las telecomunicaciones mundiales.",
+    "description": "Alexander Graham Bell (Edimburgo, 1847 – Beinn Bhreagh, 1922) patentó el teléfono el 7 de marzo de 1876, en una carrera técnico-legal con Elisha Gray. La primera llamada telefónica documentada fue el mismo año ('Watson, come here, I want to see you'). Fundó la Bell Telephone Company (1877), que evolucionó en AT&T. También trabajó en hidrodeslizadores, fotófono (transmisión de voz por luz, 1880) y aeronáutica. Su trabajo con sordos (era maestro de sordos como su padre) le llevó a inventar el teléfono como instrumento para amplificar el sonido.",
+    "importance": 9,
+    "regions": ["North America", "Europe"],
+    "places": [
+      { "name": "Boston", "lat": 42.360, "lng": -71.059, "wikidataId": "Q100", "role": "laboratorio, primera llamada telefónica (1876)" },
+      { "name": "Edimburgo", "lat": 55.953, "lng": -3.188, "wikidataId": "Q23436", "role": "ciudad natal" }
+    ],
+    "relations": [
+      { "targetId": "thomas-edison", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "industrial-revolution", "relationType": "followed", "strength": 3 },
+      { "targetId": "railway-expansion", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "The Telephone Gambit: Chasing Alexander Graham Bell's Secret",
+        "author": "Shulman, Seth",
+        "publisher": "W. W. Norton",
+        "year": "2008",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Alexander Graham Bell",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Alexander-Graham-Bell",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["teléfono", "Bell Telephone", "telecomunicaciones", "Boston", "1876"]
+  },
+  {
+    "id": "first-powered-flight",
+    "title": "Primer vuelo motorizado (Wright, 1903)",
+    "type": "event",
+    "disciplines": ["technology"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1903-12-17",
+    "endDate": "1903-12-17",
+    "datePrecision": "exact",
+    "summary": "El 17 de diciembre de 1903 Orville Wright realizó el primer vuelo motorizado sostenido de la historia en Kitty Hawk, Carolina del Norte, con 12 segundos de vuelo.",
+    "description": "El 17 de diciembre de 1903 en Kitty Hawk (Carolina del Norte), Orville Wright pilotó el Flyer I durante 12 segundos y 36 metros, realizando el primer vuelo motorizado, controlado y sostenido de la historia. Ese mismo día realizaron cuatro vuelos; el cuarto, pilotado por Wilbur Wright, duró 59 segundos y recorrió 260 metros. Los hermanos Wright —Orville (1871–1948) y Wilbur (1867–1912)— eran fabricantes de bicicletas en Dayton (Ohio) que llegaron al vuelo mediante observación sistemática de pájaros y experimentos en túnel de viento. El Flyer I se conserva en el Smithsonian National Air and Space Museum de Washington D.C.",
+    "importance": 10,
+    "regions": ["North America"],
+    "places": [
+      { "name": "Kitty Hawk", "lat": 36.026, "lng": -75.671, "wikidataId": "Q548190", "role": "lugar del primer vuelo motorizado, 17 diciembre 1903" },
+      { "name": "Dayton", "lat": 39.759, "lng": -84.192, "wikidataId": "Q128745", "role": "ciudad natal de los hermanos Wright, taller de bicicletas" }
+    ],
+    "relations": [
+      { "targetId": "thomas-edison", "relationType": "contemporary_of", "strength": 2 },
+      { "targetId": "nikola-tesla", "relationType": "contemporary_of", "strength": 2 },
+      { "targetId": "industrial-revolution", "relationType": "followed", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "The Wright Brothers",
+        "author": "McCullough, David",
+        "publisher": "Simon & Schuster",
+        "year": "2015",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Wright Flyer",
+        "publisher": "Smithsonian National Air and Space Museum",
+        "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000",
+        "type": "museum",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["aviación", "Wright", "Kitty Hawk", "1903", "Flyer I"]
+  }
+]

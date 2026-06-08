@@ -1,0 +1,176 @@
+[
+  {
+    "id": "gothic-architecture",
+    "title": "Arquitectura gótica",
+    "type": "style",
+    "disciplines": ["architecture", "religion"],
+    "historicalPeriods": ["middle-ages"],
+    "startDate": "1140",
+    "endDate": "1500",
+    "datePrecision": "approximate",
+    "summary": "Estilo arquitectónico medieval definido por el arco apuntado, el arbotante y la bóveda de crucería, que permitió catedrales de gran altura inundadas de luz.",
+    "description": "La arquitectura gótica surgió en la Île-de-France hacia 1140, en la reforma de la basílica de Saint-Denis bajo el abad Suger. Sus tres innovaciones estructurales —el arco apuntado (ojival), la bóveda de crucería y el arbotante (flying buttress)— permiten construir muros más delgados con grandes ventanales de vidrieras de colores, llenando el interior de luz simbólica. El término 'gótico' fue acuñado por los humanistas renacentistas como insulto (en referencia a los bárbaros godos), pero fue rehabilitado en el siglo XIX. Las grandes catedrales góticas —Chartres, Notre-Dame, Colonia, Salisbury, Milán— son los mayores logros arquitectónicos de la Edad Media europea y constituyen el mayor programa constructivo antes de la Era Industrial.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Saint-Denis", "lat": 48.935, "lng": 2.358, "wikidataId": "Q182897", "role": "origen del gótico, basílica de Saint-Denis (1140, abad Suger)" }
+    ],
+    "relations": [
+      { "targetId": "middle-ages", "relationType": "part_of", "strength": 5 },
+      { "targetId": "notre-dame-paris", "relationType": "part_of", "strength": 5 },
+      { "targetId": "renaissance", "relationType": "preceded", "strength": 4 },
+      { "targetId": "art-nouveau", "relationType": "influenced", "strength": 2, "note": "El neogótico del s.XIX influyó en algunos aspectos del Art Nouveau" }
+    ],
+    "sources": [
+      {
+        "title": "Gothic Architecture",
+        "author": "Wilson, Christopher",
+        "publisher": "Thames and Hudson",
+        "year": "1990",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Gothic Architecture",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/art/Gothic-architecture",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "intermediate",
+    "tags": ["arco apuntado", "arbotante", "bóveda crucería", "Saint-Denis", "catedral", "vidriera"]
+  },
+  {
+    "id": "catedral-chartres",
+    "title": "Catedral de Chartres",
+    "type": "building",
+    "disciplines": ["architecture", "religion"],
+    "historicalPeriods": ["middle-ages"],
+    "startDate": "1194",
+    "endDate": "1220",
+    "datePrecision": "year",
+    "summary": "La catedral gótica más completa e influyente de Francia, con el mejor conjunto de vidrieras medievales del mundo, reconstruida tras el incendio de 1194.",
+    "description": "La Catedral de Nuestra Señora de Chartres, en Chartres (Eure-et-Loir, Francia), fue reconstruida entre 1194 y 1220 tras un incendio que destruyó la catedral románica anterior. Es el ejemplo más completo y mejor conservado de la arquitectura gótica clásica francesa: arbotantes dobles, nave elevada (37 m), crucero, ábside y portadas escultóricas (tres pórticos del s. XII conservados de la catedral anterior). Sus 176 vidrieras del siglo XIII, que cubren más de 2.600 m², constituyen el conjunto más rico e íntegro de vidrieras medievales del mundo. Las torres asimétricas (la sur del s. XII, la norte del s. XVI) son una de sus marcas características. UNESCO Patrimonio de la Humanidad desde 1979.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Chartres", "lat": 48.447, "lng": 1.488, "wikidataId": "Q12003", "role": "ubicación en Eure-et-Loir, Francia" }
+    ],
+    "relations": [
+      { "targetId": "gothic-architecture", "relationType": "part_of", "strength": 5 },
+      { "targetId": "middle-ages", "relationType": "part_of", "strength": 5 },
+      { "targetId": "notre-dame-paris", "relationType": "contemporary_of", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "Chartres Cathedral",
+        "author": "Miller, Malcolm",
+        "publisher": "Pitkin Guides",
+        "year": "1996",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "UNESCO: Chartres Cathedral",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/81/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["gótico", "vidrieras", "Francia", "medieval", "UNESCO", "arbotantes"]
+  },
+  {
+    "id": "catedral-colonia",
+    "title": "Catedral de Colonia",
+    "type": "building",
+    "disciplines": ["architecture", "religion"],
+    "historicalPeriods": ["middle-ages", "19th-century"],
+    "startDate": "1248",
+    "endDate": "1880",
+    "datePrecision": "year",
+    "summary": "La catedral gótica más visitada de Alemania, comenzada en 1248, interrumpida 600 años y completada en 1880; fue el edificio más alto del mundo entre 1880 y 1884.",
+    "description": "La Catedral de Colonia (Kölner Dom) es una de las grandes obras de la arquitectura gótica alemana. Comenzada en 1248 para albergar las reliquias de los Reyes Magos traídas de Milán en 1164, su construcción fue interrumpida hacia 1560 y no se reanudó hasta 1842, siendo completada en 1880 siguiendo los planos medievales originales. Sus torres gemelas de 157 metros la hicieron el edificio más alto del mundo entre 1880 y 1884. El interior de 145 m de longitud, con cinco naves, alberga el Relicario de los Reyes Magos (Dreikönigenschrein, c. 1191–1220), la joya más rica del arte medieval alemán. Sorprendentemente sobrevivió casi intacta a los bombardeos de la Segunda Guerra Mundial. UNESCO desde 1996.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Colonia", "lat": 50.941, "lng": 6.958, "wikidataId": "Q8088", "role": "orilla del Rin, centro histórico de Colonia" }
+    ],
+    "relations": [
+      { "targetId": "gothic-architecture", "relationType": "part_of", "strength": 5 },
+      { "targetId": "middle-ages", "relationType": "part_of", "strength": 4 },
+      { "targetId": "industrial-revolution", "relationType": "contemporary_of", "strength": 2, "note": "Terminada en 1880 en plena industrialización alemana" }
+    ],
+    "sources": [
+      {
+        "title": "The Cologne Cathedral",
+        "author": "Wolff, Arnold",
+        "publisher": "Greven Verlag",
+        "year": "1996",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "UNESCO: Cologne Cathedral",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/292/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["gótico", "Alemania", "Reyes Magos", "reliquias", "UNESCO", "Colonia"]
+  },
+  {
+    "id": "catedral-salisbury",
+    "title": "Catedral de Salisbury",
+    "type": "building",
+    "disciplines": ["architecture", "religion"],
+    "historicalPeriods": ["middle-ages"],
+    "startDate": "1220",
+    "endDate": "1320",
+    "datePrecision": "approximate",
+    "summary": "Catedral gótica inglesa con la aguja más alta del Reino Unido (123 m) y uno de los cuatro ejemplares originales de la Magna Carta de 1215.",
+    "description": "La Catedral de Salisbury (Wiltshire, Inglaterra) es el ejemplo más puro del Early English Gothic, el primer estilo gótico propiamente inglés. Construida principalmente entre 1220 y 1320, su interior es de una austeridad y coherencia estilística excepcionales. La aguja central (completada c. 1320) alcanza 123 metros, siendo la más alta del Reino Unido. En su Chapter House (sala capitular octogonal, c. 1263–1280) se conserva uno de los cuatro manuscritos originales de la Magna Carta de 1215, el documento fundacional del constitucionalismo inglés. El conjunto catedralicio, con claustro y cierre vallado (Cathedral Close), es el mejor conservado de Inglaterra.",
+    "importance": 8,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Salisbury", "lat": 51.065, "lng": -1.795, "wikidataId": "Q213180", "role": "Wiltshire, sur de Inglaterra" }
+    ],
+    "relations": [
+      { "targetId": "gothic-architecture", "relationType": "part_of", "strength": 5 },
+      { "targetId": "middle-ages", "relationType": "part_of", "strength": 5 },
+      { "targetId": "notre-dame-paris", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "catedral-chartres", "relationType": "contemporary_of", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Salisbury Cathedral",
+        "author": "Shortt, Hugh",
+        "publisher": "Pitkin Guides",
+        "year": "1989",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Salisbury Cathedral",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Salisbury-Cathedral",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["gótico inglés", "Early English", "Magna Carta", "aguja", "Wiltshire", "catedral"]
+  }
+]

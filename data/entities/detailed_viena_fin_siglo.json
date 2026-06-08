@@ -1,0 +1,303 @@
+[
+  {
+    "id": "gustav-klimt",
+    "title": "Gustav Klimt",
+    "type": "person",
+    "disciplines": ["art"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1862-07-14",
+    "endDate": "1918-02-06",
+    "datePrecision": "exact",
+    "summary": "Pintor simbolista austriaco, figura central de la Secesión Vienesa, conocido por El beso y su uso del pan de oro.",
+    "description": "Gustav Klimt (Baumgarten, 1862 – Viena, 1918) fue el fundador y principal representante de la Secesión Vienesa (1897). Su estilo funde simbolismo, ornamentación de raíz bizantina y Art Nouveau. Sus obras más célebres —El beso (1907–1908, Österreichische Galerie Belvedere) y el friso de Beethoven (1902)— combinan pan de oro, mosaico y simbolismo erótico. Fue también un importante retratista de la alta burguesía vienesa. Su obra influyó decisivamente en Egon Schiele y Oskar Kokoschka, artistas de la siguiente generación expresionista.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Viena", "lat": 48.208, "lng": 16.373, "wikidataId": "Q1741", "role": "ciudad donde vivió y trabajó toda su vida" }
+    ],
+    "relations": [
+      { "targetId": "symbolism", "relationType": "part_of", "strength": 4 },
+      { "targetId": "art-nouveau", "relationType": "part_of", "strength": 5, "note": "La Secesión Vienesa es la rama austríaca del Art Nouveau" },
+      { "targetId": "egon-schiele", "relationType": "influenced", "strength": 5 },
+      { "targetId": "viennese-secession", "relationType": "founded", "strength": 5 }
+    ],
+    "sources": [
+      {
+        "title": "Klimt",
+        "author": "Partsch, Susanna",
+        "publisher": "Taschen",
+        "year": "2017",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Gustav Klimt",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Gustav-Klimt",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Secesión Vienesa", "El beso", "oro", "simbolismo", "Art Nouveau"]
+  },
+  {
+    "id": "egon-schiele",
+    "title": "Egon Schiele",
+    "type": "person",
+    "disciplines": ["art"],
+    "historicalPeriods": ["belle-epoque", "early-20th"],
+    "startDate": "1890-06-12",
+    "endDate": "1918-10-31",
+    "datePrecision": "exact",
+    "summary": "Pintor expresionista austriaco, discípulo de Klimt, conocido por su crudo y anguloso retrato del cuerpo humano.",
+    "description": "Egon Schiele (Tulln an der Donau, 1890 – Viena, 1918) fue uno de los artistas más importantes del expresionismo austriaco. Alumno y protegido de Klimt en Viena, desarrolló un lenguaje propio de gran intensidad emocional: figuras distorsionadas, colores ácidos, tratamiento frontal y crudo de la sexualidad y la muerte. Entre sus obras más conocidas: Autorretrato con linterna china (1912) y La familia (1918, incompleto). Murió de gripe española a los 28 años, tres días después que su mujer embarazada, poco después de alcanzar el reconocimiento.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Viena", "lat": 48.208, "lng": 16.373, "wikidataId": "Q1741", "role": "formación en la Akademie der bildenden Künste y carrera artística" },
+      { "name": "Krumau (Český Krumlov)", "lat": 48.812, "lng": 14.317, "wikidataId": "Q47042", "role": "ciudad natal de su madre, escenario de muchas obras" }
+    ],
+    "relations": [
+      { "targetId": "gustav-klimt", "relationType": "influenced_by", "strength": 5 },
+      { "targetId": "expressionism", "relationType": "part_of", "strength": 5 },
+      { "targetId": "viennese-secession", "relationType": "belonged_to", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Egon Schiele: Life and Work",
+        "author": "Comini, Alessandra",
+        "publisher": "Thames and Hudson",
+        "year": "1974",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Egon Schiele",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Egon-Schiele",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["expresionismo", "cuerpo", "anguloso", "gripe española", "Viena"]
+  },
+  {
+    "id": "viennese-secession",
+    "title": "Secesión Vienesa",
+    "type": "institution",
+    "disciplines": ["art", "architecture", "design"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1897",
+    "endDate": null,
+    "datePrecision": "year",
+    "summary": "Asociación de artistas fundada en Viena en 1897 para romper con el academicismo y promover el arte moderno y las artes aplicadas.",
+    "description": "La Secesión Vienesa fue fundada el 3 de abril de 1897 por Gustav Klimt junto a otros artistas —entre ellos Koloman Moser y Josef Hoffmann— que abandonaron la Künstlerhaus (asociación académica oficial) para crear un espacio de arte moderno sin restricciones. Su lema: 'Der Zeit ihre Kunst, der Kunst ihre Freiheit' (A cada época su arte, al arte su libertad). El Pabellón de la Secesión (1898, diseñado por Joseph Maria Olbrich) fue su sede. Publicaron la revista Ver Sacrum (1898–1903). Vinculada al Jugendstil alemán y al movimiento Arts and Crafts británico, reunió pintura, arquitectura, diseño y artes aplicadas.",
+    "importance": 8,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Viena", "lat": 48.199, "lng": 16.369, "wikidataId": "Q694030", "role": "Pabellón de la Secesión (1898), sede de la institución" }
+    ],
+    "relations": [
+      { "targetId": "gustav-klimt", "relationType": "founded", "strength": 5 },
+      { "targetId": "art-nouveau", "relationType": "part_of", "strength": 5 },
+      { "targetId": "symbolism", "relationType": "influenced_by", "strength": 3 },
+      { "targetId": "bauhaus", "relationType": "preceded", "strength": 3, "note": "La Secesión influyó en la síntesis arte-artesanía-industria del Bauhaus" }
+    ],
+    "sources": [
+      {
+        "title": "Vienna Secession",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Vienna-Secession",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Secesión", "Klimt", "Hoffmann", "Olbrich", "Ver Sacrum", "modernismo vienés"]
+  },
+  {
+    "id": "gustav-mahler",
+    "title": "Gustav Mahler",
+    "type": "person",
+    "disciplines": ["music"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1860-07-07",
+    "endDate": "1911-05-18",
+    "datePrecision": "exact",
+    "summary": "Compositor y director austriaco-bohemio, puente entre el Romanticismo tardío y la modernidad musical del siglo XX.",
+    "description": "Gustav Mahler (Kaliště, 1860 – Viena, 1911) es una de las figuras más importantes de la música occidental entre 1880 y 1920. Director de la Ópera de la Corte de Viena (1897–1907), considerado el mayor director de ópera de su época, renovó radicalmente su programación y producción. Como compositor creó nueve sinfonías completas (y una inacabada) de gran escala y profundidad filosófica, y el ciclo Das Lied von der Erde (La canción de la tierra, 1909). Su música es un puente directo entre Brahms y Wagner (Romanticismo) y Schoenberg y Berg (atonalismo). Schoenberg, Berg y Webern fueron sus discípulos y herederos.",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Viena", "lat": 48.208, "lng": 16.373, "wikidataId": "Q1741", "role": "Ópera de la Corte (director 1897–1907), centro de su actividad" },
+      { "name": "Nueva York", "lat": 40.712, "lng": -74.006, "wikidataId": "Q60", "role": "Metropolitan Opera y Filarmónica de Nueva York (1907–1911)" }
+    ],
+    "relations": [
+      { "targetId": "romanticism", "relationType": "followed", "strength": 4 },
+      { "targetId": "wagner", "relationType": "influenced_by", "strength": 4 },
+      { "targetId": "beethoven", "relationType": "influenced_by", "strength": 3 },
+      { "targetId": "freud", "relationType": "contemporary_of", "strength": 3, "note": "Mahler y Freud vivieron en Viena simultáneamente; se reunieron en Leiden en 1910" }
+    ],
+    "sources": [
+      {
+        "title": "Mahler: A Biography",
+        "author": "La Grange, Henry-Louis de",
+        "publisher": "Oxford University Press",
+        "year": "1995",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Gustav Mahler",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Gustav-Mahler",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["sinfonía", "Viena", "Romanticismo tardío", "Ópera de la Corte", "Das Lied von der Erde"]
+  },
+  {
+    "id": "adolf-loos",
+    "title": "Adolf Loos",
+    "type": "person",
+    "disciplines": ["architecture"],
+    "historicalPeriods": ["belle-epoque", "early-20th"],
+    "startDate": "1870-12-10",
+    "endDate": "1933-08-23",
+    "datePrecision": "exact",
+    "summary": "Arquitecto austriaco, pionero del funcionalismo, autor del ensayo 'Ornamento y delito' (1908) que rechazó el ornamento como crimen cultural.",
+    "description": "Adolf Loos (Brno, 1870 – Kalksburg, 1933) fue el más radical de los arquitectos vieneses de su generación. Su ensayo Ornament und Verbrechen (Ornamento y delito, 1908) declaró que el ornamento era un signo de degeneración cultural y que la arquitectura moderna debía prescindir de él. Sus obras más conocidas son la Casa Steiner (1910) y la Casa Müller (Praga, 1930), de fachadas lisas y ausentes de decoración. También diseñó la Casa Goldman & Salatsch (1909–1911) frente al palacio imperial de Viena, que provocó un escándalo. Influyó directamente en Le Corbusier y el Movimiento Moderno.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Viena", "lat": 48.208, "lng": 16.373, "wikidataId": "Q1741", "role": "Casa Goldman & Salatsch (1910), base de su actividad" },
+      { "name": "Praga", "lat": 50.087, "lng": 14.420, "wikidataId": "Q1085", "role": "Casa Müller (1930)" }
+    ],
+    "relations": [
+      { "targetId": "art-nouveau", "relationType": "opposed", "strength": 5, "note": "Loos rechazó explícitamente el ornamentalismo del Art Nouveau" },
+      { "targetId": "bauhaus", "relationType": "influenced", "strength": 4, "note": "El funcionalismo de Loos precedió y alimentó el Bauhaus" },
+      { "targetId": "le-corbusier", "relationType": "influenced", "strength": 4 },
+      { "targetId": "viennese-secession", "relationType": "opposed", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "Adolf Loos: Architecture 1903–1932",
+        "author": "Colomina, Beatriz",
+        "publisher": "Rizzoli",
+        "year": "1987",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Adolf Loos",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Adolf-Loos",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["ornamento", "funcionalismo", "Viena", "Moderno", "anti-ornamento"]
+  },
+  {
+    "id": "ludwig-wittgenstein",
+    "title": "Ludwig Wittgenstein",
+    "type": "person",
+    "disciplines": ["philosophy"],
+    "historicalPeriods": ["early-20th"],
+    "startDate": "1889-04-26",
+    "endDate": "1951-04-29",
+    "datePrecision": "exact",
+    "summary": "Filósofo austriaco, uno de los más influyentes del siglo XX, que transformó la filosofía analítica y la filosofía del lenguaje en dos etapas radicalmente distintas.",
+    "description": "Ludwig Wittgenstein (Viena, 1889 – Cambridge, 1951) fue el mayor filósofo del lenguaje del siglo XX. Su primera obra, el Tractatus Logico-Philosophicus (1921), intentó delimitar los límites del pensamiento y el lenguaje mediante la lógica formal. Su segunda etapa, representada por las Investigaciones Filosóficas (1953, póstumo), rechazó completamente el Tractatus y propuso el análisis del uso ordinario del lenguaje ('los juegos de lenguaje'). Proveniente de una de las familias más ricas de Viena, estudió con Bertrand Russell en Cambridge. Sirvió en el ejército austriaco en la I Guerra Mundial. Diseñó personalmente la casa de su hermana en Viena (Haus Wittgenstein, 1928).",
+    "importance": 10,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Viena", "lat": 48.208, "lng": 16.373, "wikidataId": "Q1741", "role": "ciudad natal, familia y Haus Wittgenstein" },
+      { "name": "Cambridge", "lat": 52.205, "lng": 0.119, "wikidataId": "Q350", "role": "Trinity College, trabajo filosófico con Russell y Moore" }
+    ],
+    "relations": [
+      { "targetId": "freud", "relationType": "contemporary_of", "strength": 3, "note": "Ambos vieneses de la misma época, referencias cruzadas en sus obras" },
+      { "targetId": "enlightenment-movement", "relationType": "followed", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "Wittgenstein: A Very Short Introduction",
+        "author": "Monk, Ray",
+        "publisher": "Oxford University Press",
+        "year": "2005",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Ludwig Wittgenstein",
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/wittgenstein/",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["lenguaje", "lógica", "Tractatus", "Cambridge", "Viena", "filosofía analítica"]
+  },
+  {
+    "id": "otto-wagner",
+    "title": "Otto Wagner",
+    "type": "person",
+    "disciplines": ["architecture", "urbanism"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1841-07-13",
+    "endDate": "1918-04-11",
+    "datePrecision": "exact",
+    "summary": "Arquitecto y urbanista austriaco, maestro del modernismo vienés y del Jugendstil en arquitectura, autor de la Karlsplatz Stadtbahn.",
+    "description": "Otto Wagner (Penzing, 1841 – Viena, 1918) fue el arquitecto más influyente de la Viena fin de siglo. Profesor de la Akademie der bildenden Künste (desde 1894), formó a toda una generación: Josef Hoffmann, Joseph Maria Olbrich, Max Fabiani. Su manifiesto Moderne Architektur (1896) propuso que la arquitectura debía responder a las necesidades modernas, no a los estilos históricos. Sus obras más importantes son las estaciones del metro de Viena Stadtbahn (1898–1900, con ornamentos de Jugendstil), la Caja Postal de Ahorros (1906, uso pionero de aluminio) y la Iglesia Steinhof (1907).",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Viena", "lat": 48.208, "lng": 16.373, "wikidataId": "Q1741", "role": "Stadtbahn, Caja Postal de Ahorros, Iglesia Steinhof" }
+    ],
+    "relations": [
+      { "targetId": "art-nouveau", "relationType": "part_of", "strength": 4 },
+      { "targetId": "viennese-secession", "relationType": "belonged_to", "strength": 3 },
+      { "targetId": "adolf-loos", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "bauhaus", "relationType": "preceded", "strength": 3, "note": "Su énfasis en funcionalidad y materiales modernos anticipó el Bauhaus" }
+    ],
+    "sources": [
+      {
+        "title": "Otto Wagner: Reflections on the Raiment of Modernity",
+        "author": "Haiko, Peter (ed.)",
+        "publisher": "Getty Center for the History of Art and the Humanities",
+        "year": "1993",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Otto Wagner",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Otto-Wagner",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["metro Viena", "Jugendstil", "modernismo", "funcionalismo", "Stadtbahn"]
+  }
+]

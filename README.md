@@ -1,8 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Atlas Cronológico Universal
 
-## Getting Started
+Plataforma interactiva para explorar la historia universal a través del tiempo, el espacio y las relaciones culturales.
 
-First, run the development server:
+## Arrancar
+
+```bash
+npm install
+npm run dev   # http://localhost:3000
+```
+
+## Getting Started (original)
 
 ```bash
 npm run dev

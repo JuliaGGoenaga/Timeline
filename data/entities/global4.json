@@ -1,0 +1,401 @@
+[
+  {
+    "id": "neolithic-revolution",
+    "title": "Revolución Neolítica",
+    "type": "period",
+    "disciplines": ["history", "science", "society", "economy"],
+    "historicalPeriods": ["ancient-east"],
+    "startDate": "-10000",
+    "endDate": "-3500",
+    "datePrecision": "approximate",
+    "summary": "La transición de cazadores-recolectores a agricultores sedentarios que hizo posible todas las civilizaciones posteriores.",
+    "description": "La Revolución Neolítica (c. 10.000–3.500 a.C.) fue la transformación más profunda de la historia humana antes de la Revolución Industrial: la adopción de la agricultura y la ganadería como base de subsistencia. Surgió de forma independiente en al menos siete regiones del mundo: el Creciente Fértil (c. 9.500 a.C.), China (c. 7.000 a.C.), Nueva Guinea, el Sahel africano, México, los Andes y Norteamérica oriental. Permitió los asentamientos permanentes, el crecimiento demográfico, la división del trabajo, la propiedad privada, el comercio y las primeras ciudades y estados. Sin ella, ninguna de las civilizaciones históricas habría sido posible.",
+    "importance": 10,
+    "regions": ["Middle East", "Asia", "Europe", "North America", "South America", "Africa"],
+    "places": [
+      { "name": "Göbekli Tepe", "lat": 37.223, "lng": 38.922, "wikidataId": "Q83204", "role": "primer templo neolítico conocido (c. 9600 a.C., Turquía)" },
+      { "name": "Jericó", "lat": 31.861, "lng": 35.444, "wikidataId": "Q41117", "role": "una de las primeras ciudades del mundo (c. 9000 a.C.)" }
+    ],
+    "relations": [
+      { "targetId": "ancient-mesopotamia", "relationType": "preceded", "strength": 5 },
+      { "targetId": "ancient-egypt", "relationType": "preceded", "strength": 5 },
+      { "targetId": "china-imperial", "relationType": "preceded", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "The Cambridge World Prehistory (3 vols.)",
+        "author": "Renfrew, Colin; Bahn, Paul (eds.)",
+        "publisher": "Cambridge University Press",
+        "year": "2014",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Neolithic",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Neolithic",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05", "notes": "Fechas aproximadas; el inicio varía por región (9500–7000 a.C.)" },
+    "layer": "global",
+    "tags": ["agricultura", "sedentarismo", "Neolítico", "ciudades", "Creciente Fértil", "prehistoria"]
+  },
+  {
+    "id": "persian-empire",
+    "title": "Imperio Persa (Aqueménida)",
+    "type": "civilization",
+    "disciplines": ["history", "politics", "architecture"],
+    "historicalPeriods": ["classical-antiquity"],
+    "startDate": "-550",
+    "endDate": "-330",
+    "datePrecision": "year",
+    "summary": "El primer gran imperio mundial, que gobernó desde Egipto hasta India bajo Ciro el Grande y Darío I, con una administración tolerante y un sistema de satrapías.",
+    "description": "El Imperio Persa Aqueménida (550–330 a.C.) fue el mayor Estado del mundo antiguo en su apogeo bajo Darío I (521–486 a.C.): se extendía desde los Balcanes y Egipto hasta el Indo, abarcando unos 5,5 millones de km² y entre 35 y 50 millones de personas (40% de la población mundial de la época). Fundado por Ciro el Grande (559–530 a.C.), que conquistó Lidia, Babilonia y liberó a los judíos del cautiverio babilónico. Su sistema de gobierno —satrapías, rutas imperiales, la Guardia Inmortal, el respeto a las culturas locales— fue un modelo de administración imperial. La capital ceremonial Persépolis (construida por Darío y Jerjes) fue destruida por Alejandro Magno en 330 a.C.",
+    "importance": 9,
+    "regions": ["Middle East", "North Africa", "Asia", "Europe"],
+    "places": [
+      { "name": "Persépolis", "lat": 29.935, "lng": 52.891, "wikidataId": "Q168215", "role": "capital ceremonial, destruida por Alejandro en 330 a.C." },
+      { "name": "Susa", "lat": 32.188, "lng": 48.256, "wikidataId": "Q41932", "role": "capital administrativa" }
+    ],
+    "relations": [
+      { "targetId": "ancient-mesopotamia", "relationType": "followed", "strength": 4, "note": "Ciro conquistó Babilonia en 539 a.C." },
+      { "targetId": "classical-greece", "relationType": "opposed", "strength": 5, "note": "Guerras Médicas (490 y 480 a.C.)" },
+      { "targetId": "hellenistic-world", "relationType": "preceded", "strength": 5, "note": "Alejandro destruyó el Imperio Persa en 330 a.C." },
+      { "targetId": "islamic-golden-age", "relationType": "preceded", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "The Persian Empire: A History",
+        "author": "Allen, Lindsay",
+        "publisher": "British Museum Press",
+        "year": "2005",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Achaemenian dynasty",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Achaemenian-dynasty",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Ciro", "Darío", "Persépolis", "satrapías", "Guerras Médicas", "Oriente Próximo"]
+  },
+  {
+    "id": "hellenistic-world",
+    "title": "Mundo Helenístico",
+    "type": "period",
+    "disciplines": ["history", "science", "philosophy", "art"],
+    "historicalPeriods": ["classical-antiquity"],
+    "startDate": "-323",
+    "endDate": "-31",
+    "datePrecision": "year",
+    "summary": "El período que siguió a Alejandro Magno, en el que la cultura griega se fusionó con las civilizaciones orientales y produjo una síntesis científica y artística sin precedentes.",
+    "description": "El mundo helenístico (323–31 a.C.) fue el período posterior a la muerte de Alejandro Magno, cuando sus generales (diádocos) dividieron el Imperio en reinos: los Ptolomeos en Egipto, los Seléucidas en Oriente, los Antigónidas en Macedonia. La fusión de la cultura griega con las tradiciones orientales produjo una civilización cosmopolita. Alejandría de Egipto, con su Biblioteca y su Museo, fue el mayor centro intelectual del mundo antiguo: allí trabajaron Euclides (geometría), Eratóstenes (diámetro de la Tierra), Aristarco (heliocentrismo), Herón. El período concluye con la conquista romana de Egipto (batalla de Actium, 31 a.C.).",
+    "importance": 9,
+    "regions": ["Europe", "Middle East", "North Africa", "Asia"],
+    "places": [
+      { "name": "Alejandría", "lat": 31.200, "lng": 29.918, "wikidataId": "Q87", "role": "capital del reino ptolemaico, Biblioteca, Faro" },
+      { "name": "Antioquía", "lat": 36.202, "lng": 36.161, "wikidataId": "Q131438", "role": "capital del reino seléucida" }
+    ],
+    "relations": [
+      { "targetId": "classical-greece", "relationType": "followed", "strength": 5 },
+      { "targetId": "persian-empire", "relationType": "followed", "strength": 4 },
+      { "targetId": "roman-empire", "relationType": "preceded", "strength": 5 },
+      { "targetId": "scientific-revolution", "relationType": "influenced", "strength": 3, "note": "La ciencia helenística fue redescubierta en el Renacimiento" }
+    ],
+    "sources": [
+      {
+        "title": "The Hellenistic Age: A Short History",
+        "author": "Green, Peter",
+        "publisher": "Modern Library",
+        "year": "2007",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Hellenistic civilization",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Hellenistic-civilization",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Alejandría", "Biblioteca", "Euclides", "cosmopolitismo", "diádocos", "Ptolomeos"]
+  },
+  {
+    "id": "india-classical",
+    "title": "India clásica (Maurya-Gupta)",
+    "type": "civilization",
+    "disciplines": ["history", "philosophy", "science", "religion", "art"],
+    "historicalPeriods": ["classical-antiquity", "late-antiquity"],
+    "startDate": "-322",
+    "endDate": "550",
+    "datePrecision": "approximate",
+    "summary": "Los dos grandes imperios del subcontinente indio — Maurya (con el rey Ashoka) y Gupta — que produjeron el budismo, el sistema decimal y una Edad de Oro de arte y ciencia.",
+    "description": "La India clásica abarca dos grandes imperios: el Maurya (322–185 a.C.) y el Gupta (320–550 d.C.). El Imperio Maurya, fundado por Chandragupta Maurya, alcanzó su apogeo con Ashoka (268–232 a.C.), que tras la violenta batalla de Kalinga se convirtió al budismo y lo difundió por Asia. El Imperio Gupta (320–550 d.C.) fue la Edad de Oro de la India: el matemático Aryabhata formuló el sistema decimal y calculó el valor de π; Kalidasa escribió el Shakuntala; florecieron el arte de Ajanta y la filosofía Vedanta. El número cero como concepto matemático y el sistema de numeración indo-arábigo (base del moderno) surgieron en este período.",
+    "importance": 9,
+    "regions": ["Asia"],
+    "places": [
+      { "name": "Pataliputra (Patna)", "lat": 25.612, "lng": 85.143, "wikidataId": "Q200892", "role": "capital del Imperio Maurya" },
+      { "name": "Ajanta", "lat": 20.552, "lng": 75.700, "wikidataId": "Q43527", "role": "cuevas con frescos budistas de época Gupta (UNESCO)" }
+    ],
+    "relations": [
+      { "targetId": "hellenistic-world", "relationType": "contemporary_of", "strength": 3, "note": "Contacto entre Chandragupta Maurya y Seleuco Nicátor" },
+      { "targetId": "china-imperial", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "islamic-golden-age", "relationType": "influenced", "strength": 4, "note": "El sistema decimal y el álgebra indios pasaron al Islam y luego a Europa" }
+    ],
+    "sources": [
+      {
+        "title": "A History of India",
+        "author": "Kulke, Hermann; Rothermund, Dietmar",
+        "publisher": "Routledge",
+        "year": "2004",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "India: historical civilizations",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/India",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Maurya", "Gupta", "Ashoka", "budismo", "cero", "decimal", "Aryabhata"]
+  },
+  {
+    "id": "maya-civilization",
+    "title": "Civilización Maya",
+    "type": "civilization",
+    "disciplines": ["history", "architecture", "science", "religion"],
+    "historicalPeriods": ["ancient-east", "classical-antiquity", "middle-ages", "early-modern"],
+    "startDate": "-2000",
+    "endDate": "1542",
+    "datePrecision": "approximate",
+    "summary": "La civilización más sofisticada de Mesoamérica, con escritura jeroglífica propia, astronomía precisa, el concepto matemático del cero y monumentales ciudades de piedra.",
+    "description": "La civilización maya floreció en el sureste de México, Guatemala, Belice, Honduras y El Salvador durante más de tres milenios. El período Clásico (250–900 d.C.) fue su apogeo: ciudades-estado como Tikal, Palenque, Copán y Uxmal construyeron pirámides, templos y palacios; desarrollaron un sistema de escritura jeroglífica, un calendario solar y lunar de precisión extraordinaria, y el concepto matemático del cero (anterior al europeo). Su declive en el período Postclásico (900–1519) aún es debatido (sequías, guerras internas). Los conquistadores españoles completaron la conquista hacia 1542. Las comunidades mayas actuales (unos 6 millones) mantienen lenguas y tradiciones vivas.",
+    "importance": 9,
+    "regions": ["North America", "South America"],
+    "places": [
+      { "name": "Tikal", "lat": 17.222, "lng": -89.624, "wikidataId": "Q174312", "role": "mayor ciudad maya del período Clásico (Guatemala)" },
+      { "name": "Chichén Itzá", "lat": 20.682, "lng": -88.568, "wikidataId": "Q173713", "role": "ciudad maya-tolteca, UNESCO 1988 (México)" }
+    ],
+    "relations": [
+      { "targetId": "aztec-empire", "relationType": "contemporary_of", "strength": 3, "note": "Civilizaciones mesoamericanas distintas pero contemporáneas en su período tardío" },
+      { "targetId": "age-of-exploration", "relationType": "contemporary_of", "strength": 3, "note": "La conquista española destruyó la civilización maya (1519-1542)" }
+    ],
+    "sources": [
+      {
+        "title": "The Ancient Maya",
+        "author": "Sharer, Robert J.; Traxler, Loa P.",
+        "publisher": "Stanford University Press",
+        "year": "2006",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Maya",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Maya",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Tikal", "Chichén Itzá", "escritura", "calendario", "cero", "pirámides", "Mesoamérica"]
+  },
+  {
+    "id": "inca-empire",
+    "title": "Imperio Inca (Tawantinsuyu)",
+    "type": "civilization",
+    "disciplines": ["history", "architecture", "politics", "society"],
+    "historicalPeriods": ["early-modern"],
+    "startDate": "1438",
+    "endDate": "1533",
+    "datePrecision": "year",
+    "summary": "El mayor Imperio precolombino de América, que gobernó 12 millones de personas en la costa oeste de Sudamérica sin escritura ni rueda, con una organización estatal extraordinaria.",
+    "description": "El Tawantinsuyu ('las cuatro regiones') fue el mayor estado del mundo precolombino. En su apogeo (c. 1500) se extendía a lo largo de la cordillera andina unos 5.000 km, desde Colombia hasta Chile y Argentina, gobernando entre 10 y 12 millones de personas. Fundado efectivamente por Pachacuti (r. 1438–1471) a partir de la ciudad de Cusco. Sin escritura alfabética ni rueda (usaban los quipus —cuerdas anudadas— para registrar información), construyeron una red viaria de 40.000 km, almacenes estatales, terrazas agrícolas y ciudades como Machu Picchu. La conquista española de Francisco Pizarro (1532–1533) destruyó el Imperio aprovechando una guerra civil interna.",
+    "importance": 9,
+    "regions": ["South America"],
+    "places": [
+      { "name": "Cusco", "lat": -13.532, "lng": -71.967, "wikidataId": "Q41688", "role": "capital imperial, ombligo del mundo" },
+      { "name": "Machu Picchu", "lat": -13.164, "lng": -72.544, "wikidataId": "Q36602", "role": "ciudad real inca del siglo XV, UNESCO 1983" }
+    ],
+    "relations": [
+      { "targetId": "age-of-exploration", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "aztec-empire", "relationType": "contemporary_of", "strength": 2 },
+      { "targetId": "protestant-reformation", "relationType": "contemporary_of", "strength": 1 }
+    ],
+    "sources": [
+      {
+        "title": "The Incas",
+        "author": "D'Altroy, Terence N.",
+        "publisher": "Blackwell Publishers",
+        "year": "2002",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Inca",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Inca",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Andes", "Cusco", "Machu Picchu", "quipus", "Pizarro", "Pachauti", "Tawantinsuyu"]
+  },
+  {
+    "id": "aztec-empire",
+    "title": "Imperio Azteca (México-Tenochtitlan)",
+    "type": "civilization",
+    "disciplines": ["history", "architecture", "religion", "society"],
+    "historicalPeriods": ["middle-ages", "early-modern"],
+    "startDate": "1300",
+    "endDate": "1521",
+    "datePrecision": "approximate",
+    "summary": "La civilización dominante de Mesoamérica en el siglo XV, con Tenochtitlan como capital lacustre de 200.000 habitantes, destruida por Hernán Cortés en 1521.",
+    "description": "El Imperio Azteca (o mexica) tuvo su origen en la Triple Alianza (Tenochtitlan, Texcoco y Tlacopan, c. 1430) y dominó el centro de México hasta la llegada de los españoles. Su capital, Tenochtitlan (fundada c. 1325 en un islote del lago Texcoco, hoy Ciudad de México), era en 1500 una de las mayores ciudades del mundo con unos 200.000 habitantes, conectada al continente por calzadas monumentales. Practicaron el sacrificio humano a gran escala en honor al dios del Sol Huitzilopochtli. Hernán Cortés conquistó Tenochtitlan (agosto de 1521) con aliados indígenas antiaztecas. El Templo Mayor, centro religioso de la ciudad, fue redescubierto en 1978 bajo el centro de Ciudad de México.",
+    "importance": 9,
+    "regions": ["North America"],
+    "places": [
+      { "name": "Ciudad de México (Tenochtitlan)", "lat": 19.434, "lng": -99.133, "wikidataId": "Q1489", "role": "capital del Imperio, sobre lago Texcoco (hoy Ciudad de México)" }
+    ],
+    "relations": [
+      { "targetId": "maya-civilization", "relationType": "contemporary_of", "strength": 2 },
+      { "targetId": "inca-empire", "relationType": "contemporary_of", "strength": 2 },
+      { "targetId": "age-of-exploration", "relationType": "contemporary_of", "strength": 4, "note": "Cortés destruyó Tenochtitlan en 1521" },
+      { "targetId": "protestant-reformation", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "The Aztecs",
+        "author": "Smith, Michael E.",
+        "publisher": "Blackwell Publishers",
+        "year": "2003",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Aztec",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/Aztec",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Tenochtitlan", "Cortés", "Templo Mayor", "sacrificio", "México", "Triple Alianza"]
+  },
+  {
+    "id": "european-colonialism",
+    "title": "Colonialismo europeo",
+    "type": "period",
+    "disciplines": ["history", "politics", "economy", "society"],
+    "historicalPeriods": ["early-modern", "revolutionary-age", "19th-century", "belle-epoque"],
+    "startDate": "1492",
+    "endDate": "1914",
+    "datePrecision": "approximate",
+    "summary": "El proceso de dominio europeo sobre la mayor parte del mundo entre 1492 y 1914, que transformó radicalmente economías, culturas y demografías de todos los continentes.",
+    "description": "El colonialismo europeo moderno comenzó con los viajes ibéricos (Colón, 1492; Vasco da Gama, 1498) y alcanzó su máxima extensión en 1914, cuando las potencias europeas controlaban aproximadamente el 84% de la superficie terrestre del planeta. Tres fases principales: la conquista y colonización de América (1492–1800), la expansión en Asia y el comercio de especias (s. XVI–XVIII) y el imperialismo en África y Asia (1800–1914). Consecuencias fundamentales: trata transatlántica de esclavos (12 millones de africanos deportados entre 1500 y 1900), destrucción de civilizaciones precolombinas, redistribución global de cultivos (Intercambio Colombino), formación de economías extractivas y dependientes.",
+    "importance": 10,
+    "regions": ["Europe", "North America", "South America", "Africa", "Asia"],
+    "places": [
+      { "name": "Londres", "lat": 51.507, "lng": -0.127, "wikidataId": "Q84", "role": "capital del mayor Imperio colonial (British Empire, máximo hacia 1920)" },
+      { "name": "Madrid", "lat": 40.416, "lng": -3.703, "wikidataId": "Q2807", "role": "capital del Imperio español en América (siglos XVI-XIX)" }
+    ],
+    "relations": [
+      { "targetId": "age-of-exploration", "relationType": "followed", "strength": 5 },
+      { "targetId": "industrial-revolution", "relationType": "caused", "strength": 4, "note": "La revolución industrial amplificó la capacidad colonial europea" },
+      { "targetId": "aztec-empire", "relationType": "caused", "strength": 4 },
+      { "targetId": "inca-empire", "relationType": "caused", "strength": 4 },
+      { "targetId": "decolonization", "relationType": "preceded", "strength": 5 }
+    ],
+    "sources": [
+      {
+        "title": "Colonialism: A Very Short Introduction",
+        "author": "Loomba, Ania",
+        "publisher": "Oxford University Press",
+        "year": "2015",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Colonialism",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/colonialism",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Imperio", "esclavitud", "América", "África", "Asia", "dominación", "intercambio colombino"]
+  },
+  {
+    "id": "decolonization",
+    "title": "Descolonización",
+    "type": "period",
+    "disciplines": ["history", "politics", "society"],
+    "historicalPeriods": ["cold-war"],
+    "startDate": "1945",
+    "endDate": "1975",
+    "datePrecision": "approximate",
+    "summary": "El proceso de independencia de más de 80 naciones de Asia y África entre 1945 y 1975, que puso fin a los imperios coloniales europeos y reconfiguró el orden mundial.",
+    "description": "La descolonización fue el proceso por el que los imperios coloniales europeos cedieron la soberanía a nuevos estados independientes, principalmente en Asia y África. Las causas: el debilitamiento de las potencias europeas tras la Segunda Guerra Mundial, el principio de autodeterminación de los pueblos (Carta de la ONU, 1945), los movimientos de liberación nacional y la presión de EEUU y URSS. Hitos: independencia de India y Pakistán (1947), revolución china (1949), independencias africanas (Ghana 1957, mayoría de África 1960), Vietnam (1975). La Declaración de la ONU sobre la concesión de independencia (1960) fue el acta formal del proceso. Creó más de 80 nuevos estados y redefinió el orden geopolítico mundial.",
+    "importance": 9,
+    "regions": ["Asia", "Africa", "North America", "South America"],
+    "places": [
+      { "name": "Nueva York (ONU)", "lat": 40.748, "lng": -73.968, "wikidataId": "Q178051", "role": "sede de la ONU, Declaración sobre Descolonización (1960)" },
+      { "name": "Nueva Delhi", "lat": 28.613, "lng": 77.209, "wikidataId": "Q987", "role": "capital de la India independiente (1947); conferencia de Bandung (Indonesia, 1955)" }
+    ],
+    "relations": [
+      { "targetId": "european-colonialism", "relationType": "followed", "strength": 5 },
+      { "targetId": "world-war-2", "relationType": "followed", "strength": 4, "note": "La WWII aceleró el colapso de los imperios coloniales europeos" },
+      { "targetId": "cold-war-period", "relationType": "contemporary_of", "strength": 4, "note": "La Guerra Fría influyó en los procesos de descolonización" }
+    ],
+    "sources": [
+      {
+        "title": "The End of Empire",
+        "author": "Lapping, Brian",
+        "publisher": "Granada",
+        "year": "1985",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Decolonization",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/topic/decolonization",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["independencia", "África", "Asia", "ONU", "Gandhi", "autodeterminación", "imperios"]
+  }
+]

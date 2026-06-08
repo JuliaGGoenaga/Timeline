@@ -1,0 +1,16 @@
+[
+  { "id": "architecture", "label": "Arquitectura", "color": "#f59e0b", "icon": "🏛" },
+  { "id": "art",          "label": "Arte",         "color": "#ec4899", "icon": "🎨" },
+  { "id": "music",        "label": "Música",       "color": "#8b5cf6", "icon": "🎵" },
+  { "id": "literature",   "label": "Literatura",   "color": "#10b981", "icon": "📖" },
+  { "id": "science",      "label": "Ciencia",      "color": "#3b82f6", "icon": "🔬" },
+  { "id": "technology",   "label": "Tecnología",   "color": "#06b6d4", "icon": "⚙️" },
+  { "id": "philosophy",   "label": "Filosofía",    "color": "#6366f1", "icon": "💡" },
+  { "id": "religion",     "label": "Religión",     "color": "#a16207", "icon": "✝" },
+  { "id": "politics",     "label": "Política",     "color": "#dc2626", "icon": "🏛" },
+  { "id": "economy",      "label": "Economía",     "color": "#16a34a", "icon": "📊" },
+  { "id": "society",      "label": "Sociedad",     "color": "#64748b", "icon": "👥" },
+  { "id": "urbanism",     "label": "Urbanismo",    "color": "#d97706", "icon": "🏙" },
+  { "id": "cinema",       "label": "Cine",         "color": "#e11d48", "icon": "🎬" },
+  { "id": "history",      "label": "Historia",     "color": "#78716c", "icon": "📜" }
+]

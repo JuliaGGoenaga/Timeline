@@ -1,0 +1,403 @@
+[
+  {
+    "id": "ancient-mesopotamia",
+    "title": "Mesopotamia y primeras civilizaciones",
+    "type": "civilization",
+    "disciplines": ["history", "architecture", "science", "religion"],
+    "historicalPeriods": ["ancient-east"],
+    "startDate": "-3500",
+    "endDate": "-539",
+    "datePrecision": "approximate",
+    "summary": "Cuna de la civilización: escritura cuneiforme, ciudades-estado, código de Hammurabi, astronomía y primeras construcciones monumentales.",
+    "description": "Mesopotamia (del griego 'tierra entre ríos', entre el Tigris y el Éufrates, actual Iraq) fue el origen de la civilización urbana. Las ciudades-estado sumerias (Ur, Uruk, Lagash, c. 3500–2300 a.C.) desarrollaron la escritura cuneiforme (c. 3200 a.C.), la primera de la historia. El Imperio Acadio (c. 2334–2154 a.C.), el III período de Ur, el Imperio Babilónico (con el Código de Hammurabi, c. 1754 a.C.) y el Imperio Asirio (c. 900–612 a.C.) se sucedieron en el control de la región. El Imperio Babilónico Nuevo (Nabucodonosor II, 605–562 a.C.) construyó los Jardines Colgantes. La región fue conquistada por Ciro el Grande de Persia en 539 a.C.",
+    "importance": 10,
+    "regions": ["Middle East"],
+    "places": [
+      { "name": "Ur", "lat": 30.96, "lng": 46.10, "wikidataId": "Q11825", "role": "ciudad-estado sumeria, Zigurat de Ur" },
+      { "name": "Babilonia", "lat": 32.54, "lng": 44.42, "wikidataId": "Q5765", "role": "capital del Imperio Babilónico, Jardines Colgantes" },
+      { "name": "Nínive", "lat": 36.36, "lng": 43.15, "wikidataId": "Q40621", "role": "capital del Imperio Asirio" }
+    ],
+    "relations": [
+      { "targetId": "ancient-egypt", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "classical-greece", "relationType": "influenced", "strength": 3, "note": "Matemáticas, astronomía y mitos griegos heredaron elementos mesopotámicos" },
+      { "targetId": "islamic-golden-age", "relationType": "preceded", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "The Ancient Near East: A Very Short Introduction",
+        "author": "Van De Mieroop, Marc",
+        "publisher": "Oxford University Press",
+        "year": "2015",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Mesopotamia",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/Mesopotamia-historical-region-Asia",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["escritura", "sumerios", "Babilonia", "Hammurabi", "cuneiforme"]
+  },
+  {
+    "id": "byzantine-empire",
+    "title": "Imperio Bizantino",
+    "type": "civilization",
+    "disciplines": ["history", "architecture", "religion", "art"],
+    "historicalPeriods": ["late-antiquity", "middle-ages"],
+    "startDate": "330",
+    "endDate": "1453",
+    "datePrecision": "year",
+    "summary": "Continuación del Imperio Romano de Oriente durante más de mil años, puente entre la Antigüedad clásica y el mundo medieval europeo e islámico.",
+    "description": "El Imperio Bizantino (Imperio Romano de Oriente) sobrevivió mil años más que el Imperio Romano de Occidente (que cayó en 476). Su capital, Constantinopla (fundada por Constantino I en 330 d.C.), fue la ciudad más grande y rica de Europa durante gran parte de la Edad Media. El reinado de Justiniano I (527–565) supuso su máximo esplendor: reconquistó parte del Mediterráneo occidental, codificó el derecho romano (Corpus Juris Civilis) y construyó la basílica de Santa Sofía (537). El Imperio Bizantino transmitió la cultura grecorromana a Europa y al Islam, y su caída ante los turcos otomanos (1453) marcó el fin de la Edad Media.",
+    "importance": 9,
+    "regions": ["Europe", "Middle East", "North Africa"],
+    "places": [
+      { "name": "Constantinopla", "lat": 41.01, "lng": 28.97, "wikidataId": "Q16869", "role": "capital del Imperio, hoy Estambul" },
+      { "name": "Rávena", "lat": 44.41, "lng": 12.20, "wikidataId": "Q1048", "role": "capital occidental bajo Justiniano, mosaicos" }
+    ],
+    "relations": [
+      { "targetId": "roman-empire", "relationType": "followed", "strength": 5 },
+      { "targetId": "middle-ages", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "islamic-golden-age", "relationType": "contemporary_of", "strength": 4, "note": "Relaciones de rivalidad y contacto cultural durante siglos" },
+      { "targetId": "ottoman-empire", "relationType": "preceded", "strength": 5, "note": "Los otomanos conquistaron Constantinopla en 1453" },
+      { "targetId": "renaissance", "relationType": "influenced", "strength": 4, "note": "Los eruditos griegos que huyeron a Italia transmitieron el pensamiento clásico" }
+    ],
+    "sources": [
+      {
+        "title": "Byzantium: The Empire of New Rome",
+        "author": "Mango, Cyril",
+        "publisher": "Weidenfeld and Nicolson",
+        "year": "1980",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Byzantine Empire",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/Byzantine-Empire",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Constantinopla", "Justiniano", "Santa Sofía", "ortodoxia", "derecho romano"]
+  },
+  {
+    "id": "china-imperial",
+    "title": "China Imperial (Han–Tang–Song)",
+    "type": "civilization",
+    "disciplines": ["history", "technology", "art", "science"],
+    "historicalPeriods": ["classical-antiquity", "late-antiquity", "middle-ages"],
+    "startDate": "-206",
+    "endDate": "1279",
+    "datePrecision": "approximate",
+    "summary": "Las tres grandes dinastías del Imperio Chino clásico, que produjeron el papel, la imprenta, la brújula, la pólvora y un arte y filosofía de alcance universal.",
+    "description": "Las dinastías Han (206 a.C.–220 d.C.), Tang (618–907) y Song (960–1279) representan el apogeo de la civilización china clásica. Los Han consolidaron el Estado confuciano, extendieron la Ruta de la Seda y produjeron el papel. Los Tang fueron el período de oro: cosmopolita, con la mayor ciudad del mundo (Chang'an, hoy Xi'an), poesía de Li Bai y Du Fu, y exportación cultural a Japón y Corea. Los Song impulsaron la imprenta con tipos móviles (Bi Sheng, c. 1040), la brújula magnética y el comercio marítimo. Las Cuatro Grandes Invenciones chinas (papel, imprenta, pólvora, brújula) transformaron la historia mundial.",
+    "importance": 10,
+    "regions": ["Asia"],
+    "places": [
+      { "name": "Chang'an (Xi'an)", "lat": 34.26, "lng": 108.92, "wikidataId": "Q3920", "role": "capital de las dinastías Han y Tang" },
+      { "name": "Hangzhou", "lat": 30.25, "lng": 120.15, "wikidataId": "Q5765599", "role": "capital del Imperio Song del Sur" }
+    ],
+    "relations": [
+      { "targetId": "islamic-golden-age", "relationType": "contemporary_of", "strength": 3, "note": "Intercambio de conocimientos a través de la Ruta de la Seda" },
+      { "targetId": "mongol-empire", "relationType": "preceded", "strength": 5, "note": "Los mongoles conquistaron China y establecieron la dinastía Yuan" },
+      { "targetId": "protestant-reformation", "relationType": "influenced", "strength": 2, "note": "La imprenta china inspiró la imprenta occidental de Gutenberg" }
+    ],
+    "sources": [
+      {
+        "title": "The Cambridge History of China (Multiple vols.)",
+        "author": "Twitchett, Denis; Fairbank, John K. (eds.)",
+        "publisher": "Cambridge University Press",
+        "year": "1978",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "China",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/China",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Han", "Tang", "Song", "Ruta de la Seda", "imprenta", "brújula"]
+  },
+  {
+    "id": "ottoman-empire",
+    "title": "Imperio Otomano",
+    "type": "civilization",
+    "disciplines": ["history", "politics", "architecture", "society"],
+    "historicalPeriods": ["middle-ages", "early-modern", "revolutionary-age", "19th-century"],
+    "startDate": "1299",
+    "endDate": "1922",
+    "datePrecision": "approximate",
+    "summary": "Imperio turco-islámico que dominó el Mediterráneo oriental y Oriente Próximo durante seis siglos, heredero de Bizancio y puente entre Europa y Asia.",
+    "description": "El Imperio Otomano fue fundado hacia 1299 por Osmán I en el noroeste de Anatolia. Alcanzó su máxima extensión bajo Solimán el Magnífico (1520–1566), gobernando territorios desde Hungría hasta Arabia. La conquista de Constantinopla (1453) por Mehmed II fue el acontecimiento más trascendental: convirtió la capital en Estambul y convirtió la basílica de Santa Sofía en mezquita. El Imperio controló el comercio entre Europa y Asia, y su presión sobre Centroeuropa impulsó la búsqueda de rutas marítimas alternativas. Entró en decadencia en el siglo XVIII y fue disuelto tras la Primera Guerra Mundial (1922).",
+    "importance": 9,
+    "regions": ["Middle East", "Europe", "North Africa"],
+    "places": [
+      { "name": "Estambul", "lat": 41.01, "lng": 28.97, "wikidataId": "Q406", "role": "capital desde 1453 (antes Constantinopla)" },
+      { "name": "Bursa", "lat": 40.18, "lng": 29.06, "wikidataId": "Q42362", "role": "primera capital otomana" }
+    ],
+    "relations": [
+      { "targetId": "byzantine-empire", "relationType": "followed", "strength": 5 },
+      { "targetId": "renaissance", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "world-war-1", "relationType": "part_of", "strength": 4, "note": "El Imperio Otomano fue una de las Potencias Centrales; su derrota causó su desintegración" }
+    ],
+    "sources": [
+      {
+        "title": "The Ottoman Empire: A Short History",
+        "author": "Faroqhi, Suraiya",
+        "publisher": "Markus Wiener Publishers",
+        "year": "2009",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Ottoman Empire",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/Ottoman-Empire",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Solimán el Magnífico", "Estambul", "Constantinopla", "Islam", "Anatolia"]
+  },
+  {
+    "id": "mongol-empire",
+    "title": "Imperio Mongol",
+    "type": "civilization",
+    "disciplines": ["history", "politics"],
+    "historicalPeriods": ["middle-ages"],
+    "startDate": "1206",
+    "endDate": "1368",
+    "datePrecision": "year",
+    "summary": "El mayor imperio contiguo de la historia, fundado por Gengis Kan, que conectó por primera vez Europa y Asia bajo un solo poder político.",
+    "description": "El Imperio Mongol, fundado por Gengis Kan en 1206, llegó a ser el mayor imperio contiguo de la historia, con una extensión de más de 24 millones de km² en su apogeo (c. 1279). Conquistas fulminantes de China, Asia Central, Persia, Rusia y Polonia. La Pax Mongolica (c. 1250–1350) facilitó el comercio y el intercambio cultural en la Ruta de la Seda. Marco Polo viajó hasta la corte del Kublai Kan (1271–1295). Las invasiones mongolas destruyeron Bagdad (1258), poniendo fin a la Edad de Oro islámica. El Imperio se fragmentó en cuatro kanatos tras la muerte de Möngke Kan (1259).",
+    "importance": 9,
+    "regions": ["Asia", "Europe", "Middle East"],
+    "places": [
+      { "name": "Karakórum", "lat": 47.20, "lng": 102.84, "wikidataId": "Q183477", "role": "primera capital del Imperio Mongol" },
+      { "name": "Pekín (Dadu)", "lat": 39.91, "lng": 116.39, "wikidataId": "Q956", "role": "capital de Kublai Kan y la dinastía Yuan" }
+    ],
+    "relations": [
+      { "targetId": "china-imperial", "relationType": "followed", "strength": 4 },
+      { "targetId": "islamic-golden-age", "relationType": "caused", "strength": 4, "note": "La invasión mongola y la destrucción de Bagdad (1258) puso fin a la Edad de Oro islámica" },
+      { "targetId": "middle-ages", "relationType": "part_of", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "Genghis Khan and the Making of the Modern World",
+        "author": "Weatherford, Jack",
+        "publisher": "Crown Publishers",
+        "year": "2004",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Mongol Empire",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/place/Mongol-empire",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Gengis Kan", "Kublai Kan", "Ruta de la Seda", "Pax Mongolica", "Bagdad"]
+  },
+  {
+    "id": "age-of-exploration",
+    "title": "Era de las Exploraciones",
+    "type": "event",
+    "disciplines": ["history", "science", "economy", "society"],
+    "historicalPeriods": ["early-modern"],
+    "startDate": "1415",
+    "endDate": "1600",
+    "datePrecision": "approximate",
+    "summary": "Período en que las potencias europeas exploraron y conectaron por primera vez los continentes, transformando el comercio, la ciencia y la historia global.",
+    "description": "La Era de las Exploraciones (c. 1415–1600) fue impulsada por Portugal y España, que buscaban rutas comerciales alternativas a Asia tras el bloqueo otomano. Hitos: el rodeo del cabo de Buena Esperanza por Bartolomeu Dias (1488), el primer viaje de Colón a América (1492), la llegada de Vasco da Gama a India por mar (1498) y la primera circunnavegación del globo por Magallanes-Elcano (1519–1522). Supuso el primer contacto sostenido entre Europa, África, América y Asia. Inauguró el comercio triangular, el colonialismo moderno y el intercambio colombino de plantas, animales y enfermedades.",
+    "importance": 10,
+    "regions": ["Europe", "North America", "South America", "Asia", "Africa"],
+    "places": [
+      { "name": "Lisboa", "lat": 38.71, "lng": -9.14, "wikidataId": "Q597", "role": "centro de la exploración portuguesa" },
+      { "name": "Sevilla", "lat": 37.38, "lng": -5.99, "wikidataId": "Q8717", "role": "Casa de Contratación, coordinación de las exploraciones españolas" }
+    ],
+    "relations": [
+      { "targetId": "ottoman-empire", "relationType": "response_to", "strength": 3, "note": "El bloqueo otomano de las rutas terrestres motivó la búsqueda de rutas marítimas" },
+      { "targetId": "renaissance", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "scientific-revolution", "relationType": "preceded", "strength": 3, "note": "Las exploraciones aportaron datos y métodos que impulsaron la ciencia moderna" },
+      { "targetId": "protestant-reformation", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "The Age of Reconnaissance: Discovery, Exploration and Settlement 1450–1650",
+        "author": "Parry, J.H.",
+        "publisher": "University of California Press",
+        "year": "1981",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Age of Discovery",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/science/European-exploration",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Colón", "Vasco da Gama", "Magallanes", "Portugal", "España", "América"]
+  },
+  {
+    "id": "american-revolution",
+    "title": "Revolución Americana",
+    "type": "event",
+    "disciplines": ["politics", "history", "philosophy"],
+    "historicalPeriods": ["enlightenment"],
+    "startDate": "1775",
+    "endDate": "1783",
+    "datePrecision": "year",
+    "summary": "Primera revolución liberal moderna, que separó las Trece Colonias de Gran Bretaña y fundó los Estados Unidos sobre principios ilustrados de soberanía popular.",
+    "description": "La Revolución Americana (1775–1783) fue la primera revolución liberal exitosa de la época moderna. Las Trece Colonias británicas de América del Norte declararon su independencia el 4 de julio de 1776 (Declaración de Independencia, redactada principalmente por Thomas Jefferson). La guerra concluyó con el Tratado de París (1783). La Constitución de los Estados Unidos (1787) y la Carta de Derechos (1791) establecieron el primer sistema republicano federal moderno, basado en las ideas de Locke, Montesquieu y Rousseau. Fue modelo directo e inspiración de la Revolución Francesa (1789).",
+    "importance": 9,
+    "regions": ["North America", "Europe"],
+    "places": [
+      { "name": "Filadelfia", "lat": 39.95, "lng": -75.16, "wikidataId": "Q1345", "role": "Congreso Continental, firma de la Declaración de Independencia" },
+      { "name": "Washington D.C.", "lat": 38.89, "lng": -77.03, "wikidataId": "Q61", "role": "capital federal fundada en 1790" }
+    ],
+    "relations": [
+      { "targetId": "enlightenment-movement", "relationType": "influenced_by", "strength": 5 },
+      { "targetId": "john-locke", "relationType": "influenced_by", "strength": 5 },
+      { "targetId": "montesquieu", "relationType": "influenced_by", "strength": 4 },
+      { "targetId": "french-revolution", "relationType": "influenced", "strength": 4, "note": "La Revolución Francesa fue inspirada directamente por la Americana" }
+    ],
+    "sources": [
+      {
+        "title": "The Ideological Origins of the American Revolution",
+        "author": "Bailyn, Bernard",
+        "publisher": "Harvard University Press",
+        "year": "1967",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "American Revolution",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/American-Revolution",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["Independencia", "Jefferson", "Constitución", "Trece Colonias", "1776"]
+  },
+  {
+    "id": "cold-war-period",
+    "title": "Guerra Fría",
+    "type": "period",
+    "disciplines": ["politics", "history", "technology", "society"],
+    "historicalPeriods": ["cold-war"],
+    "startDate": "1947",
+    "endDate": "1991",
+    "datePrecision": "year",
+    "summary": "Período de tensión geopolítica entre EEUU y la URSS que estructuró el orden mundial durante 44 años, con la carrera armamentística, espacial e ideológica como ejes.",
+    "description": "La Guerra Fría (1947–1991) fue el período de rivalidad geopolítica, ideológica y tecnológica entre los dos bloques surgidos de la Segunda Guerra Mundial: el capitalismo liderado por EEUU y el comunismo soviético. Sin enfrentamiento militar directo entre las superpotencias, generó conflictos subsidiarios (Corea, Vietnam, Angola), carreras armamentísticas (bombas atómicas e hidrógeno), la carrera espacial (Sputnik, 1957; Luna, 1969) y una intensa guerra ideológica cultural. Terminó con la caída del Muro de Berlín (1989) y la disolución de la URSS (1991). Definió la arquitectura, el diseño, la ciencia y la cultura de la segunda mitad del siglo XX.",
+    "importance": 9,
+    "regions": ["North America", "Europe", "Asia"],
+    "places": [
+      { "name": "Washington D.C.", "lat": 38.89, "lng": -77.03, "wikidataId": "Q61", "role": "capital del bloque occidental" },
+      { "name": "Moscú", "lat": 55.75, "lng": 37.61, "wikidataId": "Q649", "role": "capital del bloque soviético" },
+      { "name": "Berlín", "lat": 52.52, "lng": 13.40, "wikidataId": "Q64", "role": "ciudad dividida, símbolo de la Guerra Fría; caída del Muro 1989" }
+    ],
+    "relations": [
+      { "targetId": "world-war-2", "relationType": "followed", "strength": 5 },
+      { "targetId": "bauhaus", "relationType": "contemporary_of", "strength": 1 },
+      { "targetId": "le-corbusier", "relationType": "contemporary_of", "strength": 2 }
+    ],
+    "sources": [
+      {
+        "title": "The Cold War: A World History",
+        "author": "Westad, Odd Arne",
+        "publisher": "Basic Books",
+        "year": "2017",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Cold War",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Cold-War",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["EEUU", "URSS", "Berlín", "carrera espacial", "Muro de Berlín"]
+  },
+  {
+    "id": "black-death",
+    "title": "Peste Negra",
+    "type": "event",
+    "disciplines": ["history", "society"],
+    "historicalPeriods": ["middle-ages"],
+    "startDate": "1347",
+    "endDate": "1353",
+    "datePrecision": "year",
+    "summary": "La pandemia de peste bubónica más devastadora de la historia, que mató entre el 30 y el 60% de la población europea y transformó la sociedad medieval.",
+    "description": "La Peste Negra (1347–1353) fue la pandemia más mortífera registrada en la historia humana. Causada por la bacteria Yersinia pestis, llegó a Europa desde Asia Central a través de los puertos del Mar Negro. Entre 75 y 200 millones de personas murieron en Eurasia; Europa perdió entre el 30 y el 60% de su población. Las consecuencias sociales fueron enormes: escasez de mano de obra, crisis del feudalismo, impacto en la autoridad de la Iglesia, brotes de flagelantes y persecuciones de judíos. Aceleró la transición del mundo medieval al moderno. El Decamerón de Boccaccio (1353) es el gran documento literario de la época.",
+    "importance": 9,
+    "regions": ["Europe", "Asia", "Middle East"],
+    "places": [
+      { "name": "Mesina", "lat": 38.19, "lng": 15.55, "wikidataId": "Q24939", "role": "primer puerto europeo afectado, octubre 1347" },
+      { "name": "Florencia", "lat": 43.77, "lng": 11.25, "wikidataId": "Q2044", "role": "perdió la mitad de su población; escenario del Decamerón de Boccaccio" }
+    ],
+    "relations": [
+      { "targetId": "middle-ages", "relationType": "part_of", "strength": 4 },
+      { "targetId": "renaissance", "relationType": "preceded", "strength": 3, "note": "La crisis social de la Peste aceleró la búsqueda de nuevos valores humanistas" }
+    ],
+    "sources": [
+      {
+        "title": "The Black Death",
+        "author": "Ziegler, Philip",
+        "publisher": "Collins",
+        "year": "1969",
+        "type": "book",
+        "reliability": "high"
+      },
+      {
+        "title": "Black Death",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/event/Black-Death",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "global",
+    "tags": ["pandemia", "bubónica", "feudalismo", "Boccaccio", "demografía"]
+  }
+]

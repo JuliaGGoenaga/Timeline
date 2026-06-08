@@ -1,0 +1,229 @@
+[
+  {
+    "id": "casa-mila",
+    "title": "Casa Milà (La Pedrera)",
+    "type": "building",
+    "disciplines": ["architecture"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1906",
+    "endDate": "1912",
+    "datePrecision": "year",
+    "summary": "Edificio de viviendas de Antoni Gaudí en el Passeig de Gràcia de Barcelona, con fachada ondulante de piedra y espectacular terraza de chimeneas.",
+    "description": "La Casa Milà, conocida popularmente como 'La Pedrera' (la cantera), fue construida entre 1906 y 1912 por encargo de Pere Milà i Camps y Roser Segimon. Es el último gran edificio civil de Antoni Gaudí antes de dedicarse exclusivamente a la Sagrada Família. Su fachada de piedra calcárea ondulada y sus balcones de hierro forjado orgánico la convierten en una de las obras más originales del Modernisme. La terraza es un espacio escultórico de chimeneas helicoidades y guerreros de piedra. Estructura de hierro y hormigón que permite fachadas y plantas completamente libres, anticipando el Movimiento Moderno. UNESCO Patrimonio de la Humanidad desde 2005 (junto al resto de obras de Gaudí).",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Barcelona", "lat": 41.395, "lng": 2.161, "wikidataId": "Q184469", "role": "Passeig de Gràcia 92, Eixample de Barcelona" }
+    ],
+    "relations": [
+      { "targetId": "gaudi", "relationType": "created", "strength": 5 },
+      { "targetId": "art-nouveau", "relationType": "part_of", "strength": 4 },
+      { "targetId": "sagrada-familia", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "casa-batllo", "relationType": "contemporary_of", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO: Works of Antoni Gaudí",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/320/",
+        "type": "database",
+        "reliability": "high"
+      },
+      {
+        "title": "Gaudí: The Complete Works",
+        "author": "Güell, Xavier",
+        "publisher": "Gustavo Gili",
+        "year": "1998",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Gaudí", "La Pedrera", "Barcelona", "Eixample", "piedra ondulante", "UNESCO"]
+  },
+  {
+    "id": "casa-batllo",
+    "title": "Casa Batlló",
+    "type": "building",
+    "disciplines": ["architecture"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1904",
+    "endDate": "1906",
+    "datePrecision": "year",
+    "summary": "Remodelación de un edificio existente por Gaudí en el Passeig de Gràcia, con la fachada polícroma y la cubierta en forma de escamas de dragón.",
+    "description": "La Casa Batlló (1904–1906) es la profunda remodelación que Antoni Gaudí realizó de un edificio preexistente por encargo de Josep Batlló i Casanovas, en el Passeig de Gràcia 43 de Barcelona. La fachada revestida de trencadís (mosaico de cerámica rota) en azules, verdes y dorados, los balcones en forma de máscaras óseas y la cubierta con escamas de dragón iridiscentes hacen de este edificio una de las obras maestras del Modernisme. El edificio representa alegóricamente el triunfo de Sant Jordi (San Jorge) sobre el dragón. Declarado Patrimonio de la Humanidad por la UNESCO en 2005.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Barcelona", "lat": 41.392, "lng": 2.165, "wikidataId": "Q156336", "role": "Passeig de Gràcia 43, Eixample" }
+    ],
+    "relations": [
+      { "targetId": "gaudi", "relationType": "created", "strength": 5 },
+      { "targetId": "art-nouveau", "relationType": "part_of", "strength": 4 },
+      { "targetId": "casa-mila", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "sagrada-familia", "relationType": "contemporary_of", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO: Works of Antoni Gaudí",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/320/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Gaudí", "dragón", "trencadís", "Sant Jordi", "Barcelona", "UNESCO"]
+  },
+  {
+    "id": "palau-guell",
+    "title": "Palau Güell",
+    "type": "building",
+    "disciplines": ["architecture"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1886",
+    "endDate": "1890",
+    "datePrecision": "year",
+    "summary": "Primera gran obra de Gaudí, residencia del mecenas Eusebi Güell en el Raval de Barcelona, donde el arquitecto desarrolló por primera vez su lenguaje personal.",
+    "description": "El Palau Güell (1886–1890) fue la primera gran encomienda de Antoni Gaudí, residencia palaciega del industrial y mecenas Eusebi Güell en el barrio del Raval de Barcelona. En él Gaudí desarrolló por primera vez su vocabulario propio: arcos parabólicos, cúpulas perforadas, terrazas con chimeneas revestidas de trencadís. El edificio fue pionero en el uso de técnicas constructivas avanzadas —como la estructura de hierro— combinadas con referencias orientales y barrocas. Durante la Guerra Civil española fue sede de la policía franquista y sufrió daños; restaurado en el siglo XXI. Patrimonio de la Humanidad por la UNESCO desde 2005.",
+    "importance": 8,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Barcelona", "lat": 41.379, "lng": 2.174, "wikidataId": "Q1048237", "role": "Carrer Nou de la Rambla, Raval" }
+    ],
+    "relations": [
+      { "targetId": "gaudi", "relationType": "created", "strength": 5 },
+      { "targetId": "art-nouveau", "relationType": "part_of", "strength": 3 },
+      { "targetId": "sagrada-familia", "relationType": "preceded", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO: Works of Antoni Gaudí",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/320/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Gaudí", "Güell", "mecenas", "Raval", "arcos parabólicos", "UNESCO"]
+  },
+  {
+    "id": "domenech-i-montaner",
+    "title": "Lluís Domènech i Montaner",
+    "type": "person",
+    "disciplines": ["architecture"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1850-12-21",
+    "endDate": "1923-12-27",
+    "datePrecision": "exact",
+    "summary": "Arquitecto barcelonés, segunda figura del Modernisme catalán tras Gaudí, autor del Palau de la Música Catalana y el Hospital de Sant Pau.",
+    "description": "Lluís Domènech i Montaner (Barcelona, 1850 – 1923) fue el arquitecto más influyente del Modernisme catalán después de Gaudí. Catedrático de la Escuela de Arquitectura de Barcelona y político republicano, articuló los principios teóricos del movimiento. Sus dos obras más célebres son el Palau de la Música Catalana (1905–1908) y el Recinte Modernista de Sant Pau (1902–1930), ambos Patrimonio de la Humanidad por la UNESCO desde 1997. Dominó una arquitectura historicista enriquecida con cerámica, vidrieras emplomadas, hierro forjado y escultura integrada. También diseñó el Hotel Internacional (1888, para la Exposición Universal de Barcelona) y el castillo de los Tres Dragones.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Barcelona", "lat": 41.387, "lng": 2.175, "wikidataId": "Q1492", "role": "ciudad donde desarrolló toda su actividad arquitectónica" }
+    ],
+    "relations": [
+      { "targetId": "gaudi", "relationType": "contemporary_of", "strength": 4 },
+      { "targetId": "art-nouveau", "relationType": "part_of", "strength": 5 },
+      { "targetId": "palau-musica-catalana", "relationType": "created", "strength": 5 }
+    ],
+    "sources": [
+      {
+        "title": "Lluís Domènech i Montaner",
+        "publisher": "Enciclopèdia Catalana",
+        "url": "https://www.enciclopedia.cat/ec-gec-0022143.xml",
+        "type": "encyclopedia",
+        "reliability": "high"
+      },
+      {
+        "title": "Lluís Domènech i Montaner",
+        "publisher": "Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Lluis-Domenech-i-Montaner",
+        "type": "encyclopedia",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Modernisme", "Barcelona", "cerámica", "vidriera", "Gaudí", "Eixample"]
+  },
+  {
+    "id": "palau-musica-catalana",
+    "title": "Palau de la Música Catalana",
+    "type": "building",
+    "disciplines": ["architecture", "music"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1905",
+    "endDate": "1908",
+    "datePrecision": "year",
+    "summary": "Sala de conciertos de Domènech i Montaner en Barcelona, obra maestra del Modernisme con su vidriera esférica central y fachada de cerámica, UNESCO 1997.",
+    "description": "El Palau de la Música Catalana (1905–1908) fue construido por Lluís Domènech i Montaner para la Orfeó Català, sociedad coral fundada por Lluís Millet en 1891. Es la única sala de conciertos art nouveau del mundo iluminada principalmente por luz natural a través de su espectacular vidriera esférica invertida (1.000 piezas de vidrio emplomado). La fachada principal exhibe columnas revestidas de cerámica y un friso escultórico sobre las musas de Wagner y Clavé. El conjunto integra arquitectura, escultura, pintura y música en una síntesis total propia del Modernisme. Sigue activo como sala de conciertos. Patrimonio de la Humanidad junto al Hospital de Sant Pau desde 1997.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Barcelona", "lat": 41.387, "lng": 2.175, "wikidataId": "Q159551", "role": "Carrer Palau de la Música, barrio de Sant Pere" }
+    ],
+    "relations": [
+      { "targetId": "domenech-i-montaner", "relationType": "created", "strength": 5 },
+      { "targetId": "art-nouveau", "relationType": "part_of", "strength": 5 },
+      { "targetId": "gaudi", "relationType": "contemporary_of", "strength": 3 }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO: Palau de la Música Catalana and Hospital de Sant Pau",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/804/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["conciertos", "vidriera", "Modernisme", "Orfeó Català", "UNESCO", "Barcelona"]
+  },
+  {
+    "id": "parc-guell",
+    "title": "Parque Güell",
+    "type": "building",
+    "disciplines": ["architecture", "urbanism"],
+    "historicalPeriods": ["belle-epoque"],
+    "startDate": "1900",
+    "endDate": "1914",
+    "datePrecision": "year",
+    "summary": "Parque público en la colina del Carmel de Barcelona, diseñado por Gaudí como urbanización privada frustrada y reconvertido en parque municipal lleno de trencadís y formas orgánicas.",
+    "description": "El Parque Güell (1900–1914) fue concebido por Eusebi Güell y diseñado por Antoni Gaudí como una urbanización de viviendas de lujo en la colina del Carmel de Barcelona. El proyecto fracasó comercialmente —solo se vendieron dos parcelas— y en 1922 fue cedido al Ayuntamiento como parque público. El conjunto es una síntesis de naturaleza y arquitectura: viaductos de piedra que imitan formaciones rocosas, la gran columnata de la sala hipostila (86 columnas dóricas) coronada por la terraza-banco sinuoso revestida de trencadís, y la célebre salamandra o 'drac' (dragón) de la escalinata principal. Gaudí vivió en el parque de 1906 a 1926. UNESCO desde 2005.",
+    "importance": 9,
+    "regions": ["Europe"],
+    "places": [
+      { "name": "Barcelona", "lat": 41.414, "lng": 2.153, "wikidataId": "Q204630", "role": "Colina del Carmel, Barcelona" }
+    ],
+    "relations": [
+      { "targetId": "gaudi", "relationType": "created", "strength": 5 },
+      { "targetId": "sagrada-familia", "relationType": "contemporary_of", "strength": 3 },
+      { "targetId": "art-nouveau", "relationType": "part_of", "strength": 4 }
+    ],
+    "sources": [
+      {
+        "title": "UNESCO: Works of Antoni Gaudí",
+        "publisher": "UNESCO",
+        "url": "https://whc.unesco.org/en/list/320/",
+        "type": "database",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "layer": "detailed",
+    "tags": ["Gaudí", "trencadís", "dragón", "urbanización", "Carmel", "UNESCO", "Barcelona"]
+  }
+]
