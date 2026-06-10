@@ -1,6 +1,7 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import * as d3 from 'd3';
 import type { Entity } from '@/types';
 import disciplines from '@/data/disciplines.json';
 
@@ -12,96 +13,162 @@ interface Props {
   onSelect: (id: string) => void;
 }
 
+interface NodeDatum extends d3.SimulationNodeDatum {
+  id: string;
+  title: string;
+  color: string;
+  size: number;
+  importance: number;
+}
+
+interface LinkDatum extends d3.SimulationLinkDatum<NodeDatum> {
+  label: string;
+}
+
 export default function NetworkView({ entities, selectedId, onSelect }: Props) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const networkRef   = useRef<unknown>(null);
+  const svgRef = useRef<SVGSVGElement>(null);
+  const [hoverId, setHoverId] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!containerRef.current) return;
+    if (!svgRef.current) return;
+    const svg = d3.select(svgRef.current);
+    svg.selectAll('*').remove();
+
+    const W = svgRef.current.clientWidth  || 800;
+    const H = svgRef.current.clientHeight || 600;
 
     const entityMap = new Map(entities.map((e) => [e.id, e]));
-    const nodeSet   = new Set<string>();
-    const edgesRaw: { from: string; to: string; label: string }[] = [];
+
+    // Build nodes & links — only entities that appear in at least one valid relation
+    const usedIds = new Set<string>();
+    const linksRaw: { from: string; to: string; label: string }[] = [];
 
     entities.forEach((e) => {
-      nodeSet.add(e.id);
       e.relations.forEach((r) => {
         if (entityMap.has(r.targetId)) {
-          nodeSet.add(r.targetId);
-          edgesRaw.push({ from: e.id, to: r.targetId, label: r.relationType.replace(/_/g, ' ') });
+          usedIds.add(e.id);
+          usedIds.add(r.targetId);
+          linksRaw.push({ from: e.id, to: r.targetId, label: r.relationType.replace(/_/g, ' ') });
         }
       });
     });
 
-    const nodes = Array.from(nodeSet).map((id) => {
-      const e     = entityMap.get(id)!;
-      const color = DISC[e?.disciplines[0]]?.color ?? '#6b7280';
-      const isSel = id === selectedId;
-      return {
-        id,
-        label:  e?.title ?? id,
-        color: {
-          background: color + 'cc',
-          border:     isSel ? '#1f2937' : color,
-          highlight:  { background: color, border: '#1f2937' },
-          hover:      { background: color + 'ee', border: color },
-        },
-        size:        Math.max(12, ((e?.importance ?? 5) / 10) * 30),
-        font:        { color: '#374151', size: isSel ? 13 : 11, strokeWidth: 3, strokeColor: '#ffffff' },
-        borderWidth: isSel ? 3 : 1.5,
-      };
+    // Limit to top-N by importance to avoid overloading the layout
+    const MAX_NODES = 120;
+    const sortedIds = Array.from(usedIds).sort((a, b) => {
+      const ia = entityMap.get(a)?.importance ?? 0;
+      const ib = entityMap.get(b)?.importance ?? 0;
+      return ib - ia;
+    }).slice(0, MAX_NODES);
+    const kept = new Set(sortedIds);
+
+    const nodes: NodeDatum[] = sortedIds.map((id) => {
+      const e = entityMap.get(id)!;
+      const color = DISC[e.disciplines[0]]?.color ?? '#6b7280';
+      return { id, title: e.title, color, size: Math.max(5, (e.importance / 10) * 18), importance: e.importance };
     });
 
-    const edges = edgesRaw.map((e, i) => ({
-      id:     i,
-      from:   e.from,
-      to:     e.to,
-      title:  e.label,
-      color:  { color: '#d1d5db', highlight: '#6b7280', hover: '#9ca3af' },
-      width:  1,
-      arrows: { to: { enabled: true, scaleFactor: 0.4 } },
-      smooth: { enabled: true, type: 'dynamic' as const, roundness: 0.4 },
-    }));
+    const links: LinkDatum[] = linksRaw
+      .filter((l) => kept.has(l.from) && kept.has(l.to) && l.from !== l.to)
+      .map((l) => ({ source: l.from, target: l.to, label: l.label }));
 
-    import('vis-network').then(({ Network, DataSet }) => {
-      if (!containerRef.current) return;
-      if (networkRef.current) (networkRef.current as { destroy: () => void }).destroy();
+    // D3 force simulation
+    const sim = d3.forceSimulation<NodeDatum>(nodes)
+      .force('link', d3.forceLink<NodeDatum, LinkDatum>(links).id((d) => d.id).distance(80).strength(0.3))
+      .force('charge', d3.forceManyBody().strength(-200))
+      .force('center', d3.forceCenter(W / 2, H / 2))
+      .force('collide', d3.forceCollide<NodeDatum>().radius((d) => d.size + 4));
 
-      const net = new Network(
-        containerRef.current,
-        { nodes: new DataSet(nodes), edges: new DataSet(edges) },
-        {
-          physics: {
-            stabilization: { iterations: 150 },
-            barnesHut: { gravitationalConstant: -4000, springLength: 130 },
-          },
-          interaction: { hover: true, tooltipDelay: 100 },
-          layout:      { improvedLayout: true },
-          nodes:       { shape: 'dot' },
-        }
-      );
+    // Zoom container
+    const g = svg.append('g');
+    svg.call(
+      d3.zoom<SVGSVGElement, unknown>()
+        .scaleExtent([0.1, 4])
+        .on('zoom', (ev) => g.attr('transform', ev.transform))
+    );
 
-      net.on('click', (params) => {
-        if (params.nodes.length > 0) onSelect(String(params.nodes[0]));
-      });
+    // Arrow marker
+    svg.append('defs').append('marker')
+      .attr('id', 'arrow')
+      .attr('viewBox', '0 -4 8 8')
+      .attr('refX', 18).attr('refY', 0)
+      .attr('markerWidth', 6).attr('markerHeight', 6)
+      .attr('orient', 'auto')
+      .append('path').attr('d', 'M0,-4L8,0L0,4').attr('fill', '#d1d5db');
 
-      networkRef.current = net;
+    // Links
+    const linkSel = g.append('g').selectAll<SVGLineElement, LinkDatum>('line')
+      .data(links).join('line')
+      .attr('stroke', '#e5e7eb')
+      .attr('stroke-width', 1)
+      .attr('marker-end', 'url(#arrow)');
+
+    // Node groups
+    const nodeSel = g.append('g').selectAll<SVGGElement, NodeDatum>('g')
+      .data(nodes, (d) => d.id)
+      .join('g')
+      .style('cursor', 'pointer')
+      .call(
+        d3.drag<SVGGElement, NodeDatum>()
+          .on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+          .on('drag',  (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
+          .on('end',   (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
+      )
+      .on('click', (_ev, d) => onSelect(d.id))
+      .on('mouseenter', (_ev, d) => setHoverId(d.id))
+      .on('mouseleave', () => setHoverId(null));
+
+    nodeSel.append('circle')
+      .attr('r', (d) => d.size)
+      .attr('fill', (d) => d.color + 'cc')
+      .attr('stroke', (d) => d.id === selectedId ? '#1f2937' : d.color)
+      .attr('stroke-width', (d) => d.id === selectedId ? 3 : 1.5);
+
+    nodeSel.append('text')
+      .text((d) => d.title)
+      .attr('text-anchor', 'middle')
+      .attr('dy', (d) => d.size + 11)
+      .attr('font-size', 9)
+      .attr('fill', '#374151')
+      .attr('paint-order', 'stroke')
+      .attr('stroke', '#ffffff')
+      .attr('stroke-width', 3)
+      .style('pointer-events', 'none')
+      .style('display', (d) => d.importance >= 6 ? 'block' : 'none');
+
+    // Tick
+    sim.on('tick', () => {
+      linkSel
+        .attr('x1', (d) => (d.source as NodeDatum).x ?? 0)
+        .attr('y1', (d) => (d.source as NodeDatum).y ?? 0)
+        .attr('x2', (d) => (d.target as NodeDatum).x ?? 0)
+        .attr('y2', (d) => (d.target as NodeDatum).y ?? 0);
+
+      nodeSel.attr('transform', (d) => `translate(${d.x ?? 0},${d.y ?? 0})`);
     });
 
-    return () => {
-      if (networkRef.current) {
-        (networkRef.current as { destroy: () => void }).destroy();
-        networkRef.current = null;
-      }
-    };
-  }, [entities, selectedId, onSelect]);
+    return () => { sim.stop(); };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [entities, selectedId]);
+
+  // Tooltip for hovered node
+  const hoveredEntity = hoverId ? entities.find((e) => e.id === hoverId) : null;
 
   return (
     <div className="relative w-full h-full bg-gray-50">
-      <div ref={containerRef} className="w-full h-full" />
+      <svg ref={svgRef} className="w-full h-full" />
+
+      {/* Hover tooltip */}
+      {hoveredEntity && (
+        <div className="absolute top-3 left-3 z-20 bg-white border border-gray-200 rounded-xl shadow-lg px-3 py-2 max-w-xs pointer-events-none">
+          <p className="font-semibold text-sm text-gray-900">{hoveredEntity.title}</p>
+          <p className="text-xs text-gray-500 mt-0.5 line-clamp-2">{hoveredEntity.summary}</p>
+        </div>
+      )}
+
       <div className="absolute bottom-2 left-1/2 -translate-x-1/2 z-10 pointer-events-none">
         <div className="bg-white/80 backdrop-blur border border-gray-200 rounded-full px-3 py-1 text-xs text-gray-500 shadow-sm">
-          Arrastra · Rueda para zoom · Clic para seleccionar
+          Arrastra nodos · Rueda para zoom · Clic para seleccionar
         </div>
       </div>
     </div>
