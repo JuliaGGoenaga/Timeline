@@ -835,7 +835,7 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
     const view = savedViewRef.current;
     const t = view
       ? transformForYears(view.startYear, view.endYear)   // restore after filter/resize
-      : transformForYears(-3400, 2100);                   // first load: recorded history
+      : transformForYears(-6000, 2100);                   // first load: ~8000yr range → clearly in "grandes épocas" level
 
     if (t) {
       svg.call(zoom.transform as never, t);
