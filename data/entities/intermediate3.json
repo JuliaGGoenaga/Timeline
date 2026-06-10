@@ -1420,7 +1420,7 @@
   {
     "id": "arte-rupestre",
     "title": "Arte rupestre paleolítico",
-    "type": "movement",
+    "type": "period",
     "disciplines": [
       "art"
     ],
