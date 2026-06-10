@@ -3,589 +3,1629 @@
     "id": "arte-griego",
     "title": "Arte y arquitectura griega",
     "type": "style",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "-800",
     "endDate": "-30",
     "datePrecision": "century",
     "summary": "Tradición artística y arquitectónica de la Grecia antigua que estableció los cánones clásicos de belleza y proporción.",
     "description": "Del período arcaico al helenístico, el arte griego evolucionó desde figuras rígidas hasta una representación naturalista del cuerpo humano. El Partenón, la escultura de Fidias y los órdenes dórico, jónico y corintio influyeron decisivamente en toda la tradición occidental.",
     "importance": 10,
-    "regions": ["mediterranean"],
-    "places": [{"name": "Atenas", "lat": 37.97, "lng": 23.72, "role": "centro artístico principal"}, {"name": "Olimpia", "lat": 37.64, "lng": 21.63, "role": "escultura y templos"}],
-    "relations": [{"targetId": "arte-romano", "relationType": "influences", "strength": 5}],
-    "sources": [{"title": "Greek Art and Archaeology", "author": "Pedley, J.", "publisher": "Prentice Hall", "year": "2002", "type": "book", "reliability": "high"}],
+    "regions": [
+      "mediterranean"
+    ],
+    "places": [
+      {
+        "name": "Atenas",
+        "lat": 37.97,
+        "lng": 23.72,
+        "role": "centro artístico principal"
+      },
+      {
+        "name": "Olimpia",
+        "lat": 37.64,
+        "lng": 21.63,
+        "role": "escultura y templos"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "arte-romano",
+        "relationType": "influences",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Greek Art and Archaeology",
+        "author": "Pedley, J.",
+        "publisher": "Prentice Hall",
+        "year": "2002",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "arte-romano",
     "title": "Arte y arquitectura romana",
     "type": "style",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["classical-antiquity", "late-antiquity"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity",
+      "late-antiquity"
+    ],
     "startDate": "-500",
     "endDate": "400",
     "datePrecision": "century",
     "summary": "Tradición artística romana que asimiló el arte griego y lo transformó al servicio del poder imperial.",
     "description": "Roma adoptó el lenguaje griego y lo reinterpretó con pragmatismo: el arco, la bóveda, el hormigón romano (opus caementicium) y obras como el Coliseo, el Panteón y la Columna de Trajano definieron una arquitectura al servicio del Estado. El retrato realista y el relieve histórico son sus grandes aportaciones escultóricas.",
     "importance": 10,
-    "regions": ["mediterranean"],
-    "places": [{"name": "Roma", "lat": 41.90, "lng": 12.50, "role": "capital imperial"}, {"name": "Pompeya", "lat": 40.75, "lng": 14.49, "role": "pintura y vida cotidiana"}],
-    "relations": [{"targetId": "arte-griego", "relationType": "evolves-from", "strength": 4}, {"targetId": "arte-bizantino", "relationType": "precedes", "strength": 3}],
-    "sources": [{"title": "Roman Art", "author": "Kleiner, D.", "publisher": "Yale University Press", "year": "1992", "type": "book", "reliability": "high"}],
+    "regions": [
+      "mediterranean"
+    ],
+    "places": [
+      {
+        "name": "Roma",
+        "lat": 41.9,
+        "lng": 12.5,
+        "role": "capital imperial"
+      },
+      {
+        "name": "Pompeya",
+        "lat": 40.75,
+        "lng": 14.49,
+        "role": "pintura y vida cotidiana"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "arte-griego",
+        "relationType": "evolves-from",
+        "strength": 4
+      },
+      {
+        "targetId": "arte-bizantino",
+        "relationType": "precedes",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Roman Art",
+        "author": "Kleiner, D.",
+        "publisher": "Yale University Press",
+        "year": "1992",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "arte-bizantino",
     "title": "Arte y arquitectura bizantina",
     "type": "style",
-    "disciplines": ["art", "architecture", "religion"],
-    "historicalPeriods": ["late-antiquity", "middle-ages"],
+    "disciplines": [
+      "art",
+      "architecture",
+      "religion"
+    ],
+    "historicalPeriods": [
+      "late-antiquity",
+      "middle-ages"
+    ],
     "startDate": "330",
     "endDate": "1453",
     "datePrecision": "century",
     "summary": "Tradición artística del Imperio Romano de Oriente, caracterizada por el mosaico, el icono y la cúpula sobre pechinas.",
     "description": "Desde la fundación de Constantinopla hasta su caída ante los otomanos, el arte bizantino desarrolló un lenguaje visual al servicio de la fe ortodoxa. Santa Sofía, los mosaicos de Rávena y la tradición iconográfica influyeron en el arte medieval occidental y en el arte ortodoxo eslavo.",
     "importance": 9,
-    "regions": ["mediterranean", "eastern-europe"],
-    "places": [{"name": "Constantinopla", "lat": 41.01, "lng": 28.98, "role": "capital y centro artístico"}, {"name": "Rávena", "lat": 44.42, "lng": 12.20, "role": "mosaicos del período justinianeo"}],
+    "regions": [
+      "mediterranean",
+      "eastern-europe"
+    ],
+    "places": [
+      {
+        "name": "Constantinopla",
+        "lat": 41.01,
+        "lng": 28.98,
+        "role": "capital y centro artístico"
+      },
+      {
+        "name": "Rávena",
+        "lat": 44.42,
+        "lng": 12.2,
+        "role": "mosaicos del período justinianeo"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "Byzantine Art", "author": "Cormack, R.", "publisher": "Oxford University Press", "year": "2000", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "Byzantine Art",
+        "author": "Cormack, R.",
+        "publisher": "Oxford University Press",
+        "year": "2000",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "edad-de-oro-islamica",
     "title": "Edad de Oro islámica",
     "type": "movement",
-    "disciplines": ["science", "philosophy", "art"],
-    "historicalPeriods": ["middle-ages"],
+    "disciplines": [
+      "science",
+      "philosophy",
+      "art"
+    ],
+    "historicalPeriods": [
+      "middle-ages"
+    ],
     "startDate": "750",
     "endDate": "1258",
     "datePrecision": "century",
     "summary": "Período de florecimiento intelectual, científico y artístico del mundo islámico medieval.",
     "description": "Entre el califato abasí y las invasiones mongolas, el mundo islámico preservó y amplió el conocimiento griego en matemáticas, astronomía, medicina, filosofía y óptica. Al-Kindi, Al-Farabi, Ibn Sina, Al-Biruni e Ibn Rushd transmitieron a Europa el saber clásico y aportaron innovaciones propias que fueron fundamentales para el Renacimiento occidental.",
     "importance": 10,
-    "regions": ["middle-east", "central-asia", "northern-africa"],
-    "places": [{"name": "Bagdad", "lat": 33.34, "lng": 44.40, "role": "capital abasí y Casa de la Sabiduría"}, {"name": "Córdoba", "lat": 37.89, "lng": -4.78, "role": "califato omeya occidental"}],
-    "relations": [{"targetId": "escolastica", "relationType": "influences", "strength": 4}],
-    "sources": [{"title": "The House of Wisdom", "author": "Lyons, J.", "publisher": "Bloomsbury", "year": "2009", "type": "book", "reliability": "high"}],
+    "regions": [
+      "middle-east",
+      "central-asia",
+      "northern-africa"
+    ],
+    "places": [
+      {
+        "name": "Bagdad",
+        "lat": 33.34,
+        "lng": 44.4,
+        "role": "capital abasí y Casa de la Sabiduría"
+      },
+      {
+        "name": "Córdoba",
+        "lat": 37.89,
+        "lng": -4.78,
+        "role": "califato omeya occidental"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "escolastica",
+        "relationType": "influences",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The House of Wisdom",
+        "author": "Lyons, J.",
+        "publisher": "Bloomsbury",
+        "year": "2009",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "arte-islamico",
     "title": "Arte y arquitectura islámica",
     "type": "style",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["middle-ages", "early-modern"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "middle-ages",
+      "early-modern"
+    ],
     "startDate": "700",
     "endDate": "1800",
     "datePrecision": "century",
     "summary": "Tradición artística del Islam caracterizada por la geometría, el arabesco, la caligrafía y una arquitectura de espacios espirituales.",
     "description": "La arquitectura islámica —mezquitas, madrazas, palacios— desarrolló el arco de herradura, la cúpula de mocárabes y la decoración geométrica. La Alhambra, la Mezquita de Córdoba, el Taj Mahal y la Cúpula de la Roca son sus expresiones más conocidas. La caligrafía árabe ocupa el lugar que la figuración ocupa en otras tradiciones.",
     "importance": 9,
-    "regions": ["middle-east", "northern-africa", "central-asia"],
-    "places": [{"name": "Granada", "lat": 37.18, "lng": -3.60, "role": "Alhambra"}, {"name": "Samarcanda", "lat": 39.65, "lng": 66.96, "role": "arquitectura timúrida"}],
+    "regions": [
+      "middle-east",
+      "northern-africa",
+      "central-asia"
+    ],
+    "places": [
+      {
+        "name": "Granada",
+        "lat": 37.18,
+        "lng": -3.6,
+        "role": "Alhambra"
+      },
+      {
+        "name": "Samarcanda",
+        "lat": 39.65,
+        "lng": 66.96,
+        "role": "arquitectura timúrida"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "Islamic Art and Architecture", "author": "Hillenbrand, R.", "publisher": "Thames and Hudson", "year": "1999", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "Islamic Art and Architecture",
+        "author": "Hillenbrand, R.",
+        "publisher": "Thames and Hudson",
+        "year": "1999",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "filosofia-islamica",
     "title": "Filosofía islámica medieval",
     "type": "movement",
-    "disciplines": ["philosophy", "science", "religion"],
-    "historicalPeriods": ["middle-ages"],
+    "disciplines": [
+      "philosophy",
+      "science",
+      "religion"
+    ],
+    "historicalPeriods": [
+      "middle-ages"
+    ],
     "startDate": "800",
     "endDate": "1200",
     "datePrecision": "century",
     "summary": "Corriente filosófica que integró la herencia griega con el pensamiento islámico y la transmitió a Europa.",
     "description": "Ibn Sina (Avicena) y Ibn Rushd (Averroes) comentaron a Aristóteles y desarrollaron sistemas filosóficos propios. Al-Farabi y Al-Kindi sentaron las bases de la filosofía política y la metafísica islámica. Su recepción en Europa fue decisiva para la escolástica y el pensamiento medieval cristiano.",
     "importance": 9,
-    "regions": ["middle-east", "northern-africa"],
-    "places": [{"name": "Bagdad", "lat": 33.34, "lng": 44.40, "role": "Casa de la Sabiduría"}, {"name": "Córdoba", "lat": 37.89, "lng": -4.78, "role": "Averroes"}],
-    "relations": [{"targetId": "escolastica", "relationType": "influences", "strength": 5}],
-    "sources": [{"title": "A History of Islamic Philosophy", "author": "Leaman, O.", "publisher": "Routledge", "year": "1985", "type": "book", "reliability": "high"}],
+    "regions": [
+      "middle-east",
+      "northern-africa"
+    ],
+    "places": [
+      {
+        "name": "Bagdad",
+        "lat": 33.34,
+        "lng": 44.4,
+        "role": "Casa de la Sabiduría"
+      },
+      {
+        "name": "Córdoba",
+        "lat": 37.89,
+        "lng": -4.78,
+        "role": "Averroes"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "escolastica",
+        "relationType": "influences",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "A History of Islamic Philosophy",
+        "author": "Leaman, O.",
+        "publisher": "Routledge",
+        "year": "1985",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "absolutismo",
     "title": "Absolutismo y Antiguo Régimen",
     "type": "movement",
-    "disciplines": ["politics", "society"],
-    "historicalPeriods": ["early-modern", "enlightenment"],
+    "disciplines": [
+      "politics",
+      "society"
+    ],
+    "historicalPeriods": [
+      "early-modern",
+      "enlightenment"
+    ],
     "startDate": "1600",
     "endDate": "1789",
     "datePrecision": "decade",
     "summary": "Sistema político basado en el poder absoluto del monarca, legitimado por el derecho divino.",
     "description": "Luis XIV de Francia encarnó el ideal absolutista con Versalles como símbolo de poder centralizado. El absolutismo organizó la administración estatal, suprimió los poderes feudales intermedios y generó las condiciones que llevaron a la Revolución Francesa.",
     "importance": 8,
-    "regions": ["western-europe"],
-    "places": [{"name": "Versalles", "lat": 48.80, "lng": 2.12, "role": "símbolo del absolutismo francés"}],
-    "relations": [{"targetId": "ilustracion-mov", "relationType": "opposed-by", "strength": 4}],
-    "sources": [{"title": "Absolutism and Its Discontents", "author": "Swann, J.", "publisher": "Macmillan", "year": "2002", "type": "book", "reliability": "high"}],
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Versalles",
+        "lat": 48.8,
+        "lng": 2.12,
+        "role": "símbolo del absolutismo francés"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ilustracion-mov",
+        "relationType": "opposed-by",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Absolutism and Its Discontents",
+        "author": "Swann, J.",
+        "publisher": "Macmillan",
+        "year": "2002",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "mercantilismo",
     "title": "Mercantilismo",
     "type": "movement",
-    "disciplines": ["economy", "politics"],
-    "historicalPeriods": ["early-modern", "enlightenment"],
+    "disciplines": [
+      "economy",
+      "politics"
+    ],
+    "historicalPeriods": [
+      "early-modern",
+      "enlightenment"
+    ],
     "startDate": "1500",
     "endDate": "1776",
     "datePrecision": "decade",
     "summary": "Doctrina económica que consideraba la riqueza nacional como la acumulación de metales preciosos y el control del comercio exterior.",
     "description": "El mercantilismo dominó el pensamiento económico europeo durante los siglos XVI-XVIII. Impulsó el colonialismo, la protección arancelaria y las compañías de comercio estatales. Adam Smith lo refutó en La riqueza de las naciones (1776) y abrió la era del liberalismo económico.",
     "importance": 7,
-    "regions": ["western-europe"],
-    "places": [{"name": "Londres", "lat": 51.51, "lng": -0.12, "role": "Compañía de las Indias Orientales"}, {"name": "Amsterdam", "lat": 52.37, "lng": 4.90, "role": "comercio holandés"}],
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "role": "Compañía de las Indias Orientales"
+      },
+      {
+        "name": "Amsterdam",
+        "lat": 52.37,
+        "lng": 4.9,
+        "role": "comercio holandés"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "Mercantilism", "author": "Magnusson, L.", "publisher": "Routledge", "year": "1994", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "Mercantilism",
+        "author": "Magnusson, L.",
+        "publisher": "Routledge",
+        "year": "1994",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "nacionalismo",
     "title": "Nacionalismo",
     "type": "movement",
-    "disciplines": ["politics", "society"],
-    "historicalPeriods": ["revolutionary-age", "19th-century", "early-20th"],
+    "disciplines": [
+      "politics",
+      "society"
+    ],
+    "historicalPeriods": [
+      "revolutionary-age",
+      "19th-century",
+      "early-20th"
+    ],
     "startDate": "1789",
     "endDate": "1945",
     "datePrecision": "decade",
     "summary": "Ideología que identifica la nación como la unidad política fundamental y fuente de legitimidad del Estado.",
     "description": "Nacido de la Revolución Francesa y amplificado por las guerras napoleónicas, el nacionalismo rediseñó el mapa de Europa en el siglo XIX. Las unificaciones de Italia y Alemania, las independencias latinoamericanas y las tensiones que desembocaron en las dos guerras mundiales son sus consecuencias directas.",
     "importance": 9,
-    "regions": ["europe", "global"],
-    "places": [{"name": "París", "lat": 48.85, "lng": 2.35, "role": "origen revolucionario"}, {"name": "Berlín", "lat": 52.52, "lng": 13.40, "role": "unificación alemana"}],
+    "regions": [
+      "europe",
+      "global"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "origen revolucionario"
+      },
+      {
+        "name": "Berlín",
+        "lat": 52.52,
+        "lng": 13.4,
+        "role": "unificación alemana"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "Nations and Nationalism", "author": "Gellner, E.", "publisher": "Blackwell", "year": "1983", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "Nations and Nationalism",
+        "author": "Gellner, E.",
+        "publisher": "Blackwell",
+        "year": "1983",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "fascismo",
     "title": "Fascismo y totalitarismos",
     "type": "movement",
-    "disciplines": ["politics", "society"],
-    "historicalPeriods": ["early-20th"],
+    "disciplines": [
+      "politics",
+      "society"
+    ],
+    "historicalPeriods": [
+      "early-20th"
+    ],
     "startDate": "1919",
     "endDate": "1945",
     "datePrecision": "year",
     "summary": "Movimientos políticos autoritarios que combinaron nacionalismo extremo, corporativismo y rechazo de la democracia liberal.",
     "description": "El fascismo italiano de Mussolini, el nazismo alemán y el franquismo español emergieron de la crisis de posguerra y el miedo al comunismo. Manipularon la cultura, el arte y los medios de comunicación para construir regímenes totalitarios que desembocaron en la Segunda Guerra Mundial y el Holocausto.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Roma", "lat": 41.90, "lng": 12.50, "role": "Mussolini"}, {"name": "Berlín", "lat": 52.52, "lng": 13.40, "role": "Hitler"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Roma",
+        "lat": 41.9,
+        "lng": 12.5,
+        "role": "Mussolini"
+      },
+      {
+        "name": "Berlín",
+        "lat": 52.52,
+        "lng": 13.4,
+        "role": "Hitler"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "The Anatomy of Fascism", "author": "Paxton, R.O.", "publisher": "Knopf", "year": "2004", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "The Anatomy of Fascism",
+        "author": "Paxton, R.O.",
+        "publisher": "Knopf",
+        "year": "2004",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "estado-bienestar",
     "title": "Estado del bienestar",
     "type": "movement",
-    "disciplines": ["politics", "society", "economy"],
-    "historicalPeriods": ["cold-war"],
+    "disciplines": [
+      "politics",
+      "society",
+      "economy"
+    ],
+    "historicalPeriods": [
+      "cold-war"
+    ],
     "startDate": "1945",
     "endDate": "1980",
     "datePrecision": "decade",
     "summary": "Modelo de Estado que garantiza servicios públicos universales: sanidad, educación, pensiones y protección social.",
     "description": "Tras la Segunda Guerra Mundial, Europa occidental construyó sistemas de protección social sin precedentes. El informe Beveridge en el Reino Unido, el New Deal americano y los modelos nórdicos establecieron la idea de que el Estado debe garantizar el bienestar de sus ciudadanos desde la cuna hasta la tumba.",
     "importance": 9,
-    "regions": ["western-europe", "north-america"],
-    "places": [{"name": "Londres", "lat": 51.51, "lng": -0.12, "role": "informe Beveridge, NHS"}, {"name": "Estocolmo", "lat": 59.33, "lng": 18.07, "role": "modelo nórdico"}],
+    "regions": [
+      "western-europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "role": "informe Beveridge, NHS"
+      },
+      {
+        "name": "Estocolmo",
+        "lat": 59.33,
+        "lng": 18.07,
+        "role": "modelo nórdico"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "The Three Worlds of Welfare Capitalism", "author": "Esping-Andersen, G.", "publisher": "Princeton University Press", "year": "1990", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "The Three Worlds of Welfare Capitalism",
+        "author": "Esping-Andersen, G.",
+        "publisher": "Princeton University Press",
+        "year": "1990",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "feminismo",
     "title": "Feminismo",
     "type": "movement",
-    "disciplines": ["society", "politics", "philosophy"],
-    "historicalPeriods": ["19th-century", "early-20th", "cold-war", "contemporary"],
+    "disciplines": [
+      "society",
+      "politics",
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "19th-century",
+      "early-20th",
+      "cold-war",
+      "contemporary"
+    ],
     "startDate": "1848",
     "endDate": "2025",
     "datePrecision": "year",
     "summary": "Movimiento político, social y filosófico que defiende la igualdad de derechos entre hombres y mujeres.",
     "description": "Desde la Declaración de Seneca Falls (1848) hasta el #MeToo, el feminismo ha evolucionado en varias olas: el sufragismo, el feminismo de la segunda ola (1960-80) con Simone de Beauvoir y Betty Friedan, y el feminismo interseccional contemporáneo. Ha transformado el derecho, la cultura y la vida cotidiana.",
     "importance": 10,
-    "regions": ["global"],
-    "places": [{"name": "Seneca Falls", "lat": 42.91, "lng": -76.80, "role": "primera convención de derechos de la mujer, 1848"}, {"name": "París", "lat": 48.85, "lng": 2.35, "role": "Simone de Beauvoir"}],
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Seneca Falls",
+        "lat": 42.91,
+        "lng": -76.8,
+        "role": "primera convención de derechos de la mujer, 1848"
+      },
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Simone de Beauvoir"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "The Second Sex", "author": "de Beauvoir, S.", "publisher": "Gallimard", "year": "1949", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "The Second Sex",
+        "author": "de Beauvoir, S.",
+        "publisher": "Gallimard",
+        "year": "1949",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "ecologismo",
     "title": "Ecologismo y medioambientalismo",
     "type": "movement",
-    "disciplines": ["society", "politics", "science"],
-    "historicalPeriods": ["cold-war", "contemporary"],
+    "disciplines": [
+      "society",
+      "politics",
+      "science"
+    ],
+    "historicalPeriods": [
+      "cold-war",
+      "contemporary"
+    ],
     "startDate": "1962",
     "endDate": "2025",
     "datePrecision": "year",
     "summary": "Movimiento que denuncia el impacto humano en el medioambiente y exige políticas de sostenibilidad.",
     "description": "Silent Spring de Rachel Carson (1962) marcó el inicio del movimiento ecologista moderno. De Greenpeace al Protocolo de Kioto y el Acuerdo de París, el ecologismo ha pasado de movimiento marginal a agenda política global, confrontando la crisis climática y la pérdida de biodiversidad.",
     "importance": 9,
-    "regions": ["global"],
-    "places": [{"name": "Vancouver", "lat": 49.28, "lng": -123.12, "role": "fundación de Greenpeace, 1971"}],
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Vancouver",
+        "lat": 49.28,
+        "lng": -123.12,
+        "role": "fundación de Greenpeace, 1971"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "Silent Spring", "author": "Carson, R.", "publisher": "Houghton Mifflin", "year": "1962", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "Silent Spring",
+        "author": "Carson, R.",
+        "publisher": "Houghton Mifflin",
+        "year": "1962",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
-  },
-  {
-    "id": "derechos-civiles",
-    "title": "Movimiento de derechos civiles",
-    "type": "movement",
-    "disciplines": ["society", "politics"],
-    "historicalPeriods": ["cold-war"],
-    "startDate": "1954",
-    "endDate": "1968",
-    "datePrecision": "year",
-    "summary": "Movimiento social estadounidense que luchó contra la segregación racial y por la igualdad de derechos.",
-    "description": "Rosa Parks, Martin Luther King Jr. y el NAACP lideraron una campaña de desobediencia civil que culminó en la Ley de Derechos Civiles (1964) y la Ley del Derecho al Voto (1965). Influyó en movimientos de liberación en todo el mundo y redefinió la democracia americana.",
-    "importance": 10,
-    "regions": ["north-america"],
-    "places": [{"name": "Montgomery", "lat": 32.36, "lng": -86.30, "role": "boicot al autobús, 1955"}, {"name": "Washington D.C.", "lat": 38.90, "lng": -77.04, "role": "Marcha sobre Washington, 1963"}],
-    "relations": [],
-    "sources": [{"title": "Bearing the Cross", "author": "Garrow, D.", "publisher": "Morrow", "year": "1986", "type": "book", "reliability": "high"}],
-    "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "fenomenologia",
     "title": "Fenomenología",
     "type": "movement",
-    "disciplines": ["philosophy"],
-    "historicalPeriods": ["early-20th", "cold-war"],
+    "disciplines": [
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "early-20th",
+      "cold-war"
+    ],
     "startDate": "1900",
     "endDate": "1960",
     "datePrecision": "decade",
     "summary": "Corriente filosófica que estudia la estructura de la experiencia y la conciencia tal como se presenta al sujeto.",
     "description": "Fundada por Husserl, la fenomenología fue desarrollada por Heidegger, Merleau-Ponty y Sartre. Influyó decisivamente en el existencialismo, la psicología y las ciencias sociales. Propone volver a 'las cosas mismas', describiendo la experiencia sin presupuestos teóricos previos.",
     "importance": 8,
-    "regions": ["western-europe"],
-    "places": [{"name": "Friburgo", "lat": 47.99, "lng": 7.85, "role": "Husserl y Heidegger"}],
-    "relations": [{"targetId": "existencialismo", "relationType": "influences", "strength": 5}],
-    "sources": [{"title": "Ideas: General Introduction to Pure Phenomenology", "author": "Husserl, E.", "publisher": "Macmillan", "year": "1913", "type": "book", "reliability": "high"}],
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Friburgo",
+        "lat": 47.99,
+        "lng": 7.85,
+        "role": "Husserl y Heidegger"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "existentialism",
+        "relationType": "influences",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ideas: General Introduction to Pure Phenomenology",
+        "author": "Husserl, E.",
+        "publisher": "Macmillan",
+        "year": "1913",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "estructuralismo",
     "title": "Estructuralismo y postestructuralismo",
     "type": "movement",
-    "disciplines": ["philosophy", "literature"],
-    "historicalPeriods": ["cold-war"],
+    "disciplines": [
+      "philosophy",
+      "literature"
+    ],
+    "historicalPeriods": [
+      "cold-war"
+    ],
     "startDate": "1950",
     "endDate": "1985",
     "datePrecision": "decade",
     "summary": "Corriente intelectual que analiza los fenómenos culturales como sistemas de relaciones estructurales.",
     "description": "Lévi-Strauss, Lacan, Barthes, Althusser y Foucault aplicaron el modelo lingüístico de Saussure a la antropología, el psicoanálisis, la literatura y la historia. El postestructuralismo (Derrida, Deleuze) cuestionó las certezas estructuralistas e influyó en los estudios culturales y el pensamiento posmoderno.",
     "importance": 8,
-    "regions": ["western-europe"],
-    "places": [{"name": "París", "lat": 48.85, "lng": 2.35, "role": "centro del estructuralismo francés"}],
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "centro del estructuralismo francés"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "Structuralism and Since", "author": "Sturrock, J. (ed.)", "publisher": "Oxford University Press", "year": "1979", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "Structuralism and Since",
+        "author": "Sturrock, J. (ed.)",
+        "publisher": "Oxford University Press",
+        "year": "1979",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "posmodernismo-cultural",
     "title": "Posmodernismo",
     "type": "movement",
-    "disciplines": ["philosophy", "art", "literature"],
-    "historicalPeriods": ["cold-war", "contemporary"],
+    "disciplines": [
+      "philosophy",
+      "art",
+      "literature"
+    ],
+    "historicalPeriods": [
+      "cold-war",
+      "contemporary"
+    ],
     "startDate": "1960",
     "endDate": "2000",
     "datePrecision": "decade",
     "summary": "Corriente que cuestionó los grandes relatos de la modernidad: la razón, el progreso y la verdad universal.",
     "description": "Lyotard, Baudrillard, Jameson y Bauman diagnosticaron el fin de las certezas modernas. El posmodernismo celebró la fragmentación, la ironía, la intertextualidad y la pluralidad de verdades. Influyó en la arquitectura, el arte, la literatura y las ciencias sociales.",
     "importance": 8,
-    "regions": ["global"],
-    "places": [{"name": "París", "lat": 48.85, "lng": 2.35, "role": "Lyotard, Baudrillard"}, {"name": "Nueva York", "lat": 40.71, "lng": -74.01, "role": "Jameson, cultura pop"}],
-    "relations": [{"targetId": "estructuralismo", "relationType": "evolves-from", "strength": 3}],
-    "sources": [{"title": "The Postmodern Condition", "author": "Lyotard, J.F.", "publisher": "Manchester University Press", "year": "1979", "type": "book", "reliability": "high"}],
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Lyotard, Baudrillard"
+      },
+      {
+        "name": "Nueva York",
+        "lat": 40.71,
+        "lng": -74.01,
+        "role": "Jameson, cultura pop"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "estructuralismo",
+        "relationType": "evolves-from",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Postmodern Condition",
+        "author": "Lyotard, J.F.",
+        "publisher": "Manchester University Press",
+        "year": "1979",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "blues",
     "title": "Blues",
     "type": "movement",
-    "disciplines": ["music"],
-    "historicalPeriods": ["19th-century", "early-20th"],
+    "disciplines": [
+      "music"
+    ],
+    "historicalPeriods": [
+      "19th-century",
+      "early-20th"
+    ],
     "startDate": "1870",
     "endDate": "1950",
     "datePrecision": "decade",
     "summary": "Género musical afroamericano surgido en el sur de Estados Unidos que se convirtió en el fundamento de la música popular del siglo XX.",
     "description": "El blues nació en las plantaciones del Mississippi como expresión del dolor y la resistencia afroamericana. Con sus escalas pentatónicas, la estructura de doce compases y el call-and-response, el blues es el padre del jazz, el rock, el R&B y la música popular contemporánea.",
     "importance": 9,
-    "regions": ["north-america"],
-    "places": [{"name": "Mississippi Delta", "lat": 33.44, "lng": -90.18, "role": "cuna del blues"}, {"name": "Chicago", "lat": 41.88, "lng": -87.63, "role": "blues urbano eléctrico"}],
-    "relations": [{"targetId": "jazz", "relationType": "influences", "strength": 5}, {"targetId": "rock-popular", "relationType": "influences", "strength": 5}],
-    "sources": [{"title": "The History of the Blues", "author": "Davis, F.", "publisher": "Hyperion", "year": "1995", "type": "book", "reliability": "high"}],
+    "regions": [
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Mississippi Delta",
+        "lat": 33.44,
+        "lng": -90.18,
+        "role": "cuna del blues"
+      },
+      {
+        "name": "Chicago",
+        "lat": 41.88,
+        "lng": -87.63,
+        "role": "blues urbano eléctrico"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "jazz",
+        "relationType": "influences",
+        "strength": 5
+      },
+      {
+        "targetId": "rock-popular",
+        "relationType": "influences",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "The History of the Blues",
+        "author": "Davis, F.",
+        "publisher": "Hyperion",
+        "year": "1995",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "musica-electronica",
     "title": "Música electroacústica y electrónica",
     "type": "movement",
-    "disciplines": ["music", "technology"],
-    "historicalPeriods": ["cold-war", "contemporary"],
+    "disciplines": [
+      "music",
+      "technology"
+    ],
+    "historicalPeriods": [
+      "cold-war",
+      "contemporary"
+    ],
     "startDate": "1948",
     "endDate": "2000",
     "datePrecision": "year",
     "summary": "Música creada mediante medios electrónicos que exploró nuevos timbres y la relación entre sonido, tecnología y composición.",
     "description": "De la música concreta de Pierre Schaeffer al sintetizador de Moog y la música electrónica de baile, este movimiento transformó la noción de instrumento musical. Stockhausen, Xenakis, Kraftwerk y después la cultura rave y el techno son sus expresiones más influyentes.",
     "importance": 8,
-    "regions": ["western-europe", "north-america"],
-    "places": [{"name": "París", "lat": 48.85, "lng": 2.35, "role": "Pierre Schaeffer, GRM"}, {"name": "Colonia", "lat": 50.94, "lng": 6.96, "role": "Studio für elektronische Musik, Stockhausen"}],
+    "regions": [
+      "western-europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Pierre Schaeffer, GRM"
+      },
+      {
+        "name": "Colonia",
+        "lat": 50.94,
+        "lng": 6.96,
+        "role": "Studio für elektronische Musik, Stockhausen"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "Electronic and Computer Music", "author": "Manning, P.", "publisher": "Oxford University Press", "year": "2004", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "Electronic and Computer Music",
+        "author": "Manning, P.",
+        "publisher": "Oxford University Press",
+        "year": "2004",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "hip-hop",
     "title": "Hip-hop",
     "type": "movement",
-    "disciplines": ["music", "art"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "music",
+      "art"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1973",
     "endDate": "2025",
     "datePrecision": "year",
     "summary": "Movimiento cultural nacido en el Bronx que integra rap, DJing, breakdance y graffiti.",
     "description": "El hip-hop nació en fiestas del Bronx con DJ Kool Herc en 1973. Se convirtió en el género musical más consumido del mundo en el siglo XXI. Su influencia abarca la moda, el arte, el lenguaje y la política, articulando la experiencia de comunidades marginadas globalmente.",
     "importance": 9,
-    "regions": ["north-america", "global"],
-    "places": [{"name": "Nueva York", "lat": 40.71, "lng": -74.01, "role": "Bronx, origen del hip-hop"}, {"name": "Los Ángeles", "lat": 34.05, "lng": -118.24, "role": "gangsta rap, West Coast"}],
+    "regions": [
+      "north-america",
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Nueva York",
+        "lat": 40.71,
+        "lng": -74.01,
+        "role": "Bronx, origen del hip-hop"
+      },
+      {
+        "name": "Los Ángeles",
+        "lat": 34.05,
+        "lng": -118.24,
+        "role": "gangsta rap, West Coast"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "Can't Stop Won't Stop", "author": "Chang, J.", "publisher": "St. Martin's Press", "year": "2005", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "Can't Stop Won't Stop",
+        "author": "Chang, J.",
+        "publisher": "St. Martin's Press",
+        "year": "2005",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "hollywood-golden-age",
     "title": "Hollywood clásico",
     "type": "movement",
-    "disciplines": ["cinema"],
-    "historicalPeriods": ["early-20th", "cold-war"],
+    "disciplines": [
+      "cinema"
+    ],
+    "historicalPeriods": [
+      "early-20th",
+      "cold-war"
+    ],
     "startDate": "1930",
     "endDate": "1960",
     "datePrecision": "year",
     "summary": "Período de dominio de los grandes estudios cinematográficos americanos que estableció el lenguaje narrativo clásico del cine.",
     "description": "Los grandes estudios —MGM, Warner, Paramount, RKO— crearon un sistema industrial de producción de películas con estrellas, géneros codificados y narrativa transparente. Hitchcock, Ford, Hawks, Capra y Wilder definieron el cine clásico de Hollywood como el estándar narrativo global.",
     "importance": 9,
-    "regions": ["north-america"],
-    "places": [{"name": "Hollywood", "lat": 34.09, "lng": -118.33, "role": "sede de los grandes estudios"}],
-    "relations": [{"targetId": "cine-silente", "relationType": "evolves-from", "strength": 4}, {"targetId": "nouvelle-vague", "relationType": "influences", "strength": 3}],
-    "sources": [{"title": "The Classical Hollywood Cinema", "author": "Bordwell, D.; Staiger, J.; Thompson, K.", "publisher": "Columbia University Press", "year": "1985", "type": "book", "reliability": "high"}],
+    "regions": [
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Hollywood",
+        "lat": 34.09,
+        "lng": -118.33,
+        "role": "sede de los grandes estudios"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "cine-silente",
+        "relationType": "evolves-from",
+        "strength": 4
+      },
+      {
+        "targetId": "nouvelle-vague",
+        "relationType": "influences",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Classical Hollywood Cinema",
+        "author": "Bordwell, D.; Staiger, J.; Thompson, K.",
+        "publisher": "Columbia University Press",
+        "year": "1985",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "nuevo-hollywood",
     "title": "Nuevo Hollywood",
     "type": "movement",
-    "disciplines": ["cinema"],
-    "historicalPeriods": ["cold-war", "contemporary"],
+    "disciplines": [
+      "cinema"
+    ],
+    "historicalPeriods": [
+      "cold-war",
+      "contemporary"
+    ],
     "startDate": "1967",
     "endDate": "1982",
     "datePrecision": "year",
     "summary": "Generación de directores americanos que renovó el cine de género con una visión autoral y referencias europeas.",
     "description": "Coppola, Scorsese, Kubrick, Altman, Cassavetes y Spielberg absorbieron las lecciones de la Nouvelle Vague y el neorrealismo para renovar géneros americanos. El Padrino, Taxi Driver, 2001 y M*A*S*H combinaron éxito comercial con ambición artística.",
     "importance": 9,
-    "regions": ["north-america"],
-    "places": [{"name": "Los Ángeles", "lat": 34.05, "lng": -118.24, "role": "Hollywood renacentista"}, {"name": "Nueva York", "lat": 40.71, "lng": -74.01, "role": "cine independiente"}],
-    "relations": [{"targetId": "nouvelle-vague", "relationType": "influenced-by", "strength": 4}],
-    "sources": [{"title": "Easy Riders, Raging Bulls", "author": "Biskind, P.", "publisher": "Simon & Schuster", "year": "1998", "type": "book", "reliability": "high"}],
+    "regions": [
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Los Ángeles",
+        "lat": 34.05,
+        "lng": -118.24,
+        "role": "Hollywood renacentista"
+      },
+      {
+        "name": "Nueva York",
+        "lat": 40.71,
+        "lng": -74.01,
+        "role": "cine independiente"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "nouvelle-vague",
+        "relationType": "influenced-by",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Easy Riders, Raging Bulls",
+        "author": "Biskind, P.",
+        "publisher": "Simon & Schuster",
+        "year": "1998",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "expresionismo-abstracto",
     "title": "Expresionismo abstracto",
     "type": "movement",
-    "disciplines": ["art"],
-    "historicalPeriods": ["cold-war"],
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "cold-war"
+    ],
     "startDate": "1943",
     "endDate": "1965",
     "datePrecision": "year",
     "summary": "Primer movimiento artístico americano de alcance internacional, que trasladó el centro del mundo del arte de París a Nueva York.",
     "description": "Pollock, De Kooning, Rothko, Kline y Newman desarrollaron una pintura gestual o de campo de color que expresaba emociones directamente a través de la acción pictórica. La CIA promovió el expresionismo abstracto como símbolo de la libertad occidental frente al realismo socialista soviético.",
     "importance": 9,
-    "regions": ["north-america"],
-    "places": [{"name": "Nueva York", "lat": 40.71, "lng": -74.01, "role": "centro del movimiento, MoMA"}],
-    "relations": [{"targetId": "pop-art", "relationType": "precedes", "strength": 4}],
-    "sources": [{"title": "Abstract Expressionism", "author": "Anfam, D.", "publisher": "Thames and Hudson", "year": "1990", "type": "book", "reliability": "high"}],
+    "regions": [
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Nueva York",
+        "lat": 40.71,
+        "lng": -74.01,
+        "role": "centro del movimiento, MoMA"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "pop-art",
+        "relationType": "precedes",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Abstract Expressionism",
+        "author": "Anfam, D.",
+        "publisher": "Thames and Hudson",
+        "year": "1990",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "minimalismo-arte",
     "title": "Minimalismo",
     "type": "movement",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["cold-war"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "cold-war"
+    ],
     "startDate": "1960",
     "endDate": "1980",
     "datePrecision": "decade",
     "summary": "Movimiento artístico que redujo la obra a sus elementos esenciales: forma, color y material.",
     "description": "Donald Judd, Dan Flavin, Carl Andre y Sol LeWitt rechazaron la expresión personal y la ilusión pictórica. Sus objetos específicos y estructuras primarias cuestionaron la relación entre obra, espacio y espectador. En arquitectura, el minimalismo de Mies van der Rohe y tadao Ando elevó la austeridad a principio estético.",
     "importance": 8,
-    "regions": ["north-america", "western-europe"],
-    "places": [{"name": "Nueva York", "lat": 40.71, "lng": -74.01, "role": "epicentro del minimalismo artístico"}],
+    "regions": [
+      "north-america",
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Nueva York",
+        "lat": 40.71,
+        "lng": -74.01,
+        "role": "epicentro del minimalismo artístico"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "Minimalism", "author": "Meyer, J.", "publisher": "Phaidon", "year": "2000", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "Minimalism",
+        "author": "Meyer, J.",
+        "publisher": "Phaidon",
+        "year": "2000",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "arte-conceptual",
     "title": "Arte conceptual",
     "type": "movement",
-    "disciplines": ["art"],
-    "historicalPeriods": ["cold-war", "contemporary"],
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "cold-war",
+      "contemporary"
+    ],
     "startDate": "1965",
     "endDate": "1990",
     "datePrecision": "year",
     "summary": "Corriente artística para la que la idea o concepto es el elemento esencial de la obra, por encima del objeto físico.",
     "description": "Kosuth, Lawrence Weiner, Sol LeWitt y el grupo Fluxus propusieron que el arte podía existir como instrucción, texto o proceso. Desmaterializó el objeto artístico y abrió el camino a la performance, la instalación, el arte relacional y el arte digital.",
     "importance": 8,
-    "regions": ["north-america", "western-europe"],
-    "places": [{"name": "Nueva York", "lat": 40.71, "lng": -74.01, "role": "epicentro del arte conceptual"}],
-    "relations": [{"targetId": "arte-digital", "relationType": "precedes", "strength": 3}],
-    "sources": [{"title": "Six Years: The Dematerialization of the Art Object", "author": "Lippard, L.", "publisher": "Praeger", "year": "1973", "type": "book", "reliability": "high"}],
+    "regions": [
+      "north-america",
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Nueva York",
+        "lat": 40.71,
+        "lng": -74.01,
+        "role": "epicentro del arte conceptual"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "arte-digital",
+        "relationType": "precedes",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Six Years: The Dematerialization of the Art Object",
+        "author": "Lippard, L.",
+        "publisher": "Praeger",
+        "year": "1973",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "arte-digital",
     "title": "Arte digital y nuevos medios",
     "type": "movement",
-    "disciplines": ["art", "technology"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "art",
+      "technology"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1985",
     "endDate": "2025",
     "datePrecision": "decade",
     "summary": "Prácticas artísticas que utilizan herramientas digitales, redes e interfaces como medio de expresión.",
     "description": "Del net.art y el arte generativo a los NFT y la inteligencia artificial, el arte digital ha cuestionado la autoría, la unicidad y el mercado del arte. Nam June Paik, Vera Molnár y hoy artistas como Refik Anadol exploran las posibilidades creativas de la tecnología.",
     "importance": 8,
-    "regions": ["global"],
-    "places": [{"name": "Nueva York", "lat": 40.71, "lng": -74.01, "role": "mercado y museos digitales"}, {"name": "Tokio", "lat": 35.69, "lng": 139.69, "role": "teamLab, arte inmersivo"}],
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Nueva York",
+        "lat": 40.71,
+        "lng": -74.01,
+        "role": "mercado y museos digitales"
+      },
+      {
+        "name": "Tokio",
+        "lat": 35.69,
+        "lng": 139.69,
+        "role": "teamLab, arte inmersivo"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "New Media Art", "author": "Tribe, M.; Jana, R.", "publisher": "Taschen", "year": "2006", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "New Media Art",
+        "author": "Tribe, M.; Jana, R.",
+        "publisher": "Taschen",
+        "year": "2006",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "edad-oro-espanola",
     "title": "Siglo de Oro español",
     "type": "movement",
-    "disciplines": ["literature", "art"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "literature",
+      "art"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1492",
     "endDate": "1681",
     "datePrecision": "decade",
     "summary": "Período de máximo esplendor de las artes y las letras españolas, coincidiendo con el apogeo del Imperio español.",
     "description": "Cervantes, Lope de Vega, Calderón, Quevedo y Góngora en literatura; Velázquez, El Greco, Zurbarán y Murillo en pintura. El Siglo de Oro español produjo obras fundamentales de la tradición occidental mientras el Imperio español dominaba el mundo.",
     "importance": 9,
-    "regions": ["southern-europe"],
-    "places": [{"name": "Madrid", "lat": 40.42, "lng": -3.70, "role": "corte y teatro"}, {"name": "Sevilla", "lat": 37.39, "lng": -5.99, "role": "comercio y pintura"}],
+    "regions": [
+      "southern-europe"
+    ],
+    "places": [
+      {
+        "name": "Madrid",
+        "lat": 40.42,
+        "lng": -3.7,
+        "role": "corte y teatro"
+      },
+      {
+        "name": "Sevilla",
+        "lat": 37.39,
+        "lng": -5.99,
+        "role": "comercio y pintura"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "Spain's Golden Age", "author": "Díez Borque, J.M.", "publisher": "CSIC", "year": "1995", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "Spain's Golden Age",
+        "author": "Díez Borque, J.M.",
+        "publisher": "CSIC",
+        "year": "1995",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "ilustracion-escocesa",
     "title": "Ilustración escocesa",
     "type": "movement",
-    "disciplines": ["philosophy", "economy", "science"],
-    "historicalPeriods": ["enlightenment"],
+    "disciplines": [
+      "philosophy",
+      "economy",
+      "science"
+    ],
+    "historicalPeriods": [
+      "enlightenment"
+    ],
     "startDate": "1740",
     "endDate": "1800",
     "datePrecision": "decade",
     "summary": "Florecimiento intelectual escocés que produjo las bases de la economía moderna y la filosofía moral.",
     "description": "Adam Smith, David Hume, Adam Ferguson y Francis Hutcheson desarrollaron en Edimburgo y Glasgow una filosofía moral y económica que fundó el liberalismo económico clásico. La riqueza de las naciones y el Tratado de la naturaleza humana son dos de sus obras más influyentes.",
     "importance": 8,
-    "regions": ["western-europe"],
-    "places": [{"name": "Edimburgo", "lat": 55.95, "lng": -3.19, "role": "centro intelectual"}, {"name": "Glasgow", "lat": 55.86, "lng": -4.25, "role": "Adam Smith"}],
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Edimburgo",
+        "lat": 55.95,
+        "lng": -3.19,
+        "role": "centro intelectual"
+      },
+      {
+        "name": "Glasgow",
+        "lat": 55.86,
+        "lng": -4.25,
+        "role": "Adam Smith"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "The Scottish Enlightenment", "author": "Herman, A.", "publisher": "Fourth Estate", "year": "2001", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "The Scottish Enlightenment",
+        "author": "Herman, A.",
+        "publisher": "Fourth Estate",
+        "year": "2001",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "liberalismo",
     "title": "Liberalismo",
     "type": "movement",
-    "disciplines": ["philosophy", "politics", "economy"],
-    "historicalPeriods": ["enlightenment", "revolutionary-age", "19th-century"],
+    "disciplines": [
+      "philosophy",
+      "politics",
+      "economy"
+    ],
+    "historicalPeriods": [
+      "enlightenment",
+      "revolutionary-age",
+      "19th-century"
+    ],
     "startDate": "1689",
     "endDate": "1914",
     "datePrecision": "decade",
     "summary": "Doctrina política y económica que defiende la libertad individual, el Estado de derecho y la economía de mercado.",
     "description": "De Locke a Mill, el liberalismo articuló los derechos individuales, la separación de poderes y el libre comercio como pilares del orden político moderno. Impulsó las revoluciones americana y francesa, las constituciones del siglo XIX y el parlamentarismo europeo.",
     "importance": 10,
-    "regions": ["western-europe", "north-america"],
-    "places": [{"name": "Londres", "lat": 51.51, "lng": -0.12, "role": "Locke, Mill, liberalismo británico"}],
+    "regions": [
+      "western-europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "role": "Locke, Mill, liberalismo británico"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "On Liberty", "author": "Mill, J.S.", "publisher": "John W. Parker", "year": "1859", "type": "primary_source", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "On Liberty",
+        "author": "Mill, J.S.",
+        "publisher": "John W. Parker",
+        "year": "1859",
+        "type": "primary_source",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "evolucion-darwin",
     "title": "Teoría de la evolución",
     "type": "movement",
-    "disciplines": ["science"],
-    "historicalPeriods": ["19th-century"],
+    "disciplines": [
+      "science"
+    ],
+    "historicalPeriods": [
+      "19th-century"
+    ],
     "startDate": "1859",
     "endDate": "1950",
     "datePrecision": "year",
     "summary": "Teoría científica que explica la diversidad de la vida por medio de la selección natural y la variación hereditaria.",
     "description": "Darwin publicó El origen de las especies en 1859, transformando la biología y cuestionando las concepciones religiosas de la creación. La síntesis moderna (1930-1950) integró la genética mendeliana con el darwinismo. Su impacto se extendió a la filosofía, la sociología y la cultura.",
     "importance": 10,
-    "regions": ["western-europe", "global"],
-    "places": [{"name": "Cambridge", "lat": 52.20, "lng": 0.12, "role": "Darwin, Fitzwilliam"}, {"name": "Galápagos", "lat": -0.95, "lng": -90.97, "role": "observaciones decisivas de Darwin"}],
+    "regions": [
+      "western-europe",
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Cambridge",
+        "lat": 52.2,
+        "lng": 0.12,
+        "role": "Darwin, Fitzwilliam"
+      },
+      {
+        "name": "Galápagos",
+        "lat": -0.95,
+        "lng": -90.97,
+        "role": "observaciones decisivas de Darwin"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "On the Origin of Species", "author": "Darwin, C.", "publisher": "John Murray", "year": "1859", "type": "primary_source", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "On the Origin of Species",
+        "author": "Darwin, C.",
+        "publisher": "John Murray",
+        "year": "1859",
+        "type": "primary_source",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "era-espacial",
     "title": "Era espacial",
     "type": "movement",
-    "disciplines": ["science", "technology"],
-    "historicalPeriods": ["cold-war"],
+    "disciplines": [
+      "science",
+      "technology"
+    ],
+    "historicalPeriods": [
+      "cold-war"
+    ],
     "startDate": "1957",
     "endDate": "1990",
     "datePrecision": "year",
     "summary": "Período de exploración del espacio exterior protagonizado por la URSS y Estados Unidos en el contexto de la Guerra Fría.",
     "description": "Del Sputnik (1957) a la llegada a la Luna (1969), la carrera espacial movilizó enormes recursos científicos y fue el símbolo tecnológico de la Guerra Fría. Sus consecuencias —satélites, GPS, materiales, computación— transformaron la vida cotidiana del siglo XX.",
     "importance": 9,
-    "regions": ["global"],
-    "places": [{"name": "Cabo Cañaveral", "lat": 28.39, "lng": -80.60, "role": "lanzamientos NASA"}, {"name": "Baikonur", "lat": 45.92, "lng": 63.34, "role": "cosmódromo soviético"}],
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Cabo Cañaveral",
+        "lat": 28.39,
+        "lng": -80.6,
+        "role": "lanzamientos NASA"
+      },
+      {
+        "name": "Baikonur",
+        "lat": 45.92,
+        "lng": 63.34,
+        "role": "cosmódromo soviético"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "The Right Stuff", "author": "Wolfe, T.", "publisher": "Farrar Straus Giroux", "year": "1979", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "The Right Stuff",
+        "author": "Wolfe, T.",
+        "publisher": "Farrar Straus Giroux",
+        "year": "1979",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   }
 ]

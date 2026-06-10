@@ -1658,7 +1658,7 @@
         "strength": 5
       },
       {
-        "targetId": "revolucion-digital",
+        "targetId": "digital-revolution",
         "relationType": "precedes",
         "strength": 4
       }
@@ -1844,7 +1844,7 @@
     ],
     "relations": [
       {
-        "targetId": "derechos-civiles",
+        "targetId": "movimiento-derechos-civiles",
         "relationType": "part_of",
         "strength": 5
       },

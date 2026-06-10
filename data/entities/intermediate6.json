@@ -3,570 +3,1759 @@
     "id": "confucius",
     "title": "Confucio",
     "type": "person",
-    "disciplines": ["philosophy"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "-551",
     "endDate": "-479",
     "datePrecision": "year",
     "summary": "Filósofo chino cuyas enseñanzas sobre la virtud, la familia y el orden social moldearon Asia durante milenios.",
     "description": "Confucio (Kong Qiu) fue el filósofo más influyente de China. Sus enseñanzas, recogidas en las 'Analectas', hicieron hincapié en la benevolencia (ren), la rectitud, la piedad filial y el orden social jerárquico. El confucianismo se convirtió en la ideología oficial de China durante más de dos mil años y sigue siendo fundamental en la cultura de Asia Oriental.",
     "importance": 10,
-    "regions": ["asia"],
-    "places": [{"name": "Qufu", "lat": 35.6, "lng": 116.99, "role": "ciudad natal y tumba"}],
-    "relations": [{"targetId": "filosofia-oriental", "relationType": "part_of", "strength": 5}, {"targetId": "han-dynasty", "relationType": "influenced", "strength": 5}],
-    "sources": [{"title": "Confucius: The Analects", "author": "Lau, D.C.", "publisher": "Penguin Classics", "year": "1979", "type": "book", "reliability": "high"}],
+    "regions": [
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Qufu",
+        "lat": 35.6,
+        "lng": 116.99,
+        "role": "ciudad natal y tumba"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "filosofia-oriental",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "han-dynasty",
+        "relationType": "influenced",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Confucius: The Analects",
+        "author": "Lau, D.C.",
+        "publisher": "Penguin Classics",
+        "year": "1979",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "shakespeare",
     "title": "William Shakespeare",
     "type": "person",
-    "disciplines": ["literature", "art"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "literature",
+      "art"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1564",
     "endDate": "1616",
     "datePrecision": "year",
     "summary": "El mayor dramaturgo y poeta de la lengua inglesa, cuyas obras exploran la condición humana universalmente.",
     "description": "William Shakespeare escribió 37 obras teatrales, 154 sonetos y varios poemas narrativos. Sus tragedias (Hamlet, Macbeth, Rey Lear, Otelo), comedias y dramas históricos han sido traducidos a todos los idiomas y siguen siendo los más representados del mundo. Transformó el inglés moderno y su influencia en la literatura y el pensamiento occidental es inconmensurable.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Stratford-upon-Avon", "lat": 52.19, "lng": -1.71, "role": "ciudad natal"}, {"name": "Londres", "lat": 51.5, "lng": -0.12, "role": "Globe Theatre"}],
-    "relations": [{"targetId": "renaissance", "relationType": "part_of", "strength": 4}, {"targetId": "edad-oro-espanola", "relationType": "contemporary", "strength": 2}],
-    "sources": [{"title": "Shakespeare: The Biography", "author": "Ackroyd, Peter", "publisher": "Chatto & Windus", "year": "2005", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Stratford-upon-Avon",
+        "lat": 52.19,
+        "lng": -1.71,
+        "role": "ciudad natal"
+      },
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.12,
+        "role": "Globe Theatre"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "renaissance",
+        "relationType": "part_of",
+        "strength": 4
+      },
+      {
+        "targetId": "edad-oro-espanola",
+        "relationType": "contemporary",
+        "strength": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "Shakespeare: The Biography",
+        "author": "Ackroyd, Peter",
+        "publisher": "Chatto & Windus",
+        "year": "2005",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "cervantes",
     "title": "Miguel de Cervantes",
     "type": "person",
-    "disciplines": ["literature"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "literature"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1547",
     "endDate": "1616",
     "datePrecision": "year",
     "summary": "Autor del Quijote, considerada la primera novela moderna y la obra cumbre de la literatura española.",
     "description": "Miguel de Cervantes Saavedra publicó la primera parte de 'Don Quijote de la Mancha' en 1605, la segunda en 1615. Es considerada la primera novela moderna y la mayor obra de la literatura española. Cervantes, que vivió una vida azarosa (fue soldado, esclavo en Argel, recaudador de impuestos), creó en el Quijote una exploración profunda de la realidad, la ilusión y la locura.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Alcalá de Henares", "lat": 40.48, "lng": -3.36, "role": "ciudad natal"}, {"name": "Madrid", "lat": 40.42, "lng": -3.7, "role": "publicación del Quijote"}],
-    "relations": [{"targetId": "edad-oro-espanola", "relationType": "part_of", "strength": 5}, {"targetId": "literatura-barroca", "relationType": "part_of", "strength": 4}],
-    "sources": [{"title": "Cervantes: A Biography", "author": "Byron, William", "publisher": "Doubleday", "year": "1978", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Alcalá de Henares",
+        "lat": 40.48,
+        "lng": -3.36,
+        "role": "ciudad natal"
+      },
+      {
+        "name": "Madrid",
+        "lat": 40.42,
+        "lng": -3.7,
+        "role": "publicación del Quijote"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "edad-oro-espanola",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "literatura-barroca",
+        "relationType": "part_of",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cervantes: A Biography",
+        "author": "Byron, William",
+        "publisher": "Doubleday",
+        "year": "1978",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "goethe",
     "title": "Johann Wolfgang von Goethe",
     "type": "person",
-    "disciplines": ["literature", "science", "philosophy"],
-    "historicalPeriods": ["modern"],
+    "disciplines": [
+      "literature",
+      "science",
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "modern"
+    ],
     "startDate": "1749",
     "endDate": "1832",
     "datePrecision": "year",
     "summary": "Coloso del Romanticismo alemán: autor del Fausto, del Werther y también científico y pensador.",
     "description": "Goethe fue el mayor escritor alemán y uno de los gigantes de la literatura universal. Su Fausto (completado en 1831) es quizás el mayor poema dramático de la modernidad. Sus novelas (Las penas del joven Werther) inauguraron el romanticismo europeo. También fue científico (teoría del color, morfología) y director del teatro de Weimar durante décadas.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Frankfurt", "lat": 50.11, "lng": 8.68, "role": "ciudad natal"}, {"name": "Weimar", "lat": 50.98, "lng": 11.33, "role": "vida adulta y tumba"}],
-    "relations": [{"targetId": "romanticism", "relationType": "influenced", "strength": 5}, {"targetId": "idealismo-aleman", "relationType": "contemporary", "strength": 4}],
-    "sources": [{"title": "Goethe: The Poet and the Age", "author": "Boyle, Nicholas", "publisher": "Oxford University Press", "year": "1991", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Frankfurt",
+        "lat": 50.11,
+        "lng": 8.68,
+        "role": "ciudad natal"
+      },
+      {
+        "name": "Weimar",
+        "lat": 50.98,
+        "lng": 11.33,
+        "role": "vida adulta y tumba"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "romanticism",
+        "relationType": "influenced",
+        "strength": 5
+      },
+      {
+        "targetId": "idealismo-aleman",
+        "relationType": "contemporary",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Goethe: The Poet and the Age",
+        "author": "Boyle, Nicholas",
+        "publisher": "Oxford University Press",
+        "year": "1991",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "dostoevsky",
     "title": "Fiódor Dostoievski",
     "type": "person",
-    "disciplines": ["literature", "philosophy"],
-    "historicalPeriods": ["modern"],
+    "disciplines": [
+      "literature",
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "modern"
+    ],
     "startDate": "1821",
     "endDate": "1881",
     "datePrecision": "year",
     "summary": "Novelista ruso que exploró el sufrimiento, la fe y la condición humana: Crimen y Castigo, Los Hermanos Karamazov.",
     "description": "Fiódor Dostoievski es uno de los novelistas más influyentes de la historia. Condenado a muerte y enviado a Siberia, sus experiencias marcaron una obra que exploró la psicología humana con profundidad sin precedentes. Crimen y Castigo (1866), El Idiota, Los Demonios y Los Hermanos Karamazov (1880) son pilares de la literatura universal y anticiparon el existencialismo del siglo XX.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "San Petersburgo", "lat": 59.93, "lng": 30.32, "role": "vida principal"}, {"name": "Omsk", "lat": 54.99, "lng": 73.37, "role": "prisión en Siberia"}],
-    "relations": [{"targetId": "existencialismo", "relationType": "influenced", "strength": 4}],
-    "sources": [{"title": "Dostoevsky: A Writer in His Time", "author": "Frank, Joseph", "publisher": "Princeton University Press", "year": "2010", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "San Petersburgo",
+        "lat": 59.93,
+        "lng": 30.32,
+        "role": "vida principal"
+      },
+      {
+        "name": "Omsk",
+        "lat": 54.99,
+        "lng": 73.37,
+        "role": "prisión en Siberia"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "existentialism",
+        "relationType": "influenced",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dostoevsky: A Writer in His Time",
+        "author": "Frank, Joseph",
+        "publisher": "Princeton University Press",
+        "year": "2010",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "tolstoy",
     "title": "León Tolstói",
     "type": "person",
-    "disciplines": ["literature", "philosophy"],
-    "historicalPeriods": ["modern"],
+    "disciplines": [
+      "literature",
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "modern"
+    ],
     "startDate": "1828",
     "endDate": "1910",
     "datePrecision": "year",
     "summary": "Maestro de la novela realista rusa: Guerra y Paz y Anna Karenina, y pensador moral radical.",
     "description": "León Tolstói es considerado uno de los mayores novelistas de la historia. Guerra y Paz (1869), retrato épico de Rusia durante las guerras napoleónicas, y Anna Karenina (1878) son cimas de la novela realista. En su madurez se convirtió en un pensador moral radical, predicando la no-violencia, la desobediencia civil y la vuelta a una vida simple que influyó en Gandhi.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Yásnaya Polyana", "lat": 54.08, "lng": 37.52, "role": "finca natal y residencia"}],
-    "relations": [{"targetId": "naturalismo-literario", "relationType": "influenced-by", "strength": 3}],
-    "sources": [{"title": "Tolstoy", "author": "Wilson, A.N.", "publisher": "Norton", "year": "1988", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Yásnaya Polyana",
+        "lat": 54.08,
+        "lng": 37.52,
+        "role": "finca natal y residencia"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "naturalismo-literario",
+        "relationType": "influenced-by",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tolstoy",
+        "author": "Wilson, A.N.",
+        "publisher": "Norton",
+        "year": "1988",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "kafka",
     "title": "Franz Kafka",
     "type": "person",
-    "disciplines": ["literature"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "literature"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1883",
     "endDate": "1924",
     "datePrecision": "year",
     "summary": "Escritor checo que creó el universo kafkiano: alienación, burocracia absurda y angustia existencial.",
     "description": "Franz Kafka, judío de Praga que escribía en alemán, creó una obra breve pero absolutamente original. La Metamorfosis (1915), El Proceso y El Castillo (publicados póstumamente) describieron un mundo burocrático, amenazante e incomprensible que anticipa el totalitarismo y la alienación moderna. Su apellido dio nombre a un adjetivo universal: 'kafkiano'.",
     "importance": 9,
-    "regions": ["europe"],
-    "places": [{"name": "Praga", "lat": 50.08, "lng": 14.44, "role": "ciudad natal y vida"}],
-    "relations": [{"targetId": "existencialismo", "relationType": "influenced", "strength": 4}, {"targetId": "literatura-modernista", "relationType": "part_of", "strength": 4}],
-    "sources": [{"title": "Kafka: The Decisive Years", "author": "Stach, Reiner", "publisher": "Harcourt", "year": "2005", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Praga",
+        "lat": 50.08,
+        "lng": 14.44,
+        "role": "ciudad natal y vida"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "existentialism",
+        "relationType": "influenced",
+        "strength": 4
+      },
+      {
+        "targetId": "literatura-modernista",
+        "relationType": "part_of",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kafka: The Decisive Years",
+        "author": "Stach, Reiner",
+        "publisher": "Harcourt",
+        "year": "2005",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "galileo",
     "title": "Galileo Galilei",
     "type": "person",
-    "disciplines": ["science"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "science"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1564",
     "endDate": "1642",
     "datePrecision": "year",
     "summary": "Padre de la ciencia moderna: telescopio, mecánica y defensa del heliocentrismo ante la Inquisición.",
     "description": "Galileo Galilei es considerado el padre de la ciencia moderna por su método de combinar observación, experimento y matemáticas. Mejoró el telescopio y observó las lunas de Júpiter, las fases de Venus y las manchas solares. Defendió el heliocentrismo copernicano y fue condenado por la Inquisición. Sus trabajos sobre la caída libre y la inercia fundaron la mecánica clásica.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Pisa", "lat": 43.72, "lng": 10.4, "role": "experimentos de la Torre inclinada"}, {"name": "Florencia", "lat": 43.77, "lng": 11.25, "role": "trabajo principal"}, {"name": "Padua", "lat": 45.41, "lng": 11.88, "role": "cátedra universitaria"}],
-    "relations": [{"targetId": "scientific-revolution", "relationType": "part_of", "strength": 5}, {"targetId": "isaac-newton", "relationType": "precedes", "strength": 5}],
-    "sources": [{"title": "Galileo", "author": "Drake, Stillman", "publisher": "University of Toronto Press", "year": "1980", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Pisa",
+        "lat": 43.72,
+        "lng": 10.4,
+        "role": "experimentos de la Torre inclinada"
+      },
+      {
+        "name": "Florencia",
+        "lat": 43.77,
+        "lng": 11.25,
+        "role": "trabajo principal"
+      },
+      {
+        "name": "Padua",
+        "lat": 45.41,
+        "lng": 11.88,
+        "role": "cátedra universitaria"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "scientific-revolution",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "isaac-newton",
+        "relationType": "precedes",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Galileo",
+        "author": "Drake, Stillman",
+        "publisher": "University of Toronto Press",
+        "year": "1980",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "copernicus",
     "title": "Nicolás Copérnico",
     "type": "person",
-    "disciplines": ["science"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "science"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1473",
     "endDate": "1543",
     "datePrecision": "year",
     "summary": "Astrónomo polaco que propuso el heliocentrismo, iniciando la Revolución Científica.",
     "description": "Nicolás Copérnico publicó en 1543 'De revolutionibus orbium coelestium', proponiendo que la Tierra y los planetas orbitan alrededor del Sol. Esta 'revolución copernicana' desplazó a la Tierra del centro del universo y fue el punto de partida de la Revolución Científica, aunque tardó décadas en ser aceptada. El término 'giro copernicano' pasó a designar cualquier cambio radical de perspectiva.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Frombork", "lat": 54.36, "lng": 19.68, "role": "residencia y observaciones astronómicas"}],
-    "relations": [{"targetId": "scientific-revolution", "relationType": "part_of", "strength": 5}, {"targetId": "galileo", "relationType": "influenced", "strength": 5}],
-    "sources": [{"title": "Copernicus: Secret", "author": "Repcheck, Jack", "publisher": "Simon & Schuster", "year": "2007", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Frombork",
+        "lat": 54.36,
+        "lng": 19.68,
+        "role": "residencia y observaciones astronómicas"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "scientific-revolution",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "galileo",
+        "relationType": "influenced",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Copernicus: Secret",
+        "author": "Repcheck, Jack",
+        "publisher": "Simon & Schuster",
+        "year": "2007",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "einstein",
     "title": "Albert Einstein",
     "type": "person",
-    "disciplines": ["science"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "science"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1879",
     "endDate": "1955",
     "datePrecision": "year",
     "summary": "El físico más célebre del siglo XX: teoría de la relatividad, E=mc² y fundador de la física moderna.",
     "description": "Albert Einstein publicó en 1905 cuatro artículos revolucionarios, entre ellos la teoría de la relatividad especial (E=mc²). En 1915 completó la relatividad general, que reformuló la teoría de la gravedad. Recibió el Nobel en 1921 por el efecto fotoeléctrico, base de la mecánica cuántica. Refugiado del nazismo, colaboró con Roosevelt sobre la bomba atómica. Su imagen es símbolo universal del genio científico.",
     "importance": 10,
-    "regions": ["europe", "north-america"],
-    "places": [{"name": "Berlín", "lat": 52.52, "lng": 13.4, "role": "Academia de Ciencias Prusiana"}, {"name": "Princeton", "lat": 40.36, "lng": -74.66, "role": "Instituto de Estudios Avanzados"}],
-    "relations": [{"targetId": "fisica-moderna", "relationType": "part_of", "strength": 5}, {"targetId": "ciencia-siglo-xx", "relationType": "part_of", "strength": 5}],
-    "sources": [{"title": "Einstein: His Life and Universe", "author": "Isaacson, Walter", "publisher": "Simon & Schuster", "year": "2007", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Berlín",
+        "lat": 52.52,
+        "lng": 13.4,
+        "role": "Academia de Ciencias Prusiana"
+      },
+      {
+        "name": "Princeton",
+        "lat": 40.36,
+        "lng": -74.66,
+        "role": "Instituto de Estudios Avanzados"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "fisica-moderna",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "ciencia-siglo-xx",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Einstein: His Life and Universe",
+        "author": "Isaacson, Walter",
+        "publisher": "Simon & Schuster",
+        "year": "2007",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "marie-curie",
     "title": "Marie Curie",
     "type": "person",
-    "disciplines": ["science"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "science"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1867",
     "endDate": "1934",
     "datePrecision": "year",
     "summary": "Primera mujer en ganar el Nobel —dos veces— por sus descubrimientos sobre la radiactividad.",
     "description": "Marie Skłodowska-Curie descubrió los elementos polonio y radio, y fue pionera en el estudio de la radiactividad. Fue la primera persona en ganar dos Premios Nobel (Física 1903 y Química 1911) y la primera mujer en ganar uno. Dirigió el Instituto Curie de París. Su vida fue un símbolo de la lucha de la mujer por el reconocimiento científico.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Varsovia", "lat": 52.23, "lng": 21.01, "role": "ciudad natal"}, {"name": "París", "lat": 48.85, "lng": 2.35, "role": "laboratorio y vida"}],
-    "relations": [{"targetId": "fisica-moderna", "relationType": "part_of", "strength": 4}, {"targetId": "feminismo", "relationType": "symbol_of", "strength": 3}],
-    "sources": [{"title": "Marie Curie: A Life", "author": "Quinn, Susan", "publisher": "Simon & Schuster", "year": "1995", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Varsovia",
+        "lat": 52.23,
+        "lng": 21.01,
+        "role": "ciudad natal"
+      },
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "laboratorio y vida"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "fisica-moderna",
+        "relationType": "part_of",
+        "strength": 4
+      },
+      {
+        "targetId": "feminismo",
+        "relationType": "symbol_of",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Marie Curie: A Life",
+        "author": "Quinn, Susan",
+        "publisher": "Simon & Schuster",
+        "year": "1995",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "nietzsche",
     "title": "Friedrich Nietzsche",
     "type": "person",
-    "disciplines": ["philosophy"],
-    "historicalPeriods": ["modern"],
+    "disciplines": [
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "modern"
+    ],
     "startDate": "1844",
     "endDate": "1900",
     "datePrecision": "year",
     "summary": "Filósofo alemán que proclamó la muerte de Dios, el superhombre y la voluntad de poder.",
     "description": "Nietzsche es uno de los filósofos más influyentes y controvertidos de la modernidad. Proclamó 'Dios ha muerto' (La Gaya Ciencia, 1882), criticó la moral cristiana y propuso el superhombre (Übermensch) como ideal de autoafirmación (Así habló Zaratustra, 1883). Su concepto de voluntad de poder y su filosofía del perspectivismo influyeron en el existencialismo, el postmodernismo y la crítica cultural del siglo XX.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Basilea", "lat": 47.56, "lng": 7.59, "role": "cátedra universitaria"}],
-    "relations": [{"targetId": "existencialismo", "relationType": "influenced", "strength": 5}, {"targetId": "posmodernismo-cultural", "relationType": "influenced", "strength": 4}],
-    "sources": [{"title": "Nietzsche: Philosopher, Psychologist, Antichrist", "author": "Kaufmann, Walter", "publisher": "Princeton University Press", "year": "1950", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Basilea",
+        "lat": 47.56,
+        "lng": 7.59,
+        "role": "cátedra universitaria"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "existentialism",
+        "relationType": "influenced",
+        "strength": 5
+      },
+      {
+        "targetId": "posmodernismo-cultural",
+        "relationType": "influenced",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nietzsche: Philosopher, Psychologist, Antichrist",
+        "author": "Kaufmann, Walter",
+        "publisher": "Princeton University Press",
+        "year": "1950",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "rembrandt",
     "title": "Rembrandt van Rijn",
     "type": "person",
-    "disciplines": ["art"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1606",
     "endDate": "1669",
     "datePrecision": "year",
     "summary": "Maestro holandés del claroscuro: La Ronda de Noche y los autorretratos más penetrantes del arte occidental.",
     "description": "Rembrandt Harmenszoon van Rijn es el pintor más importante del siglo de Oro holandés y uno de los grandes maestros de la historia del arte occidental. Dominó el claroscuro como ningún otro, creando efectos dramáticos de luz y sombra. La Ronda de Noche (1642) es su obra más célebre. Sus series de autorretratos a lo largo de su vida son una exploración psicológica sin precedentes.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Ámsterdam", "lat": 52.37, "lng": 4.9, "role": "taller y vida principal"}, {"name": "Leiden", "lat": 52.16, "lng": 4.49, "role": "ciudad natal"}],
-    "relations": [{"targetId": "baroque", "relationType": "part_of", "strength": 5}],
-    "sources": [{"title": "Rembrandt's Eyes", "author": "Schama, Simon", "publisher": "Knopf", "year": "1999", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Ámsterdam",
+        "lat": 52.37,
+        "lng": 4.9,
+        "role": "taller y vida principal"
+      },
+      {
+        "name": "Leiden",
+        "lat": 52.16,
+        "lng": 4.49,
+        "role": "ciudad natal"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "baroque",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rembrandt's Eyes",
+        "author": "Schama, Simon",
+        "publisher": "Knopf",
+        "year": "1999",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "velazquez",
     "title": "Diego Velázquez",
     "type": "person",
-    "disciplines": ["art"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1599",
     "endDate": "1660",
     "datePrecision": "year",
     "summary": "Pintor de cámara de Felipe IV, creador de Las Meninas, la pintura más analizada de la historia.",
     "description": "Diego Rodríguez de Silva y Velázquez fue pintor de cámara de Felipe IV durante casi cuarenta años. Su obra combina un realismo psicológico penetrante con una técnica pictórica revolucionaria (pincelada suelta, ilusión atmosférica). Las Meninas (1656) ha sido llamada la pintura más compleja e influyente jamás creada. Influyó decisivamente en Goya, Manet, Picasso y Francis Bacon.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Sevilla", "lat": 37.38, "lng": -5.99, "role": "ciudad natal y formación"}, {"name": "Madrid", "lat": 40.42, "lng": -3.7, "role": "Palacio Real y Prado"}],
-    "relations": [{"targetId": "baroque", "relationType": "part_of", "strength": 5}, {"targetId": "edad-oro-espanola", "relationType": "part_of", "strength": 5}],
-    "sources": [{"title": "Velázquez", "author": "Brown, Jonathan", "publisher": "Yale University Press", "year": "1986", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Sevilla",
+        "lat": 37.38,
+        "lng": -5.99,
+        "role": "ciudad natal y formación"
+      },
+      {
+        "name": "Madrid",
+        "lat": 40.42,
+        "lng": -3.7,
+        "role": "Palacio Real y Prado"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "baroque",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "edad-oro-espanola",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Velázquez",
+        "author": "Brown, Jonathan",
+        "publisher": "Yale University Press",
+        "year": "1986",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "van-gogh",
     "title": "Vincent van Gogh",
     "type": "person",
-    "disciplines": ["art"],
-    "historicalPeriods": ["modern"],
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "modern"
+    ],
     "startDate": "1853",
     "endDate": "1890",
     "datePrecision": "year",
     "summary": "Pintor postimpresionista de colores explosivos y pincelada expresiva: La noche estrellada, Los girasoles.",
     "description": "Vincent van Gogh pintó más de 2.000 obras en apenas una década, en un estado de intensidad creativa y angustia emocional extremas. Sus paisajes, retratos y naturalezas muertas de colores vibrantes y pinceladas remolcantes (La noche estrellada, Los girasoles, El dormitorio) son entre las pinturas más reconocidas del mundo. Prácticamente desconocido en vida, se convirtió en el artista más influyente del siglo XX.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Arlés", "lat": 43.68, "lng": 4.63, "role": "período más productivo, Casa Amarilla"}, {"name": "Saint-Rémy", "lat": 43.79, "lng": 4.83, "role": "asilo y La noche estrellada"}, {"name": "Auvers-sur-Oise", "lat": 49.07, "lng": 2.17, "role": "últimas semanas y muerte"}],
-    "relations": [{"targetId": "post-impressionism", "relationType": "part_of", "strength": 5}, {"targetId": "expressionism", "relationType": "influenced", "strength": 5}],
-    "sources": [{"title": "Van Gogh: The Life", "author": "Naifeh, Steven", "publisher": "Random House", "year": "2011", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Arlés",
+        "lat": 43.68,
+        "lng": 4.63,
+        "role": "período más productivo, Casa Amarilla"
+      },
+      {
+        "name": "Saint-Rémy",
+        "lat": 43.79,
+        "lng": 4.83,
+        "role": "asilo y La noche estrellada"
+      },
+      {
+        "name": "Auvers-sur-Oise",
+        "lat": 49.07,
+        "lng": 2.17,
+        "role": "últimas semanas y muerte"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "post-impressionism",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "expressionism",
+        "relationType": "influenced",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Van Gogh: The Life",
+        "author": "Naifeh, Steven",
+        "publisher": "Random House",
+        "year": "2011",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "dali",
     "title": "Salvador Dalí",
     "type": "person",
-    "disciplines": ["art"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1904",
     "endDate": "1989",
     "datePrecision": "year",
     "summary": "El surrealista más célebre: La persistencia de la memoria y un arte de visiones oníricas y paranoicas.",
     "description": "Salvador Dalí es el pintor más conocido del surrealismo. Sus obras combinan técnica académica impecable con imágenes de una fantasía paranoico-crítica. La persistencia de la memoria (1931) con sus relojes blandos es una de las pinturas más reconocibles del mundo. Colaboró con Buñuel (Un Chien Andalou), diseñó para Hitchcock, Chanel y Disney. Su personaje extravagante fue tan famoso como su arte.",
     "importance": 9,
-    "regions": ["europe"],
-    "places": [{"name": "Cadaqués / Portlligat", "lat": 42.29, "lng": 3.16, "role": "residencia y estudio"}, {"name": "Figueres", "lat": 42.27, "lng": 2.96, "role": "ciudad natal y Teatro-Museo Dalí"}],
-    "relations": [{"targetId": "surrealism", "relationType": "part_of", "strength": 5}],
-    "sources": [{"title": "The Shameful Life of Salvador Dalí", "author": "Gibson, Ian", "publisher": "Norton", "year": "1997", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Cadaqués / Portlligat",
+        "lat": 42.29,
+        "lng": 3.16,
+        "role": "residencia y estudio"
+      },
+      {
+        "name": "Figueres",
+        "lat": 42.27,
+        "lng": 2.96,
+        "role": "ciudad natal y Teatro-Museo Dalí"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "surrealism",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Shameful Life of Salvador Dalí",
+        "author": "Gibson, Ian",
+        "publisher": "Norton",
+        "year": "1997",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "debussy",
     "title": "Claude Debussy",
     "type": "person",
-    "disciplines": ["music"],
-    "historicalPeriods": ["modern"],
+    "disciplines": [
+      "music"
+    ],
+    "historicalPeriods": [
+      "modern"
+    ],
     "startDate": "1862",
     "endDate": "1918",
     "datePrecision": "year",
     "summary": "Compositor francés que liberó la música de la tonalidad tradicional con su lenguaje armónico impresionista.",
     "description": "Claude Debussy fue el principal renovador de la música de finales del siglo XIX y principios del XX. Prelude a l'après-midi d'un faune (1894), La Mer y los Préludes para piano introdujeron una nueva sensibilidad musical basada en el color, la atmósfera y el movimiento, en lugar de la lógica tonal alemana. Su influencia en la música del siglo XX es comparable a la de Bach o Beethoven.",
     "importance": 9,
-    "regions": ["europe"],
-    "places": [{"name": "París", "lat": 48.85, "lng": 2.35, "role": "vida y obra"}],
-    "relations": [{"targetId": "impresionismo-musical", "relationType": "part_of", "strength": 5}, {"targetId": "musica-contemporanea", "relationType": "influenced", "strength": 4}],
-    "sources": [{"title": "Debussy: His Life and Mind", "author": "Lockspeiser, Edward", "publisher": "Cambridge University Press", "year": "1978", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "vida y obra"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "impresionismo-musical",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "musica-contemporanea",
+        "relationType": "influenced",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Debussy: His Life and Mind",
+        "author": "Lockspeiser, Edward",
+        "publisher": "Cambridge University Press",
+        "year": "1978",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "stravinsky",
     "title": "Ígor Stravinski",
     "type": "person",
-    "disciplines": ["music"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "music"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1882",
     "endDate": "1971",
     "datePrecision": "year",
     "summary": "El compositor más influyente del siglo XX: La consagración de la primavera escandalizó y renovó la música.",
     "description": "Ígor Stravinski es considerado el compositor más importante del siglo XX por su capacidad de reinventarse. Sus tres ballets para Diáguilev (El pájaro de fuego, Petroushka y La consagración de la primavera, 1913) revolucionaron el ritmo, la armonía y la orquestación. Luego pasó al neoclasicismo y finalmente al serialismo. Trabajó con Picasso, Cocteau y Balanchine.",
     "importance": 10,
-    "regions": ["europe", "north-america"],
-    "places": [{"name": "San Petersburgo", "lat": 59.93, "lng": 30.32, "role": "ciudad natal"}, {"name": "París", "lat": 48.85, "lng": 2.35, "role": "Ballets Rusos de Diáguilev"}, {"name": "Los Ángeles", "lat": 34.05, "lng": -118.24, "role": "exilio americano"}],
-    "relations": [{"targetId": "musica-contemporanea", "relationType": "part_of", "strength": 5}],
-    "sources": [{"title": "Stravinsky: The Composer and his Works", "author": "White, Eric Walter", "publisher": "University of California Press", "year": "1979", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "San Petersburgo",
+        "lat": 59.93,
+        "lng": 30.32,
+        "role": "ciudad natal"
+      },
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Ballets Rusos de Diáguilev"
+      },
+      {
+        "name": "Los Ángeles",
+        "lat": 34.05,
+        "lng": -118.24,
+        "role": "exilio americano"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "musica-contemporanea",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stravinsky: The Composer and his Works",
+        "author": "White, Eric Walter",
+        "publisher": "University of California Press",
+        "year": "1979",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "chaplin",
     "title": "Charles Chaplin",
     "type": "person",
-    "disciplines": ["art"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1889",
     "endDate": "1977",
     "datePrecision": "year",
     "summary": "El mayor genio del cine mudo: Charlot, El gran dictador y la síntesis de comedia y tragedia.",
     "description": "Charles Chaplin creó el personaje de Charlot —el vagabundo con sombrero hongo— que se convirtió en el primer icono global del cine. Dirigió, protagonizó y compuso la música de sus películas. Tiempos Modernos (1936) criticó el capitalismo industrial; El gran dictador (1940) parodió a Hitler. Fue el artista más famoso del mundo en los años 20, símbolo del cine como nuevo arte universal.",
     "importance": 10,
-    "regions": ["europe", "north-america"],
-    "places": [{"name": "Londres", "lat": 51.5, "lng": -0.12, "role": "ciudad natal"}, {"name": "Hollywood", "lat": 34.09, "lng": -118.33, "role": "Estudios Chaplin"}],
-    "relations": [{"targetId": "cine-silente", "relationType": "part_of", "strength": 5}],
-    "sources": [{"title": "Chaplin: A Life", "author": "Weissman, Stephen", "publisher": "Arcade Publishing", "year": "2008", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.12,
+        "role": "ciudad natal"
+      },
+      {
+        "name": "Hollywood",
+        "lat": 34.09,
+        "lng": -118.33,
+        "role": "Estudios Chaplin"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "cine-silente",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Chaplin: A Life",
+        "author": "Weissman, Stephen",
+        "publisher": "Arcade Publishing",
+        "year": "2008",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "hitchcock",
     "title": "Alfred Hitchcock",
     "type": "person",
-    "disciplines": ["art"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1899",
     "endDate": "1980",
     "datePrecision": "year",
     "summary": "El maestro del suspense cinematográfico: Vértigo, Psicosis y un cine de puro lenguaje visual.",
     "description": "Alfred Hitchcock es el director de cine más influyente de la historia, maestro indiscutible del suspense. Sus películas (Vértigo, Psicosis, Los pájaros, Con la muerte en los talones) definieron el thriller cinematográfico y exploraron el voyeurismo, la culpa y el miedo con virtuosismo visual incomparable. Popularizó la teoría del MacGuffin y fue el primer director en convertirse en celebridad pública.",
     "importance": 10,
-    "regions": ["europe", "north-america"],
-    "places": [{"name": "Londres", "lat": 51.5, "lng": -0.12, "role": "primeras películas"}, {"name": "Hollywood", "lat": 34.09, "lng": -118.33, "role": "obras maestras americanas"}],
-    "relations": [{"targetId": "hollywood-golden-age", "relationType": "part_of", "strength": 4}, {"targetId": "nuevo-hollywood", "relationType": "influenced", "strength": 4}],
-    "sources": [{"title": "The Dark Side of Genius: The Life of Alfred Hitchcock", "author": "Spoto, Donald", "publisher": "Little, Brown", "year": "1983", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.12,
+        "role": "primeras películas"
+      },
+      {
+        "name": "Hollywood",
+        "lat": 34.09,
+        "lng": -118.33,
+        "role": "obras maestras americanas"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "hollywood-golden-age",
+        "relationType": "part_of",
+        "strength": 4
+      },
+      {
+        "targetId": "nuevo-hollywood",
+        "relationType": "influenced",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Dark Side of Genius: The Life of Alfred Hitchcock",
+        "author": "Spoto, Donald",
+        "publisher": "Little, Brown",
+        "year": "1983",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "taj-mahal",
     "title": "Taj Mahal",
     "type": "building",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1632",
     "endDate": "1653",
     "datePrecision": "year",
     "summary": "Mausoleo de mármol blanco construido por el emperador Shah Jahan en honor a su esposa Mumtaz.",
     "description": "El Taj Mahal, en Agra (India), fue construido entre 1632 y 1653 por el emperador mughal Shah Jahan como mausoleo para su esposa Mumtaz Mahal. Es considerado la obra cumbre de la arquitectura islámica en el subcontinente indio, con su cúpula central, minaretes, jardines simétricos y el reflejo en el estanque central. Fue declarado Patrimonio de la Humanidad por la UNESCO en 1983.",
     "importance": 10,
-    "regions": ["south-asia"],
-    "places": [{"name": "Agra", "lat": 27.175, "lng": 78.042, "role": "ubicación del mausoleo"}],
-    "relations": [{"targetId": "mughal-empire", "relationType": "part_of", "strength": 5}, {"targetId": "arte-islamico", "relationType": "part_of", "strength": 4}],
-    "sources": [{"title": "Taj Mahal: The Illumined Tomb", "author": "Begley, W.E.", "publisher": "Aga Khan Program", "year": "1989", "type": "book", "reliability": "high"}],
+    "regions": [
+      "south-asia"
+    ],
+    "places": [
+      {
+        "name": "Agra",
+        "lat": 27.175,
+        "lng": 78.042,
+        "role": "ubicación del mausoleo"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "mughal-empire",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "arte-islamico",
+        "relationType": "part_of",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Taj Mahal: The Illumined Tomb",
+        "author": "Begley, W.E.",
+        "publisher": "Aga Khan Program",
+        "year": "1989",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "angkor-wat",
     "title": "Angkor Wat",
     "type": "building",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["high-middle-ages"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "high-middle-ages"
+    ],
     "startDate": "1113",
     "endDate": "1150",
     "datePrecision": "year",
     "summary": "El mayor complejo religioso del mundo, construido por el rey jemer Suryavarman II en Camboya.",
     "description": "Angkor Wat, en Camboya, fue construido entre 1113 y 1150 por el rey Suryavarman II como templo hindú dedicado a Vishnu. Es el mayor monumento religioso del mundo (162 hectáreas) y el mejor conservado del Imperio Jemer. Su arquitectura combina el simbolismo del monte Meru (morada de los dioses) con un virtuosismo escultórico y técnico asombroso. Pasó al budismo en el siglo XIII.",
     "importance": 9,
-    "regions": ["southeast-asia"],
-    "places": [{"name": "Angkor", "lat": 13.412, "lng": 103.866, "role": "capital del Imperio Jemer"}],
-    "relations": [{"targetId": "khmer-empire", "relationType": "part_of", "strength": 5}],
-    "sources": [{"title": "Angkor Wat: Time, Space and Kingship", "author": "Higham, Charles", "publisher": "University of Hawaii Press", "year": "2004", "type": "book", "reliability": "high"}],
+    "regions": [
+      "southeast-asia"
+    ],
+    "places": [
+      {
+        "name": "Angkor",
+        "lat": 13.412,
+        "lng": 103.866,
+        "role": "capital del Imperio Jemer"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "khmer-empire",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Angkor Wat: Time, Space and Kingship",
+        "author": "Higham, Charles",
+        "publisher": "University of Hawaii Press",
+        "year": "2004",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "hagia-sophia",
     "title": "Santa Sofía (Hagia Sophia)",
     "type": "building",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["late-antiquity"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "late-antiquity"
+    ],
     "startDate": "532",
     "endDate": "537",
     "datePrecision": "year",
     "summary": "Catedral de Constantinopla que maravilló al mundo medieval con su cúpula flotante, luego mezquita.",
     "description": "La Hagia Sophia fue construida entre 532 y 537 por el emperador Justiniano I con los arquitectos Isidoro de Mileto y Antemio de Tralles. Su enorme cúpula de 31 metros de diámetro flotando sobre semidómas fue la mayor del mundo durante casi mil años. Fue durante siglos la mayor iglesia cristiana. En 1453, tras la conquista otomana, se convirtió en mezquita; hoy es museo y de nuevo mezquita.",
     "importance": 10,
-    "regions": ["middle-east", "europe"],
-    "places": [{"name": "Estambul (Constantinopla)", "lat": 41.009, "lng": 28.98, "role": "emplazamiento"}],
-    "relations": [{"targetId": "byzantine-empire", "relationType": "part_of", "strength": 5}, {"targetId": "arte-bizantino", "relationType": "part_of", "strength": 5}],
-    "sources": [{"title": "Hagia Sophia", "author": "Freely, John", "publisher": "Scala Publishers", "year": "2004", "type": "book", "reliability": "high"}],
+    "regions": [
+      "middle-east",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Estambul (Constantinopla)",
+        "lat": 41.009,
+        "lng": 28.98,
+        "role": "emplazamiento"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "byzantine-empire",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "arte-bizantino",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hagia Sophia",
+        "author": "Freely, John",
+        "publisher": "Scala Publishers",
+        "year": "2004",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "alhambra",
     "title": "La Alhambra de Granada",
     "type": "building",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["high-middle-ages", "late-middle-ages"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "high-middle-ages",
+      "late-middle-ages"
+    ],
     "startDate": "1238",
     "endDate": "1358",
     "datePrecision": "year",
     "summary": "Palacio nazarí de Granada, cima del arte islámico en Occidente y último reino musulmán de la Península.",
     "description": "La Alhambra fue la residencia de los sultanes nazaríes de Granada, último reino islámico de la Península Ibérica. Su arquitectura, con el Patio de los Leones, los mocárabes, la arabescos y los juegos de agua, representa la cima del arte islámico en Occidente. Conquistada en 1492 por los Reyes Católicos, fue completada con el Palacio de Carlos V. Es el monumento más visitado de España.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Granada", "lat": 37.176, "lng": -3.588, "role": "emplazamiento en la colina de la Sabika"}],
-    "relations": [{"targetId": "arte-islamico", "relationType": "part_of", "strength": 5}, {"targetId": "edad-de-oro-islamica", "relationType": "part_of", "strength": 4}],
-    "sources": [{"title": "The Alhambra", "author": "Grabar, Oleg", "publisher": "Harvard University Press", "year": "1978", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Granada",
+        "lat": 37.176,
+        "lng": -3.588,
+        "role": "emplazamiento en la colina de la Sabika"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "arte-islamico",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "edad-de-oro-islamica",
+        "relationType": "part_of",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Alhambra",
+        "author": "Grabar, Oleg",
+        "publisher": "Harvard University Press",
+        "year": "1978",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "empire-state",
     "title": "Empire State Building",
     "type": "building",
-    "disciplines": ["architecture", "technology"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "architecture",
+      "technology"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1930",
     "endDate": "1931",
     "datePrecision": "year",
     "summary": "Rascacielos Art Déco de Nueva York, el más alto del mundo durante 40 años y símbolo de la modernidad americana.",
     "description": "El Empire State Building fue construido entre 1930 y 1931 en tiempo récord (410 días) durante la Gran Depresión. Con sus 443 metros (102 plantas) fue el edificio más alto del mundo hasta 1972. Su estilo Art Déco, con su aguja iluminada, lo convirtió en el símbolo arquitectónico de Nueva York y de la modernidad americana. Aparece en decenas de películas, desde King Kong (1933) hasta hoy.",
     "importance": 8,
-    "regions": ["north-america"],
-    "places": [{"name": "Nueva York", "lat": 40.748, "lng": -73.985, "role": "Midtown Manhattan"}],
-    "relations": [{"targetId": "art-deco", "relationType": "part_of", "strength": 5}],
-    "sources": [{"title": "Building the Empire State", "author": "Willis, Carol", "publisher": "Norton", "year": "1998", "type": "book", "reliability": "high"}],
+    "regions": [
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Nueva York",
+        "lat": 40.748,
+        "lng": -73.985,
+        "role": "Midtown Manhattan"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "art-deco",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Building the Empire State",
+        "author": "Willis, Carol",
+        "publisher": "Norton",
+        "year": "1998",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "sydney-opera-house",
     "title": "Ópera de Sydney",
     "type": "building",
-    "disciplines": ["architecture"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1957",
     "endDate": "1973",
     "datePrecision": "year",
     "summary": "Obra maestra de Jørn Utzon, uno de los edificios más reconocibles e innovadores del siglo XX.",
     "description": "La Ópera de Sydney, diseñada por el arquitecto danés Jørn Utzon y completada en 1973, es uno de los edificios más reconocibles del mundo. Sus conchas de hormigón prefabricado sobre el Puerto de Sydney revolucionaron la ingeniería estructural y la arquitectura expresionista. Fue declarada Patrimonio de la Humanidad en 2007. Utzon recibió el Premio Pritzker en 2003, en parte por esta obra.",
     "importance": 9,
-    "regions": ["oceania"],
-    "places": [{"name": "Sydney", "lat": -33.857, "lng": 151.215, "role": "Bennelong Point, Puerto de Sydney"}],
-    "relations": [{"targetId": "arquitectura-posmoderna", "relationType": "contemporary", "strength": 3}],
-    "sources": [{"title": "Utzon and the Sydney Opera House", "author": "Drew, Philip", "publisher": "Inspire Press", "year": "2000", "type": "book", "reliability": "high"}],
+    "regions": [
+      "oceania"
+    ],
+    "places": [
+      {
+        "name": "Sydney",
+        "lat": -33.857,
+        "lng": 151.215,
+        "role": "Bennelong Point, Puerto de Sydney"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "arquitectura-posmoderna",
+        "relationType": "contemporary",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Utzon and the Sydney Opera House",
+        "author": "Drew, Philip",
+        "publisher": "Inspire Press",
+        "year": "2000",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "stonehenge",
     "title": "Stonehenge",
     "type": "building",
-    "disciplines": ["art", "science"],
-    "historicalPeriods": ["ancient"],
+    "disciplines": [
+      "art",
+      "science"
+    ],
+    "historicalPeriods": [
+      "ancient"
+    ],
     "startDate": "-3000",
     "endDate": "-1500",
     "datePrecision": "century",
     "summary": "Monumento megalítico neolítico de Gran Bretaña, alineado astronómicamente con los solsticios.",
     "description": "Stonehenge, en Wiltshire (Inglaterra), fue construido en varias fases entre el 3000 y el 1500 a.C. Sus enormes bloques de piedra (algunos de hasta 25 toneladas, traídos desde Gales) están alineados con los solsticios de verano e invierno, sugiriendo funciones astronómicas y ceremoniales. Es el monumento prehistórico más famoso del mundo y uno de los grandes misterios de la arqueología.",
     "importance": 8,
-    "regions": ["europe"],
-    "places": [{"name": "Salisbury Plain, Wiltshire", "lat": 51.18, "lng": -1.83, "role": "emplazamiento"}],
-    "relations": [{"targetId": "neolithic-revolution", "relationType": "part_of", "strength": 3}],
-    "sources": [{"title": "Stonehenge: Making Sense of a Prehistoric Mystery", "author": "Parker Pearson, Mike", "publisher": "Council for British Archaeology", "year": "2015", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Salisbury Plain, Wiltshire",
+        "lat": 51.18,
+        "lng": -1.83,
+        "role": "emplazamiento"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "neolithic-revolution",
+        "relationType": "part_of",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stonehenge: Making Sense of a Prehistoric Mystery",
+        "author": "Parker Pearson, Mike",
+        "publisher": "Council for British Archaeology",
+        "year": "2015",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "machu-picchu",
     "title": "Machu Picchu",
     "type": "building",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["late-middle-ages"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "late-middle-ages"
+    ],
     "startDate": "1450",
     "endDate": "1532",
     "datePrecision": "year",
     "summary": "Ciudad inca en los Andes peruanos, redescubierta en 1911 y símbolo del Imperio Inca.",
     "description": "Machu Picchu fue construida alrededor de 1450 por el inca Pachacútec como residencia real o centro ceremonial. Situada a 2.430 metros sobre el nivel del mar en los Andes peruanos, fue abandonada tras la conquista española y permaneció desconocida hasta 1911, cuando Hiram Bingham la redescubrió. Su arquitectura de piedra sin mortero, con terrazas agrícolas y observatorios, es una obra maestra de ingeniería inca.",
     "importance": 9,
-    "regions": ["americas"],
-    "places": [{"name": "Cusco, Perú", "lat": -13.163, "lng": -72.545, "role": "montaña Machu Picchu, región de Cusco"}],
-    "relations": [{"targetId": "inca-empire", "relationType": "part_of", "strength": 5}],
-    "sources": [{"title": "The Lost City of the Incas", "author": "Bingham, Hiram", "publisher": "Duell, Sloan and Pearce", "year": "1948", "type": "book", "reliability": "high"}],
+    "regions": [
+      "americas"
+    ],
+    "places": [
+      {
+        "name": "Cusco, Perú",
+        "lat": -13.163,
+        "lng": -72.545,
+        "role": "montaña Machu Picchu, región de Cusco"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "inca-empire",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Lost City of the Incas",
+        "author": "Bingham, Hiram",
+        "publisher": "Duell, Sloan and Pearce",
+        "year": "1948",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "alan-turing",
     "title": "Alan Turing",
     "type": "person",
-    "disciplines": ["science", "technology"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "science",
+      "technology"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1912",
     "endDate": "1954",
     "datePrecision": "year",
     "summary": "Padre de la informática y la inteligencia artificial: máquina de Turing, descifró Enigma en la WWII.",
     "description": "Alan Turing fundó teóricamente la computación (máquina de Turing, 1936), descifró los códigos Enigma alemanes durante la Segunda Guerra Mundial (salvando millones de vidas), y propuso el test de Turing para la inteligencia artificial. Su vida terminó trágicamente: fue procesado por homosexualidad y murió a los 41 años. Hoy es considerado el padre de la informática y un mártir de los derechos civiles.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Bletchley Park", "lat": 52.0, "lng": -0.74, "role": "descifrado de Enigma WWII"}, {"name": "Manchester", "lat": 53.48, "lng": -2.24, "role": "computadora Mark 1"}],
-    "relations": [{"targetId": "revolucion-digital", "relationType": "precedes", "strength": 5}, {"targetId": "world-war-2", "relationType": "part_of", "strength": 4}],
-    "sources": [{"title": "Alan Turing: The Enigma", "author": "Hodges, Andrew", "publisher": "Simon & Schuster", "year": "1983", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Bletchley Park",
+        "lat": 52.0,
+        "lng": -0.74,
+        "role": "descifrado de Enigma WWII"
+      },
+      {
+        "name": "Manchester",
+        "lat": 53.48,
+        "lng": -2.24,
+        "role": "computadora Mark 1"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "digital-revolution",
+        "relationType": "precedes",
+        "strength": 5
+      },
+      {
+        "targetId": "world-war-2",
+        "relationType": "part_of",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Alan Turing: The Enigma",
+        "author": "Hodges, Andrew",
+        "publisher": "Simon & Schuster",
+        "year": "1983",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "dante",
     "title": "Dante Alighieri",
     "type": "person",
-    "disciplines": ["literature", "philosophy"],
-    "historicalPeriods": ["late-middle-ages"],
+    "disciplines": [
+      "literature",
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "late-middle-ages"
+    ],
     "startDate": "1265",
     "endDate": "1321",
     "datePrecision": "year",
     "summary": "Poeta florentino, autor de la Divina Comedia, fundador de la lengua italiana literaria.",
     "description": "Dante Alighieri escribió la Divina Comedia (Infierno, Purgatorio y Paraíso), el poema épico medieval más grande de Occidente. Fundó la lengua italiana literaria al elegir el toscano en lugar del latín. Su viaje imaginario por el más allá, guiado por Virgilio y Beatriz, es un resumen enciclopédico de la teología, la filosofía, la política y la astronomía medievales. Fue exiliado de Florencia y murió en Ravena.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Florencia", "lat": 43.77, "lng": 11.25, "role": "ciudad natal (exiliado)"}, {"name": "Ravena", "lat": 44.42, "lng": 12.2, "role": "exilio y tumba"}],
-    "relations": [{"targetId": "middle-ages", "relationType": "part_of", "strength": 4}, {"targetId": "humanismo-renacimiento", "relationType": "precedes", "strength": 4}],
-    "sources": [{"title": "Dante: A Life", "author": "Ruedi Imbach", "publisher": "Princeton University Press", "year": "2020", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Florencia",
+        "lat": 43.77,
+        "lng": 11.25,
+        "role": "ciudad natal (exiliado)"
+      },
+      {
+        "name": "Ravena",
+        "lat": 44.42,
+        "lng": 12.2,
+        "role": "exilio y tumba"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "middle-ages",
+        "relationType": "part_of",
+        "strength": 4
+      },
+      {
+        "targetId": "humanismo-renacimiento",
+        "relationType": "precedes",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dante: A Life",
+        "author": "Ruedi Imbach",
+        "publisher": "Princeton University Press",
+        "year": "2020",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   }
 ]

@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "hannibal-barca",
+    "title": "Aníbal Barca",
+    "type": "person",
+    "startDate": "-247",
+    "endDate": "-183",
+    "disciplines": [
+      "history"
+    ],
+    "regions": [
+      "mediterranean",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Cartago (actual Túnez)",
+        "lat": 36.85,
+        "lng": 10.32,
+        "role": "nacimiento"
+      },
+      {
+        "name": "Los Alpes",
+        "lat": 44.5,
+        "lng": 7.0,
+        "role": "travesía épica"
+      },
+      {
+        "name": "Zama, África del Norte",
+        "lat": 35.8,
+        "lng": 9.0,
+        "role": "derrota final"
+      }
+    ],
+    "importance": 8,
+    "summary": "General cartaginés que cruzó los Alpes con elefantes de guerra y venció a Roma en Cannas (216 a.C.), su mayor derrota. Considerado uno de los mejores estrategas militares de la historia.",
+    "tags": [
+      "cartago",
+      "roma",
+      "guerra púnica",
+      "estrategia"
+    ],
+    "relations": [
+      {
+        "targetId": "carthage",
+        "relationType": "led_by",
+        "strength": 5
+      },
+      {
+        "targetId": "roman-empire",
+        "relationType": "rival_of",
+        "strength": 4
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": "hatshepsut",
+    "title": "Hatshepsut",
+    "type": "person",
+    "startDate": "-1507",
+    "endDate": "-1458",
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "north-africa",
+      "africa"
+    ],
+    "places": [
+      {
+        "name": "Tebas (Luxor)",
+        "lat": 25.7,
+        "lng": 32.6,
+        "role": "capital y reinado"
+      }
+    ],
+    "importance": 8,
+    "summary": "Una de las pocas mujeres que gobernó Egipto como faraona, durante más de 20 años. Impulsó expediciones comerciales a Punt y construyó el templo de Deir el-Bahari.",
+    "tags": [
+      "egipto",
+      "faraona",
+      "mujer",
+      "templo"
+    ],
+    "relations": [
+      {
+        "targetId": "ancient-egypt",
+        "relationType": "led_by",
+        "strength": 5
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.93
+    }
+  },
+  {
+    "id": "suleiman-magnificent",
+    "title": "Solimán el Magnífico",
+    "type": "person",
+    "startDate": "1494",
+    "endDate": "1566",
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "middle-east",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Trabzon (actual Turquía)",
+        "lat": 41.0,
+        "lng": 39.7,
+        "role": "nacimiento"
+      },
+      {
+        "name": "Estambul",
+        "lat": 41.0,
+        "lng": 28.9,
+        "role": "capital"
+      }
+    ],
+    "importance": 8,
+    "summary": "Sultán del Imperio Otomano en su apogeo, que extendió el dominio otomano desde Hungría hasta Persia. Gran mecenas de las artes y legislador; su reino es el siglo de oro otomano.",
+    "tags": [
+      "otomano",
+      "islam",
+      "sultán",
+      "apogeo"
+    ],
+    "relations": [
+      {
+        "targetId": "ottoman-empire",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.93
+    }
+  },
+  {
+    "id": "queen-victoria",
+    "title": "Reina Victoria",
+    "type": "person",
+    "startDate": "1819",
+    "endDate": "1901",
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "western-europe",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.1,
+        "role": "reinado"
+      }
+    ],
+    "importance": 8,
+    "summary": "Reina del Reino Unido durante 63 años (1837-1901), presidió el apogeo del Imperio Británico y la era victoriana de industrialización, moralidad y expansión colonial.",
+    "tags": [
+      "reino unido",
+      "victoriano",
+      "imperialismo",
+      "industrialización"
+    ],
+    "relations": [
+      {
+        "targetId": "colonialismo-britanico",
+        "relationType": "led_by",
+        "strength": 4
+      },
+      {
+        "targetId": "industrial-revolution",
+        "relationType": "contemporary_of",
+        "strength": 3
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "harriet-tubman",
+    "title": "Harriet Tubman",
+    "type": "person",
+    "startDate": "1822",
+    "endDate": "1913",
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Dorchester County, Maryland",
+        "lat": 38.5,
+        "lng": -76.1,
+        "role": "nacimiento en esclavitud"
+      },
+      {
+        "name": "Philadelphia",
+        "lat": 39.9,
+        "lng": -75.2,
+        "role": "primera huida"
+      }
+    ],
+    "importance": 8,
+    "summary": "Abolicionista afroamericana que escapó de la esclavitud y guió a decenas de esclavos a la libertad por el Ferrocarril Subterráneo. Espía de la Unión durante la Guerra Civil.",
+    "tags": [
+      "abolicionismo",
+      "esclavitud",
+      "libertad",
+      "eeuu"
+    ],
+    "relations": [
+      {
+        "targetId": "civil-rights-movement",
+        "relationType": "precursor_of",
+        "strength": 4
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": "ramanujan",
+    "title": "Srinivasa Ramanujan",
+    "type": "person",
+    "startDate": "1887",
+    "endDate": "1920",
+    "disciplines": [
+      "science",
+      "mathematics"
+    ],
+    "regions": [
+      "south-asia",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Erode, Tamil Nadu",
+        "lat": 11.3,
+        "lng": 77.7,
+        "role": "nacimiento"
+      },
+      {
+        "name": "Cambridge",
+        "lat": 52.2,
+        "lng": 0.1,
+        "role": "trabajo en Cambridge"
+      }
+    ],
+    "importance": 8,
+    "summary": "Matemático indio autodidacta que realizó contribuciones extraordinarias al análisis, teoría de números y fracciones continuas, muchas de las cuales aún se estudian hoy.",
+    "tags": [
+      "matemáticas",
+      "india",
+      "genio",
+      "teoría de números"
+    ],
+    "relations": [],
+    "layer": "detailed",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.93
+    }
+  },
+  {
+    "id": "ibn-khaldun",
+    "title": "Ibn Jaldún",
+    "type": "person",
+    "startDate": "1332",
+    "endDate": "1406",
+    "disciplines": [
+      "philosophy",
+      "history"
+    ],
+    "regions": [
+      "africa",
+      "middle-east"
+    ],
+    "places": [
+      {
+        "name": "Túnez",
+        "lat": 36.8,
+        "lng": 10.2,
+        "role": "nacimiento"
+      },
+      {
+        "name": "El Cairo",
+        "lat": 30.0,
+        "lng": 31.2,
+        "role": "trabajo y muerte"
+      }
+    ],
+    "importance": 8,
+    "summary": "Historiador y filósofo árabe considerado el padre de la sociología y la historiografía moderna. Su obra Muqaddimah analiza el ascenso y caída de las civilizaciones.",
+    "tags": [
+      "historiografía",
+      "sociología",
+      "islam",
+      "civilización"
+    ],
+    "relations": [],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.93
+    }
+  },
+  {
+    "id": "lao-tzu",
+    "title": "Lao Tsé",
+    "type": "person",
+    "startDate": "-571",
+    "endDate": "-471",
+    "disciplines": [
+      "philosophy",
+      "religion"
+    ],
+    "regions": [
+      "east-asia",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Chu (actual Henan, China)",
+        "lat": 34.0,
+        "lng": 113.0,
+        "role": "vida"
+      }
+    ],
+    "importance": 9,
+    "summary": "Filósofo chino, fundador del Taoísmo y autor del Tao Te Ching. Su pensamiento sobre el camino natural (Tao), la no-acción y la armonía ha influido profundamente en la filosofía y espiritualidad asiática.",
+    "tags": [
+      "taoísmo",
+      "filosofía",
+      "china",
+      "espiritualidad"
+    ],
+    "relations": [
+      {
+        "targetId": "confucius",
+        "relationType": "contemporary_of",
+        "strength": 3
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.8
+    }
+  },
+  {
+    "id": "maya-lin",
+    "title": "Maya Lin",
+    "type": "person",
+    "startDate": "1959",
+    "endDate": null,
+    "disciplines": [
+      "architecture",
+      "visual-arts"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Washington D.C.",
+        "lat": 38.9,
+        "lng": -77.0,
+        "role": "Vietnam Memorial"
+      }
+    ],
+    "importance": 7,
+    "summary": "Arquitecta y artista estadounidense de origen chino, conocida por el Memorial a los Veteranos del Vietnam en Washington D.C., uno de los memoriales más visitados del mundo.",
+    "tags": [
+      "arquitectura",
+      "memorial",
+      "mujer",
+      "eeuu"
+    ],
+    "relations": [],
+    "layer": "detailed",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.93
+    }
+  },
+  {
+    "id": "temple-karnak",
+    "title": "Templo de Karnak",
+    "type": "building",
+    "startDate": "-2055",
+    "endDate": "-30",
+    "disciplines": [
+      "architecture",
+      "religion"
+    ],
+    "regions": [
+      "north-africa",
+      "africa"
+    ],
+    "places": [
+      {
+        "name": "Luxor (antigua Tebas), Egipto",
+        "lat": 25.72,
+        "lng": 32.66,
+        "role": "ubicación"
+      }
+    ],
+    "importance": 9,
+    "summary": "El mayor complejo religioso del mundo antiguo, construido durante 2000 años por los faraones egipcios. Dedicado al dios Amón, cubre 100 hectáreas e incluye el famoso bosque de columnas hipóstila.",
+    "tags": [
+      "egipto",
+      "templo",
+      "amón",
+      "faraones"
+    ],
+    "relations": [
+      {
+        "targetId": "ancient-egypt",
+        "relationType": "built_by",
+        "strength": 5
+      },
+      {
+        "targetId": "hatshepsut",
+        "relationType": "expanded_by",
+        "strength": 3
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": "persepolis",
+    "title": "Persépolis",
+    "type": "building",
+    "startDate": "-518",
+    "endDate": "-330",
+    "disciplines": [
+      "architecture",
+      "history"
+    ],
+    "regions": [
+      "middle-east"
+    ],
+    "places": [
+      {
+        "name": "Shiraz, Irán",
+        "lat": 29.93,
+        "lng": 52.89,
+        "role": "ubicación"
+      }
+    ],
+    "importance": 8,
+    "summary": "Capital ceremonial del Imperio Persa Aqueménida, construida por Darío el Grande. Sus terrazas, palacios y relieves son una de las maravillas de la arquitectura del mundo antiguo.",
+    "tags": [
+      "persia",
+      "aqueménida",
+      "darío",
+      "arquitectura"
+    ],
+    "relations": [
+      {
+        "targetId": "persian-empire",
+        "relationType": "capital_of",
+        "strength": 5
+      },
+      {
+        "targetId": "alexander-great",
+        "relationType": "destroyed_by",
+        "strength": 4
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "great-wall-china",
+    "title": "Gran Muralla China",
+    "type": "building",
+    "startDate": "-700",
+    "endDate": "1644",
+    "disciplines": [
+      "architecture",
+      "history"
+    ],
+    "regions": [
+      "east-asia",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Norte de China",
+        "lat": 40.43,
+        "lng": 116.57,
+        "role": "tramo más conocido (Badaling)"
+      }
+    ],
+    "importance": 10,
+    "summary": "Sistema de murallas y fortificaciones de más de 21,000 km construido durante siglos para proteger China de invasiones del norte. Una de las mayores obras de ingeniería de la humanidad.",
+    "tags": [
+      "china",
+      "ingeniería",
+      "defensa",
+      "muralla"
+    ],
+    "relations": [
+      {
+        "targetId": "han-dynasty",
+        "relationType": "built_by",
+        "strength": 4
+      },
+      {
+        "targetId": "mongol-empire",
+        "relationType": "defended_against",
+        "strength": 3
+      }
+    ],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "petra-jordan",
+    "title": "Petra",
+    "type": "building",
+    "startDate": "-400",
+    "endDate": "100",
+    "disciplines": [
+      "architecture",
+      "history"
+    ],
+    "regions": [
+      "middle-east"
+    ],
+    "places": [
+      {
+        "name": "Ma'an, Jordania",
+        "lat": 30.33,
+        "lng": 35.44,
+        "role": "ubicación"
+      }
+    ],
+    "importance": 8,
+    "summary": "Ciudad nabatea excavada en roca rojiza en el desierto de Jordania, conocida como la 'ciudad rosa'. Su fachada más famosa, el Tesoro, es uno de los iconos arqueológicos del mundo.",
+    "tags": [
+      "nabateo",
+      "jordania",
+      "arqueología",
+      "roca"
+    ],
+    "relations": [],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": "palace-alhambra-detail",
+    "title": "Torre de la Vela, La Alhambra",
+    "type": "building",
+    "startDate": "1238",
+    "endDate": "1492",
+    "disciplines": [
+      "architecture"
+    ],
+    "regions": [
+      "western-europe",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Granada, España",
+        "lat": 37.18,
+        "lng": -3.59,
+        "role": "ubicación"
+      }
+    ],
+    "importance": 9,
+    "summary": "El complejo palatino nazarí de La Alhambra es la cima de la arquitectura islámica en Europa occidental. Sus patios, jardines y decoración de mocárabes son de una belleza sin igual.",
+    "tags": [
+      "islám",
+      "nazarí",
+      "granada",
+      "arquitectura"
+    ],
+    "relations": [
+      {
+        "targetId": "alhambra",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "layer": "detailed",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "renaissance-florence",
+    "title": "Renacimiento Florentino",
+    "type": "period",
+    "startDate": "1300",
+    "endDate": "1530",
+    "disciplines": [
+      "art",
+      "philosophy",
+      "architecture"
+    ],
+    "regions": [
+      "western-europe",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Florencia",
+        "lat": 43.77,
+        "lng": 11.25,
+        "role": "epicentro"
+      }
+    ],
+    "importance": 9,
+    "summary": "Florencia fue el corazón del Renacimiento: los Médici mecenas, Brunelleschi en arquitectura, Botticelli y Leonardo en pintura, Dante y Petrarca en literatura. Un momento sin igual en la historia cultural.",
+    "tags": [
+      "renacimiento",
+      "florencia",
+      "médicis",
+      "humanismo"
+    ],
+    "relations": [
+      {
+        "targetId": "brunelleschi",
+        "relationType": "produced",
+        "strength": 5
+      },
+      {
+        "targetId": "leonardo-da-vinci",
+        "relationType": "produced",
+        "strength": 5
+      },
+      {
+        "targetId": "botticelli",
+        "relationType": "produced",
+        "strength": 4
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "deir-el-bahari",
+    "title": "Templo de Deir el-Bahari",
+    "type": "building",
+    "startDate": "-1479",
+    "endDate": "-1458",
+    "disciplines": [
+      "architecture",
+      "history"
+    ],
+    "regions": [
+      "north-africa",
+      "africa"
+    ],
+    "places": [
+      {
+        "name": "Luxor (Tebas occidental), Egipto",
+        "lat": 25.74,
+        "lng": 32.61,
+        "role": "ubicación"
+      }
+    ],
+    "importance": 7,
+    "summary": "Templo funerario de la faraona Hatshepsut, considerado una obra maestra de la arquitectura egipcia. Sus tres terrazas columnadas se integran armoniosamente en los acantilados de la orilla occidental del Nilo.",
+    "tags": [
+      "egipto",
+      "hatshepsut",
+      "templo",
+      "arquitectura"
+    ],
+    "relations": [
+      {
+        "targetId": "hatshepsut",
+        "relationType": "built_by",
+        "strength": 5
+      },
+      {
+        "targetId": "ancient-egypt",
+        "relationType": "part_of",
+        "strength": 4
+      }
+    ],
+    "layer": "detailed",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.93
+    }
+  },
+  {
+    "id": "social-media-era",
+    "title": "Era de las Redes Sociales",
+    "type": "period",
+    "startDate": "2004",
+    "endDate": null,
+    "disciplines": [
+      "technology",
+      "society"
+    ],
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Silicon Valley",
+        "lat": 37.4,
+        "lng": -122.1,
+        "role": "origen"
+      }
+    ],
+    "importance": 8,
+    "summary": "El surgimiento de Facebook (2004), YouTube (2005), Twitter (2006) e Instagram (2010) transformó la comunicación humana, la política, la cultura y la economía global.",
+    "tags": [
+      "internet",
+      "comunicación",
+      "cultura digital",
+      "globalización"
+    ],
+    "relations": [
+      {
+        "targetId": "internet",
+        "relationType": "built_on",
+        "strength": 5
+      },
+      {
+        "targetId": "ai-revolution",
+        "relationType": "precursor_of",
+        "strength": 3
+      }
+    ],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "globalization",
+    "title": "Globalización Contemporánea",
+    "type": "period",
+    "startDate": "1989",
+    "endDate": null,
+    "disciplines": [
+      "economics",
+      "history",
+      "society"
+    ],
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Global",
+        "lat": 0.0,
+        "lng": 0.0,
+        "role": "alcance mundial"
+      }
+    ],
+    "importance": 9,
+    "summary": "Desde la caída del Muro de Berlín, el mundo se interconectó económica, cultural y tecnológicamente a una velocidad sin precedentes. Internet, el libre comercio y las migraciones masivas redefinen identidades y economías.",
+    "tags": [
+      "economía",
+      "internet",
+      "cultura",
+      "interdependencia"
+    ],
+    "relations": [
+      {
+        "targetId": "caida-muro-berlin",
+        "relationType": "started_after",
+        "strength": 4
+      },
+      {
+        "targetId": "internet",
+        "relationType": "enabled_by",
+        "strength": 5
+      }
+    ],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.88
+    }
+  },
+  {
+    "id": "burj-khalifa",
+    "title": "Burj Khalifa",
+    "type": "building",
+    "startDate": "2004",
+    "endDate": "2010",
+    "disciplines": [
+      "architecture",
+      "technology"
+    ],
+    "regions": [
+      "middle-east"
+    ],
+    "places": [
+      {
+        "name": "Dubái, Emiratos Árabes Unidos",
+        "lat": 25.197,
+        "lng": 55.274,
+        "role": "ubicación"
+      }
+    ],
+    "importance": 7,
+    "summary": "Con 828 metros el edificio más alto del mundo desde 2010. Símbolo de la ambición urbana del siglo XXI y el poder económico del Golfo Pérsico.",
+    "tags": [
+      "rascacielos",
+      "dubái",
+      "récord",
+      "siglo XXI"
+    ],
+    "relations": [],
+    "layer": "detailed",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.97
+    }
+  },
+  {
+    "id": "center-pompidou",
+    "title": "Centro Georges Pompidou",
+    "type": "building",
+    "startDate": "1971",
+    "endDate": "1977",
+    "disciplines": [
+      "architecture"
+    ],
+    "regions": [
+      "western-europe",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.86,
+        "lng": 2.352,
+        "role": "ubicación"
+      }
+    ],
+    "importance": 8,
+    "summary": "Diseñado por Renzo Piano y Richard Rogers, su arquitectura high-tech con tuberías y estructuras al exterior fue revolucionaria. Uno de los museos de arte moderno más visitados del mundo.",
+    "tags": [
+      "arquitectura",
+      "high-tech",
+      "paris",
+      "museo"
+    ],
+    "relations": [],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "opera-paris",
+    "title": "Ópera Garnier de París",
+    "type": "building",
+    "startDate": "1861",
+    "endDate": "1875",
+    "disciplines": [
+      "architecture"
+    ],
+    "regions": [
+      "western-europe",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.871,
+        "lng": 2.331,
+        "role": "ubicación"
+      }
+    ],
+    "importance": 8,
+    "summary": "Obra maestra del arquitecto Charles Garnier, es el símbolo del Segundo Imperio francés. Su suntuosa decoración en estilo Beaux-Arts y la gran escalinata la convierten en uno de los interiores más espectaculares del mundo.",
+    "tags": [
+      "ópera",
+      "beaux-arts",
+      "parís",
+      "napoleón III"
+    ],
+    "relations": [],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.96
+    }
+  },
+  {
+    "id": "climate-change",
+    "title": "Crisis Climática",
+    "type": "period",
+    "startDate": "1988",
+    "endDate": null,
+    "disciplines": [
+      "science",
+      "society"
+    ],
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Global",
+        "lat": 0.0,
+        "lng": 0.0,
+        "role": "alcance mundial"
+      }
+    ],
+    "importance": 10,
+    "summary": "El calentamiento global causado por emisiones de CO₂ desde la industrialización es la mayor amenaza civilizatoria del siglo XXI. El Panel IPCC (1988) formalizó el consenso científico.",
+    "tags": [
+      "ecología",
+      "CO2",
+      "crisis",
+      "futuro"
+    ],
+    "relations": [
+      {
+        "targetId": "industrial-revolution",
+        "relationType": "caused_by",
+        "strength": 5
+      }
+    ],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "pandemic-covid",
+    "title": "Pandemia COVID-19",
+    "type": "event",
+    "startDate": "2019",
+    "endDate": "2023",
+    "disciplines": [
+      "history",
+      "science"
+    ],
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Wuhan, China",
+        "lat": 30.6,
+        "lng": 114.3,
+        "role": "origen"
+      },
+      {
+        "name": "Global",
+        "lat": 0.0,
+        "lng": 0.0,
+        "role": "extensión"
+      }
+    ],
+    "importance": 9,
+    "summary": "La pandemia de SARS-CoV-2 causó millones de muertes, paralizó la economía mundial y aceleró transformaciones digitales y sociales. La vacunación masiva en tiempo récord fue un hito científico.",
+    "tags": [
+      "pandemia",
+      "virus",
+      "vacuna",
+      "siglo XXI"
+    ],
+    "relations": [],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.97
+    }
+  },
+  {
+    "id": "hiroshima-nagasaki",
+    "title": "Bombas Atómicas sobre Japón",
+    "type": "event",
+    "startDate": "1945",
+    "endDate": "1945",
+    "disciplines": [
+      "history",
+      "science"
+    ],
+    "regions": [
+      "east-asia",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Hiroshima",
+        "lat": 34.4,
+        "lng": 132.5,
+        "role": "primera bomba (6 agosto)"
+      },
+      {
+        "name": "Nagasaki",
+        "lat": 32.75,
+        "lng": 129.88,
+        "role": "segunda bomba (9 agosto)"
+      }
+    ],
+    "importance": 10,
+    "summary": "El lanzamiento de las bombas atómicas Little Boy y Fat Man sobre Hiroshima y Nagasaki por EEUU aceleró la rendición de Japón y abrió la era nuclear, cambiando para siempre la geopolítica mundial.",
+    "tags": [
+      "segunda guerra mundial",
+      "nuclear",
+      "japón",
+      "eeuu"
+    ],
+    "relations": [
+      {
+        "targetId": "world-war-2",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "cold-war-period",
+        "relationType": "triggered",
+        "strength": 4
+      }
+    ],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.97
+    }
+  },
+  {
+    "id": "moon-landing",
+    "title": "Alunizaje del Apollo 11",
+    "type": "event",
+    "startDate": "1969",
+    "endDate": "1969",
+    "disciplines": [
+      "science",
+      "technology"
+    ],
+    "regions": [
+      "global",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Mar de la Tranquilidad, Luna",
+        "lat": 0.67,
+        "lng": 23.47,
+        "role": "alunizaje"
+      },
+      {
+        "name": "Houston, Texas",
+        "lat": 29.76,
+        "lng": -95.37,
+        "role": "control de misión"
+      }
+    ],
+    "importance": 10,
+    "summary": "El 20 de julio de 1969, Neil Armstrong y Buzz Aldrin se convirtieron en los primeros seres humanos en pisar la Luna. Una de las mayores hazañas tecnológicas y simbólicas de la historia.",
+    "tags": [
+      "luna",
+      "nasa",
+      "espacio",
+      "Armstrong"
+    ],
+    "relations": [
+      {
+        "targetId": "space-race",
+        "relationType": "climax_of",
+        "strength": 5
+      }
+    ],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.99
+    }
+  }
+]

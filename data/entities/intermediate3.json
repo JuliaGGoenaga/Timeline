@@ -421,7 +421,7 @@
         "strength": 5
       },
       {
-        "targetId": "existencialismo",
+        "targetId": "existentialism",
         "relationType": "influences",
         "strength": 4
       }
@@ -495,65 +495,6 @@
         "publisher": "Various",
         "year": "1848",
         "type": "primary_source",
-        "reliability": "high"
-      }
-    ],
-    "media": [],
-    "validation": {
-      "status": "verified",
-      "lastReviewed": "2024-01-01",
-      "notes": ""
-    }
-  },
-  {
-    "id": "existencialismo",
-    "title": "Existencialismo",
-    "type": "movement",
-    "disciplines": [
-      "philosophy",
-      "literature"
-    ],
-    "historicalPeriods": [
-      "early-20th",
-      "cold-war"
-    ],
-    "startDate": "1840",
-    "endDate": "1970",
-    "datePrecision": "decade",
-    "summary": "Corriente filosófica que sitúa la existencia individual, la libertad y la responsabilidad en el centro de la reflexión.",
-    "description": "Desde Kierkegaard y Nietzsche hasta Heidegger, Sartre y Camus, el existencialismo exploró la condición humana ante la angustia, la libertad y la absurdidad. Tuvo un enorme impacto cultural en la literatura y el arte del siglo XX.",
-    "importance": 9,
-    "regions": [
-      "western-europe"
-    ],
-    "places": [
-      {
-        "name": "París",
-        "lat": 48.85,
-        "lng": 2.35,
-        "role": "existencialismo francés"
-      },
-      {
-        "name": "Copenhague",
-        "lat": 55.68,
-        "lng": 12.57,
-        "role": "Kierkegaard"
-      }
-    ],
-    "relations": [
-      {
-        "targetId": "idealismo-aleman",
-        "relationType": "responds-to",
-        "strength": 3
-      }
-    ],
-    "sources": [
-      {
-        "title": "Existentialism",
-        "author": "Sartre, J.P.",
-        "publisher": "Philosophical Library",
-        "year": "1947",
-        "type": "book",
         "reliability": "high"
       }
     ],
@@ -1070,7 +1011,7 @@
     ],
     "relations": [
       {
-        "targetId": "colonialismo-europeo",
+        "targetId": "european-colonialism",
         "relationType": "precedes",
         "strength": 2
       }
@@ -1081,62 +1022,6 @@
         "author": "Bloch, M.",
         "publisher": "University of Chicago Press",
         "year": "1961",
-        "type": "book",
-        "reliability": "high"
-      }
-    ],
-    "media": [],
-    "validation": {
-      "status": "verified",
-      "lastReviewed": "2024-01-01",
-      "notes": ""
-    }
-  },
-  {
-    "id": "colonialismo-europeo",
-    "title": "Colonialismo europeo",
-    "type": "movement",
-    "disciplines": [
-      "politics",
-      "society",
-      "economy"
-    ],
-    "historicalPeriods": [
-      "early-modern",
-      "enlightenment",
-      "revolutionary-age",
-      "19th-century"
-    ],
-    "startDate": "1492",
-    "endDate": "1960",
-    "datePrecision": "year",
-    "summary": "Proceso de expansión, conquista y dominación europea sobre otros territorios y pueblos.",
-    "description": "El colonialismo europeo comenzó con los viajes de exploración portugueses y españoles. Rediseñó el mapa mundial, destruyó civilizaciones, generó riqueza sin precedentes en Europa y dejó secuelas económicas, políticas y culturales que perduran hasta hoy.",
-    "importance": 10,
-    "regions": [
-      "global"
-    ],
-    "places": [
-      {
-        "name": "Lisboa",
-        "lat": 38.72,
-        "lng": -9.14,
-        "role": "inicio de la expansión portuguesa"
-      },
-      {
-        "name": "Londres",
-        "lat": 51.51,
-        "lng": -0.12,
-        "role": "Imperio Británico"
-      }
-    ],
-    "relations": [],
-    "sources": [
-      {
-        "title": "Colonialism: A Theoretical Overview",
-        "author": "Osterhammel, J.",
-        "publisher": "Markus Wiener",
-        "year": "1997",
         "type": "book",
         "reliability": "high"
       }
@@ -1347,65 +1232,6 @@
         "author": "Rhodes, R.",
         "publisher": "Simon & Schuster",
         "year": "1986",
-        "type": "book",
-        "reliability": "high"
-      }
-    ],
-    "media": [],
-    "validation": {
-      "status": "verified",
-      "lastReviewed": "2024-01-01",
-      "notes": ""
-    }
-  },
-  {
-    "id": "revolucion-digital",
-    "title": "Revolución digital",
-    "type": "movement",
-    "disciplines": [
-      "technology",
-      "science"
-    ],
-    "historicalPeriods": [
-      "cold-war",
-      "contemporary"
-    ],
-    "startDate": "1950",
-    "endDate": "2025",
-    "datePrecision": "decade",
-    "summary": "Transformación de la sociedad provocada por la informática, internet y la digitalización de la información.",
-    "description": "Del transistor al ordenador personal, de internet a los smartphones y la inteligencia artificial: la revolución digital ha transformado la economía, la comunicación, la cultura y las relaciones humanas más rápidamente que cualquier revolución anterior.",
-    "importance": 10,
-    "regions": [
-      "global"
-    ],
-    "places": [
-      {
-        "name": "Silicon Valley",
-        "lat": 37.38,
-        "lng": -122.08,
-        "role": "epicentro tecnológico"
-      },
-      {
-        "name": "Cambridge",
-        "lat": 52.2,
-        "lng": 0.12,
-        "role": "Turing y los orígenes de la computación"
-      }
-    ],
-    "relations": [
-      {
-        "targetId": "globalizacion",
-        "relationType": "enables",
-        "strength": 5
-      }
-    ],
-    "sources": [
-      {
-        "title": "The Second Machine Age",
-        "author": "Brynjolfsson, E.; McAfee, A.",
-        "publisher": "Norton",
-        "year": "2014",
         "type": "book",
         "reliability": "high"
       }

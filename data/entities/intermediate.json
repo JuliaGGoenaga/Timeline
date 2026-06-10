@@ -3,25 +3,69 @@
     "id": "romanticism",
     "title": "Romanticismo",
     "type": "movement",
-    "disciplines": ["literature", "music", "art", "philosophy"],
-    "historicalPeriods": ["revolutionary-age", "19th-century"],
+    "disciplines": [
+      "literature",
+      "music",
+      "art",
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "revolutionary-age",
+      "19th-century"
+    ],
     "startDate": "1780",
     "endDate": "1850",
     "datePrecision": "approximate",
     "summary": "Movimiento cultural europeo de reacción contra el racionalismo ilustrado, que exaltó la emoción, la naturaleza y el individuo.",
     "description": "El Romanticismo surgió hacia 1780 como reacción a la Ilustración y a la Revolución Industrial. Privilegió la emoción sobre la razón, el individuo sobre el colectivo, la naturaleza salvaje sobre la ciudad, y el pasado medieval sobre el racionalismo clásico. En literatura destacan Goethe, Byron, Shelley, Hugo; en música, Beethoven, Schubert, Schumann, Chopin; en pintura, Delacroix, Friedrich, Turner.",
     "importance": 9,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "Weimar", "lat": 50.98, "lng": 11.33, "wikidataId": "Q3603", "role": "Romanticismo alemán, Goethe" },
-      { "name": "Londres", "lat": 51.51, "lng": -0.12, "wikidataId": "Q84", "role": "Romanticismo inglés, Byron, Shelley, Turner" },
-      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "Romanticismo francés, Hugo, Delacroix" }
+      {
+        "name": "Weimar",
+        "lat": 50.98,
+        "lng": 11.33,
+        "wikidataId": "Q3603",
+        "role": "Romanticismo alemán, Goethe"
+      },
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "wikidataId": "Q84",
+        "role": "Romanticismo inglés, Byron, Shelley, Turner"
+      },
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "wikidataId": "Q90",
+        "role": "Romanticismo francés, Hugo, Delacroix"
+      }
     ],
     "relations": [
-      { "targetId": "industrial-revolution", "relationType": "response_to", "strength": 4 },
-      { "targetId": "french-revolution", "relationType": "response_to", "strength": 3 },
-      { "targetId": "beethoven", "relationType": "part_of", "strength": 5 },
-      { "targetId": "realism-movement", "relationType": "evolved_into", "strength": 3 }
+      {
+        "targetId": "industrial-revolution",
+        "relationType": "response_to",
+        "strength": 4
+      },
+      {
+        "targetId": "french-revolution",
+        "relationType": "response_to",
+        "strength": 3
+      },
+      {
+        "targetId": "beethoven",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "realism-movement",
+        "relationType": "evolved_into",
+        "strength": 3
+      }
     ],
     "sources": [
       {
@@ -34,31 +78,72 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "intermediate",
-    "tags": ["emoción", "naturaleza", "Goethe", "Beethoven", "Hugo"]
+    "tags": [
+      "emoción",
+      "naturaleza",
+      "Goethe",
+      "Beethoven",
+      "Hugo"
+    ]
   },
   {
     "id": "realism-movement",
     "title": "Realismo",
     "type": "movement",
-    "disciplines": ["literature", "art", "philosophy"],
-    "historicalPeriods": ["19th-century"],
+    "disciplines": [
+      "literature",
+      "art",
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "19th-century"
+    ],
     "startDate": "1840",
     "endDate": "1890",
     "datePrecision": "approximate",
     "summary": "Corriente artística y literaria que representó la vida cotidiana de forma objetiva, sin idealización.",
     "description": "El Realismo surgió como respuesta al idealismo romántico, buscando representar la realidad social tal como era, con especial atención a las condiciones de vida de las clases trabajadoras. En literatura destacan Balzac, Flaubert, Dickens, Tolstói; en pintura, Courbet, Millet. Coincidió con el positivismo filosófico de Comte y el naturalismo científico.",
     "importance": 7,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "Courbet, Balzac, Flaubert" },
-      { "name": "Londres", "lat": 51.51, "lng": -0.12, "wikidataId": "Q84", "role": "Dickens" }
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "wikidataId": "Q90",
+        "role": "Courbet, Balzac, Flaubert"
+      },
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "wikidataId": "Q84",
+        "role": "Dickens"
+      }
     ],
     "relations": [
-      { "targetId": "romanticism", "relationType": "response_to", "strength": 4 },
-      { "targetId": "impressionism", "relationType": "preceded", "strength": 4 },
-      { "targetId": "industrial-revolution", "relationType": "influenced_by", "strength": 3 }
+      {
+        "targetId": "romanticism",
+        "relationType": "response_to",
+        "strength": 4
+      },
+      {
+        "targetId": "impressionism",
+        "relationType": "preceded",
+        "strength": 4
+      },
+      {
+        "targetId": "industrial-revolution",
+        "relationType": "influenced_by",
+        "strength": 3
+      }
     ],
     "sources": [
       {
@@ -70,31 +155,71 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "intermediate",
-    "tags": ["Courbet", "Balzac", "positivismo", "vida cotidiana"]
+    "tags": [
+      "Courbet",
+      "Balzac",
+      "positivismo",
+      "vida cotidiana"
+    ]
   },
   {
     "id": "impressionism",
     "title": "Impresionismo",
     "type": "movement",
-    "disciplines": ["art"],
-    "historicalPeriods": ["19th-century", "belle-epoque"],
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "19th-century",
+      "belle-epoque"
+    ],
     "startDate": "1860",
     "endDate": "1900",
     "datePrecision": "approximate",
     "summary": "Movimiento pictórico francés que captó la luz y el instante visual por encima del dibujo académico.",
     "description": "El Impresionismo surgió en París en la década de 1860 como ruptura con la pintura académica. Sus representantes (Monet, Renoir, Degas, Pissarro, Morisot) pintaron al aire libre, capturando los efectos de luz y el instante visual. La primera exposición independiente fue en 1874. El nombre proviene del cuadro Impression, soleil levant de Monet. Transformó radicalmente la concepción de la pintura occidental.",
     "importance": 9,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "epicentro del movimiento" },
-      { "name": "Giverny", "lat": 49.08, "lng": 1.53, "wikidataId": "Q185660", "role": "jardín y estudio de Monet" }
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "wikidataId": "Q90",
+        "role": "epicentro del movimiento"
+      },
+      {
+        "name": "Giverny",
+        "lat": 49.08,
+        "lng": 1.53,
+        "wikidataId": "Q185660",
+        "role": "jardín y estudio de Monet"
+      }
     ],
     "relations": [
-      { "targetId": "realism-movement", "relationType": "followed", "strength": 3 },
-      { "targetId": "post-impressionism", "relationType": "evolved_into", "strength": 5 },
-      { "targetId": "haussmann-paris", "relationType": "influenced_by", "strength": 2, "note": "La nueva Paris haussmanniana fue un tema central del Impresionismo" }
+      {
+        "targetId": "realism-movement",
+        "relationType": "followed",
+        "strength": 3
+      },
+      {
+        "targetId": "post-impressionism",
+        "relationType": "evolved_into",
+        "strength": 5
+      },
+      {
+        "targetId": "haussmann-paris",
+        "relationType": "influenced_by",
+        "strength": 2,
+        "note": "La nueva Paris haussmanniana fue un tema central del Impresionismo"
+      }
     ],
     "sources": [
       {
@@ -114,32 +239,79 @@
         "rights": "Public domain"
       }
     ],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "intermediate",
-    "tags": ["Monet", "Renoir", "luz", "París", "pintura al aire libre"]
+    "tags": [
+      "Monet",
+      "Renoir",
+      "luz",
+      "París",
+      "pintura al aire libre"
+    ]
   },
   {
     "id": "post-impressionism",
     "title": "Postimpresionismo",
     "type": "movement",
-    "disciplines": ["art"],
-    "historicalPeriods": ["belle-epoque"],
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "belle-epoque"
+    ],
     "startDate": "1886",
     "endDate": "1910",
     "datePrecision": "approximate",
     "summary": "Corriente pictórica que extendió y superó el Impresionismo introduciendo estructura, simbolismo y expresión emocional.",
     "description": "El Postimpresionismo (término acuñado por Roger Fry en 1910) agrupa a artistas como Cézanne, Van Gogh, Gauguin y Seurat, que partieron del Impresionismo pero lo transformaron radicalmente: Cézanne introdujo geometría subyacente, Van Gogh el color como expresión emocional, Gauguin el primitivismo simbólico, Seurat el puntillismo científico. Fue la base de todas las vanguardias del siglo XX.",
     "importance": 9,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "centro de exhibición" },
-      { "name": "Aix-en-Provence", "lat": 43.53, "lng": 5.45, "wikidataId": "Q43191", "role": "Cézanne" },
-      { "name": "Arles", "lat": 43.67, "lng": 4.63, "wikidataId": "Q48292", "role": "Van Gogh, 1888" }
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "wikidataId": "Q90",
+        "role": "centro de exhibición"
+      },
+      {
+        "name": "Aix-en-Provence",
+        "lat": 43.53,
+        "lng": 5.45,
+        "wikidataId": "Q43191",
+        "role": "Cézanne"
+      },
+      {
+        "name": "Arles",
+        "lat": 43.67,
+        "lng": 4.63,
+        "wikidataId": "Q48292",
+        "role": "Van Gogh, 1888"
+      }
     ],
     "relations": [
-      { "targetId": "impressionism", "relationType": "followed", "strength": 5 },
-      { "targetId": "cubism", "relationType": "evolved_into", "strength": 5, "note": "Cézanne fue el padre del Cubismo" },
-      { "targetId": "expressionism", "relationType": "evolved_into", "strength": 4, "note": "Van Gogh influyó directamente en el Expresionismo" }
+      {
+        "targetId": "impressionism",
+        "relationType": "followed",
+        "strength": 5
+      },
+      {
+        "targetId": "cubism",
+        "relationType": "evolved_into",
+        "strength": 5,
+        "note": "Cézanne fue el padre del Cubismo"
+      },
+      {
+        "targetId": "expressionism",
+        "relationType": "evolved_into",
+        "strength": 4,
+        "note": "Van Gogh influyó directamente en el Expresionismo"
+      }
     ],
     "sources": [
       {
@@ -151,29 +323,59 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "intermediate",
-    "tags": ["Cézanne", "Van Gogh", "Gauguin", "Seurat", "vanguardias"]
+    "tags": [
+      "Cézanne",
+      "Van Gogh",
+      "Gauguin",
+      "Seurat",
+      "vanguardias"
+    ]
   },
   {
     "id": "cubism",
     "title": "Cubismo",
     "type": "movement",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["early-20th"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "early-20th"
+    ],
     "startDate": "1907",
     "endDate": "1925",
     "datePrecision": "year",
     "summary": "Vanguardia artística que fragmentó la representación visual en múltiples perspectivas simultáneas.",
     "description": "El Cubismo fue fundado por Pablo Picasso y Georges Braque entre 1907 y 1908 (cubismo analítico). Descompuso la representación de la realidad en facetas geométricas que muestran múltiples perspectivas simultáneamente. Se inspira directamente en Cézanne y en las máscaras africanas. El cubismo sintético (1912) introdujo el collage. Influyó en la arquitectura modernista, el diseño y las artes gráficas del siglo XX.",
     "importance": 9,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "epicentro del movimiento" }
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "wikidataId": "Q90",
+        "role": "epicentro del movimiento"
+      }
     ],
     "relations": [
-      { "targetId": "post-impressionism", "relationType": "followed", "strength": 5 },
-      { "targetId": "bauhaus", "relationType": "influenced", "strength": 3 }
+      {
+        "targetId": "post-impressionism",
+        "relationType": "followed",
+        "strength": 5
+      },
+      {
+        "targetId": "bauhaus",
+        "relationType": "influenced",
+        "strength": 3
+      }
     ],
     "sources": [
       {
@@ -185,31 +387,74 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "intermediate",
-    "tags": ["Picasso", "Braque", "perspectiva múltiple", "collage"]
+    "tags": [
+      "Picasso",
+      "Braque",
+      "perspectiva múltiple",
+      "collage"
+    ]
   },
   {
     "id": "expressionism",
     "title": "Expresionismo",
     "type": "movement",
-    "disciplines": ["art", "literature", "cinema", "architecture"],
-    "historicalPeriods": ["early-20th"],
+    "disciplines": [
+      "art",
+      "literature",
+      "cinema",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "early-20th"
+    ],
     "startDate": "1905",
     "endDate": "1933",
     "datePrecision": "approximate",
     "summary": "Movimiento artístico centrado en la expresión de estados emocionales interiores mediante la deformación de la realidad.",
     "description": "El Expresionismo se desarrolló principalmente en Alemania a principios del siglo XX. Grupos como Die Brücke (1905, Dresden) y Der Blaue Reiter (1911, Múnich) distorsionaron formas y colores para expresar angustia, alienación y subjetividad emocional. En cine dio obras maestras como El gabinete del Dr. Caligari (1920). En arquitectura influyó en edificios como la Torre Einstein de Mendelsohn (1921).",
     "importance": 8,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "Berlín", "lat": 52.52, "lng": 13.40, "wikidataId": "Q64", "role": "epicentro cultural" },
-      { "name": "Dresde", "lat": 51.05, "lng": 13.74, "wikidataId": "Q1731", "role": "Die Brücke, 1905" },
-      { "name": "Múnich", "lat": 48.14, "lng": 11.58, "wikidataId": "Q1726", "role": "Der Blaue Reiter, 1911" }
+      {
+        "name": "Berlín",
+        "lat": 52.52,
+        "lng": 13.4,
+        "wikidataId": "Q64",
+        "role": "epicentro cultural"
+      },
+      {
+        "name": "Dresde",
+        "lat": 51.05,
+        "lng": 13.74,
+        "wikidataId": "Q1731",
+        "role": "Die Brücke, 1905"
+      },
+      {
+        "name": "Múnich",
+        "lat": 48.14,
+        "lng": 11.58,
+        "wikidataId": "Q1726",
+        "role": "Der Blaue Reiter, 1911"
+      }
     ],
     "relations": [
-      { "targetId": "post-impressionism", "relationType": "influenced_by", "strength": 4 },
-      { "targetId": "bauhaus", "relationType": "contemporary_of", "strength": 3 }
+      {
+        "targetId": "post-impressionism",
+        "relationType": "influenced_by",
+        "strength": 4
+      },
+      {
+        "targetId": "bauhaus",
+        "relationType": "contemporary_of",
+        "strength": 3
+      }
     ],
     "sources": [
       {
@@ -221,32 +466,80 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "intermediate",
-    "tags": ["Die Brücke", "Blaue Reiter", "angustia", "Munch", "Alemania"]
+    "tags": [
+      "Die Brücke",
+      "Blaue Reiter",
+      "angustia",
+      "Munch",
+      "Alemania"
+    ]
   },
   {
     "id": "railway-expansion",
     "title": "Expansión ferroviaria europea",
     "type": "technology",
-    "disciplines": ["technology", "economy", "urbanism", "society"],
-    "historicalPeriods": ["19th-century"],
+    "disciplines": [
+      "technology",
+      "economy",
+      "urbanism",
+      "society"
+    ],
+    "historicalPeriods": [
+      "19th-century"
+    ],
     "startDate": "1825",
     "endDate": "1900",
     "datePrecision": "approximate",
     "summary": "La red ferroviaria transformó la movilidad, el comercio y la morfología urbana de Europa en el siglo XIX.",
     "description": "El primer ferrocarril público de vapor fue inaugurado en Stockton-Darlington (Gran Bretaña) en 1825. Hacia 1900, Europa contaba con más de 300.000 km de líneas. El ferrocarril aceleró la industrialización, permitió el transporte masivo de mercancías y personas, generó nuevas tipologías urbanas (estaciones, barrios obreros, ciudades industriales) y estimuló la producción de acero. Transformó también el paisaje y la percepción del tiempo y el espacio.",
     "importance": 9,
-    "regions": ["Europe", "North America"],
+    "regions": [
+      "Europe",
+      "North America"
+    ],
     "places": [
-      { "name": "Stockton", "lat": 54.57, "lng": -1.32, "wikidataId": "Q498947", "role": "primer ferrocarril público, 1825" },
-      { "name": "Manchester", "lat": 53.48, "lng": -2.24, "wikidataId": "Q18125", "role": "Manchester–Liverpool, 1830" }
+      {
+        "name": "Stockton",
+        "lat": 54.57,
+        "lng": -1.32,
+        "wikidataId": "Q498947",
+        "role": "primer ferrocarril público, 1825"
+      },
+      {
+        "name": "Manchester",
+        "lat": 53.48,
+        "lng": -2.24,
+        "wikidataId": "Q18125",
+        "role": "Manchester–Liverpool, 1830"
+      }
     ],
     "relations": [
-      { "targetId": "industrial-revolution", "relationType": "part_of", "strength": 5 },
-      { "targetId": "steam-engine", "relationType": "part_of", "strength": 5 },
-      { "targetId": "haussmann-paris", "relationType": "influenced", "strength": 3 },
-      { "targetId": "eiffel-tower", "relationType": "influenced", "strength": 2, "note": "La tecnología del acero estructural del ferrocarril hizo posible la Torre Eiffel" }
+      {
+        "targetId": "industrial-revolution",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "steam-engine",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "haussmann-paris",
+        "relationType": "influenced",
+        "strength": 3
+      },
+      {
+        "targetId": "eiffel-tower",
+        "relationType": "influenced",
+        "strength": 2,
+        "note": "La tecnología del acero estructural del ferrocarril hizo posible la Torre Eiffel"
+      }
     ],
     "sources": [
       {
@@ -259,33 +552,87 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "intermediate",
-    "tags": ["ferrocarril", "vapor", "acero", "movilidad", "industrialización"]
+    "tags": [
+      "ferrocarril",
+      "vapor",
+      "acero",
+      "movilidad",
+      "industrialización"
+    ]
   },
   {
     "id": "art-nouveau",
     "title": "Art Nouveau",
     "type": "style",
-    "disciplines": ["architecture", "art", "design"],
-    "historicalPeriods": ["belle-epoque"],
+    "disciplines": [
+      "architecture",
+      "art",
+      "design"
+    ],
+    "historicalPeriods": [
+      "belle-epoque"
+    ],
     "startDate": "1890",
     "endDate": "1914",
     "datePrecision": "approximate",
     "summary": "Estilo ornamental europeo inspirado en las formas orgánicas de la naturaleza, que fusionó bellas artes y artes aplicadas.",
     "description": "El Art Nouveau (también conocido como Jugendstil en Alemania, Modernisme en Cataluña, Sezessionstil en Viena) floreció entre 1890 y 1914. Se caracterizó por líneas curvas, motivos vegetales y florales, y la integración de las artes decorativas con la arquitectura. Sus principales centros fueron París, Bruselas, Viena, Barcelona y Múnich. Figuras clave: Horta (Bruselas), Gaudí (Barcelona), Klimt (Viena), Guimard (París).",
     "importance": 8,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "Bruselas", "lat": 50.85, "lng": 4.35, "wikidataId": "Q239", "role": "epicentro: Horta, van de Velde" },
-      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "Guimard, boca del metro" },
-      { "name": "Barcelona", "lat": 41.38, "lng": 2.17, "wikidataId": "Q1492", "role": "Modernisme català: Gaudí" },
-      { "name": "Viena", "lat": 48.21, "lng": 16.37, "wikidataId": "Q1741", "role": "Secessión vienesa: Klimt, Hoffmann" }
+      {
+        "name": "Bruselas",
+        "lat": 50.85,
+        "lng": 4.35,
+        "wikidataId": "Q239",
+        "role": "epicentro: Horta, van de Velde"
+      },
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "wikidataId": "Q90",
+        "role": "Guimard, boca del metro"
+      },
+      {
+        "name": "Barcelona",
+        "lat": 41.38,
+        "lng": 2.17,
+        "wikidataId": "Q1492",
+        "role": "Modernisme català: Gaudí"
+      },
+      {
+        "name": "Viena",
+        "lat": 48.21,
+        "lng": 16.37,
+        "wikidataId": "Q1741",
+        "role": "Secessión vienesa: Klimt, Hoffmann"
+      }
     ],
     "relations": [
-      { "targetId": "impressionism", "relationType": "contemporary_of", "strength": 3 },
-      { "targetId": "sagrada-familia", "relationType": "part_of", "strength": 4 },
-      { "targetId": "bauhaus", "relationType": "preceded", "strength": 3, "note": "El Bauhaus reaccionó contra el ornamentismo del Art Nouveau" }
+      {
+        "targetId": "impressionism",
+        "relationType": "contemporary_of",
+        "strength": 3
+      },
+      {
+        "targetId": "sagrada-familia",
+        "relationType": "part_of",
+        "strength": 4
+      },
+      {
+        "targetId": "bauhaus",
+        "relationType": "preceded",
+        "strength": 3,
+        "note": "El Bauhaus reaccionó contra el ornamentismo del Art Nouveau"
+      }
     ],
     "sources": [
       {
@@ -297,8 +644,17 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "intermediate",
-    "tags": ["orgánico", "Gaudí", "Klimt", "Horta", "ornamento"]
+    "tags": [
+      "orgánico",
+      "Gaudí",
+      "Klimt",
+      "Horta",
+      "ornamento"
+    ]
   }
 ]

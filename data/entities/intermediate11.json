@@ -392,64 +392,6 @@
     }
   },
   {
-    "id": "cold-war",
-    "title": "Guerra Fría",
-    "type": "period",
-    "startDate": "1947",
-    "endDate": "1991",
-    "disciplines": [
-      "history",
-      "politics"
-    ],
-    "regions": [
-      "global"
-    ],
-    "places": [
-      {
-        "name": "Washington D.C.",
-        "lat": 38.9,
-        "lng": -77.0,
-        "role": "polo occidental"
-      },
-      {
-        "name": "Moscú",
-        "lat": 55.75,
-        "lng": 37.6,
-        "role": "polo soviético"
-      }
-    ],
-    "importance": 9,
-    "summary": "Tensión geopolítica entre EEUU y la URSS que dividió el mundo en dos bloques ideológicos y marcó la política, cultura y tecnología de la segunda mitad del siglo XX.",
-    "tags": [
-      "geopolítica",
-      "nuclear",
-      "ideología",
-      "siglo XX"
-    ],
-    "relations": [
-      {
-        "targetId": "ussr",
-        "relationType": "protagonist",
-        "strength": 5
-      },
-      {
-        "targetId": "fall-berlin-wall",
-        "relationType": "ended_by",
-        "strength": 5
-      },
-      {
-        "targetId": "wwii",
-        "relationType": "consequence_of",
-        "strength": 4
-      }
-    ],
-    "layer": "global",
-    "validation": {
-      "status": "verified",
-      "confidence": 0.95
-    }
-  },
-  {
     "id": "space-race",
     "title": "Carrera Espacial",
     "type": "event",
@@ -487,7 +429,7 @@
     ],
     "relations": [
       {
-        "targetId": "cold-war",
+        "targetId": "cold-war-period",
         "relationType": "part_of",
         "strength": 5
       }
@@ -916,53 +858,6 @@
     "validation": {
       "status": "verified",
       "confidence": 0.93
-    }
-  },
-  {
-    "id": "printing-press",
-    "title": "Imprenta de Gutenberg",
-    "type": "invention",
-    "startDate": "1440",
-    "endDate": "1450",
-    "disciplines": [
-      "technology"
-    ],
-    "regions": [
-      "western-europe",
-      "europe"
-    ],
-    "places": [
-      {
-        "name": "Maguncia (Mainz)",
-        "lat": 50.0,
-        "lng": 8.3,
-        "role": "invención"
-      }
-    ],
-    "importance": 10,
-    "summary": "La prensa de tipos móviles de Johannes Gutenberg democratizó la producción de libros, multiplicó la difusión del conocimiento y fue catalizadora de la Reforma y el Renacimiento.",
-    "tags": [
-      "imprenta",
-      "conocimiento",
-      "libros",
-      "gutenberg"
-    ],
-    "relations": [
-      {
-        "targetId": "protestant-reformation",
-        "relationType": "enabled",
-        "strength": 5
-      },
-      {
-        "targetId": "renaissance",
-        "relationType": "accelerated",
-        "strength": 4
-      }
-    ],
-    "layer": "global",
-    "validation": {
-      "status": "verified",
-      "confidence": 0.96
     }
   },
   {

@@ -3,24 +3,62 @@
     "id": "voltaire",
     "title": "Voltaire",
     "type": "person",
-    "disciplines": ["philosophy", "literature", "politics"],
-    "historicalPeriods": ["enlightenment"],
+    "disciplines": [
+      "philosophy",
+      "literature",
+      "politics"
+    ],
+    "historicalPeriods": [
+      "enlightenment"
+    ],
     "startDate": "1694-11-21",
     "endDate": "1778-05-30",
     "datePrecision": "year",
     "summary": "Escritor y filósofo ilustrado francés, símbolo de la lucha por la tolerancia, la libertad de expresión y la crítica de la Iglesia y el absolutismo.",
     "description": "François-Marie Arouet, conocido como Voltaire (París, 1694 – 1778), fue la figura más emblemática de la Ilustración francesa. Sus Lettres philosophiques (1734), resultado de su estancia en Inglaterra, presentaron a Locke, Newton y la libertad inglesa como modelos frente al absolutismo francés. Candide (1759) es su sátira filosófica más célebre. Su Dictionnaire philosophique (1764) difundió sus ideas anticlericales y pro-tolerancia. Pasó períodos en la Bastilla, en el exilio en Gran Bretaña, en la corte de Federico II de Prusia y en Ferney (junto a Ginebra), desde donde mantuvo una vastísima correspondencia con los principales intelectuales de Europa.",
     "importance": 10,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "París", "lat": 48.856, "lng": 2.352, "wikidataId": "Q90", "role": "nacimiento y últimos meses de vida" },
-      { "name": "Ferney-Voltaire", "lat": 46.258, "lng": 6.108, "wikidataId": "Q170633", "role": "residencia principal 1759–1778, 'El patriarca de Ferney'" }
+      {
+        "name": "París",
+        "lat": 48.856,
+        "lng": 2.352,
+        "wikidataId": "Q90",
+        "role": "nacimiento y últimos meses de vida"
+      },
+      {
+        "name": "Ferney-Voltaire",
+        "lat": 46.258,
+        "lng": 6.108,
+        "wikidataId": "Q170633",
+        "role": "residencia principal 1759–1778, 'El patriarca de Ferney'"
+      }
     ],
     "relations": [
-      { "targetId": "enlightenment-movement", "relationType": "part_of", "strength": 5 },
-      { "targetId": "rousseau", "relationType": "contemporary_of", "strength": 3, "note": "Contemporáneos con relaciones personales tensas" },
-      { "targetId": "french-revolution", "relationType": "influenced", "strength": 4, "note": "Sus ideas anticlerical y pro-libertad alimentaron la Revolución" },
-      { "targetId": "diderot", "relationType": "contemporary_of", "strength": 4 }
+      {
+        "targetId": "enlightenment-movement",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "rousseau",
+        "relationType": "contemporary_of",
+        "strength": 3,
+        "note": "Contemporáneos con relaciones personales tensas"
+      },
+      {
+        "targetId": "french-revolution",
+        "relationType": "influenced",
+        "strength": 4,
+        "note": "Sus ideas anticlerical y pro-libertad alimentaron la Revolución"
+      },
+      {
+        "targetId": "diderot",
+        "relationType": "contemporary_of",
+        "strength": 4
+      }
     ],
     "sources": [
       {
@@ -40,33 +78,84 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05"
+    },
     "layer": "detailed",
-    "tags": ["tolerancia", "Candide", "anticlericalismo", "Ferney", "Ilustración francesa"]
+    "tags": [
+      "tolerancia",
+      "Candide",
+      "anticlericalismo",
+      "Ferney",
+      "Ilustración francesa"
+    ]
   },
   {
     "id": "rousseau",
     "title": "Jean-Jacques Rousseau",
     "type": "person",
-    "disciplines": ["philosophy", "politics", "literature"],
-    "historicalPeriods": ["enlightenment"],
+    "disciplines": [
+      "philosophy",
+      "politics",
+      "literature"
+    ],
+    "historicalPeriods": [
+      "enlightenment"
+    ],
     "startDate": "1712-06-28",
     "endDate": "1778-07-02",
     "datePrecision": "year",
     "summary": "Filósofo ginebrino que formuló la soberanía popular, el contrato social y la bondad natural del ser humano, bases del republicanismo moderno y el Romanticismo.",
     "description": "Jean-Jacques Rousseau (Ginebra, 1712 – Ermenonville, 1778) es una de las figuras más influyentes de la filosofía política y pedagógica moderna. Su Discours sur l'origine de l'inégalité (1755) argumentó que la propiedad y la civilización corrompieron al ser humano naturalmente bueno. Du contrat social (1762) postuló que la legitimidad política emana de la soberanía popular ('la voluntad general'). Émile (1762) revolucionó la teoría educativa al proponer una educación centrada en el niño y la naturaleza. Sus Confessions (póstumas) inauguraron el género autobiográfico moderno. Sus ideas tuvieron influencia directa en la Revolución Francesa y anticiparon el Romanticismo.",
     "importance": 10,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "Ginebra", "lat": 46.204, "lng": 6.143, "wikidataId": "Q71", "role": "ciudad natal, ciudadanía ginebrina que reivindicó toda su vida" },
-      { "name": "París", "lat": 48.856, "lng": 2.352, "wikidataId": "Q90", "role": "residencia en varios períodos, relación con los enciclopedistas" }
+      {
+        "name": "Ginebra",
+        "lat": 46.204,
+        "lng": 6.143,
+        "wikidataId": "Q71",
+        "role": "ciudad natal, ciudadanía ginebrina que reivindicó toda su vida"
+      },
+      {
+        "name": "París",
+        "lat": 48.856,
+        "lng": 2.352,
+        "wikidataId": "Q90",
+        "role": "residencia en varios períodos, relación con los enciclopedistas"
+      }
     ],
     "relations": [
-      { "targetId": "enlightenment-movement", "relationType": "part_of", "strength": 5 },
-      { "targetId": "french-revolution", "relationType": "influenced", "strength": 5, "note": "El 'contrato social' fue referencia directa de los revolucionarios" },
-      { "targetId": "romanticism", "relationType": "influenced", "strength": 4, "note": "La exaltación de la naturaleza y la emoción anticipó el Romanticismo" },
-      { "targetId": "voltaire", "relationType": "contemporary_of", "strength": 3 },
-      { "targetId": "kant", "relationType": "influenced", "strength": 4 }
+      {
+        "targetId": "enlightenment-movement",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "french-revolution",
+        "relationType": "influenced",
+        "strength": 5,
+        "note": "El 'contrato social' fue referencia directa de los revolucionarios"
+      },
+      {
+        "targetId": "romanticism",
+        "relationType": "influenced",
+        "strength": 4,
+        "note": "La exaltación de la naturaleza y la emoción anticipó el Romanticismo"
+      },
+      {
+        "targetId": "voltaire",
+        "relationType": "contemporary_of",
+        "strength": 3
+      },
+      {
+        "targetId": "kant",
+        "relationType": "influenced",
+        "strength": 4
+      }
     ],
     "sources": [
       {
@@ -86,31 +175,70 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05"
+    },
     "layer": "detailed",
-    "tags": ["contrato social", "voluntad general", "Ginebra", "Émile", "soberanía popular"]
+    "tags": [
+      "contrato social",
+      "voluntad general",
+      "Ginebra",
+      "Émile",
+      "soberanía popular"
+    ]
   },
   {
     "id": "kant",
     "title": "Immanuel Kant",
     "type": "person",
-    "disciplines": ["philosophy"],
-    "historicalPeriods": ["enlightenment"],
+    "disciplines": [
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "enlightenment"
+    ],
     "startDate": "1724-04-22",
     "endDate": "1804-02-12",
     "datePrecision": "year",
     "summary": "Filósofo prusiano cuya Crítica de la razón pura inauguró la filosofía moderna y cuya ética del imperativo categórico es el fundamento del pensamiento moral contemporáneo.",
     "description": "Immanuel Kant (Königsberg, 1724 – 1804) pasó toda su vida en Königsberg (actual Kaliningrado, Rusia) y revolucionó la filosofía occidental con tres grandes críticas: Kritik der reinen Vernunft (Crítica de la razón pura, 1781), que analizó los límites del conocimiento humano; Kritik der praktischen Vernunft (1788), que formuló el imperativo categórico ('actúa solo según aquella máxima por la que puedas querer que sea ley universal'); y Kritik der Urteilskraft (1790), sobre estética y teleología. Su ensayo Was ist Aufklärung? (1784) define la Ilustración como la salida del ser humano de su autoculpable minoría de edad. Fue el punto de partida del Idealismo alemán (Fichte, Hegel, Schelling).",
     "importance": 10,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "Königsberg", "lat": 54.711, "lng": 20.511, "wikidataId": "Q1733", "role": "nacimiento, vida entera y muerte (hoy Kaliningrado, Rusia)" }
+      {
+        "name": "Königsberg",
+        "lat": 54.711,
+        "lng": 20.511,
+        "wikidataId": "Q1733",
+        "role": "nacimiento, vida entera y muerte (hoy Kaliningrado, Rusia)"
+      }
     ],
     "relations": [
-      { "targetId": "enlightenment-movement", "relationType": "part_of", "strength": 5 },
-      { "targetId": "rousseau", "relationType": "influenced_by", "strength": 4 },
-      { "targetId": "isaac-newton", "relationType": "influenced_by", "strength": 4, "note": "La física newtoniana fue el punto de partida de su teoría del conocimiento" },
-      { "targetId": "romanticism", "relationType": "influenced", "strength": 3, "note": "El idealismo transcendental influyó en el Romanticismo alemán" }
+      {
+        "targetId": "enlightenment-movement",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "rousseau",
+        "relationType": "influenced_by",
+        "strength": 4
+      },
+      {
+        "targetId": "isaac-newton",
+        "relationType": "influenced_by",
+        "strength": 4,
+        "note": "La física newtoniana fue el punto de partida de su teoría del conocimiento"
+      },
+      {
+        "targetId": "romanticism",
+        "relationType": "influenced",
+        "strength": 3,
+        "note": "El idealismo transcendental influyó en el Romanticismo alemán"
+      }
     ],
     "sources": [
       {
@@ -130,32 +258,76 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05"
+    },
     "layer": "detailed",
-    "tags": ["imperativo categórico", "Crítica", "Königsberg", "Ilustración", "Idealismo alemán"]
+    "tags": [
+      "imperativo categórico",
+      "Crítica",
+      "Königsberg",
+      "Ilustración",
+      "Idealismo alemán"
+    ]
   },
   {
     "id": "diderot",
     "title": "Denis Diderot",
     "type": "person",
-    "disciplines": ["philosophy", "literature"],
-    "historicalPeriods": ["enlightenment"],
+    "disciplines": [
+      "philosophy",
+      "literature"
+    ],
+    "historicalPeriods": [
+      "enlightenment"
+    ],
     "startDate": "1713-10-05",
     "endDate": "1784-07-31",
     "datePrecision": "year",
     "summary": "Filósofo y escritor francés, director de la Encyclopédie, el proyecto intelectual más ambicioso de la Ilustración con 28 volúmenes y más de 70.000 artículos.",
     "description": "Denis Diderot (Langres, 1713 – París, 1784) co-dirigió con Jean le Rond d'Alembert la Encyclopédie ou Dictionnaire raisonné des sciences, des arts et des métiers (1751–1772), 28 volúmenes que sistematizaron el conocimiento ilustrado y difundieron las ideas de la razón y el progreso. Él mismo redactó miles de artículos. Encarcelado brevemente (1749) por sus Lettres sur les aveugles. Escribió también obras literarias y filosóficas innovadoras: Le Neveu de Rameau, Jacques le Fataliste. Fue asesor de Catalina la Grande de Rusia. Su materialismo filosófico lo situó en la vanguardia del pensamiento dieciochesco.",
     "importance": 9,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "París", "lat": 48.856, "lng": 2.352, "wikidataId": "Q90", "role": "centro de su actividad intelectual y editorial" },
-      { "name": "Langres", "lat": 47.862, "lng": 5.333, "wikidataId": "Q129698", "role": "ciudad natal" }
+      {
+        "name": "París",
+        "lat": 48.856,
+        "lng": 2.352,
+        "wikidataId": "Q90",
+        "role": "centro de su actividad intelectual y editorial"
+      },
+      {
+        "name": "Langres",
+        "lat": 47.862,
+        "lng": 5.333,
+        "wikidataId": "Q129698",
+        "role": "ciudad natal"
+      }
     ],
     "relations": [
-      { "targetId": "enlightenment-movement", "relationType": "part_of", "strength": 5 },
-      { "targetId": "voltaire", "relationType": "contemporary_of", "strength": 4 },
-      { "targetId": "rousseau", "relationType": "contemporary_of", "strength": 3 },
-      { "targetId": "french-revolution", "relationType": "influenced", "strength": 3 }
+      {
+        "targetId": "enlightenment-movement",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "voltaire",
+        "relationType": "contemporary_of",
+        "strength": 4
+      },
+      {
+        "targetId": "rousseau",
+        "relationType": "contemporary_of",
+        "strength": 3
+      },
+      {
+        "targetId": "french-revolution",
+        "relationType": "influenced",
+        "strength": 3
+      }
     ],
     "sources": [
       {
@@ -175,31 +347,72 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05"
+    },
     "layer": "detailed",
-    "tags": ["Encyclopédie", "materialismo", "Ilustración francesa", "Langres", "Catalina la Grande"]
+    "tags": [
+      "Encyclopédie",
+      "materialismo",
+      "Ilustración francesa",
+      "Langres",
+      "Catalina la Grande"
+    ]
   },
   {
     "id": "montesquieu",
     "title": "Montesquieu",
     "type": "person",
-    "disciplines": ["philosophy", "politics"],
-    "historicalPeriods": ["enlightenment"],
+    "disciplines": [
+      "philosophy",
+      "politics"
+    ],
+    "historicalPeriods": [
+      "enlightenment"
+    ],
     "startDate": "1689-01-18",
     "endDate": "1755-02-10",
     "datePrecision": "year",
     "summary": "Filósofo y jurista francés que formuló la teoría de la separación de poderes, base del constitucionalismo moderno y de todas las democracias liberales.",
     "description": "Charles-Louis de Secondat, barón de Montesquieu (La Brède, Burdeos, 1689 – París, 1755), formuló en De l'esprit des lois (El espíritu de las leyes, 1748) la teoría de la separación de poderes (legislativo, ejecutivo, judicial) como garantía de la libertad política. Esta tesis fue adoptada por la Constitución de los Estados Unidos (1787) y la Declaración de los Derechos del Hombre (1789). Sus Lettres persanes (1721) criticaron la sociedad francesa con ironía desde la perspectiva de viajeros persas ficticios. Fue magistrado en el Parlamento de Burdeos y miembro de la Academia Francesa.",
     "importance": 9,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "La Brède", "lat": 44.698, "lng": -0.534, "wikidataId": "Q242085", "role": "ciudad natal y castillo donde trabajó" },
-      { "name": "París", "lat": 48.856, "lng": 2.352, "wikidataId": "Q90", "role": "Academia Francesa, publicación de su obra" }
+      {
+        "name": "La Brède",
+        "lat": 44.698,
+        "lng": -0.534,
+        "wikidataId": "Q242085",
+        "role": "ciudad natal y castillo donde trabajó"
+      },
+      {
+        "name": "París",
+        "lat": 48.856,
+        "lng": 2.352,
+        "wikidataId": "Q90",
+        "role": "Academia Francesa, publicación de su obra"
+      }
     ],
     "relations": [
-      { "targetId": "enlightenment-movement", "relationType": "part_of", "strength": 5 },
-      { "targetId": "french-revolution", "relationType": "influenced", "strength": 5, "note": "La separación de poderes fue adoptada directamente por los revolucionarios" },
-      { "targetId": "voltaire", "relationType": "contemporary_of", "strength": 3 }
+      {
+        "targetId": "enlightenment-movement",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "french-revolution",
+        "relationType": "influenced",
+        "strength": 5,
+        "note": "La separación de poderes fue adoptada directamente por los revolucionarios"
+      },
+      {
+        "targetId": "voltaire",
+        "relationType": "contemporary_of",
+        "strength": 3
+      }
     ],
     "sources": [
       {
@@ -219,33 +432,83 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05"
+    },
     "layer": "detailed",
-    "tags": ["separación de poderes", "El espíritu de las leyes", "constitucionalismo", "Lettres persanes"]
+    "tags": [
+      "separación de poderes",
+      "El espíritu de las leyes",
+      "constitucionalismo",
+      "Lettres persanes"
+    ]
   },
   {
     "id": "john-locke",
     "title": "John Locke",
     "type": "person",
-    "disciplines": ["philosophy", "politics"],
-    "historicalPeriods": ["early-modern", "enlightenment"],
+    "disciplines": [
+      "philosophy",
+      "politics"
+    ],
+    "historicalPeriods": [
+      "early-modern",
+      "enlightenment"
+    ],
     "startDate": "1632-08-29",
     "endDate": "1704-10-28",
     "datePrecision": "year",
     "summary": "Filósofo inglés, padre del empirismo y del liberalismo político, cuya teoría de los derechos naturales y el gobierno por consentimiento fundamentó las revoluciones americana y francesa.",
     "description": "John Locke (Wrington, Somerset, 1632 – High Laver, Essex, 1704) es el fundador del empirismo moderno y del liberalismo político. Su Essay Concerning Human Understanding (1689) argumentó que la mente es una tabula rasa y que todo conocimiento procede de la experiencia. Sus Two Treatises of Government (1689) establecieron que el poder político emana del consentimiento de los gobernados y que los ciudadanos tienen derecho a rebelarse contra la tiranía. Su Letter Concerning Toleration (1689) defendió la separación entre Iglesia y Estado. Sus ideas influyeron directamente en la Declaración de Independencia americana (1776) y en la Revolución Francesa.",
     "importance": 9,
-    "regions": ["Europe", "North America"],
+    "regions": [
+      "Europe",
+      "North America"
+    ],
     "places": [
-      { "name": "Oxford", "lat": 51.752, "lng": -1.257, "wikidataId": "Q34217", "role": "Christ Church College, formación y enseñanza" },
-      { "name": "Londres", "lat": 51.507, "lng": -0.127, "wikidataId": "Q84", "role": "actividad política y publicación de sus obras" }
+      {
+        "name": "Oxford",
+        "lat": 51.752,
+        "lng": -1.257,
+        "wikidataId": "Q34217",
+        "role": "Christ Church College, formación y enseñanza"
+      },
+      {
+        "name": "Londres",
+        "lat": 51.507,
+        "lng": -0.127,
+        "wikidataId": "Q84",
+        "role": "actividad política y publicación de sus obras"
+      }
     ],
     "relations": [
-      { "targetId": "enlightenment-movement", "relationType": "influenced", "strength": 5, "note": "Locke fue la fuente filosófica principal de la Ilustración política" },
-      { "targetId": "scientific-revolution", "relationType": "contemporary_of", "strength": 3 },
-      { "targetId": "french-revolution", "relationType": "influenced", "strength": 4 },
-      { "targetId": "montesquieu", "relationType": "influenced", "strength": 5 },
-      { "targetId": "rousseau", "relationType": "influenced", "strength": 4 }
+      {
+        "targetId": "enlightenment-movement",
+        "relationType": "influenced",
+        "strength": 5,
+        "note": "Locke fue la fuente filosófica principal de la Ilustración política"
+      },
+      {
+        "targetId": "scientific-revolution",
+        "relationType": "contemporary_of",
+        "strength": 3
+      },
+      {
+        "targetId": "french-revolution",
+        "relationType": "influenced",
+        "strength": 4
+      },
+      {
+        "targetId": "montesquieu",
+        "relationType": "influenced",
+        "strength": 5
+      },
+      {
+        "targetId": "rousseau",
+        "relationType": "influenced",
+        "strength": 4
+      }
     ],
     "sources": [
       {
@@ -265,8 +528,17 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05"
+    },
     "layer": "detailed",
-    "tags": ["empirismo", "liberalismo", "tabula rasa", "tolerancia", "derechos naturales"]
+    "tags": [
+      "empirismo",
+      "liberalismo",
+      "tabula rasa",
+      "tolerancia",
+      "derechos naturales"
+    ]
   }
 ]

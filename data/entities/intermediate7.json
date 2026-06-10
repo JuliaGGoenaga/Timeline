@@ -3,360 +3,1013 @@
     "id": "assyrian-empire",
     "title": "Imperio Asirio",
     "type": "civilization",
-    "disciplines": ["politics", "technology"],
-    "historicalPeriods": ["ancient"],
+    "disciplines": [
+      "politics",
+      "technology"
+    ],
+    "historicalPeriods": [
+      "ancient"
+    ],
     "startDate": "-900",
     "endDate": "-612",
     "datePrecision": "century",
     "summary": "Primer gran imperio militar de la historia, con ejército profesional, deportaciones masivas y biblioteca de Nínive.",
     "description": "El Imperio Neoasirio (900-612 a.C.) fue el primer gran estado imperial de la historia en términos modernos: ejército profesional con caballería, ingeniería de asedio e infantería especializada. Sus reyes (Sargón II, Senaquerib, Asurbanipal) conquistaron Mesopotamia, Egipto y Anatolia. Asurbanipal creó en Nínive la primera gran biblioteca del mundo, con 30.000 tablillas cuneiformes.",
     "importance": 8,
-    "regions": ["middle-east"],
-    "places": [{"name": "Nínive", "lat": 36.36, "lng": 43.16, "role": "capital y biblioteca"}, {"name": "Assur", "lat": 35.46, "lng": 43.26, "role": "capital religiosa"}],
-    "relations": [{"targetId": "ancient-mesopotamia", "relationType": "evolves-from", "strength": 4}, {"targetId": "persian-empire", "relationType": "precedes", "strength": 3}],
-    "sources": [{"title": "The Assyrian Empire", "author": "Saggs, H.W.F.", "publisher": "Penguin Books", "year": "1984", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "middle-east"
+    ],
+    "places": [
+      {
+        "name": "Nínive",
+        "lat": 36.36,
+        "lng": 43.16,
+        "role": "capital y biblioteca"
+      },
+      {
+        "name": "Assur",
+        "lat": 35.46,
+        "lng": 43.26,
+        "role": "capital religiosa"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ancient-mesopotamia",
+        "relationType": "evolves-from",
+        "strength": 4
+      },
+      {
+        "targetId": "persian-empire",
+        "relationType": "precedes",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Assyrian Empire",
+        "author": "Saggs, H.W.F.",
+        "publisher": "Penguin Books",
+        "year": "1984",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "maurya-empire",
     "title": "Imperio Maurya",
     "type": "civilization",
-    "disciplines": ["politics", "philosophy"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "politics",
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "-322",
     "endDate": "-185",
     "datePrecision": "year",
     "summary": "Primer gran imperio indio unificado, con el rey Asoka como propagador del budismo por Asia.",
     "description": "El Imperio Maurya, fundado por Chandragupta Maurya en 322 a.C., fue el primer estado que unificó la mayor parte del subcontinente indio. Su mayor gobernante, Asoka (268-232 a.C.), tras la sangrienta batalla de Kalinga, abrazó el budismo y difundió sus principios de no-violencia y tolerancia mediante edictos grabados en piedra por todo el imperio, propagando el budismo hacia Asia Central, Sri Lanka y el Sudeste Asiático.",
     "importance": 9,
-    "regions": ["south-asia"],
-    "places": [{"name": "Pataliputra (Patna)", "lat": 25.61, "lng": 85.14, "role": "capital imperial"}],
-    "relations": [{"targetId": "budismo", "relationType": "spread", "strength": 5}, {"targetId": "mughal-empire", "relationType": "precedes", "strength": 2}],
-    "sources": [{"title": "Ashoka and the Decline of the Mauryas", "author": "Thapar, Romila", "publisher": "Oxford University Press", "year": "1961", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "south-asia"
+    ],
+    "places": [
+      {
+        "name": "Pataliputra (Patna)",
+        "lat": 25.61,
+        "lng": 85.14,
+        "role": "capital imperial"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "budismo",
+        "relationType": "spread",
+        "strength": 5
+      },
+      {
+        "targetId": "mughal-empire",
+        "relationType": "precedes",
+        "strength": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ashoka and the Decline of the Mauryas",
+        "author": "Thapar, Romila",
+        "publisher": "Oxford University Press",
+        "year": "1961",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "gupta-empire",
     "title": "Imperio Gupta",
     "type": "civilization",
-    "disciplines": ["science", "art", "philosophy"],
-    "historicalPeriods": ["late-antiquity"],
+    "disciplines": [
+      "science",
+      "art",
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "late-antiquity"
+    ],
     "startDate": "320",
     "endDate": "550",
     "datePrecision": "year",
     "summary": "Edad de Oro de India: matemáticas (cero, decimales), astronomía, literatura sánscrita y escultura clásica.",
     "description": "El Imperio Gupta (siglos IV-VI d.C.) es conocido como la Edad de Oro de India. Sus matemáticos inventaron el sistema decimal posicional y el concepto del cero (Aryabhata). La astronomía, medicina (Ayurveda), literatura sánscrita (Kalidasa) y escultura budista e hindú alcanzaron un nivel clásico excepcional. La universidad de Nalanda fue el mayor centro intelectual del mundo antiguo.",
     "importance": 9,
-    "regions": ["south-asia"],
-    "places": [{"name": "Pataliputra", "lat": 25.61, "lng": 85.14, "role": "capital"}, {"name": "Nalanda", "lat": 25.14, "lng": 85.44, "role": "gran universidad budista"}],
-    "relations": [{"targetId": "maurya-empire", "relationType": "evolves-from", "strength": 2}, {"targetId": "budismo", "relationType": "part_of", "strength": 3}],
-    "sources": [{"title": "The Gupta Empire", "author": "Majumdar, R.C.", "publisher": "Motilal Banarsidass", "year": "1956", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "south-asia"
+    ],
+    "places": [
+      {
+        "name": "Pataliputra",
+        "lat": 25.61,
+        "lng": 85.14,
+        "role": "capital"
+      },
+      {
+        "name": "Nalanda",
+        "lat": 25.14,
+        "lng": 85.44,
+        "role": "gran universidad budista"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "maurya-empire",
+        "relationType": "evolves-from",
+        "strength": 2
+      },
+      {
+        "targetId": "budismo",
+        "relationType": "part_of",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Gupta Empire",
+        "author": "Majumdar, R.C.",
+        "publisher": "Motilal Banarsidass",
+        "year": "1956",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "aztec-empire-culture",
     "title": "Cultura azteca / mexica",
     "type": "civilization",
-    "disciplines": ["art", "science", "politics"],
-    "historicalPeriods": ["late-middle-ages", "early-modern"],
+    "disciplines": [
+      "art",
+      "science",
+      "politics"
+    ],
+    "historicalPeriods": [
+      "late-middle-ages",
+      "early-modern"
+    ],
     "startDate": "1325",
     "endDate": "1521",
     "datePrecision": "year",
     "summary": "Gran civilización mesoamericana con Tenochtitlan, astronomía, escritura y sacrificios rituales.",
     "description": "Los aztecas o mexicas fundaron Tenochtitlan (actual Ciudad de México) en 1325. Su civilización desarrolló una sofisticada astronomía (Piedra del Sol), arquitectura piramidal, escritura pictográfica, chinampas agrícolas y un extenso sistema tributario. En su apogeo, Tenochtitlan era una de las mayores ciudades del mundo. Fue conquistada por Hernán Cortés entre 1519 y 1521.",
     "importance": 9,
-    "regions": ["americas"],
-    "places": [{"name": "Tenochtitlan (Ciudad de México)", "lat": 19.43, "lng": -99.13, "role": "capital imperial"}, {"name": "Teotihuacán", "lat": 19.69, "lng": -98.84, "role": "ciudad sagrada previa"}],
-    "relations": [{"targetId": "aztec-empire", "relationType": "part_of", "strength": 5}, {"targetId": "olmec-civilization", "relationType": "evolves-from", "strength": 3}],
-    "sources": [{"title": "The Aztecs", "author": "Townsend, Richard F.", "publisher": "Thames & Hudson", "year": "2000", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "americas"
+    ],
+    "places": [
+      {
+        "name": "Tenochtitlan (Ciudad de México)",
+        "lat": 19.43,
+        "lng": -99.13,
+        "role": "capital imperial"
+      },
+      {
+        "name": "Teotihuacán",
+        "lat": 19.69,
+        "lng": -98.84,
+        "role": "ciudad sagrada previa"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "aztec-empire",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "olmec-civilization",
+        "relationType": "evolves-from",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Aztecs",
+        "author": "Townsend, Richard F.",
+        "publisher": "Thames & Hudson",
+        "year": "2000",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "benin-kingdom",
     "title": "Reino de Benín",
     "type": "civilization",
-    "disciplines": ["art", "politics"],
-    "historicalPeriods": ["late-middle-ages", "early-modern"],
+    "disciplines": [
+      "art",
+      "politics"
+    ],
+    "historicalPeriods": [
+      "late-middle-ages",
+      "early-modern"
+    ],
     "startDate": "1180",
     "endDate": "1897",
     "datePrecision": "year",
     "summary": "Reino del África Occidental famoso por sus bronces de Benín, de una sofisticación artística asombrosa.",
     "description": "El Reino de Benín (actual Nigeria) fue uno de los más poderosos del África Occidental. Sus bronces y marfiles —retratos de obas (reyes) y guerreros en altorrelieve— sorprendieron a los europeos por su refinamiento técnico cuando llegaron en el siglo XV. En 1897 los británicos saquearon la capital y se llevaron miles de piezas, actualmente en disputa para su repatriación.",
     "importance": 8,
-    "regions": ["africa"],
-    "places": [{"name": "Benín (Ubinu)", "lat": 6.33, "lng": 5.63, "role": "capital"}],
-    "relations": [{"targetId": "mali-empire", "relationType": "contemporary", "strength": 2}],
-    "sources": [{"title": "Benin Art and Technology", "author": "Dark, Philip", "publisher": "Clarendon Press", "year": "1973", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "africa"
+    ],
+    "places": [
+      {
+        "name": "Benín (Ubinu)",
+        "lat": 6.33,
+        "lng": 5.63,
+        "role": "capital"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "mali-empire",
+        "relationType": "contemporary",
+        "strength": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "Benin Art and Technology",
+        "author": "Dark, Philip",
+        "publisher": "Clarendon Press",
+        "year": "1973",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "great-zimbabwe",
     "title": "Gran Zimbabue",
     "type": "civilization",
-    "disciplines": ["art", "economy"],
-    "historicalPeriods": ["high-middle-ages", "late-middle-ages"],
+    "disciplines": [
+      "art",
+      "economy"
+    ],
+    "historicalPeriods": [
+      "high-middle-ages",
+      "late-middle-ages"
+    ],
     "startDate": "1100",
     "endDate": "1450",
     "datePrecision": "century",
     "summary": "Gran ciudad amurallada del África subsahariana, centro del comercio de oro entre el interior y el océano Índico.",
     "description": "El Gran Zimbabue fue la capital de un estado bantu que controló el comercio de oro entre el interior del sur de África y los puertos del océano Índico (Sofala, Kilwa). Sus muros de piedra seca de más de 10 metros, sin mortero, son una proeza de ingeniería sin paralelo en el África subsahariana medieval. La colonia europea del siglo XIX se llamó Rodesia, hoy Zimbabwe.",
     "importance": 7,
-    "regions": ["africa"],
-    "places": [{"name": "Gran Zimbabue", "lat": -20.27, "lng": 30.93, "role": "ciudad-capital"}],
-    "relations": [{"targetId": "songhai-empire", "relationType": "contemporary", "strength": 1}],
-    "sources": [{"title": "Great Zimbabwe Described and Explained", "author": "Garlake, Peter", "publisher": "Zimbabwe Publishing House", "year": "1982", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "africa"
+    ],
+    "places": [
+      {
+        "name": "Gran Zimbabue",
+        "lat": -20.27,
+        "lng": 30.93,
+        "role": "ciudad-capital"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "songhai-empire",
+        "relationType": "contemporary",
+        "strength": 1
+      }
+    ],
+    "sources": [
+      {
+        "title": "Great Zimbabwe Described and Explained",
+        "author": "Garlake, Peter",
+        "publisher": "Zimbabwe Publishing House",
+        "year": "1982",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "viking-expansion",
     "title": "Expansión vikinga",
     "type": "event",
-    "disciplines": ["politics", "economy", "technology"],
-    "historicalPeriods": ["early-middle-ages"],
+    "disciplines": [
+      "politics",
+      "economy",
+      "technology"
+    ],
+    "historicalPeriods": [
+      "early-middle-ages"
+    ],
     "startDate": "793",
     "endDate": "1100",
     "datePrecision": "year",
     "summary": "Los nórdicos conquistaron, colonizaron y comerciaron desde Norteamérica hasta Constantinopla.",
     "description": "Los vikingos escandinavos exploraron y colonizaron desde Islandia y Groenlandia hasta Norteamérica (Leif Erikson, 1000 d.C.), establecieron el Estado de Kiev en Rusia, sirvieron como guardia varega en Constantinopla y saquearon las costas de Europa. Sus drakkars eran las naves más avanzadas de su tiempo. Fundaron Dublín, Normandía y transformaron la política europea medieval.",
     "importance": 8,
-    "regions": ["europe", "north-america"],
-    "places": [{"name": "Escandinavia", "lat": 60.0, "lng": 15.0, "role": "origen"}, {"name": "Vinlandia (Terranova)", "lat": 51.6, "lng": -55.5, "role": "primer asentamiento europeo en América"}, {"name": "Kiev", "lat": 50.45, "lng": 30.52, "role": "Estado de Kiev fundado por varegos"}],
-    "relations": [{"targetId": "viking-age", "relationType": "part_of", "strength": 5}, {"targetId": "middle-ages", "relationType": "part_of", "strength": 3}],
-    "sources": [{"title": "The Vikings: A History", "author": "Ferguson, Robert", "publisher": "Penguin Books", "year": "2009", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Escandinavia",
+        "lat": 60.0,
+        "lng": 15.0,
+        "role": "origen"
+      },
+      {
+        "name": "Vinlandia (Terranova)",
+        "lat": 51.6,
+        "lng": -55.5,
+        "role": "primer asentamiento europeo en América"
+      },
+      {
+        "name": "Kiev",
+        "lat": 50.45,
+        "lng": 30.52,
+        "role": "Estado de Kiev fundado por varegos"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "viking-age",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "middle-ages",
+        "relationType": "part_of",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Vikings: A History",
+        "author": "Ferguson, Robert",
+        "publisher": "Penguin Books",
+        "year": "2009",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "black-death-event",
     "title": "La Peste Negra",
     "type": "event",
-    "disciplines": ["science", "society"],
-    "historicalPeriods": ["late-middle-ages"],
+    "disciplines": [
+      "science",
+      "society"
+    ],
+    "historicalPeriods": [
+      "late-middle-ages"
+    ],
     "startDate": "1347",
     "endDate": "1353",
     "datePrecision": "year",
     "summary": "La mayor pandemia de la historia mató a un tercio de Europa y transformó la sociedad medieval.",
     "description": "La Peste Negra (1347-1353) fue la pandemia más devastadora de la historia occidental. Causada por la bacteria Yersinia pestis y transmitida por ratas y pulgas a través de las rutas comerciales, mató entre 25 y 50 millones de personas en Europa (un tercio de la población). Colapsó el orden feudal, escaseó la mano de obra, subieron los salarios y se transformó la mentalidad colectiva sobre la muerte.",
     "importance": 10,
-    "regions": ["europe", "middle-east", "asia"],
-    "places": [{"name": "Sicilia", "lat": 37.6, "lng": 14.0, "role": "entrada en Europa 1347"}, {"name": "Florencia", "lat": 43.77, "lng": 11.25, "role": "ciudad muy afectada, marco del Decamerón"}],
-    "relations": [{"targetId": "black-death", "relationType": "part_of", "strength": 5}, {"targetId": "feudalismo", "relationType": "caused-decline", "strength": 4}],
-    "sources": [{"title": "The Black Death", "author": "Ziegler, Philip", "publisher": "Collins", "year": "1969", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "europe",
+      "middle-east",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Sicilia",
+        "lat": 37.6,
+        "lng": 14.0,
+        "role": "entrada en Europa 1347"
+      },
+      {
+        "name": "Florencia",
+        "lat": 43.77,
+        "lng": 11.25,
+        "role": "ciudad muy afectada, marco del Decamerón"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "black-death",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "feudalismo",
+        "relationType": "caused-decline",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Black Death",
+        "author": "Ziegler, Philip",
+        "publisher": "Collins",
+        "year": "1969",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "conquista-america",
     "title": "Conquista de América",
     "type": "event",
-    "disciplines": ["politics", "society"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "politics",
+      "society"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1492",
     "endDate": "1600",
     "datePrecision": "year",
     "summary": "La llegada europea a América desencadenó la mayor catástrofe demográfica y cultural de la historia.",
     "description": "El viaje de Colón en 1492 abrió la conquista y colonización de las Américas por España, Portugal, y luego Inglaterra y Francia. La conquista militar (Cortés en México 1519-21, Pizarro en Perú 1532-35) se combinó con epidemias devastadoras que redujeron la población indígena en un 90%. El intercambio colombino (nuevos alimentos, enfermedades) transformó la biología y la economía mundiales.",
     "importance": 10,
-    "regions": ["americas", "europe"],
-    "places": [{"name": "Bahamas (Guanahaní)", "lat": 24.0, "lng": -74.5, "role": "primer desembarco de Colón 1492"}, {"name": "Tenochtitlan", "lat": 19.43, "lng": -99.13, "role": "conquista de México 1521"}],
-    "relations": [{"targetId": "colonialismo-europeo", "relationType": "part_of", "strength": 5}, {"targetId": "aztec-empire", "relationType": "caused-decline", "strength": 5}, {"targetId": "inca-empire", "relationType": "caused-decline", "strength": 5}],
-    "sources": [{"title": "Conquest: Cortes, Montezuma, and the Fall of Old Mexico", "author": "Thomas, Hugh", "publisher": "Simon & Schuster", "year": "1993", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
-  },
-  {
-    "id": "reforma-protestante",
-    "title": "Reforma Protestante",
-    "type": "event",
-    "disciplines": ["philosophy", "politics", "society"],
-    "historicalPeriods": ["early-modern"],
-    "startDate": "1517",
-    "endDate": "1648",
-    "datePrecision": "year",
-    "summary": "Martín Lutero desafió a Roma en 1517 y fragmentó la cristiandad occidental para siempre.",
-    "description": "Martín Lutero clavó sus 95 Tesis en Wittenberg en 1517, cuestionando las indulgencias y la autoridad papal. La invención de la imprenta por Gutenberg (1450) permitió la rápida difusión de sus ideas. Surgieron el luteranismo, el calvinismo y el anglicanismo. Las guerras de religión devastaron Europa hasta la Paz de Westfalia (1648). La Reforma transformó para siempre la relación entre autoridad religiosa e individual.",
-    "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Wittenberg", "lat": 51.86, "lng": 12.65, "role": "las 95 Tesis de Lutero 1517"}, {"name": "Ginebra", "lat": 46.2, "lng": 6.15, "role": "Calvino y república teocrática"}, {"name": "Roma", "lat": 41.9, "lng": 12.5, "role": "contrarreforma"}],
-    "relations": [{"targetId": "protestant-reformation", "relationType": "part_of", "strength": 5}, {"targetId": "scientific-revolution", "relationType": "influenced", "strength": 3}, {"targetId": "enlightenment-movement", "relationType": "precedes", "strength": 3}],
-    "sources": [{"title": "Here I Stand: A Life of Martin Luther", "author": "Bainton, Roland", "publisher": "Abingdon Press", "year": "1950", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
-  },
-  {
-    "id": "revolucion-francesa",
-    "title": "Revolución Francesa",
-    "type": "event",
-    "disciplines": ["politics", "society"],
-    "historicalPeriods": ["revolutionary-age"],
-    "startDate": "1789",
-    "endDate": "1799",
-    "datePrecision": "year",
-    "summary": "La mayor ruptura política de la modernidad: libertad, igualdad, fraternidad y la guillotina.",
-    "description": "La Revolución Francesa (1789-1799) derrocó la monarquía, abolió el Antiguo Régimen e inauguró la política moderna basada en la soberanía popular. La Declaración de los Derechos del Hombre, el Terror (Robespierre, la guillotina), la guerra revolucionaria y finalmente el golpe de Napoleón transformaron Francia y exportaron los ideales liberales a toda Europa. Separó la historia occidental en antes y después.",
-    "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "París", "lat": 48.85, "lng": 2.35, "role": "epicentro: Bastilla, Versalles, guillotina"}, {"name": "Versalles", "lat": 48.8, "lng": 2.12, "role": "fuga y captura del rey"}],
-    "relations": [{"targetId": "french-revolution", "relationType": "part_of", "strength": 5}, {"targetId": "enlightenment-movement", "relationType": "influenced-by", "strength": 5}, {"targetId": "american-revolution", "relationType": "influenced-by", "strength": 3}],
-    "sources": [{"title": "Citizens: A Chronicle of the French Revolution", "author": "Schama, Simon", "publisher": "Knopf", "year": "1989", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
-  },
-  {
-    "id": "primera-guerra-mundial",
-    "title": "Primera Guerra Mundial",
-    "type": "event",
-    "disciplines": ["politics", "technology"],
-    "historicalPeriods": ["contemporary"],
-    "startDate": "1914",
-    "endDate": "1918",
-    "datePrecision": "year",
-    "summary": "La Gran Guerra destruyó cuatro imperios y mató 20 millones de personas, transformando Europa.",
-    "description": "La Primera Guerra Mundial (1914-1918) fue el primer conflicto industrial total. La guerra de trincheras, el gas mostaza, los tanques y los aviones marcaron un cambio tecnológico brutal. Murieron 20 millones de personas. Los tratados de Versalles (1919) destruyeron los imperios Austro-Húngaro, Otomano, Ruso y Alemán y sembraron las semillas de la Segunda Guerra. Transformó el arte, la literatura y el pensamiento europeo.",
-    "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Sarajevo", "lat": 43.85, "lng": 18.36, "role": "asesinato del Archiduque Francisco Fernando"}, {"name": "Verdún", "lat": 49.16, "lng": 5.38, "role": "batalla más sangrienta del frente occidental"}, {"name": "Somme", "lat": 50.0, "lng": 2.7, "role": "batalla del Somme: 1 millón de bajas"}],
-    "relations": [{"targetId": "world-war-1", "relationType": "part_of", "strength": 5}, {"targetId": "dadaism", "relationType": "caused", "strength": 4}, {"targetId": "russian-revolution-1917", "relationType": "caused", "strength": 4}],
-    "sources": [{"title": "The First World War", "author": "Keegan, John", "publisher": "Hutchinson", "year": "1998", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
-  },
-  {
-    "id": "segunda-guerra-mundial",
-    "title": "Segunda Guerra Mundial",
-    "type": "event",
-    "disciplines": ["politics", "technology", "science"],
-    "historicalPeriods": ["contemporary"],
-    "startDate": "1939",
-    "endDate": "1945",
-    "datePrecision": "year",
-    "summary": "El conflicto más mortífero de la historia: 70 millones de muertos, el Holocausto y la bomba atómica.",
-    "description": "La Segunda Guerra Mundial (1939-1945) fue el conflicto más mortífero de la historia, con 70-85 millones de muertos. El Holocausto nazi extermina 6 millones de judíos. La batalla de Stalingrado, el Desembarco de Normandía y las bombas atómicas sobre Hiroshima y Nagasaki definen sus hitos. Su resultado reconfiguró el mundo: la ONU, el Plan Marshall, la guerra fría y la descolonización.",
-    "importance": 10,
-    "regions": ["europe", "asia", "north-africa"],
-    "places": [{"name": "Normandía", "lat": 49.3, "lng": -0.7, "role": "Desembarco del Día D, junio 1944"}, {"name": "Stalingrado (Volgogrado)", "lat": 48.7, "lng": 44.51, "role": "batalla decisiva en el frente oriental"}, {"name": "Hiroshima", "lat": 34.39, "lng": 132.45, "role": "primera bomba atómica 6 agosto 1945"}],
-    "relations": [{"targetId": "world-war-2", "relationType": "part_of", "strength": 5}, {"targetId": "fascismo", "relationType": "caused-by", "strength": 5}, {"targetId": "cold-war-period", "relationType": "precedes", "strength": 5}],
-    "sources": [{"title": "The Second World War", "author": "Keegan, John", "publisher": "Viking", "year": "1989", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "americas",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Bahamas (Guanahaní)",
+        "lat": 24.0,
+        "lng": -74.5,
+        "role": "primer desembarco de Colón 1492"
+      },
+      {
+        "name": "Tenochtitlan",
+        "lat": 19.43,
+        "lng": -99.13,
+        "role": "conquista de México 1521"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "european-colonialism",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "aztec-empire",
+        "relationType": "caused-decline",
+        "strength": 5
+      },
+      {
+        "targetId": "inca-empire",
+        "relationType": "caused-decline",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Conquest: Cortes, Montezuma, and the Fall of Old Mexico",
+        "author": "Thomas, Hugh",
+        "publisher": "Simon & Schuster",
+        "year": "1993",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "imprenta-gutenberg",
     "title": "Imprenta de Gutenberg",
     "type": "invention",
-    "disciplines": ["technology", "science"],
-    "historicalPeriods": ["late-middle-ages"],
+    "disciplines": [
+      "technology",
+      "science"
+    ],
+    "historicalPeriods": [
+      "late-middle-ages"
+    ],
     "startDate": "1450",
     "endDate": "1455",
     "datePrecision": "year",
     "summary": "La invención más transformadora del mundo moderno: democratizó el conocimiento y posibilitó la Reforma y la ciencia.",
     "description": "Johannes Gutenberg inventó hacia 1450 la imprenta de tipos móviles metálicos en Maguncia. La Biblia de Gutenberg (1455) fue el primer libro impreso en Europa. La imprenta redujo drásticamente el coste de los libros, democratizó la lectura y el conocimiento, hizo posible la Reforma Protestante (difusión de las ideas de Lutero), la Revolución Científica y la Ilustración. Es considerada la invención más influyente del segundo milenio.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Maguncia", "lat": 49.99, "lng": 8.27, "role": "taller de Gutenberg y primera imprenta"}],
-    "relations": [{"targetId": "reforma-protestante", "relationType": "caused", "strength": 5}, {"targetId": "scientific-revolution", "relationType": "influenced", "strength": 4}, {"targetId": "renaissance", "relationType": "influenced", "strength": 4}],
-    "sources": [{"title": "The Gutenberg Revolution", "author": "Man, John", "publisher": "Headline", "year": "2002", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Maguncia",
+        "lat": 49.99,
+        "lng": 8.27,
+        "role": "taller de Gutenberg y primera imprenta"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "protestant-reformation",
+        "relationType": "caused",
+        "strength": 5
+      },
+      {
+        "targetId": "scientific-revolution",
+        "relationType": "influenced",
+        "strength": 4
+      },
+      {
+        "targetId": "renaissance",
+        "relationType": "influenced",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Gutenberg Revolution",
+        "author": "Man, John",
+        "publisher": "Headline",
+        "year": "2002",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "television",
     "title": "Televisión",
     "type": "invention",
-    "disciplines": ["technology", "art"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "technology",
+      "art"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1926",
     "endDate": "1970",
     "datePrecision": "decade",
     "summary": "El medio de comunicación de masas del siglo XX que transformó la política, la cultura y el entretenimiento.",
     "description": "John Logie Baird realizó la primera demostración de televisión en 1926. La BBC comenzó emisiones regulares en 1936; la TV en color se generalizó en los 60. La televisión se convirtió en el medio de comunicación dominante del siglo XX, transformando la política (debates Kennedy-Nixon, 1960), la guerra (Vietnam en directo), la cultura popular y el entretenimiento global. En 2000 había 1.400 millones de televisores en el mundo.",
     "importance": 9,
-    "regions": ["europe", "north-america"],
-    "places": [{"name": "Londres", "lat": 51.5, "lng": -0.12, "role": "Baird y primera BBC TV"}, {"name": "Nueva York", "lat": 40.71, "lng": -74.0, "role": "primeras redes americanas NBC, CBS"}],
-    "relations": [{"targetId": "revolucion-digital", "relationType": "precedes", "strength": 3}, {"targetId": "contracultura-60s", "relationType": "influenced", "strength": 3}],
-    "sources": [{"title": "Television: An International History", "author": "Smith, Anthony", "publisher": "Oxford University Press", "year": "1995", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.12,
+        "role": "Baird y primera BBC TV"
+      },
+      {
+        "name": "Nueva York",
+        "lat": 40.71,
+        "lng": -74.0,
+        "role": "primeras redes americanas NBC, CBS"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "digital-revolution",
+        "relationType": "precedes",
+        "strength": 3
+      },
+      {
+        "targetId": "contracultura-60s",
+        "relationType": "influenced",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Television: An International History",
+        "author": "Smith, Anthony",
+        "publisher": "Oxford University Press",
+        "year": "1995",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "internet",
     "title": "Internet",
     "type": "invention",
-    "disciplines": ["technology", "science"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "technology",
+      "science"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1969",
     "endDate": "2000",
     "datePrecision": "year",
     "summary": "La red global de comunicaciones que transformó la economía, la política y la cultura del siglo XXI.",
     "description": "Internet nació como ARPANET en 1969 (conexión entre UCLA y Stanford). Tim Berners-Lee inventó la World Wide Web en 1991. La generalización de los navegadores (Mosaic, 1993; Netscape, 1994) desencadenó la revolución digital civil. En 2024 hay más de 5.000 millones de usuarios. Internet ha transformado el comercio, la política, la comunicación, el entretenimiento y el acceso al conocimiento de forma más profunda que ningún invento anterior.",
     "importance": 10,
-    "regions": ["north-america", "global"],
-    "places": [{"name": "Los Ángeles/UCLA", "lat": 34.07, "lng": -118.44, "role": "primer nodo ARPANET 1969"}, {"name": "CERN, Ginebra", "lat": 46.23, "lng": 6.05, "role": "creación de la World Wide Web 1991"}],
-    "relations": [{"targetId": "revolucion-digital", "relationType": "part_of", "strength": 5}, {"targetId": "alan-turing", "relationType": "influenced-by", "strength": 3}],
-    "sources": [{"title": "Weaving the Web", "author": "Berners-Lee, Tim", "publisher": "Harper Business", "year": "1999", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "north-america",
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Los Ángeles/UCLA",
+        "lat": 34.07,
+        "lng": -118.44,
+        "role": "primer nodo ARPANET 1969"
+      },
+      {
+        "name": "CERN, Ginebra",
+        "lat": 46.23,
+        "lng": 6.05,
+        "role": "creación de la World Wide Web 1991"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "digital-revolution",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "alan-turing",
+        "relationType": "influenced-by",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Weaving the Web",
+        "author": "Berners-Lee, Tim",
+        "publisher": "Harper Business",
+        "year": "1999",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "bronce-age",
     "title": "Edad del Bronce",
     "type": "period",
-    "disciplines": ["technology", "science"],
-    "historicalPeriods": ["ancient"],
+    "disciplines": [
+      "technology",
+      "science"
+    ],
+    "historicalPeriods": [
+      "ancient"
+    ],
     "startDate": "-3300",
     "endDate": "-1200",
     "datePrecision": "century",
     "summary": "La metalurgia del bronce revolucionó la guerra, la agricultura y el comercio en el Viejo Mundo.",
     "description": "La Edad del Bronce (aprox. 3300-1200 a.C.) se caracterizó por el uso generalizado del bronce (aleación de cobre y estaño). La metalurgia del bronce impulsó la fabricación de armas más eficaces, herramientas agrícolas y objetos de prestigio. El comercio de larga distancia se expandió para obtener estaño (escaso) y cobre. Grandes civilizaciones del Bronce: Mesopotamia, Egipto, Creta minoica, Micenas y Shang China.",
     "importance": 8,
-    "regions": ["middle-east", "europe", "asia"],
-    "places": [{"name": "Mesopotamia", "lat": 33.0, "lng": 44.0, "role": "primeras aleaciones de bronce"}, {"name": "Anatolia", "lat": 39.0, "lng": 35.0, "role": "difusión temprana de la metalurgia"}],
-    "relations": [{"targetId": "ancient-mesopotamia", "relationType": "part_of", "strength": 4}, {"targetId": "ancient-egypt", "relationType": "contemporary", "strength": 3}],
-    "sources": [{"title": "The Bronze Age", "author": "Vandkilde, Helle", "publisher": "Cambridge University Press", "year": "2007", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "middle-east",
+      "europe",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Mesopotamia",
+        "lat": 33.0,
+        "lng": 44.0,
+        "role": "primeras aleaciones de bronce"
+      },
+      {
+        "name": "Anatolia",
+        "lat": 39.0,
+        "lng": 35.0,
+        "role": "difusión temprana de la metalurgia"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ancient-mesopotamia",
+        "relationType": "part_of",
+        "strength": 4
+      },
+      {
+        "targetId": "ancient-egypt",
+        "relationType": "contemporary",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Bronze Age",
+        "author": "Vandkilde, Helle",
+        "publisher": "Cambridge University Press",
+        "year": "2007",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "escritura-invencion",
     "title": "Invención de la escritura",
     "type": "invention",
-    "disciplines": ["science", "technology"],
-    "historicalPeriods": ["ancient"],
+    "disciplines": [
+      "science",
+      "technology"
+    ],
+    "historicalPeriods": [
+      "ancient"
+    ],
     "startDate": "-3400",
     "endDate": "-3000",
     "datePrecision": "century",
     "summary": "El invento más revolucionario de la historia humana: la escritura cuneiforme en Mesopotamia y los jeroglíficos.",
     "description": "La escritura fue inventada independientemente en al menos tres lugares: la escritura cuneiforme en Sumer (Mesopotamia, h. 3400 a.C.), los jeroglíficos en Egipto (h. 3100 a.C.) y la escritura de los valles del Indo (h. 2600 a.C., aún no descifrada). Permitió el registro contable, administrativo, literario y religioso. La escritura marcó el inicio de la Historia como disciplina y permitió la acumulación y transmisión del conocimiento.",
     "importance": 10,
-    "regions": ["middle-east"],
-    "places": [{"name": "Uruk, Mesopotamia", "lat": 31.32, "lng": 45.63, "role": "tablillas más antiguas conocidas h. 3400 a.C."}, {"name": "Saqqara, Egipto", "lat": 29.87, "lng": 31.22, "role": "jeroglíficos más antiguos"}],
-    "relations": [{"targetId": "ancient-mesopotamia", "relationType": "part_of", "strength": 5}, {"targetId": "ancient-egypt", "relationType": "part_of", "strength": 4}],
-    "sources": [{"title": "The Oxford Handbook of the History of Linguistics", "author": "Allan, Keith", "publisher": "Oxford University Press", "year": "2013", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "middle-east"
+    ],
+    "places": [
+      {
+        "name": "Uruk, Mesopotamia",
+        "lat": 31.32,
+        "lng": 45.63,
+        "role": "tablillas más antiguas conocidas h. 3400 a.C."
+      },
+      {
+        "name": "Saqqara, Egipto",
+        "lat": 29.87,
+        "lng": 31.22,
+        "role": "jeroglíficos más antiguos"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ancient-mesopotamia",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "ancient-egypt",
+        "relationType": "part_of",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Oxford Handbook of the History of Linguistics",
+        "author": "Allan, Keith",
+        "publisher": "Oxford University Press",
+        "year": "2013",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "democracia-ateniense",
     "title": "Democracia ateniense",
     "type": "event",
-    "disciplines": ["politics", "philosophy"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "politics",
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "-508",
     "endDate": "-322",
     "datePrecision": "year",
     "summary": "Primera democracia de la historia: Clístenes, Pericles y la asamblea ciudadana en la Atenas clásica.",
     "description": "Clístenes introdujo las reformas democráticas en Atenas en 508 a.C., creando la primera democracia directa de la historia. Bajo Pericles (461-429 a.C.) alcanzó su apogeo: la Asamblea (Ekklesia) reunía a miles de ciudadanos libres con derecho a hablar y votar. Aunque excluía a mujeres, esclavos y extranjeros, fue el primer experimento de autogobierno popular y fundó el vocabulario político occidental.",
     "importance": 10,
-    "regions": ["mediterranean"],
-    "places": [{"name": "Atenas", "lat": 37.97, "lng": 23.72, "role": "Ágora y Pnyx, lugar de la Asamblea"}],
-    "relations": [{"targetId": "classical-greece", "relationType": "part_of", "strength": 5}, {"targetId": "filosofia-griega-clasica", "relationType": "contemporary", "strength": 4}],
-    "sources": [{"title": "Democracy: A History", "author": "Dunn, John", "publisher": "Atlantic Monthly Press", "year": "2005", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "mediterranean"
+    ],
+    "places": [
+      {
+        "name": "Atenas",
+        "lat": 37.97,
+        "lng": 23.72,
+        "role": "Ágora y Pnyx, lugar de la Asamblea"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "classical-greece",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "filosofia-griega-clasica",
+        "relationType": "contemporary",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "Democracy: A History",
+        "author": "Dunn, John",
+        "publisher": "Atlantic Monthly Press",
+        "year": "2005",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "renacimiento-cientifico",
     "title": "Revolución astronómica",
     "type": "event",
-    "disciplines": ["science"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "science"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1543",
     "endDate": "1687",
     "datePrecision": "year",
     "summary": "De Copérnico a Newton: 150 años que rediseñaron nuestra imagen del cosmos.",
     "description": "En 150 años, la astronomía pasó del geocentrismo ptolemaico al sistema heliocéntrico. Copérnico (1543) propuso que la Tierra orbita el Sol; Tycho Brahe acumuló datos precisos; Kepler formuló las leyes del movimiento planetario (1609-1619); Galileo observó con el telescopio (1610) y Newton unificó todo con la gravitación universal (1687). Este período fundó la ciencia moderna como método.",
     "importance": 10,
-    "regions": ["europe"],
-    "places": [{"name": "Frombork", "lat": 54.36, "lng": 19.68, "role": "Copérnico"}, {"name": "Pisa/Florencia", "lat": 43.72, "lng": 10.4, "role": "Galileo"}, {"name": "Cambridge", "lat": 52.2, "lng": 0.12, "role": "Newton, Trinity College"}],
-    "relations": [{"targetId": "scientific-revolution", "relationType": "part_of", "strength": 5}, {"targetId": "copernicus", "relationType": "part_of", "strength": 5}, {"targetId": "galileo", "relationType": "part_of", "strength": 5}, {"targetId": "isaac-newton", "relationType": "part_of", "strength": 5}],
-    "sources": [{"title": "The Sleepwalkers", "author": "Koestler, Arthur", "publisher": "Hutchinson", "year": "1959", "type": "book", "reliability": "high"}],
-    "media": [], "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Frombork",
+        "lat": 54.36,
+        "lng": 19.68,
+        "role": "Copérnico"
+      },
+      {
+        "name": "Pisa/Florencia",
+        "lat": 43.72,
+        "lng": 10.4,
+        "role": "Galileo"
+      },
+      {
+        "name": "Cambridge",
+        "lat": 52.2,
+        "lng": 0.12,
+        "role": "Newton, Trinity College"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "scientific-revolution",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "copernicus",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "galileo",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "isaac-newton",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Sleepwalkers",
+        "author": "Koestler, Arthur",
+        "publisher": "Hutchinson",
+        "year": "1959",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
+    "media": [],
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   }
 ]

@@ -3,24 +3,64 @@
     "id": "julius-caesar",
     "title": "Julio César",
     "type": "person",
-    "disciplines": ["politics", "history", "literature"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "politics",
+      "history",
+      "literature"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "-100",
     "endDate": "-44-03-15",
     "datePrecision": "year",
     "summary": "General y estadista romano cuyas guerras galas y dictadura transformaron la República romana en el umbral del Imperio.",
     "description": "Cayo Julio César (Roma, c. 100 – Roma, 44 a.C.) fue el político y militar más influyente de la Roma tardorrepublicana. Sus Guerras Galas (58–50 a.C.) incorporaron la Galia al mundo romano y le dieron una base militar y económica sin precedentes. Al cruzar el Rubicón (49 a.C.) desencadenó una guerra civil que ganó contra Pompeyo. Como dictador perpetuo (desde 44 a.C.) emprendió reformas profundas: calendario juliano, distribución de tierras, ciudadanía para provincias. Fue asesinado en los idus de marzo (15 de marzo, 44 a.C.) por un grupo de senadores encabezados por Bruto y Casio. Sus Commentarii de Bello Gallico son un clásico de la prosa latina.",
     "importance": 10,
-    "regions": ["Europe", "North Africa", "Middle East"],
+    "regions": [
+      "Europe",
+      "North Africa",
+      "Middle East"
+    ],
     "places": [
-      { "name": "Roma", "lat": 41.896, "lng": 12.482, "wikidataId": "Q220", "role": "ciudad natal, dictador, asesinado en el teatro de Pompeyo" },
-      { "name": "Alesia", "lat": 47.537, "lng": 4.510, "wikidataId": "Q193023", "role": "batalla decisiva de la conquista de la Galia (52 a.C.)" }
+      {
+        "name": "Roma",
+        "lat": 41.896,
+        "lng": 12.482,
+        "wikidataId": "Q220",
+        "role": "ciudad natal, dictador, asesinado en el teatro de Pompeyo"
+      },
+      {
+        "name": "Alesia",
+        "lat": 47.537,
+        "lng": 4.51,
+        "wikidataId": "Q193023",
+        "role": "batalla decisiva de la conquista de la Galia (52 a.C.)"
+      }
     ],
     "relations": [
-      { "targetId": "roman-empire", "relationType": "part_of", "strength": 5 },
-      { "targetId": "cicero", "relationType": "contemporary_of", "strength": 4, "note": "Ambos líderes de la Roma tardorrepublicana, rivales políticos" },
-      { "targetId": "augustus", "relationType": "preceded", "strength": 5, "note": "Augusto (Octavio) era sobrino-nieto y heredero de César" },
-      { "targetId": "classical-greece", "relationType": "influenced_by", "strength": 3 }
+      {
+        "targetId": "roman-empire",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "cicero",
+        "relationType": "contemporary_of",
+        "strength": 4,
+        "note": "Ambos líderes de la Roma tardorrepublicana, rivales políticos"
+      },
+      {
+        "targetId": "augustus",
+        "relationType": "preceded",
+        "strength": 5,
+        "note": "Augusto (Octavio) era sobrino-nieto y heredero de César"
+      },
+      {
+        "targetId": "classical-greece",
+        "relationType": "influenced_by",
+        "strength": 3
+      }
     ],
     "sources": [
       {
@@ -46,30 +86,77 @@
       "notes": "Año de nacimiento c. 100 a.C. aceptado por la mayoría de las fuentes modernas; algunos proponen 102 a.C."
     },
     "layer": "detailed",
-    "tags": ["dictador", "Galia", "Rubicón", "idus de marzo", "Roma", "República"]
+    "tags": [
+      "dictador",
+      "Galia",
+      "Rubicón",
+      "idus de marzo",
+      "Roma",
+      "República"
+    ]
   },
   {
     "id": "augustus",
     "title": "Augusto",
     "type": "person",
-    "disciplines": ["politics", "history", "art"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "politics",
+      "history",
+      "art"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "-63-09-23",
     "endDate": "14-08-19",
     "datePrecision": "exact",
     "summary": "Primer emperador romano, instaurador de la Pax Romana y del Principado que transformó la República en un sistema imperial estable durante 45 años de reinado.",
     "description": "Cayo Octavio Augusto (Roma, 63 a.C. – Nola, 14 d.C.) fue el primer emperador de Roma y uno de los gobernantes más hábiles de la historia. Sobrino-nieto y heredero de Julio César, venció a Marco Antonio y Cleopatra en Actium (31 a.C.) y concentró todos los poderes republicanos en su persona sin romper formalmente con la tradición. Su Principado estableció la Pax Romana, un período de dos siglos de paz y prosperidad. Bajo su mecenazgo florecieron Virgilio, Horacio y Ovidio. Realizó obras públicas en Roma: 'Hallé Roma de ladrillo y la dejé de mármol'. Construyó el Foro de Augusto y el Ara Pacis.",
     "importance": 10,
-    "regions": ["Europe", "North Africa", "Middle East"],
+    "regions": [
+      "Europe",
+      "North Africa",
+      "Middle East"
+    ],
     "places": [
-      { "name": "Roma", "lat": 41.896, "lng": 12.482, "wikidataId": "Q220", "role": "capital del Imperio, Foro de Augusto, Ara Pacis" },
-      { "name": "Actium", "lat": 38.956, "lng": 20.746, "wikidataId": "Q216823", "role": "victoria naval sobre Marco Antonio y Cleopatra (31 a.C.)" }
+      {
+        "name": "Roma",
+        "lat": 41.896,
+        "lng": 12.482,
+        "wikidataId": "Q220",
+        "role": "capital del Imperio, Foro de Augusto, Ara Pacis"
+      },
+      {
+        "name": "Actium",
+        "lat": 38.956,
+        "lng": 20.746,
+        "wikidataId": "Q216823",
+        "role": "victoria naval sobre Marco Antonio y Cleopatra (31 a.C.)"
+      }
     ],
     "relations": [
-      { "targetId": "roman-empire", "relationType": "part_of", "strength": 5 },
-      { "targetId": "julius-caesar", "relationType": "followed", "strength": 5 },
-      { "targetId": "virgil", "relationType": "commissioned", "strength": 5, "note": "Mecenas indirecto de la Eneida, poema épico de Roma" },
-      { "targetId": "pantheon-rome", "relationType": "preceded", "strength": 3, "note": "El Panteón original fue construido por Agripa bajo Augusto (25 a.C.)" }
+      {
+        "targetId": "roman-empire",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "julius-caesar",
+        "relationType": "followed",
+        "strength": 5
+      },
+      {
+        "targetId": "virgil",
+        "relationType": "commissioned",
+        "strength": 5,
+        "note": "Mecenas indirecto de la Eneida, poema épico de Roma"
+      },
+      {
+        "targetId": "pantheon-rome",
+        "relationType": "preceded",
+        "strength": 3,
+        "note": "El Panteón original fue construido por Agripa bajo Augusto (25 a.C.)"
+      }
     ],
     "sources": [
       {
@@ -89,32 +176,79 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05"
+    },
     "layer": "detailed",
-    "tags": ["Pax Romana", "Principado", "Roma", "Actium", "mecenas", "Ara Pacis"]
+    "tags": [
+      "Pax Romana",
+      "Principado",
+      "Roma",
+      "Actium",
+      "mecenas",
+      "Ara Pacis"
+    ]
   },
   {
     "id": "marcus-aurelius",
     "title": "Marco Aurelio",
     "type": "person",
-    "disciplines": ["philosophy", "politics"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "philosophy",
+      "politics"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "121-04-26",
     "endDate": "180-03-17",
     "datePrecision": "exact",
     "summary": "Último de los Cinco Emperadores Buenos, filósofo estoico y autor de las Meditaciones, paradigma del gobernante-filósofo platónico.",
     "description": "Marco Aurelio (Roma, 121 – Vindobona, 180) es el mayor exponente del estoicismo romano y el paradigma platónico del filósofo-rey. Gobernó el Imperio romano entre 161 y 180, período marcado por guerras en la frontera danubiana contra los marcomanos y una grave epidemia. Sus Meditaciones (escritas en griego, c. 170–180) son un diario íntimo de reflexión estoica sobre el deber, la virtud y la muerte, sin intención de publicación. Son la obra más leída de la filosofía estoica. La Columna de Marco Aurelio en Roma (176–193) conmemora sus victorias militares.",
     "importance": 9,
-    "regions": ["Europe", "Middle East"],
+    "regions": [
+      "Europe",
+      "Middle East"
+    ],
     "places": [
-      { "name": "Roma", "lat": 41.896, "lng": 12.482, "wikidataId": "Q220", "role": "capital del Imperio, Columna de Marco Aurelio" },
-      { "name": "Viena (Vindobona)", "lat": 48.208, "lng": 16.373, "wikidataId": "Q1741", "role": "campamento militar donde murió en 180 d.C." }
+      {
+        "name": "Roma",
+        "lat": 41.896,
+        "lng": 12.482,
+        "wikidataId": "Q220",
+        "role": "capital del Imperio, Columna de Marco Aurelio"
+      },
+      {
+        "name": "Viena (Vindobona)",
+        "lat": 48.208,
+        "lng": 16.373,
+        "wikidataId": "Q1741",
+        "role": "campamento militar donde murió en 180 d.C."
+      }
     ],
     "relations": [
-      { "targetId": "roman-empire", "relationType": "part_of", "strength": 5 },
-      { "targetId": "plato", "relationType": "influenced_by", "strength": 3, "note": "El ideal platónico del filósofo-rey" },
-      { "targetId": "aristotle", "relationType": "influenced_by", "strength": 3 },
-      { "targetId": "augustus", "relationType": "followed", "strength": 3 }
+      {
+        "targetId": "roman-empire",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "plato",
+        "relationType": "influenced_by",
+        "strength": 3,
+        "note": "El ideal platónico del filósofo-rey"
+      },
+      {
+        "targetId": "aristotle",
+        "relationType": "influenced_by",
+        "strength": 3
+      },
+      {
+        "targetId": "augustus",
+        "relationType": "followed",
+        "strength": 3
+      }
     ],
     "sources": [
       {
@@ -134,33 +268,85 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05"
+    },
     "layer": "detailed",
-    "tags": ["estoicismo", "Meditaciones", "filósofo-rey", "Cinco Emperadores Buenos", "Vindobona"]
+    "tags": [
+      "estoicismo",
+      "Meditaciones",
+      "filósofo-rey",
+      "Cinco Emperadores Buenos",
+      "Vindobona"
+    ]
   },
   {
     "id": "cicero",
     "title": "Marco Tulio Cicerón",
     "type": "person",
-    "disciplines": ["philosophy", "literature", "politics"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "philosophy",
+      "literature",
+      "politics"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "-106-01-03",
     "endDate": "-43-12-07",
     "datePrecision": "exact",
     "summary": "El mayor orador de Roma, filósofo y político que transmitió el pensamiento griego al mundo latino y cuyo latín se convirtió en modelo para la humanidad europea.",
     "description": "Marco Tulio Cicerón (Arpinum, 106 – Formias, 43 a.C.) fue el orador más destacado de Roma y un prolífico escritor filosófico. Como cónsul (63 a.C.) sofocó la Conspiración de Catilina. Sus discursos (Catilinarias, Filípicas contra Marco Antonio), tratados filosóficos (De Re Publica, De Legibus, De Officiis) y correspondencia (Epistulae) son documentos únicos sobre la Roma republicana. Tradujo y adaptó la filosofía griega —especialmente el estoicismo y el escepticismo— al latín, convirtiéndose en el principal transmisor del pensamiento heleno a la tradición europea occidental. Su latín fue el modelo de la prosa humanista del Renacimiento.",
     "importance": 9,
-    "regions": ["Europe", "Mediterranean"],
+    "regions": [
+      "Europe",
+      "Mediterranean"
+    ],
     "places": [
-      { "name": "Roma", "lat": 41.896, "lng": 12.482, "wikidataId": "Q220", "role": "cónsul, orador en el Foro Romano" },
-      { "name": "Arpinum", "lat": 41.696, "lng": 13.727, "wikidataId": "Q646006", "role": "ciudad natal" }
+      {
+        "name": "Roma",
+        "lat": 41.896,
+        "lng": 12.482,
+        "wikidataId": "Q220",
+        "role": "cónsul, orador en el Foro Romano"
+      },
+      {
+        "name": "Arpinum",
+        "lat": 41.696,
+        "lng": 13.727,
+        "wikidataId": "Q646006",
+        "role": "ciudad natal"
+      }
     ],
     "relations": [
-      { "targetId": "roman-empire", "relationType": "part_of", "strength": 4 },
-      { "targetId": "julius-caesar", "relationType": "contemporary_of", "strength": 4 },
-      { "targetId": "classical-greece", "relationType": "influenced_by", "strength": 5, "note": "Transmitió la filosofía griega a la tradición latina" },
-      { "targetId": "renaissance", "relationType": "influenced", "strength": 4, "note": "Su latín fue el modelo de los humanistas del Renacimiento" },
-      { "targetId": "enlightenment-movement", "relationType": "influenced", "strength": 3 }
+      {
+        "targetId": "roman-empire",
+        "relationType": "part_of",
+        "strength": 4
+      },
+      {
+        "targetId": "julius-caesar",
+        "relationType": "contemporary_of",
+        "strength": 4
+      },
+      {
+        "targetId": "classical-greece",
+        "relationType": "influenced_by",
+        "strength": 5,
+        "note": "Transmitió la filosofía griega a la tradición latina"
+      },
+      {
+        "targetId": "renaissance",
+        "relationType": "influenced",
+        "strength": 4,
+        "note": "Su latín fue el modelo de los humanistas del Renacimiento"
+      },
+      {
+        "targetId": "enlightenment-movement",
+        "relationType": "influenced",
+        "strength": 3
+      }
     ],
     "sources": [
       {
@@ -180,33 +366,84 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05"
+    },
     "layer": "detailed",
-    "tags": ["oratoria", "Catilinarias", "filosofía latina", "República romana", "humanismo"]
+    "tags": [
+      "oratoria",
+      "Catilinarias",
+      "filosofía latina",
+      "República romana",
+      "humanismo"
+    ]
   },
   {
     "id": "virgil",
     "title": "Virgilio",
     "type": "person",
-    "disciplines": ["literature"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "literature"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "-70-10-15",
     "endDate": "-19-09-21",
     "datePrecision": "year",
     "summary": "El mayor poeta épico latino, autor de la Eneida, las Geórgicas y las Églogas, voz literaria del Imperio de Augusto.",
     "description": "Publio Virgilio Marón (Andes, cerca de Mantua, 70 a.C. – Brindisi, 19 a.C.) es el mayor poeta de la literatura latina. Sus Églogas (37 a.C.) renovaron la poesía pastoral griega; las Geórgicas (29 a.C.) cantaron la vida agraria italiana. La Eneida (29–19 a.C., inacabada), su obra cumbre, narra la fundación mítica de Roma por Eneas, hijo de Venus y superviviente de Troya, y fue el poema épico fundacional de la identidad romana bajo Augusto. Dante lo eligió como guía en la Divina Comedia. Su influencia en la literatura europea, desde la Edad Media hasta el Renacimiento, es comparable a la de Homero en Grecia.",
     "importance": 9,
-    "regions": ["Europe", "Mediterranean"],
+    "regions": [
+      "Europe",
+      "Mediterranean"
+    ],
     "places": [
-      { "name": "Mantua", "lat": 45.157, "lng": 10.791, "wikidataId": "Q6372", "role": "ciudad natal (Andes, cerca de Mantua)" },
-      { "name": "Roma", "lat": 41.896, "lng": 12.482, "wikidataId": "Q220", "role": "círculo literario de Mecenas y Augusto" }
+      {
+        "name": "Mantua",
+        "lat": 45.157,
+        "lng": 10.791,
+        "wikidataId": "Q6372",
+        "role": "ciudad natal (Andes, cerca de Mantua)"
+      },
+      {
+        "name": "Roma",
+        "lat": 41.896,
+        "lng": 12.482,
+        "wikidataId": "Q220",
+        "role": "círculo literario de Mecenas y Augusto"
+      }
     ],
     "relations": [
-      { "targetId": "roman-empire", "relationType": "part_of", "strength": 5 },
-      { "targetId": "augustus", "relationType": "belonged_to", "strength": 4, "note": "Poeta del círculo de Mecenas, protegido por Augusto" },
-      { "targetId": "classical-greece", "relationType": "influenced_by", "strength": 5, "note": "La Eneida adapta a Homero (Ilíada y Odisea)" },
-      { "targetId": "middle-ages", "relationType": "influenced", "strength": 4, "note": "Guía de Dante en la Divina Comedia" },
-      { "targetId": "renaissance", "relationType": "influenced", "strength": 4 }
+      {
+        "targetId": "roman-empire",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "augustus",
+        "relationType": "belonged_to",
+        "strength": 4,
+        "note": "Poeta del círculo de Mecenas, protegido por Augusto"
+      },
+      {
+        "targetId": "classical-greece",
+        "relationType": "influenced_by",
+        "strength": 5,
+        "note": "La Eneida adapta a Homero (Ilíada y Odisea)"
+      },
+      {
+        "targetId": "middle-ages",
+        "relationType": "influenced",
+        "strength": 4,
+        "note": "Guía de Dante en la Divina Comedia"
+      },
+      {
+        "targetId": "renaissance",
+        "relationType": "influenced",
+        "strength": 4
+      }
     ],
     "sources": [
       {
@@ -232,30 +469,73 @@
       "notes": "Fecha de nacimiento (15 oct. 70 a.C.) documentada en fuentes antiguas; generalmente aceptada."
     },
     "layer": "detailed",
-    "tags": ["Eneida", "épica", "Augusto", "Mecenas", "Dante", "poesía latina"]
+    "tags": [
+      "Eneida",
+      "épica",
+      "Augusto",
+      "Mecenas",
+      "Dante",
+      "poesía latina"
+    ]
   },
   {
     "id": "pantheon-rome",
     "title": "Panteón de Roma",
     "type": "building",
-    "disciplines": ["architecture", "religion"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "architecture",
+      "religion"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "118",
     "endDate": "125",
     "datePrecision": "approximate",
     "summary": "El edificio más perfectamente conservado de la Antigüedad, con la mayor cúpula de hormigón sin armar del mundo (43,3 m), construido bajo el emperador Adriano.",
     "description": "El Panteón de Roma fue construido entre c. 118 y 125 d.C. bajo el reinado del emperador Adriano, en sustitución de un edificio anterior de Agripa (27–25 a.C., cuya inscripción conservó: 'M. Agrippa L. F. cos. tertium fecit'). Su elemento más extraordinario es la cúpula de hormigón de 43,3 m de diámetro —la mayor del mundo antiguo— con un óculo central de 8,2 m que es la única fuente de luz. El espesor de la cúpula decrece hacia arriba para reducir peso. Fue convertido en iglesia cristiana en 609 d.C. (Santa María de los Mártires), lo que explica su conservación. Influyó decisivamente en la arquitectura occidental desde el Renacimiento hasta nuestros días. Patrimonio de la Humanidad (UNESCO, 1980).",
     "importance": 10,
-    "regions": ["Europe", "Mediterranean"],
+    "regions": [
+      "Europe",
+      "Mediterranean"
+    ],
     "places": [
-      { "name": "Roma", "lat": 41.899, "lng": 12.477, "wikidataId": "Q171", "role": "Campo de Marte, Roma" }
+      {
+        "name": "Roma",
+        "lat": 41.899,
+        "lng": 12.477,
+        "wikidataId": "Q171",
+        "role": "Campo de Marte, Roma"
+      }
     ],
     "relations": [
-      { "targetId": "roman-empire", "relationType": "part_of", "strength": 5 },
-      { "targetId": "augustus", "relationType": "followed", "strength": 3, "note": "El Panteón de Adriano sustituyó el original de Agripa, amigo de Augusto" },
-      { "targetId": "brunelleschi", "relationType": "influenced", "strength": 5, "note": "La cúpula del Panteón fue modelo técnico e inspiración para Brunelleschi en Florencia" },
-      { "targetId": "dome-florence", "relationType": "influenced", "strength": 4 },
-      { "targetId": "renaissance", "relationType": "influenced", "strength": 4 }
+      {
+        "targetId": "roman-empire",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "augustus",
+        "relationType": "followed",
+        "strength": 3,
+        "note": "El Panteón de Adriano sustituyó el original de Agripa, amigo de Augusto"
+      },
+      {
+        "targetId": "brunelleschi",
+        "relationType": "influenced",
+        "strength": 5,
+        "note": "La cúpula del Panteón fue modelo técnico e inspiración para Brunelleschi en Florencia"
+      },
+      {
+        "targetId": "dome-florence",
+        "relationType": "influenced",
+        "strength": 4
+      },
+      {
+        "targetId": "renaissance",
+        "relationType": "influenced",
+        "strength": 4
+      }
     ],
     "sources": [
       {
@@ -275,29 +555,62 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05"
+    },
     "layer": "detailed",
-    "tags": ["cúpula", "hormigón", "óculo", "Adriano", "Roma", "Brunelleschi", "UNESCO"]
+    "tags": [
+      "cúpula",
+      "hormigón",
+      "óculo",
+      "Adriano",
+      "Roma",
+      "Brunelleschi",
+      "UNESCO"
+    ]
   },
   {
     "id": "acueducto-segovia",
     "title": "Acueducto de Segovia",
     "type": "building",
-    "disciplines": ["architecture", "technology"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "architecture",
+      "technology"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "50",
     "endDate": "100",
     "datePrecision": "debated",
     "summary": "El acueducto romano mejor conservado de la península ibérica, con 728 metros de longitud y hasta 29 metros de altura, construido sin argamasa.",
     "description": "El Acueducto de Segovia es el monumento romano mejor conservado de la Península Ibérica y uno de los más espectaculares del mundo. Construido en el siglo I d.C. (los debates académicos oscilan entre los reinados de Domiciano y Trajano, 81–117 d.C.), transportaba agua desde la sierra del Fuenfría hasta la ciudad de Segovia (Segovia romana). Tiene 728 m de longitud, 163 arcos sobre 120 pilares de granito ensamblados en seco (sin argamasa) y una altura máxima de 28,5 m. Permaneció en uso hasta el siglo XIX. Fue declarado Patrimonio de la Humanidad por la UNESCO en 1985.",
     "importance": 9,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "Segovia", "lat": 40.948, "lng": -4.118, "wikidataId": "Q9598", "role": "ubicación del acueducto" }
+      {
+        "name": "Segovia",
+        "lat": 40.948,
+        "lng": -4.118,
+        "wikidataId": "Q9598",
+        "role": "ubicación del acueducto"
+      }
     ],
     "relations": [
-      { "targetId": "roman-empire", "relationType": "part_of", "strength": 5 },
-      { "targetId": "pont-du-gard", "relationType": "contemporary_of", "strength": 3, "note": "Ambas obras maestras de la ingeniería hidráulica romana" }
+      {
+        "targetId": "roman-empire",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "pont-du-gard",
+        "relationType": "contemporary_of",
+        "strength": 3,
+        "note": "Ambas obras maestras de la ingeniería hidráulica romana"
+      }
     ],
     "sources": [
       {
@@ -323,28 +636,61 @@
       "notes": "Fecha de construcción debatida entre reinados de Domiciano (81–96) y Trajano (98–117). No hay inscripción de datación."
     },
     "layer": "detailed",
-    "tags": ["acueducto", "granito", "sin argamasa", "Segovia", "UNESCO", "ingeniería romana"]
+    "tags": [
+      "acueducto",
+      "granito",
+      "sin argamasa",
+      "Segovia",
+      "UNESCO",
+      "ingeniería romana"
+    ]
   },
   {
     "id": "pont-du-gard",
     "title": "Pont du Gard",
     "type": "building",
-    "disciplines": ["architecture", "technology"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "architecture",
+      "technology"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "40",
     "endDate": "60",
     "datePrecision": "approximate",
     "summary": "Puente-acueducto romano de tres niveles sobre el río Gard (Francia), con 49 metros de altura, el más alto de todos los acueductos romanos conservados.",
     "description": "El Pont du Gard es un puente-acueducto romano de tres niveles construido en el siglo I d.C. sobre el río Gardon, en la actual Provenza (Francia). Formaba parte de un canal de 50 km que llevaba agua desde Uzès hasta Nemausus (Nîmes). Tiene 275 m de longitud y 49 m de altura, lo que lo convierte en el acueducto romano más alto conservado. Sus tres niveles de arcos de 6, 11 y 4 m de luz están ensamblados en piedra caliza sin argamasa. Fue construido bajo el patronato de Agripa (yerno de Augusto) hacia el año 50 d.C. Su pendiente es de apenas 2,5 cm por 100 m. Declarado Patrimonio de la Humanidad por la UNESCO en 1985.",
     "importance": 9,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "Vers-Pont-du-Gard", "lat": 43.947, "lng": 4.534, "wikidataId": "Q214083", "role": "ubicación en el departamento del Gard, Francia" }
+      {
+        "name": "Vers-Pont-du-Gard",
+        "lat": 43.947,
+        "lng": 4.534,
+        "wikidataId": "Q214083",
+        "role": "ubicación en el departamento del Gard, Francia"
+      }
     ],
     "relations": [
-      { "targetId": "roman-empire", "relationType": "part_of", "strength": 5 },
-      { "targetId": "acueducto-segovia", "relationType": "contemporary_of", "strength": 3 },
-      { "targetId": "augustus", "relationType": "followed", "strength": 3, "note": "Construido bajo el patronato de Agripa, yerno de Augusto" }
+      {
+        "targetId": "roman-empire",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "acueducto-segovia",
+        "relationType": "contemporary_of",
+        "strength": 3
+      },
+      {
+        "targetId": "augustus",
+        "relationType": "followed",
+        "strength": 3,
+        "note": "Construido bajo el patronato de Agripa, yerno de Augusto"
+      }
     ],
     "sources": [
       {
@@ -364,30 +710,67 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05"
+    },
     "layer": "detailed",
-    "tags": ["acueducto", "tres niveles", "Provenza", "Nîmes", "UNESCO", "ingeniería romana"]
+    "tags": [
+      "acueducto",
+      "tres niveles",
+      "Provenza",
+      "Nîmes",
+      "UNESCO",
+      "ingeniería romana"
+    ]
   },
   {
     "id": "trajan-column",
     "title": "Columna de Trajano",
     "type": "building",
-    "disciplines": ["architecture", "art", "history"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "architecture",
+      "art",
+      "history"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "113",
     "endDate": "113",
     "datePrecision": "year",
     "summary": "Columna conmemorativa de 38 metros en el Foro de Trajano (Roma), con un friso helicoidal de 200 metros que narra las guerras dacias del emperador Trajano.",
     "description": "La Columna de Trajano fue inaugurada en el año 113 d.C. en el Foro de Trajano, Roma, diseñado por el arquitecto Apolodoro de Damasco. Mide 38 metros de altura (29,77 m el fuste + basa y capitel), está hueca con una escalera interior de 185 peldaños y contiene las cenizas de Trajano en la basa. Su fuste está recorrido por un friso helicoidal de 200 m de longitud con más de 2.500 figuras que narran las dos campañas dacias (101–102 y 105–106 d.C.). Fue restaurada en el Renacimiento y su capitel coronado con estatua de bronce de Trajano fue sustituido en 1587 por una de San Pedro (por orden de Sixto V). Es el más importante documento histórico-artístico de la Roma imperial.",
     "importance": 8,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "Roma", "lat": 41.896, "lng": 12.483, "wikidataId": "Q220", "role": "Foro de Trajano, entre el Quirinal y el Capitolio" }
+      {
+        "name": "Roma",
+        "lat": 41.896,
+        "lng": 12.483,
+        "wikidataId": "Q220",
+        "role": "Foro de Trajano, entre el Quirinal y el Capitolio"
+      }
     ],
     "relations": [
-      { "targetId": "roman-empire", "relationType": "part_of", "strength": 5 },
-      { "targetId": "renaissance", "relationType": "influenced", "strength": 3, "note": "Fue estudiada y copiada por artistas del Renacimiento" },
-      { "targetId": "colosseum", "relationType": "contemporary_of", "strength": 2 }
+      {
+        "targetId": "roman-empire",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "renaissance",
+        "relationType": "influenced",
+        "strength": 3,
+        "note": "Fue estudiada y copiada por artistas del Renacimiento"
+      },
+      {
+        "targetId": "colosseum",
+        "relationType": "contemporary_of",
+        "strength": 2
+      }
     ],
     "sources": [
       {
@@ -407,8 +790,18 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-06-05" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-06-05"
+    },
     "layer": "detailed",
-    "tags": ["columna", "relieve helicoidal", "Trajano", "Dacia", "Foro", "Roma imperial"]
+    "tags": [
+      "columna",
+      "relieve helicoidal",
+      "Trajano",
+      "Dacia",
+      "Foro",
+      "Roma imperial"
+    ]
   }
 ]

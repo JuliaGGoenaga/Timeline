@@ -3,23 +3,61 @@
     "id": "ancient-egypt",
     "title": "Antiguo Egipto",
     "type": "civilization",
-    "disciplines": ["history", "architecture", "religion", "art"],
-    "historicalPeriods": ["ancient-east"],
+    "disciplines": [
+      "history",
+      "architecture",
+      "religion",
+      "art"
+    ],
+    "historicalPeriods": [
+      "ancient-east"
+    ],
     "startDate": "-3100",
     "endDate": "-30",
     "datePrecision": "approximate",
     "summary": "Una de las civilizaciones más longevas de la historia, desarrollada en torno al río Nilo.",
     "description": "El Antiguo Egipto fue una civilización del noreste de África concentrada a lo largo del curso inferior del río Nilo. Su historia abarca desde la unificación del Alto y Bajo Egipto hacia el 3100 a.C. hasta la conquista romana en el 30 a.C. Produjo monumentos arquitectónicos de escala sin precedentes (pirámides, templos), un sistema de escritura propio (jeroglíficos), avances en medicina, astronomía y matemáticas.",
     "importance": 10,
-    "regions": ["North Africa", "Middle East"],
+    "regions": [
+      "North Africa",
+      "Middle East"
+    ],
     "places": [
-      { "name": "Menfis", "lat": 29.85, "lng": 31.25, "wikidataId": "Q43189", "role": "capital" },
-      { "name": "Tebas (Luxor)", "lat": 25.68, "lng": 32.64, "wikidataId": "Q130616", "role": "capital religiosa" },
-      { "name": "Alejandría", "lat": 31.19, "lng": 29.91, "wikidataId": "Q87", "role": "capital helenística" }
+      {
+        "name": "Menfis",
+        "lat": 29.85,
+        "lng": 31.25,
+        "wikidataId": "Q43189",
+        "role": "capital"
+      },
+      {
+        "name": "Tebas (Luxor)",
+        "lat": 25.68,
+        "lng": 32.64,
+        "wikidataId": "Q130616",
+        "role": "capital religiosa"
+      },
+      {
+        "name": "Alejandría",
+        "lat": 31.19,
+        "lng": 29.91,
+        "wikidataId": "Q87",
+        "role": "capital helenística"
+      }
     ],
     "relations": [
-      { "targetId": "classical-greece", "relationType": "preceded", "strength": 3, "note": "Influencia directa en filosofía, geometría y astronomía griegas" },
-      { "targetId": "roman-empire", "relationType": "preceded", "strength": 4, "note": "Egipto absorbido por Roma en 30 a.C." }
+      {
+        "targetId": "classical-greece",
+        "relationType": "preceded",
+        "strength": 3,
+        "note": "Influencia directa en filosofía, geometría y astronomía griegas"
+      },
+      {
+        "targetId": "roman-empire",
+        "relationType": "preceded",
+        "strength": 4,
+        "note": "Egipto absorbido por Roma en 30 a.C."
+      }
     ],
     "sources": [
       {
@@ -49,33 +87,88 @@
         "rights": "Public domain"
       }
     ],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "global",
-    "tags": ["civilización", "Nilo", "pirámides", "faraones"]
+    "tags": [
+      "civilización",
+      "Nilo",
+      "pirámides",
+      "faraones"
+    ]
   },
   {
     "id": "classical-greece",
     "title": "Grecia Clásica",
     "type": "civilization",
-    "disciplines": ["philosophy", "architecture", "art", "politics", "science"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "philosophy",
+      "architecture",
+      "art",
+      "politics",
+      "science"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "-500",
     "endDate": "-323",
     "datePrecision": "approximate",
     "summary": "Período de máximo florecimiento cultural y político de las ciudades-estado griegas.",
     "description": "La Grecia clásica (c. 500–323 a.C.) fue el período de mayor esplendor de la cultura helénica. Surgieron la democracia ateniense, la filosofía socrática, la tragedia, la escultura idealista, la arquitectura de los órdenes clásicos y los fundamentos del pensamiento científico occidental. Atenas y Esparta dominaron políticamente; filósofos como Sócrates, Platón y Aristóteles sentaron las bases del pensamiento europeo posterior.",
     "importance": 10,
-    "regions": ["Europe", "Mediterranean"],
+    "regions": [
+      "Europe",
+      "Mediterranean"
+    ],
     "places": [
-      { "name": "Atenas", "lat": 37.97, "lng": 23.72, "wikidataId": "Q1524", "role": "centro cultural y político" },
-      { "name": "Delfos", "lat": 38.48, "lng": 22.50, "wikidataId": "Q160778", "role": "centro religioso" },
-      { "name": "Olimpia", "lat": 37.64, "lng": 21.62, "wikidataId": "Q131569", "role": "sede de los Juegos Olímpicos" }
+      {
+        "name": "Atenas",
+        "lat": 37.97,
+        "lng": 23.72,
+        "wikidataId": "Q1524",
+        "role": "centro cultural y político"
+      },
+      {
+        "name": "Delfos",
+        "lat": 38.48,
+        "lng": 22.5,
+        "wikidataId": "Q160778",
+        "role": "centro religioso"
+      },
+      {
+        "name": "Olimpia",
+        "lat": 37.64,
+        "lng": 21.62,
+        "wikidataId": "Q131569",
+        "role": "sede de los Juegos Olímpicos"
+      }
     ],
     "relations": [
-      { "targetId": "roman-empire", "relationType": "influenced", "strength": 5, "note": "Roma asimiló profundamente la cultura griega" },
-      { "targetId": "renaissance", "relationType": "influenced", "strength": 5, "note": "El Renacimiento recuperó los modelos greco-clásicos" },
-      { "targetId": "ancient-egypt", "relationType": "influenced_by", "strength": 3 },
-      { "targetId": "parthenon", "relationType": "created", "strength": 5 }
+      {
+        "targetId": "roman-empire",
+        "relationType": "influenced",
+        "strength": 5,
+        "note": "Roma asimiló profundamente la cultura griega"
+      },
+      {
+        "targetId": "renaissance",
+        "relationType": "influenced",
+        "strength": 5,
+        "note": "El Renacimiento recuperó los modelos greco-clásicos"
+      },
+      {
+        "targetId": "ancient-egypt",
+        "relationType": "influenced_by",
+        "strength": 3
+      },
+      {
+        "targetId": "parthenon",
+        "relationType": "created",
+        "strength": 5
+      }
     ],
     "sources": [
       {
@@ -103,31 +196,76 @@
         "rights": "Public domain"
       }
     ],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "global",
-    "tags": ["democracia", "filosofía", "polis", "Atenas"]
+    "tags": [
+      "democracia",
+      "filosofía",
+      "polis",
+      "Atenas"
+    ]
   },
   {
     "id": "roman-empire",
     "title": "Imperio Romano",
     "type": "civilization",
-    "disciplines": ["politics", "architecture", "history", "technology", "society"],
-    "historicalPeriods": ["classical-antiquity", "late-antiquity"],
+    "disciplines": [
+      "politics",
+      "architecture",
+      "history",
+      "technology",
+      "society"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity",
+      "late-antiquity"
+    ],
     "startDate": "-27",
     "endDate": "476",
     "datePrecision": "year",
     "summary": "Mayor estructura política del mundo antiguo occidental, que integró todo el Mediterráneo.",
     "description": "El Imperio Romano, fundado formalmente en 27 a.C. con Augusto como primer emperador, perduró en Occidente hasta 476 d.C. Gobernó un territorio que abarcaba desde Britania hasta Mesopotamia. Construyó una red de calzadas, acueductos y ciudades sin precedentes, codificó el derecho y difundió el latín como lingua franca. Su herencia jurídica, arquitectónica y lingüística es el sustrato de la civilización occidental.",
     "importance": 10,
-    "regions": ["Europe", "North Africa", "Middle East"],
+    "regions": [
+      "Europe",
+      "North Africa",
+      "Middle East"
+    ],
     "places": [
-      { "name": "Roma", "lat": 41.89, "lng": 12.49, "wikidataId": "Q220", "role": "capital" },
-      { "name": "Constantinopla", "lat": 41.01, "lng": 28.97, "wikidataId": "Q16869", "role": "capital oriental" }
+      {
+        "name": "Roma",
+        "lat": 41.89,
+        "lng": 12.49,
+        "wikidataId": "Q220",
+        "role": "capital"
+      },
+      {
+        "name": "Constantinopla",
+        "lat": 41.01,
+        "lng": 28.97,
+        "wikidataId": "Q16869",
+        "role": "capital oriental"
+      }
     ],
     "relations": [
-      { "targetId": "classical-greece", "relationType": "influenced_by", "strength": 5 },
-      { "targetId": "middle-ages", "relationType": "preceded", "strength": 5 },
-      { "targetId": "renaissance", "relationType": "influenced", "strength": 4 }
+      {
+        "targetId": "classical-greece",
+        "relationType": "influenced_by",
+        "strength": 5
+      },
+      {
+        "targetId": "middle-ages",
+        "relationType": "preceded",
+        "strength": 5
+      },
+      {
+        "targetId": "renaissance",
+        "relationType": "influenced",
+        "strength": 4
+      }
     ],
     "sources": [
       {
@@ -147,30 +285,69 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "global",
-    "tags": ["Roma", "Augusto", "derecho romano", "calzadas"]
+    "tags": [
+      "Roma",
+      "Augusto",
+      "derecho romano",
+      "calzadas"
+    ]
   },
   {
     "id": "middle-ages",
     "title": "Edad Media",
     "type": "period",
-    "disciplines": ["history", "architecture", "religion", "philosophy"],
-    "historicalPeriods": ["middle-ages"],
+    "disciplines": [
+      "history",
+      "architecture",
+      "religion",
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "middle-ages"
+    ],
     "startDate": "476",
     "endDate": "1453",
     "datePrecision": "approximate",
     "summary": "Período de la historia europea marcado por el feudalismo, la Iglesia y el arte románico y gótico.",
     "description": "La Edad Media (siglos V–XV) fue un período de profunda transformación en Europa. El colapso del Imperio Romano de Occidente dio paso a reinos germánicos, el ascenso de la Iglesia Católica como poder central, el sistema feudal y el florecimiento de la cultura islámica. El arte románico y gótico dominaron la arquitectura religiosa; las universidades surgieron en los siglos XII–XIII; el comercio mediterráneo fue controlado parcialmente por el Islam. Termina convencionalmente con la caída de Constantinopla (1453).",
     "importance": 9,
-    "regions": ["Europe", "Middle East", "North Africa"],
+    "regions": [
+      "Europe",
+      "Middle East",
+      "North Africa"
+    ],
     "places": [
-      { "name": "Roma", "lat": 41.89, "lng": 12.49, "wikidataId": "Q220", "role": "sede papal" },
-      { "name": "Bagdad", "lat": 33.34, "lng": 44.40, "wikidataId": "Q1530", "role": "capital del califato abasí" }
+      {
+        "name": "Roma",
+        "lat": 41.89,
+        "lng": 12.49,
+        "wikidataId": "Q220",
+        "role": "sede papal"
+      },
+      {
+        "name": "Bagdad",
+        "lat": 33.34,
+        "lng": 44.4,
+        "wikidataId": "Q1530",
+        "role": "capital del califato abasí"
+      }
     ],
     "relations": [
-      { "targetId": "roman-empire", "relationType": "followed", "strength": 5 },
-      { "targetId": "renaissance", "relationType": "preceded", "strength": 5 }
+      {
+        "targetId": "roman-empire",
+        "relationType": "followed",
+        "strength": 5
+      },
+      {
+        "targetId": "renaissance",
+        "relationType": "preceded",
+        "strength": 5
+      }
     ],
     "sources": [
       {
@@ -182,33 +359,85 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "global",
-    "tags": ["feudalismo", "gótico", "Iglesia", "Cruzadas"]
+    "tags": [
+      "feudalismo",
+      "gótico",
+      "Iglesia",
+      "Cruzadas"
+    ]
   },
   {
     "id": "renaissance",
     "title": "Renacimiento",
     "type": "movement",
-    "disciplines": ["art", "architecture", "philosophy", "science", "literature"],
-    "historicalPeriods": ["renaissance"],
+    "disciplines": [
+      "art",
+      "architecture",
+      "philosophy",
+      "science",
+      "literature"
+    ],
+    "historicalPeriods": [
+      "renaissance"
+    ],
     "startDate": "1300",
     "endDate": "1600",
     "datePrecision": "approximate",
     "summary": "Movimiento cultural europeo de renovación artística, intelectual y científica inspirado en la Antigüedad clásica.",
     "description": "El Renacimiento fue un movimiento cultural e intelectual surgido en Italia hacia el siglo XIV que se extendió por Europa hasta el siglo XVII. Recuperó los modelos grecolatinos, desarrolló el humanismo (el ser humano como medida de todas las cosas), la perspectiva en pintura y arquitectura, y sentó las bases de la ciencia moderna. Figuras centrales: Leonardo da Vinci, Miguel Ángel, Rafael, Brunelleschi, Nicolás Copérnico.",
     "importance": 10,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "Florencia", "lat": 43.77, "lng": 11.25, "wikidataId": "Q2044", "role": "epicentro del Renacimiento temprano" },
-      { "name": "Roma", "lat": 41.89, "lng": 12.49, "wikidataId": "Q220", "role": "Renacimiento alto (siglo XVI)" },
-      { "name": "Venecia", "lat": 45.44, "lng": 12.33, "wikidataId": "Q641", "role": "Renacimiento tardío" }
+      {
+        "name": "Florencia",
+        "lat": 43.77,
+        "lng": 11.25,
+        "wikidataId": "Q2044",
+        "role": "epicentro del Renacimiento temprano"
+      },
+      {
+        "name": "Roma",
+        "lat": 41.89,
+        "lng": 12.49,
+        "wikidataId": "Q220",
+        "role": "Renacimiento alto (siglo XVI)"
+      },
+      {
+        "name": "Venecia",
+        "lat": 45.44,
+        "lng": 12.33,
+        "wikidataId": "Q641",
+        "role": "Renacimiento tardío"
+      }
     ],
     "relations": [
-      { "targetId": "classical-greece", "relationType": "influenced_by", "strength": 5 },
-      { "targetId": "roman-empire", "relationType": "influenced_by", "strength": 4 },
-      { "targetId": "middle-ages", "relationType": "followed", "strength": 4 },
-      { "targetId": "scientific-revolution", "relationType": "preceded", "strength": 4 }
+      {
+        "targetId": "classical-greece",
+        "relationType": "influenced_by",
+        "strength": 5
+      },
+      {
+        "targetId": "roman-empire",
+        "relationType": "influenced_by",
+        "strength": 4
+      },
+      {
+        "targetId": "middle-ages",
+        "relationType": "followed",
+        "strength": 4
+      },
+      {
+        "targetId": "scientific-revolution",
+        "relationType": "preceded",
+        "strength": 4
+      }
     ],
     "sources": [
       {
@@ -221,30 +450,66 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "global",
-    "tags": ["humanismo", "Florencia", "perspectiva", "Italia"]
+    "tags": [
+      "humanismo",
+      "Florencia",
+      "perspectiva",
+      "Italia"
+    ]
   },
   {
     "id": "scientific-revolution",
     "title": "Revolución Científica",
     "type": "movement",
-    "disciplines": ["science", "philosophy", "technology"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "science",
+      "philosophy",
+      "technology"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1543",
     "endDate": "1687",
     "datePrecision": "approximate",
     "summary": "Transformación radical del pensamiento europeo sobre el mundo natural entre los siglos XVI y XVII.",
     "description": "La Revolución Científica transformó la comprensión humana del universo, sustituyendo el modelo ptolemaico-aristotélico por la astronomía heliocéntrica de Copérnico (1543), la mecánica de Galileo y la síntesis newtoniana (Principia Mathematica, 1687). Sentó las bases del método científico experimental, la cuantificación de la naturaleza y la separación progresiva de ciencia y teología.",
     "importance": 10,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "Londres", "lat": 51.51, "lng": -0.12, "wikidataId": "Q84", "role": "Royal Society, Newton" },
-      { "name": "Padua", "lat": 45.41, "lng": 11.88, "wikidataId": "Q617", "role": "Universidad, Galileo" }
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "wikidataId": "Q84",
+        "role": "Royal Society, Newton"
+      },
+      {
+        "name": "Padua",
+        "lat": 45.41,
+        "lng": 11.88,
+        "wikidataId": "Q617",
+        "role": "Universidad, Galileo"
+      }
     ],
     "relations": [
-      { "targetId": "renaissance", "relationType": "followed", "strength": 4 },
-      { "targetId": "enlightenment-movement", "relationType": "preceded", "strength": 5 }
+      {
+        "targetId": "renaissance",
+        "relationType": "followed",
+        "strength": 4
+      },
+      {
+        "targetId": "enlightenment-movement",
+        "relationType": "preceded",
+        "strength": 5
+      }
     ],
     "sources": [
       {
@@ -257,32 +522,79 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "global",
-    "tags": ["Copérnico", "Galileo", "Newton", "método científico"]
+    "tags": [
+      "Copérnico",
+      "Galileo",
+      "Newton",
+      "método científico"
+    ]
   },
   {
     "id": "enlightenment-movement",
     "title": "Ilustración",
     "type": "movement",
-    "disciplines": ["philosophy", "politics", "science", "literature"],
-    "historicalPeriods": ["enlightenment"],
+    "disciplines": [
+      "philosophy",
+      "politics",
+      "science",
+      "literature"
+    ],
+    "historicalPeriods": [
+      "enlightenment"
+    ],
     "startDate": "1687",
     "endDate": "1800",
     "datePrecision": "approximate",
     "summary": "Movimiento intelectual europeo que colocó la razón, la ciencia y los derechos individuales en el centro del pensamiento.",
     "description": "La Ilustración fue un movimiento intelectual del siglo XVIII que defendió la razón, la tolerancia, los derechos naturales y el progreso humano frente a la superstición y el absolutismo. Sus figuras centrales (Voltaire, Montesquieu, Rousseau, Kant, Locke) influyeron directamente en la Revolución Francesa (1789), la Independencia Americana (1776) y la construcción del Estado liberal moderno.",
     "importance": 10,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "epicentro de la Enciclopedia" },
-      { "name": "Londres", "lat": 51.51, "lng": -0.12, "wikidataId": "Q84", "role": "empirismo y filosofía política" },
-      { "name": "Königsberg", "lat": 54.71, "lng": 20.51, "wikidataId": "Q1733", "role": "Kant" }
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "wikidataId": "Q90",
+        "role": "epicentro de la Enciclopedia"
+      },
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "wikidataId": "Q84",
+        "role": "empirismo y filosofía política"
+      },
+      {
+        "name": "Königsberg",
+        "lat": 54.71,
+        "lng": 20.51,
+        "wikidataId": "Q1733",
+        "role": "Kant"
+      }
     ],
     "relations": [
-      { "targetId": "scientific-revolution", "relationType": "followed", "strength": 5 },
-      { "targetId": "french-revolution", "relationType": "caused", "strength": 4 },
-      { "targetId": "industrial-revolution", "relationType": "contemporary_of", "strength": 3 }
+      {
+        "targetId": "scientific-revolution",
+        "relationType": "followed",
+        "strength": 5
+      },
+      {
+        "targetId": "french-revolution",
+        "relationType": "caused",
+        "strength": 4
+      },
+      {
+        "targetId": "industrial-revolution",
+        "relationType": "contemporary_of",
+        "strength": 3
+      }
     ],
     "sources": [
       {
@@ -295,34 +607,92 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "global",
-    "tags": ["razón", "Voltaire", "Encyclopédie", "derechos naturales"]
+    "tags": [
+      "razón",
+      "Voltaire",
+      "Encyclopédie",
+      "derechos naturales"
+    ]
   },
   {
     "id": "industrial-revolution",
     "title": "Revolución Industrial",
     "type": "event",
-    "disciplines": ["technology", "economy", "society", "urbanism"],
-    "historicalPeriods": ["revolutionary-age", "19th-century"],
+    "disciplines": [
+      "technology",
+      "economy",
+      "society",
+      "urbanism"
+    ],
+    "historicalPeriods": [
+      "revolutionary-age",
+      "19th-century"
+    ],
     "startDate": "1760",
     "endDate": "1850",
     "datePrecision": "approximate",
     "summary": "Transformación de la producción económica mediante el uso de máquinas de vapor y nuevas formas de organización del trabajo.",
     "description": "La Revolución Industrial, iniciada en Gran Bretaña hacia 1760, transformó radicalmente la economía, la sociedad y el paisaje urbano. La máquina de vapor (James Watt, 1769), la mecanización textil y la expansión del ferrocarril aceleraron la producción industrial, generaron migraciones masivas a las ciudades y crearon una nueva clase obrera. El carbón, el hierro y el acero se convirtieron en los materiales fundadores de la modernidad.",
     "importance": 10,
-    "regions": ["Europe", "North America"],
+    "regions": [
+      "Europe",
+      "North America"
+    ],
     "places": [
-      { "name": "Manchester", "lat": 53.48, "lng": -2.24, "wikidataId": "Q18125", "role": "primera ciudad industrial" },
-      { "name": "Birmingham", "lat": 52.48, "lng": -1.90, "wikidataId": "Q2256", "role": "manufactura metálica" },
-      { "name": "Londres", "lat": 51.51, "lng": -0.12, "wikidataId": "Q84", "role": "centro financiero y portuario" }
+      {
+        "name": "Manchester",
+        "lat": 53.48,
+        "lng": -2.24,
+        "wikidataId": "Q18125",
+        "role": "primera ciudad industrial"
+      },
+      {
+        "name": "Birmingham",
+        "lat": 52.48,
+        "lng": -1.9,
+        "wikidataId": "Q2256",
+        "role": "manufactura metálica"
+      },
+      {
+        "name": "Londres",
+        "lat": 51.51,
+        "lng": -0.12,
+        "wikidataId": "Q84",
+        "role": "centro financiero y portuario"
+      }
     ],
     "relations": [
-      { "targetId": "enlightenment-movement", "relationType": "contemporary_of", "strength": 3 },
-      { "targetId": "romanticism", "relationType": "caused", "strength": 3, "note": "El Romanticismo surge parcialmente como reacción a la industrialización" },
-      { "targetId": "steam-engine", "relationType": "part_of", "strength": 5 },
-      { "targetId": "railway-expansion", "relationType": "caused", "strength": 5 },
-      { "targetId": "haussmann-paris", "relationType": "caused", "strength": 3 }
+      {
+        "targetId": "enlightenment-movement",
+        "relationType": "contemporary_of",
+        "strength": 3
+      },
+      {
+        "targetId": "romanticism",
+        "relationType": "caused",
+        "strength": 3,
+        "note": "El Romanticismo surge parcialmente como reacción a la industrialización"
+      },
+      {
+        "targetId": "steam-engine",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "railway-expansion",
+        "relationType": "caused",
+        "strength": 5
+      },
+      {
+        "targetId": "haussmann-paris",
+        "relationType": "caused",
+        "strength": 3
+      }
     ],
     "sources": [
       {
@@ -335,31 +705,72 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "global",
-    "tags": ["máquina de vapor", "Manchester", "carbón", "proletariado"]
+    "tags": [
+      "máquina de vapor",
+      "Manchester",
+      "carbón",
+      "proletariado"
+    ]
   },
   {
     "id": "french-revolution",
     "title": "Revolución Francesa",
     "type": "event",
-    "disciplines": ["politics", "history", "philosophy", "society"],
-    "historicalPeriods": ["revolutionary-age"],
+    "disciplines": [
+      "politics",
+      "history",
+      "philosophy",
+      "society"
+    ],
+    "historicalPeriods": [
+      "revolutionary-age"
+    ],
     "startDate": "1789",
     "endDate": "1799",
     "datePrecision": "year",
     "summary": "Revolución política que abolió el Antiguo Régimen en Francia y proclamó los principios de libertad, igualdad y fraternidad.",
     "description": "La Revolución Francesa (1789–1799) fue el acontecimiento político más influyente del mundo moderno. Derrocó la monarquía absoluta, instauró la República, promulgó la Declaración de los Derechos del Hombre y del Ciudadano (1789) y ejecutó al rey Luis XVI (1793). Generó el Terror jacobino, el ascenso de Napoleón y la redefinición del mapa europeo. Sus principios de soberanía popular, separación de poderes y derechos civiles inspiraron todas las revoluciones liberales del siglo XIX.",
     "importance": 10,
-    "regions": ["Europe"],
+    "regions": [
+      "Europe"
+    ],
     "places": [
-      { "name": "París", "lat": 48.85, "lng": 2.35, "wikidataId": "Q90", "role": "epicentro de la revolución" },
-      { "name": "Versalles", "lat": 48.80, "lng": 2.12, "wikidataId": "Q621", "role": "sede de la monarquía derrocada" }
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "wikidataId": "Q90",
+        "role": "epicentro de la revolución"
+      },
+      {
+        "name": "Versalles",
+        "lat": 48.8,
+        "lng": 2.12,
+        "wikidataId": "Q621",
+        "role": "sede de la monarquía derrocada"
+      }
     ],
     "relations": [
-      { "targetId": "enlightenment-movement", "relationType": "influenced_by", "strength": 5 },
-      { "targetId": "romanticism", "relationType": "caused", "strength": 3 },
-      { "targetId": "haussmann-paris", "relationType": "preceded", "strength": 3 }
+      {
+        "targetId": "enlightenment-movement",
+        "relationType": "influenced_by",
+        "strength": 5
+      },
+      {
+        "targetId": "romanticism",
+        "relationType": "caused",
+        "strength": 3
+      },
+      {
+        "targetId": "haussmann-paris",
+        "relationType": "preceded",
+        "strength": 3
+      }
     ],
     "sources": [
       {
@@ -379,8 +790,17 @@
       }
     ],
     "media": [],
-    "validation": { "status": "verified", "lastReviewed": "2025-01-01" },
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2025-01-01"
+    },
     "layer": "global",
-    "tags": ["Libertad", "República", "Napoleón", "Terror", "1789"]
+    "tags": [
+      "Libertad",
+      "República",
+      "Napoleón",
+      "Terror",
+      "1789"
+    ]
   }
 ]

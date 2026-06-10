@@ -1,144 +1,5 @@
 [
   {
-    "id": "newton",
-    "title": "Isaac Newton",
-    "type": "person",
-    "startDate": "1643",
-    "endDate": "1727",
-    "disciplines": [
-      "science",
-      "mathematics"
-    ],
-    "regions": [
-      "western-europe",
-      "europe"
-    ],
-    "places": [
-      {
-        "name": "Woolsthorpe, Lincolnshire",
-        "lat": 52.8,
-        "lng": -0.6,
-        "role": "nacimiento"
-      },
-      {
-        "name": "Cambridge",
-        "lat": 52.2,
-        "lng": 0.1,
-        "role": "universidad"
-      }
-    ],
-    "importance": 10,
-    "summary": "Físico y matemático que formuló las leyes del movimiento y la gravitación universal, inventó el cálculo y revolucionó la comprensión del cosmos.",
-    "tags": [
-      "física",
-      "matemáticas",
-      "gravitación",
-      "óptica"
-    ],
-    "relations": [
-      {
-        "targetId": "galileo-galilei",
-        "relationType": "influenced_by",
-        "strength": 4
-      },
-      {
-        "targetId": "astronomical-revolution",
-        "relationType": "part_of",
-        "strength": 5
-      }
-    ],
-    "layer": "global",
-    "validation": {
-      "status": "verified",
-      "confidence": 0.97
-    }
-  },
-  {
-    "id": "darwin",
-    "title": "Charles Darwin",
-    "type": "person",
-    "startDate": "1809",
-    "endDate": "1882",
-    "disciplines": [
-      "science"
-    ],
-    "regions": [
-      "western-europe",
-      "europe"
-    ],
-    "places": [
-      {
-        "name": "Shrewsbury",
-        "lat": 52.7,
-        "lng": -2.8,
-        "role": "nacimiento"
-      },
-      {
-        "name": "Down House, Kent",
-        "lat": 51.3,
-        "lng": 0.0,
-        "role": "residencia y trabajo"
-      }
-    ],
-    "importance": 10,
-    "summary": "Naturalista que formuló la teoría de la evolución por selección natural en 'El origen de las especies' (1859), transformando para siempre la biología y la visión del lugar del ser humano en la naturaleza.",
-    "tags": [
-      "evolución",
-      "biología",
-      "selección natural",
-      "galapagos"
-    ],
-    "relations": [],
-    "layer": "global",
-    "validation": {
-      "status": "verified",
-      "confidence": 0.97
-    }
-  },
-  {
-    "id": "cleopatra-vii",
-    "title": "Cleopatra VII",
-    "type": "person",
-    "startDate": "-69",
-    "endDate": "-30",
-    "disciplines": [
-      "history",
-      "politics"
-    ],
-    "regions": [
-      "north-africa",
-      "mediterranean"
-    ],
-    "places": [
-      {
-        "name": "Alejandría",
-        "lat": 31.2,
-        "lng": 29.9,
-        "role": "capital y residencia"
-      }
-    ],
-    "importance": 9,
-    "summary": "Última faraona del Egipto ptolemaico, políglota y diplomática brillante que mantuvo su reino aliándose con César y Marco Antonio frente a la expansión romana.",
-    "tags": [
-      "egipto",
-      "faraona",
-      "roma",
-      "helenismo"
-    ],
-    "relations": [
-      {
-        "targetId": "roman-empire",
-        "relationType": "rival_of",
-        "strength": 4
-      }
-    ],
-    "layer": "intermediate",
-    "validation": {
-      "status": "verified",
-      "confidence": 0.94
-    }
-  },
-  {
     "id": "joan-of-arc",
     "title": "Juana de Arco",
     "type": "person",
@@ -230,7 +91,7 @@
         "strength": 5
       },
       {
-        "targetId": "printing-press",
+        "targetId": "imprenta-gutenberg",
         "relationType": "used",
         "strength": 4
       }
@@ -286,54 +147,6 @@
         "targetId": "musical-romanticism",
         "relationType": "part_of",
         "strength": 4
-      }
-    ],
-    "layer": "global",
-    "validation": {
-      "status": "verified",
-      "confidence": 0.97
-    }
-  },
-  {
-    "id": "pablo-picasso",
-    "title": "Pablo Picasso",
-    "type": "person",
-    "startDate": "1881",
-    "endDate": "1973",
-    "disciplines": [
-      "visual-arts"
-    ],
-    "regions": [
-      "western-europe",
-      "europe"
-    ],
-    "places": [
-      {
-        "name": "Málaga",
-        "lat": 36.7,
-        "lng": -4.4,
-        "role": "nacimiento"
-      },
-      {
-        "name": "París",
-        "lat": 48.9,
-        "lng": 2.3,
-        "role": "desarrollo artístico"
-      }
-    ],
-    "importance": 10,
-    "summary": "Pintor y escultor español cofundador del cubismo, una de las figuras más influyentes del arte del siglo XX. El Guernica es su obra más política y universalmente reconocida.",
-    "tags": [
-      "cubismo",
-      "vanguardia",
-      "guernica",
-      "pintura"
-    ],
-    "relations": [
-      {
-        "targetId": "cubism",
-        "relationType": "founder_of",
-        "strength": 5
       }
     ],
     "layer": "global",
