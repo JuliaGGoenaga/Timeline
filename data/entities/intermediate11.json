@@ -5,15 +5,40 @@
     "type": "invention",
     "startDate": "-3500",
     "endDate": "-3000",
-    "disciplines": ["technology"],
-    "regions": ["middle-east", "mesopotamia"],
-    "places": [{"name": "Mesopotamia", "lat": 33.5, "lng": 44.4, "role": "origen"}],
+    "disciplines": [
+      "technology"
+    ],
+    "regions": [
+      "middle-east",
+      "mesopotamia"
+    ],
+    "places": [
+      {
+        "name": "Mesopotamia",
+        "lat": 33.5,
+        "lng": 44.4,
+        "role": "origen"
+      }
+    ],
     "importance": 10,
     "summary": "Una de las invenciones más transformadoras de la humanidad, la rueda revolucionó el transporte, la alfarería y la transmisión de fuerza mecánica.",
-    "tags": ["transporte", "mecánica", "mesopotamia"],
-    "relations": [{"targetId": "mesopotamia", "relationType": "created_in", "strength": 5}],
+    "tags": [
+      "transporte",
+      "mecánica",
+      "mesopotamia"
+    ],
+    "relations": [
+      {
+        "targetId": "mesopotamia",
+        "relationType": "created_in",
+        "strength": 5
+      }
+    ],
     "layer": "global",
-    "validation": {"status": "verified", "confidence": 0.95}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
   },
   {
     "id": "paper-invention",
@@ -21,15 +46,40 @@
     "type": "invention",
     "startDate": "105",
     "endDate": "200",
-    "disciplines": ["technology"],
-    "regions": ["east-asia", "asia"],
-    "places": [{"name": "China", "lat": 35.0, "lng": 105.0, "role": "origen"}],
+    "disciplines": [
+      "technology"
+    ],
+    "regions": [
+      "east-asia",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "China",
+        "lat": 35.0,
+        "lng": 105.0,
+        "role": "origen"
+      }
+    ],
     "importance": 9,
     "summary": "Cai Lun perfeccionó la fabricación de papel en China hacia el año 105 d.C., revolucionando el almacenamiento y transmisión del conocimiento.",
-    "tags": ["escritura", "china", "conocimiento"],
-    "relations": [{"targetId": "han-dynasty", "relationType": "part_of", "strength": 4}],
+    "tags": [
+      "escritura",
+      "china",
+      "conocimiento"
+    ],
+    "relations": [
+      {
+        "targetId": "han-dynasty",
+        "relationType": "part_of",
+        "strength": 4
+      }
+    ],
     "layer": "global",
-    "validation": {"status": "verified", "confidence": 0.92}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.92
+    }
   },
   {
     "id": "compass",
@@ -37,15 +87,40 @@
     "type": "invention",
     "startDate": "200",
     "endDate": "1100",
-    "disciplines": ["technology"],
-    "regions": ["east-asia", "asia"],
-    "places": [{"name": "China", "lat": 35.0, "lng": 105.0, "role": "origen"}],
+    "disciplines": [
+      "technology"
+    ],
+    "regions": [
+      "east-asia",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "China",
+        "lat": 35.0,
+        "lng": 105.0,
+        "role": "origen"
+      }
+    ],
     "importance": 9,
     "summary": "Inventada en China durante la dinastía Han, la brújula magnética transformó la navegación y permitió la exploración oceánica global.",
-    "tags": ["navegación", "china", "exploración"],
-    "relations": [{"targetId": "han-dynasty", "relationType": "part_of", "strength": 3}],
+    "tags": [
+      "navegación",
+      "china",
+      "exploración"
+    ],
+    "relations": [
+      {
+        "targetId": "han-dynasty",
+        "relationType": "part_of",
+        "strength": 3
+      }
+    ],
     "layer": "global",
-    "validation": {"status": "verified", "confidence": 0.90}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.9
+    }
   },
   {
     "id": "gunpowder",
@@ -53,15 +128,40 @@
     "type": "invention",
     "startDate": "850",
     "endDate": "1000",
-    "disciplines": ["technology"],
-    "regions": ["east-asia", "asia"],
-    "places": [{"name": "China", "lat": 35.0, "lng": 105.0, "role": "origen"}],
+    "disciplines": [
+      "technology"
+    ],
+    "regions": [
+      "east-asia",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "China",
+        "lat": 35.0,
+        "lng": 105.0,
+        "role": "origen"
+      }
+    ],
     "importance": 9,
     "summary": "Descubierta por alquimistas chinos de la dinastía Tang, la pólvora transformó la guerra y la minería, y llegó a Europa por la Ruta de la Seda.",
-    "tags": ["guerra", "china", "alquimia"],
-    "relations": [{"targetId": "tang-dynasty", "relationType": "part_of", "strength": 4}],
+    "tags": [
+      "guerra",
+      "china",
+      "alquimia"
+    ],
+    "relations": [
+      {
+        "targetId": "tang-dynasty",
+        "relationType": "part_of",
+        "strength": 4
+      }
+    ],
     "layer": "global",
-    "validation": {"status": "verified", "confidence": 0.92}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.92
+    }
   },
   {
     "id": "telescope",
@@ -69,15 +169,51 @@
     "type": "invention",
     "startDate": "1608",
     "endDate": "1609",
-    "disciplines": ["science"],
-    "regions": ["western-europe", "europe"],
-    "places": [{"name": "Países Bajos", "lat": 52.1, "lng": 5.3, "role": "invención"}, {"name": "Padua", "lat": 45.4, "lng": 11.9, "role": "perfeccionamiento"}],
+    "disciplines": [
+      "science"
+    ],
+    "regions": [
+      "western-europe",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Países Bajos",
+        "lat": 52.1,
+        "lng": 5.3,
+        "role": "invención"
+      },
+      {
+        "name": "Padua",
+        "lat": 45.4,
+        "lng": 11.9,
+        "role": "perfeccionamiento"
+      }
+    ],
     "importance": 9,
     "summary": "Hans Lippershey patentó el primer telescopio en 1608; Galileo lo perfeccionó y lo dirigió al cielo, confirmando el modelo heliocéntrico.",
-    "tags": ["astronomía", "óptica", "galileo"],
-    "relations": [{"targetId": "galileo-galilei", "relationType": "used_by", "strength": 5}, {"targetId": "astronomical-revolution", "relationType": "part_of", "strength": 5}],
+    "tags": [
+      "astronomía",
+      "óptica",
+      "galileo"
+    ],
+    "relations": [
+      {
+        "targetId": "galileo-galilei",
+        "relationType": "used_by",
+        "strength": 5
+      },
+      {
+        "targetId": "astronomical-revolution",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
     "layer": "global",
-    "validation": {"status": "verified", "confidence": 0.95}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
   },
   {
     "id": "agriculture-neolithic",
@@ -85,47 +221,47 @@
     "type": "event",
     "startDate": "-10000",
     "endDate": "-4000",
-    "disciplines": ["history"],
-    "regions": ["middle-east", "asia", "africa"],
-    "places": [{"name": "Creciente Fértil", "lat": 36.0, "lng": 39.0, "role": "origen"}, {"name": "Valle del Indo", "lat": 27.0, "lng": 68.0, "role": "desarrollo independiente"}],
+    "disciplines": [
+      "history"
+    ],
+    "regions": [
+      "middle-east",
+      "asia",
+      "africa"
+    ],
+    "places": [
+      {
+        "name": "Creciente Fértil",
+        "lat": 36.0,
+        "lng": 39.0,
+        "role": "origen"
+      },
+      {
+        "name": "Valle del Indo",
+        "lat": 27.0,
+        "lng": 68.0,
+        "role": "desarrollo independiente"
+      }
+    ],
     "importance": 10,
     "summary": "La transición del nomadismo cazador-recolector a la agricultura y ganadería sedentaria, uno de los cambios más profundos en la historia humana.",
-    "tags": ["neolítico", "agricultura", "sedentarismo"],
-    "relations": [{"targetId": "mesopotamia", "relationType": "led_to", "strength": 4}],
+    "tags": [
+      "neolítico",
+      "agricultura",
+      "sedentarismo"
+    ],
+    "relations": [
+      {
+        "targetId": "mesopotamia",
+        "relationType": "led_to",
+        "strength": 4
+      }
+    ],
     "layer": "global",
-    "validation": {"status": "verified", "confidence": 0.95}
-  },
-  {
-    "id": "silk-road",
-    "title": "Ruta de la Seda",
-    "type": "period",
-    "startDate": "-130",
-    "endDate": "1453",
-    "disciplines": ["history", "economics"],
-    "regions": ["asia", "middle-east", "europe"],
-    "places": [{"name": "Chang'an (Xi'an)", "lat": 34.3, "lng": 108.9, "role": "inicio oriental"}, {"name": "Roma", "lat": 41.9, "lng": 12.5, "role": "destino occidental"}],
-    "importance": 9,
-    "summary": "Red de rutas comerciales que conectó Asia, Oriente Medio y Europa durante más de mil años, intercambiando seda, especias, ideas y enfermedades.",
-    "tags": ["comercio", "asia", "intercambio cultural"],
-    "relations": [{"targetId": "han-dynasty", "relationType": "started_by", "strength": 4}, {"targetId": "mongol-empire", "relationType": "facilitated_by", "strength": 3}],
-    "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.93}
-  },
-  {
-    "id": "mali-empire",
-    "title": "Imperio de Malí",
-    "type": "civilization",
-    "startDate": "1235",
-    "endDate": "1600",
-    "disciplines": ["history"],
-    "regions": ["west-africa", "africa"],
-    "places": [{"name": "Niani", "lat": 11.8, "lng": -8.7, "role": "capital"}, {"name": "Tombuctú", "lat": 16.8, "lng": -3.0, "role": "centro intelectual"}],
-    "importance": 8,
-    "summary": "Poderoso imperio de África occidental que controló el comercio de oro y sal. Tombuctú fue un floreciente centro de cultura islámica y aprendizaje.",
-    "tags": ["africa", "islam", "oro", "comercio"],
-    "relations": [{"targetId": "mansa-musa", "relationType": "led_by", "strength": 5}, {"targetId": "sundiata-keita", "relationType": "founded_by", "strength": 5}],
-    "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.90}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
   },
   {
     "id": "khmer-empire",
@@ -133,63 +269,41 @@
     "type": "civilization",
     "startDate": "802",
     "endDate": "1431",
-    "disciplines": ["history"],
-    "regions": ["southeast-asia", "asia"],
-    "places": [{"name": "Angkor", "lat": 13.4, "lng": 103.9, "role": "capital"}],
+    "disciplines": [
+      "history"
+    ],
+    "regions": [
+      "southeast-asia",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Angkor",
+        "lat": 13.4,
+        "lng": 103.9,
+        "role": "capital"
+      }
+    ],
     "importance": 8,
     "summary": "Gran civilización del Sudeste Asiático centrada en Angkor, que construyó los mayores complejos religiosos del mundo, fusionando hinduismo y budismo.",
-    "tags": ["sudeste asiático", "hinduismo", "budismo", "arquitectura"],
-    "relations": [{"targetId": "angkor-wat", "relationType": "built", "strength": 5}],
+    "tags": [
+      "sudeste asiático",
+      "hinduismo",
+      "budismo",
+      "arquitectura"
+    ],
+    "relations": [
+      {
+        "targetId": "angkor-wat",
+        "relationType": "built",
+        "strength": 5
+      }
+    ],
     "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.91}
-  },
-  {
-    "id": "inca-empire",
-    "title": "Imperio Inca",
-    "type": "civilization",
-    "startDate": "1438",
-    "endDate": "1533",
-    "disciplines": ["history"],
-    "regions": ["south-america", "americas"],
-    "places": [{"name": "Cusco", "lat": -13.5, "lng": -72.0, "role": "capital"}, {"name": "Machu Picchu", "lat": -13.2, "lng": -72.5, "role": "ciudad sagrada"}],
-    "importance": 9,
-    "summary": "El mayor imperio precolombino, que se extendió por los Andes desde Colombia hasta Chile, con avanzada ingeniería, red de caminos y sistema de quipus.",
-    "tags": ["andes", "precolombino", "quechua", "ingeniería"],
-    "relations": [{"targetId": "machu-picchu", "relationType": "built", "strength": 5}, {"targetId": "conquest-america", "relationType": "destroyed_by", "strength": 5}],
-    "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.93}
-  },
-  {
-    "id": "ottoman-empire",
-    "title": "Imperio Otomano",
-    "type": "civilization",
-    "startDate": "1299",
-    "endDate": "1922",
-    "disciplines": ["history"],
-    "regions": ["middle-east", "europe", "africa"],
-    "places": [{"name": "Constantinopla / Estambul", "lat": 41.0, "lng": 28.9, "role": "capital"}, {"name": "Ankara", "lat": 39.9, "lng": 32.9, "role": "capital final"}],
-    "importance": 9,
-    "summary": "Uno de los imperios más duraderos de la historia, que controló el Mediterráneo oriental, Anatolia, Oriente Medio y el norte de África durante más de seis siglos.",
-    "tags": ["islam", "mediterráneo", "sultán", "turco"],
-    "relations": [{"targetId": "hagia-sophia", "relationType": "transformed", "strength": 4}, {"targetId": "wwi", "relationType": "participant_in", "strength": 4}],
-    "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.94}
-  },
-  {
-    "id": "byzantine-empire",
-    "title": "Imperio Bizantino",
-    "type": "civilization",
-    "startDate": "330",
-    "endDate": "1453",
-    "disciplines": ["history"],
-    "regions": ["europe", "middle-east", "mediterranean"],
-    "places": [{"name": "Constantinopla", "lat": 41.0, "lng": 28.9, "role": "capital"}],
-    "importance": 9,
-    "summary": "Continuación del Imperio Romano de Oriente que preservó la cultura greco-romana y el cristianismo ortodoxo durante más de mil años.",
-    "tags": ["roma", "ortodoxia", "grecia", "constantinopla"],
-    "relations": [{"targetId": "hagia-sophia", "relationType": "built", "strength": 5}, {"targetId": "roman-empire", "relationType": "continuation_of", "strength": 5}],
-    "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.94}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.91
+    }
   },
   {
     "id": "meiji-restoration",
@@ -197,15 +311,42 @@
     "type": "event",
     "startDate": "1868",
     "endDate": "1912",
-    "disciplines": ["history", "politics"],
-    "regions": ["east-asia", "asia"],
-    "places": [{"name": "Tokio", "lat": 35.7, "lng": 139.7, "role": "capital imperial"}],
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "east-asia",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Tokio",
+        "lat": 35.7,
+        "lng": 139.7,
+        "role": "capital imperial"
+      }
+    ],
     "importance": 8,
     "summary": "Transformación radical de Japón de un estado feudal a una potencia industrial moderna en pocas décadas, adoptando tecnología occidental mientras preservaba la cultura japonesa.",
-    "tags": ["japón", "modernización", "industrialización", "asia"],
-    "relations": [{"targetId": "industrial-revolution", "relationType": "inspired_by", "strength": 4}],
+    "tags": [
+      "japón",
+      "modernización",
+      "industrialización",
+      "asia"
+    ],
+    "relations": [
+      {
+        "targetId": "industrial-revolution",
+        "relationType": "inspired_by",
+        "strength": 4
+      }
+    ],
     "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.93}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.93
+    }
   },
   {
     "id": "haitian-revolution",
@@ -213,15 +354,42 @@
     "type": "event",
     "startDate": "1791",
     "endDate": "1804",
-    "disciplines": ["history", "politics"],
-    "regions": ["caribbean", "americas"],
-    "places": [{"name": "Saint-Domingue / Haití", "lat": 19.0, "lng": -72.3, "role": "escenario"}],
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "caribbean",
+      "americas"
+    ],
+    "places": [
+      {
+        "name": "Saint-Domingue / Haití",
+        "lat": 19.0,
+        "lng": -72.3,
+        "role": "escenario"
+      }
+    ],
     "importance": 8,
     "summary": "Única rebelión de esclavos exitosa de la historia moderna, que llevó a la fundación de Haití como primera república negra independiente del mundo en 1804.",
-    "tags": ["esclavitud", "independencia", "caribe", "revolución"],
-    "relations": [{"targetId": "french-revolution", "relationType": "inspired_by", "strength": 4}],
+    "tags": [
+      "esclavitud",
+      "independencia",
+      "caribe",
+      "revolución"
+    ],
+    "relations": [
+      {
+        "targetId": "french-revolution",
+        "relationType": "inspired_by",
+        "strength": 4
+      }
+    ],
     "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.94}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.94
+    }
   },
   {
     "id": "cold-war",
@@ -229,15 +397,57 @@
     "type": "period",
     "startDate": "1947",
     "endDate": "1991",
-    "disciplines": ["history", "politics"],
-    "regions": ["global"],
-    "places": [{"name": "Washington D.C.", "lat": 38.9, "lng": -77.0, "role": "polo occidental"}, {"name": "Moscú", "lat": 55.75, "lng": 37.6, "role": "polo soviético"}],
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Washington D.C.",
+        "lat": 38.9,
+        "lng": -77.0,
+        "role": "polo occidental"
+      },
+      {
+        "name": "Moscú",
+        "lat": 55.75,
+        "lng": 37.6,
+        "role": "polo soviético"
+      }
+    ],
     "importance": 9,
     "summary": "Tensión geopolítica entre EEUU y la URSS que dividió el mundo en dos bloques ideológicos y marcó la política, cultura y tecnología de la segunda mitad del siglo XX.",
-    "tags": ["geopolítica", "nuclear", "ideología", "siglo XX"],
-    "relations": [{"targetId": "ussr", "relationType": "protagonist", "strength": 5}, {"targetId": "fall-berlin-wall", "relationType": "ended_by", "strength": 5}, {"targetId": "wwii", "relationType": "consequence_of", "strength": 4}],
+    "tags": [
+      "geopolítica",
+      "nuclear",
+      "ideología",
+      "siglo XX"
+    ],
+    "relations": [
+      {
+        "targetId": "ussr",
+        "relationType": "protagonist",
+        "strength": 5
+      },
+      {
+        "targetId": "fall-berlin-wall",
+        "relationType": "ended_by",
+        "strength": 5
+      },
+      {
+        "targetId": "wwii",
+        "relationType": "consequence_of",
+        "strength": 4
+      }
+    ],
     "layer": "global",
-    "validation": {"status": "verified", "confidence": 0.95}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
   },
   {
     "id": "space-race",
@@ -245,15 +455,48 @@
     "type": "event",
     "startDate": "1957",
     "endDate": "1972",
-    "disciplines": ["science", "technology"],
-    "regions": ["global", "north-america"],
-    "places": [{"name": "Baikonur, Kazajistán", "lat": 45.9, "lng": 63.3, "role": "lanzamiento Sputnik"}, {"name": "Cabo Cañaveral, Florida", "lat": 28.4, "lng": -80.6, "role": "lanzamiento Apollo"}],
+    "disciplines": [
+      "science",
+      "technology"
+    ],
+    "regions": [
+      "global",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Baikonur, Kazajistán",
+        "lat": 45.9,
+        "lng": 63.3,
+        "role": "lanzamiento Sputnik"
+      },
+      {
+        "name": "Cabo Cañaveral, Florida",
+        "lat": 28.4,
+        "lng": -80.6,
+        "role": "lanzamiento Apollo"
+      }
+    ],
     "importance": 8,
     "summary": "Competición entre EEUU y la URSS para la exploración espacial, que culminó con el alunizaje del Apollo 11 en 1969 y marcó un hito en la historia humana.",
-    "tags": ["espacio", "tecnología", "luna", "sputnik"],
-    "relations": [{"targetId": "cold-war", "relationType": "part_of", "strength": 5}],
+    "tags": [
+      "espacio",
+      "tecnología",
+      "luna",
+      "sputnik"
+    ],
+    "relations": [
+      {
+        "targetId": "cold-war",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
     "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.95}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
   },
   {
     "id": "european-union",
@@ -261,15 +504,41 @@
     "type": "institution",
     "startDate": "1993",
     "endDate": null,
-    "disciplines": ["politics", "economics"],
-    "regions": ["europe"],
-    "places": [{"name": "Bruselas", "lat": 50.8, "lng": 4.4, "role": "sede principal"}, {"name": "Estrasburgo", "lat": 48.6, "lng": 7.7, "role": "parlamento"}],
+    "disciplines": [
+      "politics",
+      "economics"
+    ],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Bruselas",
+        "lat": 50.8,
+        "lng": 4.4,
+        "role": "sede principal"
+      },
+      {
+        "name": "Estrasburgo",
+        "lat": 48.6,
+        "lng": 7.7,
+        "role": "parlamento"
+      }
+    ],
     "importance": 8,
     "summary": "Unión política y económica de estados europeos surgida del Tratado de Maastricht, que representa el proyecto de integración supranacional más ambicioso de la historia.",
-    "tags": ["europa", "integración", "democracia", "paz"],
+    "tags": [
+      "europa",
+      "integración",
+      "democracia",
+      "paz"
+    ],
     "relations": [],
     "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.94}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.94
+    }
   },
   {
     "id": "marie-antoinette",
@@ -277,15 +546,59 @@
     "type": "person",
     "startDate": "1755",
     "endDate": "1793",
-    "disciplines": ["history", "fashion"],
-    "regions": ["western-europe", "europe"],
-    "places": [{"name": "Viena", "lat": 48.2, "lng": 16.4, "role": "nacimiento"}, {"name": "Versalles", "lat": 48.8, "lng": 2.1, "role": "residencia"}, {"name": "París", "lat": 48.9, "lng": 2.3, "role": "ejecución"}],
+    "disciplines": [
+      "history",
+      "fashion"
+    ],
+    "regions": [
+      "western-europe",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Viena",
+        "lat": 48.2,
+        "lng": 16.4,
+        "role": "nacimiento"
+      },
+      {
+        "name": "Versalles",
+        "lat": 48.8,
+        "lng": 2.1,
+        "role": "residencia"
+      },
+      {
+        "name": "París",
+        "lat": 48.9,
+        "lng": 2.3,
+        "role": "ejecución"
+      }
+    ],
     "importance": 7,
     "summary": "Última reina de Francia antes de la Revolución, símbolo del lujo absolutista. Su guillotina en 1793 marcó el fin del Antiguo Régimen.",
-    "tags": ["monarquía", "revolución francesa", "moda", "versalles"],
-    "relations": [{"targetId": "french-revolution", "relationType": "victim_of", "strength": 5}, {"targetId": "versailles", "relationType": "lived_in", "strength": 4}],
+    "tags": [
+      "monarquía",
+      "revolución francesa",
+      "moda",
+      "versalles"
+    ],
+    "relations": [
+      {
+        "targetId": "french-revolution",
+        "relationType": "victim_of",
+        "strength": 5
+      },
+      {
+        "targetId": "versailles",
+        "relationType": "lived_in",
+        "strength": 4
+      }
+    ],
     "layer": "detailed",
-    "validation": {"status": "verified", "confidence": 0.95}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
   },
   {
     "id": "simón-bolívar",
@@ -293,15 +606,42 @@
     "type": "person",
     "startDate": "1783",
     "endDate": "1830",
-    "disciplines": ["history", "politics"],
-    "regions": ["south-america", "americas"],
-    "places": [{"name": "Caracas", "lat": 10.5, "lng": -66.9, "role": "nacimiento"}, {"name": "Bogotá", "lat": 4.7, "lng": -74.1, "role": "capital de la Gran Colombia"}],
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "south-america",
+      "americas"
+    ],
+    "places": [
+      {
+        "name": "Caracas",
+        "lat": 10.5,
+        "lng": -66.9,
+        "role": "nacimiento"
+      },
+      {
+        "name": "Bogotá",
+        "lat": 4.7,
+        "lng": -74.1,
+        "role": "capital de la Gran Colombia"
+      }
+    ],
     "importance": 9,
     "summary": "El Libertador, líder de la independencia de Venezuela, Colombia, Ecuador, Perú y Bolivia del dominio español. Soñó con una gran confederación latinoamericana.",
-    "tags": ["independencia", "latinoamérica", "libertad", "militar"],
+    "tags": [
+      "independencia",
+      "latinoamérica",
+      "libertad",
+      "militar"
+    ],
     "relations": [],
     "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.95}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
   },
   {
     "id": "ada-lovelace",
@@ -309,31 +649,42 @@
     "type": "person",
     "startDate": "1815",
     "endDate": "1852",
-    "disciplines": ["science", "technology"],
-    "regions": ["western-europe", "europe"],
-    "places": [{"name": "Londres", "lat": 51.5, "lng": -0.1, "role": "vida y trabajo"}],
+    "disciplines": [
+      "science",
+      "technology"
+    ],
+    "regions": [
+      "western-europe",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.1,
+        "role": "vida y trabajo"
+      }
+    ],
     "importance": 8,
     "summary": "Matemática británica considerada la primera programadora de la historia por su trabajo sobre la Máquina Analítica de Charles Babbage, anticipando la computación moderna.",
-    "tags": ["informática", "matemáticas", "pionera", "mujer en ciencia"],
-    "relations": [{"targetId": "alan-turing", "relationType": "precursor_of", "strength": 4}],
+    "tags": [
+      "informática",
+      "matemáticas",
+      "pionera",
+      "mujer en ciencia"
+    ],
+    "relations": [
+      {
+        "targetId": "alan-turing",
+        "relationType": "precursor_of",
+        "strength": 4
+      }
+    ],
     "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.93}
-  },
-  {
-    "id": "nikola-tesla",
-    "title": "Nikola Tesla",
-    "type": "person",
-    "startDate": "1856",
-    "endDate": "1943",
-    "disciplines": ["science", "technology"],
-    "regions": ["north-america", "europe"],
-    "places": [{"name": "Smiljan (actual Croacia)", "lat": 44.6, "lng": 15.3, "role": "nacimiento"}, {"name": "Nueva York", "lat": 40.7, "lng": -74.0, "role": "laboratorio"}],
-    "importance": 9,
-    "summary": "Inventor y físico cuyas contribuciones al sistema de corriente alterna, el motor eléctrico y la transmisión inalámbrica de energía definieron la era eléctrica moderna.",
-    "tags": ["electricidad", "inventos", "corriente alterna", "física"],
-    "relations": [],
-    "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.95}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.93
+    }
   },
   {
     "id": "chekhov",
@@ -341,15 +692,42 @@
     "type": "person",
     "startDate": "1860",
     "endDate": "1904",
-    "disciplines": ["literature", "theatre"],
-    "regions": ["europe", "eastern-europe"],
-    "places": [{"name": "Taganrog", "lat": 47.2, "lng": 38.9, "role": "nacimiento"}, {"name": "Moscú", "lat": 55.75, "lng": 37.6, "role": "vida adulta"}],
+    "disciplines": [
+      "literature",
+      "theatre"
+    ],
+    "regions": [
+      "europe",
+      "eastern-europe"
+    ],
+    "places": [
+      {
+        "name": "Taganrog",
+        "lat": 47.2,
+        "lng": 38.9,
+        "role": "nacimiento"
+      },
+      {
+        "name": "Moscú",
+        "lat": 55.75,
+        "lng": 37.6,
+        "role": "vida adulta"
+      }
+    ],
     "importance": 8,
     "summary": "Dramaturgo y cuentista ruso maestro del realismo psicológico. Sus obras La gaviota, El tío Vania y Las tres hermanas renovaron el teatro mundial.",
-    "tags": ["teatro", "realismo", "ruso", "cuento"],
+    "tags": [
+      "teatro",
+      "realismo",
+      "ruso",
+      "cuento"
+    ],
     "relations": [],
     "layer": "detailed",
-    "validation": {"status": "verified", "confidence": 0.94}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.94
+    }
   },
   {
     "id": "rosa-parks",
@@ -357,15 +735,46 @@
     "type": "person",
     "startDate": "1913",
     "endDate": "2005",
-    "disciplines": ["history", "politics"],
-    "regions": ["north-america"],
-    "places": [{"name": "Montgomery, Alabama", "lat": 32.4, "lng": -86.3, "role": "acto de resistencia"}],
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Montgomery, Alabama",
+        "lat": 32.4,
+        "lng": -86.3,
+        "role": "acto de resistencia"
+      }
+    ],
     "importance": 8,
     "summary": "Activista afroamericana cuya negativa a ceder su asiento en un autobús segregado en 1955 desencadenó el Boicot de Autobuses de Montgomery y catalizó el movimiento por los derechos civiles.",
-    "tags": ["derechos civiles", "segregación", "resistencia", "eeuu"],
-    "relations": [{"targetId": "civil-rights-movement", "relationType": "catalyst_of", "strength": 5}, {"targetId": "mlk", "relationType": "collaborated_with", "strength": 4}],
+    "tags": [
+      "derechos civiles",
+      "segregación",
+      "resistencia",
+      "eeuu"
+    ],
+    "relations": [
+      {
+        "targetId": "civil-rights-movement",
+        "relationType": "catalyst_of",
+        "strength": 5
+      },
+      {
+        "targetId": "mlk",
+        "relationType": "collaborated_with",
+        "strength": 4
+      }
+    ],
     "layer": "detailed",
-    "validation": {"status": "verified", "confidence": 0.95}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
   },
   {
     "id": "confucianism",
@@ -373,15 +782,42 @@
     "type": "movement",
     "startDate": "-500",
     "endDate": null,
-    "disciplines": ["philosophy", "religion"],
-    "regions": ["east-asia", "asia"],
-    "places": [{"name": "Lu (actual Qufu, China)", "lat": 35.6, "lng": 116.9, "role": "origen"}],
+    "disciplines": [
+      "philosophy",
+      "religion"
+    ],
+    "regions": [
+      "east-asia",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Lu (actual Qufu, China)",
+        "lat": 35.6,
+        "lng": 116.9,
+        "role": "origen"
+      }
+    ],
     "importance": 9,
     "summary": "Sistema ético y filosófico fundado por Confucio que enfatiza la piedad filial, la armonía social y el cultivo moral. Ha moldeado la civilización china y del este asiático por más de 2500 años.",
-    "tags": ["filosofía", "ética", "china", "sociedad"],
-    "relations": [{"targetId": "confucius", "relationType": "founded_by", "strength": 5}],
+    "tags": [
+      "filosofía",
+      "ética",
+      "china",
+      "sociedad"
+    ],
+    "relations": [
+      {
+        "targetId": "confucius",
+        "relationType": "founded_by",
+        "strength": 5
+      }
+    ],
     "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.95}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
   },
   {
     "id": "islam",
@@ -389,31 +825,55 @@
     "type": "event",
     "startDate": "610",
     "endDate": "750",
-    "disciplines": ["religion", "history"],
-    "regions": ["middle-east", "africa", "asia"],
-    "places": [{"name": "La Meca", "lat": 21.4, "lng": 39.8, "role": "revelación"}, {"name": "Medina", "lat": 24.5, "lng": 39.6, "role": "hégira"}, {"name": "Bagdad", "lat": 33.3, "lng": 44.4, "role": "califato abasí"}],
+    "disciplines": [
+      "religion",
+      "history"
+    ],
+    "regions": [
+      "middle-east",
+      "africa",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "La Meca",
+        "lat": 21.4,
+        "lng": 39.8,
+        "role": "revelación"
+      },
+      {
+        "name": "Medina",
+        "lat": 24.5,
+        "lng": 39.6,
+        "role": "hégira"
+      },
+      {
+        "name": "Bagdad",
+        "lat": 33.3,
+        "lng": 44.4,
+        "role": "califato abasí"
+      }
+    ],
     "importance": 10,
     "summary": "Nacimiento y expansión del Islam desde la predicación de Mahoma en La Meca hasta la formación del Califato que abarcó desde España hasta Asia Central.",
-    "tags": ["religión", "árabe", "califato", "mahoma"],
-    "relations": [{"targetId": "averroes", "relationType": "influenced", "strength": 3}],
+    "tags": [
+      "religión",
+      "árabe",
+      "califato",
+      "mahoma"
+    ],
+    "relations": [
+      {
+        "targetId": "averroes",
+        "relationType": "influenced",
+        "strength": 3
+      }
+    ],
     "layer": "global",
-    "validation": {"status": "verified", "confidence": 0.95}
-  },
-  {
-    "id": "age-of-exploration",
-    "title": "Era de las Exploraciones",
-    "type": "period",
-    "startDate": "1415",
-    "endDate": "1600",
-    "disciplines": ["history"],
-    "regions": ["europe", "global"],
-    "places": [{"name": "Lisboa", "lat": 38.7, "lng": -9.1, "role": "centro portugués"}, {"name": "Sevilla", "lat": 37.4, "lng": -5.9, "role": "centro español"}],
-    "importance": 9,
-    "summary": "Período en que navegantes europeos, principalmente portugueses y españoles, exploraron y cartografiaron el mundo, estableciendo rutas marítimas y colonias en África, Asia y América.",
-    "tags": ["exploración", "navegación", "colonialismo", "globalización"],
-    "relations": [{"targetId": "conquest-america", "relationType": "led_to", "strength": 5}, {"targetId": "compass", "relationType": "enabled_by", "strength": 4}],
-    "layer": "global",
-    "validation": {"status": "verified", "confidence": 0.95}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
   },
   {
     "id": "harlem-renaissance",
@@ -421,15 +881,42 @@
     "type": "movement",
     "startDate": "1920",
     "endDate": "1940",
-    "disciplines": ["literature", "music", "visual-arts"],
-    "regions": ["north-america"],
-    "places": [{"name": "Harlem, Nueva York", "lat": 40.8, "lng": -73.9, "role": "epicentro"}],
+    "disciplines": [
+      "literature",
+      "music",
+      "visual-arts"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Harlem, Nueva York",
+        "lat": 40.8,
+        "lng": -73.9,
+        "role": "epicentro"
+      }
+    ],
     "importance": 8,
     "summary": "Florecimiento cultural afroamericano en Harlem durante los años 20-30 que produjo literatura, música jazz y arte visual que redefinió la identidad negra y la cultura estadounidense.",
-    "tags": ["afroamericano", "jazz", "literatura", "identidad"],
-    "relations": [{"targetId": "jazz-new-orleans", "relationType": "related_to", "strength": 4}],
+    "tags": [
+      "afroamericano",
+      "jazz",
+      "literatura",
+      "identidad"
+    ],
+    "relations": [
+      {
+        "targetId": "jazz-new-orleans",
+        "relationType": "related_to",
+        "strength": 4
+      }
+    ],
     "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.93}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.93
+    }
   },
   {
     "id": "printing-press",
@@ -437,15 +924,46 @@
     "type": "invention",
     "startDate": "1440",
     "endDate": "1450",
-    "disciplines": ["technology"],
-    "regions": ["western-europe", "europe"],
-    "places": [{"name": "Maguncia (Mainz)", "lat": 50.0, "lng": 8.3, "role": "invención"}],
+    "disciplines": [
+      "technology"
+    ],
+    "regions": [
+      "western-europe",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Maguncia (Mainz)",
+        "lat": 50.0,
+        "lng": 8.3,
+        "role": "invención"
+      }
+    ],
     "importance": 10,
     "summary": "La prensa de tipos móviles de Johannes Gutenberg democratizó la producción de libros, multiplicó la difusión del conocimiento y fue catalizadora de la Reforma y el Renacimiento.",
-    "tags": ["imprenta", "conocimiento", "libros", "gutenberg"],
-    "relations": [{"targetId": "protestant-reformation", "relationType": "enabled", "strength": 5}, {"targetId": "renaissance", "relationType": "accelerated", "strength": 4}],
+    "tags": [
+      "imprenta",
+      "conocimiento",
+      "libros",
+      "gutenberg"
+    ],
+    "relations": [
+      {
+        "targetId": "protestant-reformation",
+        "relationType": "enabled",
+        "strength": 5
+      },
+      {
+        "targetId": "renaissance",
+        "relationType": "accelerated",
+        "strength": 4
+      }
+    ],
     "layer": "global",
-    "validation": {"status": "verified", "confidence": 0.96}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.96
+    }
   },
   {
     "id": "zulu-kingdom",
@@ -453,15 +971,35 @@
     "type": "civilization",
     "startDate": "1816",
     "endDate": "1897",
-    "disciplines": ["history"],
-    "regions": ["africa", "sub-saharan-africa"],
-    "places": [{"name": "KwaZulu-Natal, Sudáfrica", "lat": -28.5, "lng": 30.5, "role": "territorio"}],
+    "disciplines": [
+      "history"
+    ],
+    "regions": [
+      "africa",
+      "sub-saharan-africa"
+    ],
+    "places": [
+      {
+        "name": "KwaZulu-Natal, Sudáfrica",
+        "lat": -28.5,
+        "lng": 30.5,
+        "role": "territorio"
+      }
+    ],
     "importance": 7,
     "summary": "Poderoso reino africano fundado por Shaka Zulu que resistió la expansión colonial británica y venció al ejército imperial en la batalla de Isandlwana (1879).",
-    "tags": ["áfrica", "resistencia colonial", "zulú", "shaka"],
+    "tags": [
+      "áfrica",
+      "resistencia colonial",
+      "zulú",
+      "shaka"
+    ],
     "relations": [],
     "layer": "intermediate",
-    "validation": {"status": "verified", "confidence": 0.90}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.9
+    }
   },
   {
     "id": "polynesian-navigation",
@@ -469,14 +1007,53 @@
     "type": "event",
     "startDate": "-1500",
     "endDate": "1300",
-    "disciplines": ["history", "technology"],
-    "regions": ["oceania", "pacific"],
-    "places": [{"name": "Taiwán / Filipinas", "lat": 23.7, "lng": 121.0, "role": "origen"}, {"name": "Hawaii", "lat": 20.0, "lng": -157.0, "role": "destino norte"}, {"name": "Nueva Zelanda", "lat": -41.0, "lng": 174.0, "role": "destino sur"}, {"name": "Isla de Pascua", "lat": -27.1, "lng": -109.4, "role": "destino este"}],
+    "disciplines": [
+      "history",
+      "technology"
+    ],
+    "regions": [
+      "oceania",
+      "pacific"
+    ],
+    "places": [
+      {
+        "name": "Taiwán / Filipinas",
+        "lat": 23.7,
+        "lng": 121.0,
+        "role": "origen"
+      },
+      {
+        "name": "Hawaii",
+        "lat": 20.0,
+        "lng": -157.0,
+        "role": "destino norte"
+      },
+      {
+        "name": "Nueva Zelanda",
+        "lat": -41.0,
+        "lng": 174.0,
+        "role": "destino sur"
+      },
+      {
+        "name": "Isla de Pascua",
+        "lat": -27.1,
+        "lng": -109.4,
+        "role": "destino este"
+      }
+    ],
     "importance": 8,
     "summary": "La mayor hazaña de navegación premoderna: los polinesios colonizaron el Pacífico usando las estrellas, corrientes y vientos, llegando hasta Hawaii, Nueva Zelanda e Isla de Pascua.",
-    "tags": ["oceanía", "navegación", "pacífico", "exploración"],
+    "tags": [
+      "oceanía",
+      "navegación",
+      "pacífico",
+      "exploración"
+    ],
     "relations": [],
     "layer": "global",
-    "validation": {"status": "verified", "confidence": 0.88}
+    "validation": {
+      "status": "verified",
+      "confidence": 0.88
+    }
   }
 ]

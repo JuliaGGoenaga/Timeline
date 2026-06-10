@@ -3,627 +3,1943 @@
     "id": "han-dynasty",
     "title": "Dinastía Han",
     "type": "civilization",
-    "disciplines": ["politics", "science", "art"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "politics",
+      "science",
+      "art"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "-206",
     "endDate": "220",
     "datePrecision": "year",
     "summary": "Una de las dinastías más influyentes de China, que consolidó el confucianismo y la Ruta de la Seda.",
     "description": "La dinastía Han unificó China tras el caos del período Qin, estableció el confucianismo como ideología estatal, desarrolló la burocracia meritocrática y amplió la Ruta de la Seda hacia Asia Central. Sus logros en astronomía, matemáticas, seda y porcelana sentaron bases duraderas para la civilización china.",
     "importance": 9,
-    "regions": ["asia"],
-    "places": [{"name": "Chang'an", "lat": 34.27, "lng": 108.93, "role": "capital imperial"}],
-    "relations": [{"targetId": "silk-road", "relationType": "caused", "strength": 5}],
-    "sources": [{"title": "The Cambridge History of China, vol.1", "author": "Twitchett, D.", "publisher": "Cambridge University Press", "year": "1986", "type": "book", "reliability": "high"}],
+    "regions": [
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Chang'an",
+        "lat": 34.27,
+        "lng": 108.93,
+        "role": "capital imperial"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "silk-road",
+        "relationType": "caused",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Cambridge History of China, vol.1",
+        "author": "Twitchett, D.",
+        "publisher": "Cambridge University Press",
+        "year": "1986",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "tang-dynasty",
     "title": "Dinastía Tang",
     "type": "civilization",
-    "disciplines": ["politics", "art", "science"],
-    "historicalPeriods": ["early-middle-ages"],
+    "disciplines": [
+      "politics",
+      "art",
+      "science"
+    ],
+    "historicalPeriods": [
+      "early-middle-ages"
+    ],
     "startDate": "618",
     "endDate": "907",
     "datePrecision": "year",
     "summary": "Edad de Oro de China: cosmopolitismo, poesía, seda y máxima expansión territorial.",
     "description": "La dinastía Tang es considerada la edad de oro de la poesía china (Li Bai, Du Fu) y del cosmopolitismo asiático. Chang'an fue la ciudad más grande del mundo, con mercaderes de toda Eurasia. Desarrolló el sistema de exámenes imperiales y el budismo floreció junto al taoísmo y el confucianismo.",
     "importance": 9,
-    "regions": ["asia"],
-    "places": [{"name": "Chang'an", "lat": 34.27, "lng": 108.93, "role": "capital y mayor ciudad del mundo"}],
-    "relations": [{"targetId": "silk-road", "relationType": "part_of", "strength": 4}, {"targetId": "han-dynasty", "relationType": "evolves-from", "strength": 3}],
-    "sources": [{"title": "The Tang Dynasty", "author": "Benn, Charles", "publisher": "University of California Press", "year": "2002", "type": "book", "reliability": "high"}],
+    "regions": [
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Chang'an",
+        "lat": 34.27,
+        "lng": 108.93,
+        "role": "capital y mayor ciudad del mundo"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "silk-road",
+        "relationType": "part_of",
+        "strength": 4
+      },
+      {
+        "targetId": "han-dynasty",
+        "relationType": "evolves-from",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Tang Dynasty",
+        "author": "Benn, Charles",
+        "publisher": "University of California Press",
+        "year": "2002",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "song-dynasty",
     "title": "Dinastía Song",
     "type": "civilization",
-    "disciplines": ["science", "technology", "art"],
-    "historicalPeriods": ["high-middle-ages"],
+    "disciplines": [
+      "science",
+      "technology",
+      "art"
+    ],
+    "historicalPeriods": [
+      "high-middle-ages"
+    ],
     "startDate": "960",
     "endDate": "1279",
     "datePrecision": "year",
     "summary": "Revolución económica y tecnológica china: imprenta, pólvora, brújula y economía de mercado.",
     "description": "La dinastía Song protagonizó una de las primeras revoluciones industriales y comerciales del mundo. Inventó o perfeccionó la imprenta de tipos móviles, la pólvora para armas, la brújula náutica y el papel moneda. Su economía mercantil y urbanización eran siglos adelantadas a Europa. La pintura paisajista alcanzó su cima.",
     "importance": 9,
-    "regions": ["asia"],
-    "places": [{"name": "Hangzhou", "lat": 30.27, "lng": 120.15, "role": "capital y mayor ciudad mercantil"}, {"name": "Kaifeng", "lat": 34.8, "lng": 114.3, "role": "capital del Norte"}],
-    "relations": [{"targetId": "tang-dynasty", "relationType": "evolves-from", "strength": 3}],
-    "sources": [{"title": "The Song Dynasty in Chinese History", "author": "Chaffee, J.", "publisher": "Harvard University Press", "year": "2015", "type": "book", "reliability": "high"}],
+    "regions": [
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Hangzhou",
+        "lat": 30.27,
+        "lng": 120.15,
+        "role": "capital y mayor ciudad mercantil"
+      },
+      {
+        "name": "Kaifeng",
+        "lat": 34.8,
+        "lng": 114.3,
+        "role": "capital del Norte"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "tang-dynasty",
+        "relationType": "evolves-from",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Song Dynasty in Chinese History",
+        "author": "Chaffee, J.",
+        "publisher": "Harvard University Press",
+        "year": "2015",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "mughal-empire",
     "title": "Imperio Mughal",
     "type": "civilization",
-    "disciplines": ["politics", "art", "architecture"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "politics",
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1526",
     "endDate": "1857",
     "datePrecision": "year",
     "summary": "Gran imperio islámico del subcontinente indio, síntesis de culturas persa, islámica e hindú.",
     "description": "El Imperio Mughal gobernó la mayor parte del subcontinente indio durante más de tres siglos. Bajo Akbar el Grande desarrolló un sistema de tolerancia religiosa notable. Su arte (miniaturas, jardines) y arquitectura (Taj Mahal, Fuerte Rojo) son cimas del arte islámico. Su economía representaba el 25% del PIB mundial en su apogeo.",
     "importance": 9,
-    "regions": ["south-asia"],
-    "places": [{"name": "Agra", "lat": 27.18, "lng": 78.0, "role": "capital y sede del Taj Mahal"}, {"name": "Delhi", "lat": 28.61, "lng": 77.21, "role": "capital imperial"}],
-    "relations": [{"targetId": "islam", "relationType": "part_of", "strength": 3}],
-    "sources": [{"title": "The Mughal Empire", "author": "Richards, J.F.", "publisher": "Cambridge University Press", "year": "1993", "type": "book", "reliability": "high"}],
+    "regions": [
+      "south-asia"
+    ],
+    "places": [
+      {
+        "name": "Agra",
+        "lat": 27.18,
+        "lng": 78.0,
+        "role": "capital y sede del Taj Mahal"
+      },
+      {
+        "name": "Delhi",
+        "lat": 28.61,
+        "lng": 77.21,
+        "role": "capital imperial"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "islam",
+        "relationType": "part_of",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Mughal Empire",
+        "author": "Richards, J.F.",
+        "publisher": "Cambridge University Press",
+        "year": "1993",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
-  },
-  {
-    "id": "khmer-empire",
-    "title": "Imperio Jemer",
-    "type": "civilization",
-    "disciplines": ["politics", "art", "architecture"],
-    "historicalPeriods": ["high-middle-ages"],
-    "startDate": "802",
-    "endDate": "1431",
-    "datePrecision": "year",
-    "summary": "Poderoso imperio del Sudeste Asiático, constructor de Angkor Wat, el mayor complejo religioso del mundo.",
-    "description": "El Imperio Jemer dominó gran parte del Sudeste Asiático continental durante más de seis siglos. Su capital Angkor fue una de las ciudades más grandes del mundo medieval, con sofisticados sistemas hidráulicos. Construyó Angkor Wat, el mayor templo del mundo, fusionando hinduismo y budismo con una arquitectura monumental única.",
-    "importance": 8,
-    "regions": ["southeast-asia"],
-    "places": [{"name": "Angkor", "lat": 13.41, "lng": 103.87, "role": "capital imperial"}],
-    "relations": [],
-    "sources": [{"title": "Angkor and the Khmer Civilization", "author": "Coe, Michael D.", "publisher": "Thames & Hudson", "year": "2003", "type": "book", "reliability": "high"}],
-    "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "carthage",
     "title": "Cartago",
     "type": "civilization",
-    "disciplines": ["politics", "economy"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "politics",
+      "economy"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "-814",
     "endDate": "-146",
     "datePrecision": "century",
     "summary": "Gran potencia mercantil fenicia del Mediterráneo occidental, rival de Roma.",
     "description": "Cartago, fundada por fenicios en el norte de África, fue la mayor potencia comercial del Mediterráneo occidental durante siglos. Controló el comercio desde España hasta el Mediterráneo oriental. Su rivalidad con Roma culminó en las Guerras Púnicas (264–146 a.C.), que terminaron con la destrucción total de la ciudad.",
     "importance": 8,
-    "regions": ["north-africa", "mediterranean"],
-    "places": [{"name": "Cartago", "lat": 36.85, "lng": 10.32, "role": "capital"}, {"name": "Cadiz", "lat": 36.53, "lng": -6.29, "role": "colonia comercial"}],
-    "relations": [{"targetId": "roman-empire", "relationType": "opposed", "strength": 5}],
-    "sources": [{"title": "Carthage Must Be Destroyed", "author": "Miles, Richard", "publisher": "Allen Lane", "year": "2010", "type": "book", "reliability": "high"}],
+    "regions": [
+      "north-africa",
+      "mediterranean"
+    ],
+    "places": [
+      {
+        "name": "Cartago",
+        "lat": 36.85,
+        "lng": 10.32,
+        "role": "capital"
+      },
+      {
+        "name": "Cadiz",
+        "lat": 36.53,
+        "lng": -6.29,
+        "role": "colonia comercial"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "roman-empire",
+        "relationType": "opposed",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Carthage Must Be Destroyed",
+        "author": "Miles, Richard",
+        "publisher": "Allen Lane",
+        "year": "2010",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "nubia-kush",
     "title": "Nubia y Reino de Kush",
     "type": "civilization",
-    "disciplines": ["politics", "art"],
-    "historicalPeriods": ["ancient", "classical-antiquity"],
+    "disciplines": [
+      "politics",
+      "art"
+    ],
+    "historicalPeriods": [
+      "ancient",
+      "classical-antiquity"
+    ],
     "startDate": "-2500",
     "endDate": "350",
     "datePrecision": "century",
     "summary": "Antigua civilización africana vecina de Egipto, que llegó a conquistar y gobernar el propio Egipto.",
     "description": "El Reino de Kush (en la actual Sudán) fue una de las civilizaciones más antiguas y poderosas de África. Desarrolló su propia escritura (meroítico), construyó pirámides y absorbió cultura egipcia mientras mantenía su identidad propia. La Dinastía XXV de Egipto fue nubio-kushita. Su capital Meroe fue un gran centro metalúrgico.",
     "importance": 8,
-    "regions": ["africa"],
-    "places": [{"name": "Meroe", "lat": 16.93, "lng": 33.75, "role": "capital del Reino de Kush"}, {"name": "Napata", "lat": 18.72, "lng": 31.91, "role": "capital religiosa"}],
-    "relations": [{"targetId": "ancient-egypt", "relationType": "interacts-with", "strength": 5}],
-    "sources": [{"title": "Ancient Nubia", "author": "O'Connor, David", "publisher": "University of Pennsylvania Press", "year": "1993", "type": "book", "reliability": "high"}],
+    "regions": [
+      "africa"
+    ],
+    "places": [
+      {
+        "name": "Meroe",
+        "lat": 16.93,
+        "lng": 33.75,
+        "role": "capital del Reino de Kush"
+      },
+      {
+        "name": "Napata",
+        "lat": 18.72,
+        "lng": 31.91,
+        "role": "capital religiosa"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "ancient-egypt",
+        "relationType": "interacts-with",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ancient Nubia",
+        "author": "O'Connor, David",
+        "publisher": "University of Pennsylvania Press",
+        "year": "1993",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "songhai-empire",
     "title": "Imperio Songhai",
     "type": "civilization",
-    "disciplines": ["politics", "economy", "science"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "politics",
+      "economy",
+      "science"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1464",
     "endDate": "1591",
     "datePrecision": "year",
     "summary": "Uno de los mayores imperios de la historia africana, con centros de saber islámico en Tombuctú.",
     "description": "El Imperio Songhai fue el mayor estado de la historia del África Occidental. Su capital Gao y sobre todo Tombuctú fueron centros de comercio y aprendizaje islámico con importantes universidades. Comerciaba oro y sal a escala continental. Fue destruido por la invasión marroquí en 1591.",
     "importance": 8,
-    "regions": ["africa"],
-    "places": [{"name": "Tombuctú", "lat": 16.77, "lng": -3.0, "role": "centro intelectual y comercial"}, {"name": "Gao", "lat": 16.27, "lng": 0.04, "role": "capital imperial"}],
-    "relations": [{"targetId": "mali-empire", "relationType": "evolves-from", "strength": 3}],
-    "sources": [{"title": "The Songhai Empire", "author": "Stride, G.T.", "publisher": "Africana Publishing", "year": "1971", "type": "book", "reliability": "high"}],
+    "regions": [
+      "africa"
+    ],
+    "places": [
+      {
+        "name": "Tombuctú",
+        "lat": 16.77,
+        "lng": -3.0,
+        "role": "centro intelectual y comercial"
+      },
+      {
+        "name": "Gao",
+        "lat": 16.27,
+        "lng": 0.04,
+        "role": "capital imperial"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "mali-empire",
+        "relationType": "evolves-from",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Songhai Empire",
+        "author": "Stride, G.T.",
+        "publisher": "Africana Publishing",
+        "year": "1971",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "minoan-civilization",
     "title": "Civilización Minoica",
     "type": "civilization",
-    "disciplines": ["art", "politics"],
-    "historicalPeriods": ["ancient"],
+    "disciplines": [
+      "art",
+      "politics"
+    ],
+    "historicalPeriods": [
+      "ancient"
+    ],
     "startDate": "-3000",
     "endDate": "-1100",
     "datePrecision": "century",
     "summary": "Primera gran civilización europea, floreció en Creta con palacios, frescos y escritura Linear A.",
     "description": "La civilización minoica, centrada en Creta, fue la primera gran civilización europea. Construyó palacios monumentales como Cnosos, desarrolló el comercio mediterráneo, el arte de los frescos y dos sistemas de escritura (jeroglífico cretense y Linear A). Fue probablemente la fuente del mito del Minotauro y el laberinto. Su declive hacia 1450 a.C. está vinculado a erupciones volcánicas y posiblemente invasiones micénicas.",
     "importance": 8,
-    "regions": ["mediterranean", "europe"],
-    "places": [{"name": "Cnosos", "lat": 35.3, "lng": 25.16, "role": "palacio principal"}],
-    "relations": [{"targetId": "classical-greece", "relationType": "precedes", "strength": 3}],
-    "sources": [{"title": "The Minoans", "author": "Fitton, J. Lesley", "publisher": "British Museum Press", "year": "2002", "type": "book", "reliability": "high"}],
+    "regions": [
+      "mediterranean",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Cnosos",
+        "lat": 35.3,
+        "lng": 25.16,
+        "role": "palacio principal"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "classical-greece",
+        "relationType": "precedes",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Minoans",
+        "author": "Fitton, J. Lesley",
+        "publisher": "British Museum Press",
+        "year": "2002",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "phoenicians",
     "title": "Fenicios",
     "type": "civilization",
-    "disciplines": ["economy", "science"],
-    "historicalPeriods": ["ancient", "classical-antiquity"],
+    "disciplines": [
+      "economy",
+      "science"
+    ],
+    "historicalPeriods": [
+      "ancient",
+      "classical-antiquity"
+    ],
     "startDate": "-1200",
     "endDate": "-300",
     "datePrecision": "century",
     "summary": "Pueblo semita del Mediterráneo oriental que inventó el alfabeto y dominó el comercio marítimo.",
     "description": "Los fenicios, asentados en la costa del Líbano actual, fueron los grandes navegantes y comerciantes del Mediterráneo antiguo. Su mayor legado es el alfabeto (h. 1050 a.C.), del que derivan todos los alfabetos occidentales. Fundaron colonias desde Cartago hasta Cádiz, difundiendo su cultura, técnicas artesanales y el comercio de vidrio, púrpura y madera de cedro.",
     "importance": 9,
-    "regions": ["middle-east", "mediterranean"],
-    "places": [{"name": "Tiro", "lat": 33.27, "lng": 35.2, "role": "ciudad principal"}, {"name": "Sidón", "lat": 33.56, "lng": 35.37, "role": "otra gran ciudad"}],
-    "relations": [{"targetId": "carthage", "relationType": "precedes", "strength": 5}],
-    "sources": [{"title": "The Phoenicians", "author": "Aubet, M. Eugenia", "publisher": "Cambridge University Press", "year": "2001", "type": "book", "reliability": "high"}],
+    "regions": [
+      "middle-east",
+      "mediterranean"
+    ],
+    "places": [
+      {
+        "name": "Tiro",
+        "lat": 33.27,
+        "lng": 35.2,
+        "role": "ciudad principal"
+      },
+      {
+        "name": "Sidón",
+        "lat": 33.56,
+        "lng": 35.37,
+        "role": "otra gran ciudad"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "carthage",
+        "relationType": "precedes",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Phoenicians",
+        "author": "Aubet, M. Eugenia",
+        "publisher": "Cambridge University Press",
+        "year": "2001",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "joseon-korea",
     "title": "Dinastía Joseon",
     "type": "civilization",
-    "disciplines": ["politics", "science", "art"],
-    "historicalPeriods": ["early-modern", "modern"],
+    "disciplines": [
+      "politics",
+      "science",
+      "art"
+    ],
+    "historicalPeriods": [
+      "early-modern",
+      "modern"
+    ],
     "startDate": "1392",
     "endDate": "1897",
     "datePrecision": "year",
     "summary": "Larga dinastía coreana que desarrolló el alfabeto hangul y un orden social confuciano.",
     "description": "La dinastía Joseon gobernó la península coreana durante más de 500 años. El rey Sejong el Grande promovió la creación del hangul (alfabeto coreano, 1443), uno de los sistemas de escritura más científicamente diseñados del mundo. La cultura, arte y filosofía confuciana alcanzaron gran desarrollo. Sobrevivió invasiones japonesas y chinas.",
     "importance": 7,
-    "regions": ["east-asia"],
-    "places": [{"name": "Seúl (Hanyang)", "lat": 37.57, "lng": 126.98, "role": "capital"}],
+    "regions": [
+      "east-asia"
+    ],
+    "places": [
+      {
+        "name": "Seúl (Hanyang)",
+        "lat": 37.57,
+        "lng": 126.98,
+        "role": "capital"
+      }
+    ],
     "relations": [],
-    "sources": [{"title": "A History of Korea", "author": "Cumings, Bruce", "publisher": "Modern Library", "year": "2005", "type": "book", "reliability": "high"}],
+    "sources": [
+      {
+        "title": "A History of Korea",
+        "author": "Cumings, Bruce",
+        "publisher": "Modern Library",
+        "year": "2005",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "olmec-civilization",
     "title": "Civilización Olmeca",
     "type": "civilization",
-    "disciplines": ["art", "politics"],
-    "historicalPeriods": ["ancient"],
+    "disciplines": [
+      "art",
+      "politics"
+    ],
+    "historicalPeriods": [
+      "ancient"
+    ],
     "startDate": "-1500",
     "endDate": "-400",
     "datePrecision": "century",
     "summary": "Primera gran civilización mesoamericana, considerada 'cultura madre' de Mesoamérica.",
     "description": "Los olmecas florecieron en el Golfo de México y son considerados la cultura madre de Mesoamérica. Desarrollaron los primeros centros urbanos, la escritura más antigua de América, el juego de pelota, el culto al jaguar y las colosales cabezas de basalto. Sus influencias culturales se extendieron a mayas, aztecas y otras civilizaciones posteriores.",
     "importance": 8,
-    "regions": ["americas"],
-    "places": [{"name": "La Venta", "lat": 18.1, "lng": -94.05, "role": "centro ceremonial"}, {"name": "San Lorenzo", "lat": 17.6, "lng": -94.8, "role": "primer centro olmeca"}],
-    "relations": [{"targetId": "maya-civilization", "relationType": "precedes", "strength": 4}],
-    "sources": [{"title": "The Olmecs: America's First Civilization", "author": "Diehl, Richard A.", "publisher": "Thames & Hudson", "year": "2004", "type": "book", "reliability": "high"}],
+    "regions": [
+      "americas"
+    ],
+    "places": [
+      {
+        "name": "La Venta",
+        "lat": 18.1,
+        "lng": -94.05,
+        "role": "centro ceremonial"
+      },
+      {
+        "name": "San Lorenzo",
+        "lat": 17.6,
+        "lng": -94.8,
+        "role": "primer centro olmeca"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "maya-civilization",
+        "relationType": "precedes",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Olmecs: America's First Civilization",
+        "author": "Diehl, Richard A.",
+        "publisher": "Thames & Hudson",
+        "year": "2004",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "dadaism",
     "title": "Dadaísmo",
     "type": "movement",
-    "disciplines": ["art", "literature"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "art",
+      "literature"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1916",
     "endDate": "1924",
     "datePrecision": "year",
     "summary": "Movimiento antiarte que desafió toda lógica y convención artística en respuesta a la Gran Guerra.",
     "description": "El Dadaísmo nació en el Cabaret Voltaire de Zúrich en 1916, impulsado por artistas como Tristan Tzara, Marcel Duchamp y Hans Arp. En reacción al absurdo de la Primera Guerra Mundial, rechazó la razón, la lógica y la estética convencional. Introdujo el azar, la provocación y el antiarte. Fue semilla directa del surrealismo y del arte conceptual.",
     "importance": 8,
-    "regions": ["europe"],
-    "places": [{"name": "Zúrich", "lat": 47.37, "lng": 8.54, "role": "origen en Cabaret Voltaire"}, {"name": "París", "lat": 48.85, "lng": 2.35, "role": "expansión"}, {"name": "Nueva York", "lat": 40.71, "lng": -74.0, "role": "rama americana"}],
-    "relations": [{"targetId": "surrealism", "relationType": "precedes", "strength": 5}],
-    "sources": [{"title": "Dada: Art and Anti-Art", "author": "Richter, Hans", "publisher": "Thames & Hudson", "year": "1965", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Zúrich",
+        "lat": 47.37,
+        "lng": 8.54,
+        "role": "origen en Cabaret Voltaire"
+      },
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "expansión"
+      },
+      {
+        "name": "Nueva York",
+        "lat": 40.71,
+        "lng": -74.0,
+        "role": "rama americana"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "surrealism",
+        "relationType": "precedes",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dada: Art and Anti-Art",
+        "author": "Richter, Hans",
+        "publisher": "Thames & Hudson",
+        "year": "1965",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "futurismo",
     "title": "Futurismo",
     "type": "movement",
-    "disciplines": ["art", "literature"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "art",
+      "literature"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1909",
     "endDate": "1944",
     "datePrecision": "year",
     "summary": "Movimiento artístico italiano que celebraba la velocidad, la máquina y la modernidad tecnológica.",
     "description": "Fundado por Filippo Tommaso Marinetti con el Manifiesto Futurista de 1909, el futurismo exaltaba la velocidad, la máquina, el automóvil, el avión y la violencia como signos de modernidad. En pintura (Boccioni, Severini) representó el movimiento y la energía. Tuvo vínculos con el fascismo italiano, lo que enturbia su legado.",
     "importance": 7,
-    "regions": ["europe"],
-    "places": [{"name": "Milán", "lat": 45.46, "lng": 9.19, "role": "epicentro del movimiento"}],
-    "relations": [{"targetId": "dadaism", "relationType": "contemporary", "strength": 3}, {"targetId": "cubism", "relationType": "influenced-by", "strength": 3}],
-    "sources": [{"title": "Futurism", "author": "Humphreys, Richard", "publisher": "Tate Publishing", "year": "1999", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Milán",
+        "lat": 45.46,
+        "lng": 9.19,
+        "role": "epicentro del movimiento"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "dadaism",
+        "relationType": "contemporary",
+        "strength": 3
+      },
+      {
+        "targetId": "cubism",
+        "relationType": "influenced-by",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Futurism",
+        "author": "Humphreys, Richard",
+        "publisher": "Tate Publishing",
+        "year": "1999",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "de-stijl",
     "title": "De Stijl / Neoplasticismo",
     "type": "movement",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1917",
     "endDate": "1931",
     "datePrecision": "year",
     "summary": "Movimiento holandés de abstracción geométrica con líneas rectas y colores primarios: Mondrian.",
     "description": "De Stijl ('El Estilo') fue un movimiento artístico neerlandés fundado en 1917 por Theo van Doesburg y Piet Mondrian. Propugnaba la abstracción total mediante líneas horizontales/verticales y los tres colores primarios más blanco, negro y gris. Su estética influyó profundamente en la Bauhaus, el diseño gráfico moderno y la arquitectura racionalista (Gerrit Rietveld).",
     "importance": 7,
-    "regions": ["europe"],
-    "places": [{"name": "Ámsterdam", "lat": 52.37, "lng": 4.9, "role": "epicentro"}, {"name": "Utrecht", "lat": 52.09, "lng": 5.12, "role": "Casa Rietveld-Schröder"}],
-    "relations": [{"targetId": "bauhaus", "relationType": "influenced", "strength": 4}],
-    "sources": [{"title": "De Stijl", "author": "Overy, Paul", "publisher": "Thames & Hudson", "year": "1991", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Ámsterdam",
+        "lat": 52.37,
+        "lng": 4.9,
+        "role": "epicentro"
+      },
+      {
+        "name": "Utrecht",
+        "lat": 52.09,
+        "lng": 5.12,
+        "role": "Casa Rietveld-Schröder"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "bauhaus",
+        "relationType": "influenced",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "De Stijl",
+        "author": "Overy, Paul",
+        "publisher": "Thames & Hudson",
+        "year": "1991",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "pre-raphaelites",
     "title": "Prerrafaelismo",
     "type": "movement",
-    "disciplines": ["art", "literature"],
-    "historicalPeriods": ["modern"],
+    "disciplines": [
+      "art",
+      "literature"
+    ],
+    "historicalPeriods": [
+      "modern"
+    ],
     "startDate": "1848",
     "endDate": "1900",
     "datePrecision": "year",
     "summary": "Hermandad de pintores victorianos que rechazaron la pintura académica y buscaron inspiración medieval.",
     "description": "La Hermandad Prerrafaelita, fundada en 1848 por Rossetti, Millais y Hunt, rechazó la pintura académica post-Rafael y buscó la sinceridad medieval. Sus obras se caracterizan por colores vibrantes, detalle minucioso, temas literarios medievales y una idealización romántica de la naturaleza y la mujer. Influyeron en el movimiento Arts & Crafts y el simbolismo.",
     "importance": 7,
-    "regions": ["europe"],
-    "places": [{"name": "Londres", "lat": 51.5, "lng": -0.12, "role": "epicentro"}],
-    "relations": [{"targetId": "romanticism", "relationType": "influenced-by", "strength": 4}, {"targetId": "symbolism", "relationType": "precedes", "strength": 3}],
-    "sources": [{"title": "The Pre-Raphaelites", "author": "Barringer, Tim", "publisher": "Thames & Hudson", "year": "1998", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.12,
+        "role": "epicentro"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "romanticism",
+        "relationType": "influenced-by",
+        "strength": 4
+      },
+      {
+        "targetId": "symbolism",
+        "relationType": "precedes",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Pre-Raphaelites",
+        "author": "Barringer, Tim",
+        "publisher": "Thames & Hudson",
+        "year": "1998",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "arts-crafts",
     "title": "Movimiento Arts & Crafts",
     "type": "movement",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["modern"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "modern"
+    ],
     "startDate": "1860",
     "endDate": "1910",
     "datePrecision": "year",
     "summary": "Movimiento artístico que reivindicó la artesanía manual frente a la producción industrial.",
     "description": "Impulsado por John Ruskin y William Morris en la Inglaterra victoriana, el movimiento Arts & Crafts reaccionó contra la industrialización masiva y la baja calidad estética de los productos de fábrica. Defendió la dignidad del trabajo manual, la unidad entre diseño y artesanía, y la inspiración en la naturaleza y el medioevo. Influyó directamente en el Art Nouveau y la Bauhaus.",
     "importance": 7,
-    "regions": ["europe"],
-    "places": [{"name": "Londres", "lat": 51.5, "lng": -0.12, "role": "epicentro"}, {"name": "Glasgow", "lat": 55.86, "lng": -4.25, "role": "escuela de Glasgow"}],
-    "relations": [{"targetId": "art-nouveau", "relationType": "precedes", "strength": 4}, {"targetId": "bauhaus", "relationType": "influenced", "strength": 3}],
-    "sources": [{"title": "The Arts and Crafts Movement", "author": "Cumming, Elizabeth", "publisher": "Thames & Hudson", "year": "1991", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.12,
+        "role": "epicentro"
+      },
+      {
+        "name": "Glasgow",
+        "lat": 55.86,
+        "lng": -4.25,
+        "role": "escuela de Glasgow"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "art-nouveau",
+        "relationType": "precedes",
+        "strength": 4
+      },
+      {
+        "targetId": "bauhaus",
+        "relationType": "influenced",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Arts and Crafts Movement",
+        "author": "Cumming, Elizabeth",
+        "publisher": "Thames & Hudson",
+        "year": "1991",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "romanticismo-pictórico",
     "title": "Romanticismo pictórico",
     "type": "movement",
-    "disciplines": ["art"],
-    "historicalPeriods": ["modern"],
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "modern"
+    ],
     "startDate": "1800",
     "endDate": "1850",
     "datePrecision": "decade",
     "summary": "Corriente pictórica que exaltó la emoción, la naturaleza sublime y lo histórico-nacional.",
     "description": "El romanticismo en pintura reivindicó la emoción, la individualidad y la grandeza de la naturaleza frente al racionalismo neoclásico. Goya, Delacroix, Turner y Friedrich son sus máximos exponentes. Subrayó paisajes sublimes, escenas históricas y exóticas, lo irracional y lo apasionado. En España, Goya anticipó muchos de sus elementos.",
     "importance": 8,
-    "regions": ["europe"],
-    "places": [{"name": "París", "lat": 48.85, "lng": 2.35, "role": "Delacroix y Géricault"}, {"name": "Londres", "lat": 51.5, "lng": -0.12, "role": "Turner y Constable"}, {"name": "Madrid", "lat": 40.42, "lng": -3.7, "role": "Goya"}],
-    "relations": [{"targetId": "romanticism", "relationType": "part_of", "strength": 5}, {"targetId": "impressionism", "relationType": "precedes", "strength": 3}],
-    "sources": [{"title": "Romanticism", "author": "Honour, Hugh", "publisher": "Penguin Books", "year": "1979", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Delacroix y Géricault"
+      },
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.12,
+        "role": "Turner y Constable"
+      },
+      {
+        "name": "Madrid",
+        "lat": 40.42,
+        "lng": -3.7,
+        "role": "Goya"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "romanticism",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "impressionism",
+        "relationType": "precedes",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Romanticism",
+        "author": "Honour, Hugh",
+        "publisher": "Penguin Books",
+        "year": "1979",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "realismo-pictórico",
     "title": "Realismo pictórico",
     "type": "movement",
-    "disciplines": ["art"],
-    "historicalPeriods": ["modern"],
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "modern"
+    ],
     "startDate": "1840",
     "endDate": "1880",
     "datePrecision": "decade",
     "summary": "Corriente que retrató la vida cotidiana y social sin idealizaciones: Courbet, Millet, Daumier.",
     "description": "El Realismo en pintura surgió en Francia a mediados del siglo XIX como reacción al romanticismo. Courbet, Millet y Daumier retrataron la vida de campesinos, obreros y clases populares con crudeza y sin idealización. Fue la primera corriente en tomar la modernidad y el presente como tema artístico legítimo, abriendo el camino al impresionismo.",
     "importance": 7,
-    "regions": ["europe"],
-    "places": [{"name": "París", "lat": 48.85, "lng": 2.35, "role": "epicentro"}],
-    "relations": [{"targetId": "impressionism", "relationType": "precedes", "strength": 4}, {"targetId": "romanticismo-pictórico", "relationType": "reacts-against", "strength": 3}],
-    "sources": [{"title": "The Realist Tradition", "author": "Weisberg, Gabriel", "publisher": "Cleveland Museum of Art", "year": "1980", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "epicentro"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "impressionism",
+        "relationType": "precedes",
+        "strength": 4
+      },
+      {
+        "targetId": "romanticismo-pictórico",
+        "relationType": "reacts-against",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Realist Tradition",
+        "author": "Weisberg, Gabriel",
+        "publisher": "Cleveland Museum of Art",
+        "year": "1980",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "arte-naif",
     "title": "Arte naif y primitivo",
     "type": "movement",
-    "disciplines": ["art"],
-    "historicalPeriods": ["contemporary", "modern"],
+    "disciplines": [
+      "art"
+    ],
+    "historicalPeriods": [
+      "contemporary",
+      "modern"
+    ],
     "startDate": "1880",
     "endDate": "1960",
     "datePrecision": "decade",
     "summary": "Arte espontáneo y sin formación académica que influyó en el primitivismo de Gauguin y Picasso.",
     "description": "El arte naif se refiere a obras de artistas autodidactas con una mirada fresca e ingenua. El Aduanero Rousseau es el más célebre. En paralelo, el 'primitivismo' que Gauguin y Picasso buscaron en Tahití y el arte africano respectivamente transformó el arte moderno, cuestionando la jerarquía entre arte 'culto' y 'primitivo'.",
     "importance": 6,
-    "regions": ["europe", "global"],
-    "places": [{"name": "París", "lat": 48.85, "lng": 2.35, "role": "Henri Rousseau y primitivismo"}],
-    "relations": [{"targetId": "cubism", "relationType": "influenced", "strength": 3}],
-    "sources": [{"title": "Primitivism in 20th Century Art", "author": "Rubin, William", "publisher": "MoMA", "year": "1984", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe",
+      "global"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Henri Rousseau y primitivismo"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "cubism",
+        "relationType": "influenced",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Primitivism in 20th Century Art",
+        "author": "Rubin, William",
+        "publisher": "MoMA",
+        "year": "1984",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "impresionismo-musical",
     "title": "Impresionismo musical",
     "type": "movement",
-    "disciplines": ["music"],
-    "historicalPeriods": ["modern"],
+    "disciplines": [
+      "music"
+    ],
+    "historicalPeriods": [
+      "modern"
+    ],
     "startDate": "1890",
     "endDate": "1920",
     "datePrecision": "decade",
     "summary": "Corriente musical francesa que evocó atmósferas y sensaciones fluidas: Debussy y Ravel.",
     "description": "El impresionismo musical, asociado sobre todo a Claude Debussy y Maurice Ravel, evocó mediante la música atmósferas, colores y sensaciones en lugar de formas narrativas o emociones directas. Utilizó escalas modales, acordes de séptima y novena, timbres orquestales innovadores y estructuras más libres. Paralelo e influido por el impresionismo pictórico.",
     "importance": 8,
-    "regions": ["europe"],
-    "places": [{"name": "París", "lat": 48.85, "lng": 2.35, "role": "epicentro"}],
-    "relations": [{"targetId": "impressionism", "relationType": "influenced-by", "strength": 3}, {"targetId": "clasicismo-musical", "relationType": "reacts-against", "strength": 2}],
-    "sources": [{"title": "Debussy: His Life and Mind", "author": "Lockspeiser, Edward", "publisher": "Cambridge University Press", "year": "1978", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "epicentro"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "impressionism",
+        "relationType": "influenced-by",
+        "strength": 3
+      },
+      {
+        "targetId": "clasicismo-musical",
+        "relationType": "reacts-against",
+        "strength": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "Debussy: His Life and Mind",
+        "author": "Lockspeiser, Edward",
+        "publisher": "Cambridge University Press",
+        "year": "1978",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "musica-romantica",
     "title": "Romanticismo musical",
     "type": "movement",
-    "disciplines": ["music"],
-    "historicalPeriods": ["modern"],
+    "disciplines": [
+      "music"
+    ],
+    "historicalPeriods": [
+      "modern"
+    ],
     "startDate": "1820",
     "endDate": "1900",
     "datePrecision": "decade",
     "summary": "Expansión expresiva de la música: sinfonismo, poema sinfónico, ópera wagneriana y virtuosismo.",
     "description": "El romanticismo musical amplió la orquesta, expandió la forma y priorizó la expresión emocional intensa. Beethoven es su padre; Schubert, Schumann, Brahms, Liszt, Chopin, Berlioz y Wagner son sus grandes figuras. El poema sinfónico, la ópera total wagneriana y el virtuosismo instrumental son sus grandes aportaciones. El nacionalismo musical (Dvořák, Smetana, Sibelius) surgió de él.",
     "importance": 9,
-    "regions": ["europe"],
-    "places": [{"name": "Viena", "lat": 48.21, "lng": 16.37, "role": "Schubert, Brahms, Bruckner"}, {"name": "Leipzig", "lat": 51.34, "lng": 12.37, "role": "Schumann y Mendelssohn"}, {"name": "Bayreuth", "lat": 49.94, "lng": 11.58, "role": "Wagner y su festival"}],
-    "relations": [{"targetId": "clasicismo-musical", "relationType": "evolves-from", "strength": 4}, {"targetId": "impresionismo-musical", "relationType": "precedes", "strength": 3}],
-    "sources": [{"title": "The Romantic Generation", "author": "Rosen, Charles", "publisher": "Harvard University Press", "year": "1995", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Viena",
+        "lat": 48.21,
+        "lng": 16.37,
+        "role": "Schubert, Brahms, Bruckner"
+      },
+      {
+        "name": "Leipzig",
+        "lat": 51.34,
+        "lng": 12.37,
+        "role": "Schumann y Mendelssohn"
+      },
+      {
+        "name": "Bayreuth",
+        "lat": 49.94,
+        "lng": 11.58,
+        "role": "Wagner y su festival"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "clasicismo-musical",
+        "relationType": "evolves-from",
+        "strength": 4
+      },
+      {
+        "targetId": "impresionismo-musical",
+        "relationType": "precedes",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Romantic Generation",
+        "author": "Rosen, Charles",
+        "publisher": "Harvard University Press",
+        "year": "1995",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "musica-contemporanea",
     "title": "Música contemporánea / Vanguardia musical",
     "type": "movement",
-    "disciplines": ["music"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "music"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1900",
     "endDate": "2000",
     "datePrecision": "decade",
     "summary": "Ruptura con la tonalidad: dodecafonismo, serialismo, música concreta y minimalismo sonoro.",
     "description": "La música del siglo XX rompió con el sistema tonal tradicional. Schoenberg inventó el dodecafonismo (1921), Webern y Berg lo desarrollaron. Messiaen exploró los modos de transposición limitada. Cage experimentó con el azar y el silencio. La música concreta (Schaeffer) y electrónica surgieron en los años 40-50. El minimalismo de Glass y Reich reaccionó con la repetición hipnótica.",
     "importance": 8,
-    "regions": ["europe", "north-america"],
-    "places": [{"name": "Viena", "lat": 48.21, "lng": 16.37, "role": "Segunda Escuela de Viena: Schoenberg, Webern"}, {"name": "París", "lat": 48.85, "lng": 2.35, "role": "música concreta y IRCAM"}, {"name": "Nueva York", "lat": 40.71, "lng": -74.0, "role": "minimalismo y experimentación"}],
-    "relations": [{"targetId": "musica-romantica", "relationType": "reacts-against", "strength": 3}],
-    "sources": [{"title": "The Rest is Noise", "author": "Ross, Alex", "publisher": "Farrar, Straus and Giroux", "year": "2007", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Viena",
+        "lat": 48.21,
+        "lng": 16.37,
+        "role": "Segunda Escuela de Viena: Schoenberg, Webern"
+      },
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "música concreta y IRCAM"
+      },
+      {
+        "name": "Nueva York",
+        "lat": 40.71,
+        "lng": -74.0,
+        "role": "minimalismo y experimentación"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "musica-romantica",
+        "relationType": "reacts-against",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Rest is Noise",
+        "author": "Ross, Alex",
+        "publisher": "Farrar, Straus and Giroux",
+        "year": "2007",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "teatro-griego",
     "title": "Teatro griego",
     "type": "movement",
-    "disciplines": ["art", "literature"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "art",
+      "literature"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "-534",
     "endDate": "-300",
     "datePrecision": "century",
     "summary": "Invención del teatro en la Atenas clásica: tragedia (Esquilo, Sófocles, Eurípides) y comedia.",
     "description": "El teatro griego nació en Atenas como ritual religioso en honor a Dioniso. Esquilo añadió el segundo actor, Sófocles el tercero. Las grandes tragedias de los tres maestros (Edipo Rey, Antígona, Las Troyanas) exploraron el destino, la culpa, los dioses y la condición humana. La comedia de Aristófanes añadió la crítica social y política. El teatro griego fundó toda la tradición occidental dramática.",
     "importance": 9,
-    "regions": ["mediterranean"],
-    "places": [{"name": "Atenas", "lat": 37.97, "lng": 23.72, "role": "teatro de Dioniso"}, {"name": "Epidauro", "lat": 37.6, "lng": 23.07, "role": "teatro más conservado"}],
-    "relations": [{"targetId": "classical-greece", "relationType": "part_of", "strength": 5}],
-    "sources": [{"title": "Greek Tragedy", "author": "Kitto, H.D.F.", "publisher": "Methuen", "year": "1939", "type": "book", "reliability": "high"}],
+    "regions": [
+      "mediterranean"
+    ],
+    "places": [
+      {
+        "name": "Atenas",
+        "lat": 37.97,
+        "lng": 23.72,
+        "role": "teatro de Dioniso"
+      },
+      {
+        "name": "Epidauro",
+        "lat": 37.6,
+        "lng": 23.07,
+        "role": "teatro más conservado"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "classical-greece",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "sources": [
+      {
+        "title": "Greek Tragedy",
+        "author": "Kitto, H.D.F.",
+        "publisher": "Methuen",
+        "year": "1939",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "literatura-barroca",
     "title": "Literatura barroca",
     "type": "movement",
-    "disciplines": ["literature"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "literature"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1600",
     "endDate": "1700",
     "datePrecision": "decade",
     "summary": "Escritura de ornamentación extrema, contrastes y tensión: Quevedo, Góngora, Milton, Racine.",
     "description": "La literatura barroca se caracterizó por el artificio estilístico, los contrastes dramáticos entre luz y sombra (como en la pintura) y la reflexión sobre la vanidad del mundo y la muerte (memento mori). En España el culteranismo de Góngora y el conceptismo de Quevedo fueron los dos polos. En Inglaterra, Milton escribió El Paraíso Perdido; en Francia, Racine y Corneille dominaron el teatro.",
     "importance": 8,
-    "regions": ["europe"],
-    "places": [{"name": "Madrid", "lat": 40.42, "lng": -3.7, "role": "Quevedo, Calderón, Lope"}, {"name": "Londres", "lat": 51.5, "lng": -0.12, "role": "Milton"}, {"name": "París", "lat": 48.85, "lng": 2.35, "role": "Racine y Corneille"}],
-    "relations": [{"targetId": "baroque", "relationType": "part_of", "strength": 5}, {"targetId": "edad-oro-espanola", "relationType": "part_of", "strength": 4}],
-    "sources": [{"title": "The Baroque", "author": "Martin, John Rupert", "publisher": "Harper & Row", "year": "1977", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Madrid",
+        "lat": 40.42,
+        "lng": -3.7,
+        "role": "Quevedo, Calderón, Lope"
+      },
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.12,
+        "role": "Milton"
+      },
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Racine y Corneille"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "baroque",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "edad-oro-espanola",
+        "relationType": "part_of",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Baroque",
+        "author": "Martin, John Rupert",
+        "publisher": "Harper & Row",
+        "year": "1977",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "literatura-modernista",
     "title": "Modernismo literario",
     "type": "movement",
-    "disciplines": ["literature"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "literature"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1890",
     "endDate": "1940",
     "datePrecision": "decade",
     "summary": "Revolución literaria del siglo XX: stream of consciousness, ruptura narrativa, Joyce, Woolf, Proust.",
     "description": "El modernismo literario experimentó con la forma narrativa, el flujo de conciencia (James Joyce, Virginia Woolf), el monólogo interior (Marcel Proust), la fragmentación (T.S. Eliot), y la ruptura con el realismo del siglo XIX. Cuestionó los grandes relatos y exploró la subjetividad, el tiempo interior y la crisis de identidad tras la Primera Guerra Mundial.",
     "importance": 9,
-    "regions": ["europe", "north-america"],
-    "places": [{"name": "Londres", "lat": 51.5, "lng": -0.12, "role": "Joyce, Woolf, Eliot"}, {"name": "París", "lat": 48.85, "lng": 2.35, "role": "Proust, Hemingway expatriados"}, {"name": "Dublín", "lat": 53.33, "lng": -6.25, "role": "Joyce"}],
-    "relations": [{"targetId": "vanguardias-literarias", "relationType": "contemporary", "strength": 4}],
-    "sources": [{"title": "The Modern Novel", "author": "Bradbury, Malcolm", "publisher": "Penguin Books", "year": "1994", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.12,
+        "role": "Joyce, Woolf, Eliot"
+      },
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Proust, Hemingway expatriados"
+      },
+      {
+        "name": "Dublín",
+        "lat": 53.33,
+        "lng": -6.25,
+        "role": "Joyce"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "vanguardias-literarias",
+        "relationType": "contemporary",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Modern Novel",
+        "author": "Bradbury, Malcolm",
+        "publisher": "Penguin Books",
+        "year": "1994",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "arquitectura-barroca",
     "title": "Arquitectura barroca",
     "type": "movement",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["early-modern"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "early-modern"
+    ],
     "startDate": "1600",
     "endDate": "1750",
     "datePrecision": "decade",
     "summary": "Arquitectura de grandiosidad, curvas y teatralidad: Bernini, Borromini, Versalles, iglesias jesuitas.",
     "description": "La arquitectura barroca sirvió al poder de la Iglesia Contrarreformista y las monarquías absolutas. Bernini diseñó la Plaza de San Pedro en Roma; Borromini creó fachadas onduladas de geometría compleja. En Francia, el palacio de Versalles fue el modelo del poder real absoluto. Las iglesias jesuitas difundieron el estilo por el mundo católico, incluyendo América Latina.",
     "importance": 8,
-    "regions": ["europe"],
-    "places": [{"name": "Roma", "lat": 41.9, "lng": 12.5, "role": "Bernini, Borromini, Plaza de San Pedro"}, {"name": "Versalles", "lat": 48.8, "lng": 2.12, "role": "palacio del rey Sol"}],
-    "relations": [{"targetId": "baroque", "relationType": "part_of", "strength": 5}, {"targetId": "renaissance", "relationType": "evolves-from", "strength": 3}],
-    "sources": [{"title": "Baroque Architecture", "author": "Norberg-Schulz, Christian", "publisher": "Rizzoli", "year": "1986", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Roma",
+        "lat": 41.9,
+        "lng": 12.5,
+        "role": "Bernini, Borromini, Plaza de San Pedro"
+      },
+      {
+        "name": "Versalles",
+        "lat": 48.8,
+        "lng": 2.12,
+        "role": "palacio del rey Sol"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "baroque",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "renaissance",
+        "relationType": "evolves-from",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Baroque Architecture",
+        "author": "Norberg-Schulz, Christian",
+        "publisher": "Rizzoli",
+        "year": "1986",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "neoclasicismo-arquitectura",
     "title": "Arquitectura neoclásica",
     "type": "movement",
-    "disciplines": ["art", "architecture"],
-    "historicalPeriods": ["modern"],
+    "disciplines": [
+      "art",
+      "architecture"
+    ],
+    "historicalPeriods": [
+      "modern"
+    ],
     "startDate": "1750",
     "endDate": "1850",
     "datePrecision": "decade",
     "summary": "Retorno a la antigüedad griega y romana: columnas, frontones y austeridad racional.",
     "description": "La arquitectura neoclásica reaccionó contra la exuberancia barroca y rococó, volviendo a la simplicidad y racionalidad de Grecia y Roma. El redescubrimiento de Pompeya y Herculano (años 1750s) y las teorías de Winckelmann impulsaron este retorno. El Panteón de París, el British Museum, la Puerta de Brandeburgo y el Capitolio de Washington son ejemplos emblemáticos.",
     "importance": 7,
-    "regions": ["europe", "north-america"],
-    "places": [{"name": "París", "lat": 48.85, "lng": 2.35, "role": "Panteón, École des Beaux-Arts"}, {"name": "Londres", "lat": 51.5, "lng": -0.12, "role": "British Museum"}, {"name": "Berlín", "lat": 52.52, "lng": 13.4, "role": "Puerta de Brandeburgo"}],
-    "relations": [{"targetId": "enlightenment-movement", "relationType": "contemporary", "strength": 4}, {"targetId": "arquitectura-barroca", "relationType": "reacts-against", "strength": 3}],
-    "sources": [{"title": "Neoclassicism", "author": "Honour, Hugh", "publisher": "Penguin Books", "year": "1968", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Panteón, École des Beaux-Arts"
+      },
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.12,
+        "role": "British Museum"
+      },
+      {
+        "name": "Berlín",
+        "lat": 52.52,
+        "lng": 13.4,
+        "role": "Puerta de Brandeburgo"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "enlightenment-movement",
+        "relationType": "contemporary",
+        "strength": 4
+      },
+      {
+        "targetId": "arquitectura-barroca",
+        "relationType": "reacts-against",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Neoclassicism",
+        "author": "Honour, Hugh",
+        "publisher": "Penguin Books",
+        "year": "1968",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "ciencia-siglo-xx",
     "title": "Revolución científica del siglo XX",
     "type": "movement",
-    "disciplines": ["science"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "science"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1900",
     "endDate": "1970",
     "datePrecision": "decade",
     "summary": "Relatividad, mecánica cuántica, ADN, antibióticos y computación transformaron la ciencia.",
     "description": "El siglo XX vio las mayores revoluciones científicas de la historia: la relatividad especial y general de Einstein (1905-1915), la mecánica cuántica de Bohr, Heisenberg y Schrödinger, la estructura del ADN de Watson y Crick (1953), la penicilina de Fleming, el big bang y la cosmología moderna. Fundó la tecnología nuclear, la computación y la biología molecular.",
     "importance": 10,
-    "regions": ["europe", "north-america"],
-    "places": [{"name": "Princeton", "lat": 40.36, "lng": -74.66, "role": "Einstein en IAS"}, {"name": "Cambridge", "lat": 52.2, "lng": 0.12, "role": "Watson, Crick y ADN"}, {"name": "Copenhague", "lat": 55.68, "lng": 12.57, "role": "Instituto Bohr y mecánica cuántica"}],
-    "relations": [{"targetId": "fisica-moderna", "relationType": "part_of", "strength": 5}, {"targetId": "revolucion-digital", "relationType": "precedes", "strength": 4}],
-    "sources": [{"title": "The Making of the Atomic Bomb", "author": "Rhodes, Richard", "publisher": "Simon & Schuster", "year": "1986", "type": "book", "reliability": "high"}],
+    "regions": [
+      "europe",
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Princeton",
+        "lat": 40.36,
+        "lng": -74.66,
+        "role": "Einstein en IAS"
+      },
+      {
+        "name": "Cambridge",
+        "lat": 52.2,
+        "lng": 0.12,
+        "role": "Watson, Crick y ADN"
+      },
+      {
+        "name": "Copenhague",
+        "lat": 55.68,
+        "lng": 12.57,
+        "role": "Instituto Bohr y mecánica cuántica"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "fisica-moderna",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "revolucion-digital",
+        "relationType": "precedes",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Making of the Atomic Bomb",
+        "author": "Rhodes, Richard",
+        "publisher": "Simon & Schuster",
+        "year": "1986",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "filosofia-oriental",
     "title": "Filosofía oriental clásica",
     "type": "movement",
-    "disciplines": ["philosophy"],
-    "historicalPeriods": ["classical-antiquity"],
+    "disciplines": [
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity"
+    ],
     "startDate": "-600",
     "endDate": "-200",
     "datePrecision": "century",
     "summary": "Confucio, Laozi y el taoísmo, el budismo y las Upanishads: las grandes tradiciones filosóficas de Asia.",
     "description": "El período Axial (siglos VI-IV a.C.) vio surgir simultáneamente grandes sistemas filosófico-religiosos en Asia: el confucianismo y taoísmo en China (Confucio, Laozi, Zhuangzi), el budismo en India (Siddhartha Gautama), el jainismo, y las Upanishads del hinduismo clásico. Estas tradiciones siguen siendo la base espiritual e intelectual de miles de millones de personas.",
     "importance": 10,
-    "regions": ["asia"],
-    "places": [{"name": "Qufu", "lat": 35.6, "lng": 116.99, "role": "ciudad natal de Confucio"}, {"name": "Bodh Gaya", "lat": 24.69, "lng": 84.99, "role": "iluminación de Buda"}, {"name": "Luoyi", "lat": 34.62, "lng": 112.45, "role": "Laozi y taoísmo"}],
-    "relations": [{"targetId": "filosofia-griega-clasica", "relationType": "contemporary", "strength": 2}],
-    "sources": [{"title": "The Axial Age and Its Consequences", "author": "Bellah, Robert N.", "publisher": "Harvard University Press", "year": "2012", "type": "book", "reliability": "high"}],
+    "regions": [
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Qufu",
+        "lat": 35.6,
+        "lng": 116.99,
+        "role": "ciudad natal de Confucio"
+      },
+      {
+        "name": "Bodh Gaya",
+        "lat": 24.69,
+        "lng": 84.99,
+        "role": "iluminación de Buda"
+      },
+      {
+        "name": "Luoyi",
+        "lat": 34.62,
+        "lng": 112.45,
+        "role": "Laozi y taoísmo"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "filosofia-griega-clasica",
+        "relationType": "contemporary",
+        "strength": 2
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Axial Age and Its Consequences",
+        "author": "Bellah, Robert N.",
+        "publisher": "Harvard University Press",
+        "year": "2012",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "budismo",
     "title": "Budismo",
     "type": "movement",
-    "disciplines": ["philosophy"],
-    "historicalPeriods": ["classical-antiquity", "early-middle-ages", "high-middle-ages"],
+    "disciplines": [
+      "philosophy"
+    ],
+    "historicalPeriods": [
+      "classical-antiquity",
+      "early-middle-ages",
+      "high-middle-ages"
+    ],
     "startDate": "-500",
     "endDate": "1500",
     "datePrecision": "century",
     "summary": "Tradición religiosa y filosófica fundada por Siddhartha Gautama que se extendió por toda Asia.",
     "description": "El budismo, fundado por Siddhartha Gautama (h. 480 a.C.) en el norte de India, enseña las Cuatro Nobles Verdades y el Óctuple Sendero como camino al cese del sufrimiento. Se dividió en Theravada y Mahayana. Se extendió por Sri Lanka, Tailandia, Birmania (Theravada) y China, Corea, Japón y Vietnam (Mahayana), convirtiéndose en la religión dominante de Asia Oriental y Suroriental.",
     "importance": 10,
-    "regions": ["asia"],
-    "places": [{"name": "Bodh Gaya", "lat": 24.69, "lng": 84.99, "role": "iluminación de Buda"}, {"name": "Nalanda", "lat": 25.14, "lng": 85.44, "role": "gran universidad budista"}],
-    "relations": [{"targetId": "filosofia-oriental", "relationType": "part_of", "strength": 4}],
-    "sources": [{"title": "What the Buddha Taught", "author": "Rahula, Walpola", "publisher": "Grove Press", "year": "1974", "type": "book", "reliability": "high"}],
+    "regions": [
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Bodh Gaya",
+        "lat": 24.69,
+        "lng": 84.99,
+        "role": "iluminación de Buda"
+      },
+      {
+        "name": "Nalanda",
+        "lat": 25.14,
+        "lng": 85.44,
+        "role": "gran universidad budista"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "filosofia-oriental",
+        "relationType": "part_of",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "What the Buddha Taught",
+        "author": "Rahula, Walpola",
+        "publisher": "Grove Press",
+        "year": "1974",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "movimiento-derechos-civiles",
     "title": "Movimiento de derechos civiles",
     "type": "movement",
-    "disciplines": ["politics", "society"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "politics",
+      "society"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1954",
     "endDate": "1968",
     "datePrecision": "year",
     "summary": "Lucha afroamericana por la igualdad civil en EEUU liderada por Martin Luther King.",
     "description": "El movimiento de derechos civiles estadounidense fue una lucha masiva y no violenta contra la segregación racial y la discriminación legal. Liderado por Martin Luther King Jr., Rosa Parks y el SNCC, logró la Ley de Derechos Civiles de 1964 y la Ley de Derecho al Voto de 1965. Inspiró movimientos de liberación en todo el mundo y transformó la política y la cultura americana.",
     "importance": 10,
-    "regions": ["north-america"],
-    "places": [{"name": "Montgomery", "lat": 32.37, "lng": -86.3, "role": "boicot a los autobuses 1955"}, {"name": "Birmingham", "lat": 33.52, "lng": -86.8, "role": "manifestaciones clave"}, {"name": "Washington DC", "lat": 38.9, "lng": -77.04, "role": "Marcha sobre Washington 1963"}],
-    "relations": [{"targetId": "derechos-civiles", "relationType": "part_of", "strength": 5}, {"targetId": "feminismo", "relationType": "influenced", "strength": 3}],
-    "sources": [{"title": "Parting the Waters", "author": "Branch, Taylor", "publisher": "Simon & Schuster", "year": "1988", "type": "book", "reliability": "high"}],
+    "regions": [
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Montgomery",
+        "lat": 32.37,
+        "lng": -86.3,
+        "role": "boicot a los autobuses 1955"
+      },
+      {
+        "name": "Birmingham",
+        "lat": 33.52,
+        "lng": -86.8,
+        "role": "manifestaciones clave"
+      },
+      {
+        "name": "Washington DC",
+        "lat": 38.9,
+        "lng": -77.04,
+        "role": "Marcha sobre Washington 1963"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "derechos-civiles",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "feminismo",
+        "relationType": "influenced",
+        "strength": 3
+      }
+    ],
+    "sources": [
+      {
+        "title": "Parting the Waters",
+        "author": "Branch, Taylor",
+        "publisher": "Simon & Schuster",
+        "year": "1988",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   },
   {
     "id": "contracultura-60s",
     "title": "Contracultura de los años 60",
     "type": "movement",
-    "disciplines": ["society", "art", "music"],
-    "historicalPeriods": ["contemporary"],
+    "disciplines": [
+      "society",
+      "art",
+      "music"
+    ],
+    "historicalPeriods": [
+      "contemporary"
+    ],
     "startDate": "1960",
     "endDate": "1975",
     "datePrecision": "year",
     "summary": "Revolución cultural que cuestionó el orden establecido: hippies, rock, feminismo y antibelicismo.",
     "description": "La contracultura de los años 60 fue una revolución cultural global que cuestionó los valores de la sociedad burguesa y el orden establecido. Los movimientos hippies, el rock (Beatles, Rolling Stones, Woodstock), el feminismo de segunda ola, las protestas contra la guerra de Vietnam, Mayo del 68 en París y el movimiento de derechos civiles se entretejieron en una transformación cultural de largo alcance.",
     "importance": 9,
-    "regions": ["north-america", "europe"],
-    "places": [{"name": "San Francisco", "lat": 37.77, "lng": -122.42, "role": "epicentro hippie, Summer of Love 1967"}, {"name": "París", "lat": 48.85, "lng": 2.35, "role": "Mayo del 68"}, {"name": "Woodstock", "lat": 42.04, "lng": -74.12, "role": "festival de música 1969"}],
-    "relations": [{"targetId": "rock-popular", "relationType": "part_of", "strength": 4}, {"targetId": "feminismo", "relationType": "contemporary", "strength": 4}],
-    "sources": [{"title": "The Sixties: Years of Hope, Days of Rage", "author": "Gitlin, Todd", "publisher": "Bantam Books", "year": "1987", "type": "book", "reliability": "high"}],
+    "regions": [
+      "north-america",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "San Francisco",
+        "lat": 37.77,
+        "lng": -122.42,
+        "role": "epicentro hippie, Summer of Love 1967"
+      },
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "Mayo del 68"
+      },
+      {
+        "name": "Woodstock",
+        "lat": 42.04,
+        "lng": -74.12,
+        "role": "festival de música 1969"
+      }
+    ],
+    "relations": [
+      {
+        "targetId": "rock-popular",
+        "relationType": "part_of",
+        "strength": 4
+      },
+      {
+        "targetId": "feminismo",
+        "relationType": "contemporary",
+        "strength": 4
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Sixties: Years of Hope, Days of Rage",
+        "author": "Gitlin, Todd",
+        "publisher": "Bantam Books",
+        "year": "1987",
+        "type": "book",
+        "reliability": "high"
+      }
+    ],
     "media": [],
-    "validation": {"status": "verified", "lastReviewed": "2024-01-01", "notes": ""}
+    "validation": {
+      "status": "verified",
+      "lastReviewed": "2024-01-01",
+      "notes": ""
+    }
   }
 ]
