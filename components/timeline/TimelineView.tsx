@@ -835,7 +835,7 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
     const view = savedViewRef.current;
     const t = view
       ? transformForYears(view.startYear, view.endYear)   // restore after filter/resize
-      : transformForYears(-6000, 2100);                   // first load: ~8000yr range → clearly in "grandes épocas" level
+      : transformForYears(-10000, 2100);                  // first load: -10000→2100, shows prehistoric epochs + arte rupestre era
 
     if (t) {
       svg.call(zoom.transform as never, t);
