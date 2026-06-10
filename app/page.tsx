@@ -146,8 +146,8 @@ export default function Home() {
           {selectedEntity && (
             <div
               className="animate-in absolute top-3 right-3 bottom-3 rounded-2xl overflow-hidden shadow-2xl flex flex-col"
-              style={{zIndex: 1500}}
               style={{
+                zIndex: 1500,
                 width: 'clamp(300px, 33vw, 520px)',
                 background: 'rgba(255,255,255,0.60)',
                 backdropFilter: 'blur(16px)',
