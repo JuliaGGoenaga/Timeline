@@ -75,7 +75,7 @@ export default function Home() {
           {(Object.keys(VIEW_LABELS) as ActiveView[]).map((v) => (
             <button
               key={v}
-              onClick={() => setActiveView(v)}
+              onClick={() => { setActiveView(v); setSelectedId(null); }}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
                 activeView === v
                   ? 'bg-blue-600 text-white shadow-sm'
