@@ -123,8 +123,10 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
   const containerRef = useRef<HTMLDivElement>(null);
   const zoomRef      = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
   const domainRef    = useRef<[number, number]>([-3300, 2100]);
-  // Saved zoom transform — persists across redraws caused by filter changes
-  const savedTransformRef = useRef<d3.ZoomTransform | null>(null);
+  // Saved visible year range — persists across redraws (filter changes, resize).
+  // Storing years (not pixels) means the transform is recalculated correctly
+  // when the container width changes (e.g. filter panel opens/closes).
+  const savedViewRef = useRef<{ startYear: number; endYear: number } | null>(null);
 
   const selectedIdRef   = useRef<string | null>(selectedId);
   const focusedGroupRef = useRef<string | null>(null); // focused lane id
@@ -795,39 +797,50 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
     renderAllRef.current = renderAll;
     currentXSRef.current = xScale;
 
+    // Helper: build a d3 zoom transform that shows [startYear, endYear]
+    // for the current container width W. Pure math — no side effects.
+    function transformForYears(startYear: number, endYear: number) {
+      const sx   = xScale(startYear);
+      const ex   = xScale(endYear);
+      const span = ex - sx;
+      if (span <= 0) return null;
+      const k  = (W - ML - MR) / span;
+      const tx = ML - sx * k;
+      return d3.zoomIdentity.translate(tx, 0).scale(k);
+    }
+
     const zoom = d3.zoom<SVGSVGElement, unknown>()
       .scaleExtent([0.03, 600])
       .on('zoom', (event) => {
-        savedTransformRef.current = event.transform;   // persist across redraws
-        const newXS = event.transform.rescaleX(xScale);
-        currentXSRef.current = newXS;
-        renderAll(newXS);
+        // Save visible year range so it survives resizes and filter redraws
+        const xs = event.transform.rescaleX(xScale);
+        const [domMin2, domMax2] = domainRef.current;
+        const visW = W - ML - MR;
+        savedViewRef.current = {
+          startYear: xs.invert(ML),
+          endYear:   xs.invert(ML + visW),
+        };
+        // Clamp to avoid saving nonsense outside the full domain
+        savedViewRef.current.startYear = Math.max(domMin2 - 200, savedViewRef.current.startYear);
+        savedViewRef.current.endYear   = Math.min(domMax2 + 200, savedViewRef.current.endYear);
+
+        currentXSRef.current = xs;
+        renderAll(xs);
       });
 
     zoomRef.current = zoom;
     svg.call(zoom as never);
 
-    // ── Initial / restored zoom ───────────────────────────────────────────────
-    if (savedTransformRef.current) {
-      // Filter changed: restore exact previous position without animation
-      svg.call(zoom.transform as never, savedTransformRef.current);
+    // ── Initial / restored view ───────────────────────────────────────────────
+    const view = savedViewRef.current;
+    const t = view
+      ? transformForYears(view.startYear, view.endYear)   // restore after filter/resize
+      : transformForYears(-3400, 2100);                   // first load: recorded history
+
+    if (t) {
+      svg.call(zoom.transform as never, t);
     } else {
-      // First load: zoom to show recorded history (-3400 → 2100) instead of
-      // the full domain which can start at -40000 (prehistoric entities)
-      const INIT_START = -3400;
-      const INIT_END   = 2100;
-      const sx = xScale(INIT_START);
-      const ex = xScale(INIT_END);
-      const span = ex - sx;
-      if (span > 0) {
-        const k  = (W - ML - MR) / span;
-        const tx = ML - sx * k;
-        const t  = d3.zoomIdentity.translate(tx, 0).scale(k);
-        savedTransformRef.current = t;
-        svg.call(zoom.transform as never, t);
-      } else {
-        renderAll(xScale);
-      }
+      renderAll(xScale);
     }
 
   }, [entities, onSelect]); // selectedId intentionally omitted
