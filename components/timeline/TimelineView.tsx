@@ -277,10 +277,7 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
       // ─────────────────────────────────────────────────────────────────────────
 
       const SUPER_ZOOM_THRESHOLD = 5500;
-      // At yearRange >= SPLIT_START → epoch zone fills ~80% (some lane always visible).
-      // At yearRange <= SPLIT_END   → lane zone fills 100%.
-      // Raised from 3000→50000 so the lane never disappears even at full domain zoom.
-      const SPLIT_START = 50000;
+      const SPLIT_START = 3000;  // yearRange where epoch zone is at 100%
       const SPLIT_END   = 1000;  // yearRange where lane zone is at 100%
       const LANE_INDENT = 18;
       // Clip bounds for the lane item area (must match the clipPath rect defined above)
@@ -838,7 +835,7 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
     const view = savedViewRef.current;
     const t = view
       ? transformForYears(view.startYear, view.endYear)   // restore after filter/resize
-      : transformForYears(domMin, domMax);                // first load: full domain (shows all epochs + arte rupestre)
+      : transformForYears(-3400, 2100);                   // first load: recorded history
 
     if (t) {
       svg.call(zoom.transform as never, t);
