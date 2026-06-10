@@ -123,6 +123,8 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
   const containerRef = useRef<HTMLDivElement>(null);
   const zoomRef      = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
   const domainRef    = useRef<[number, number]>([-3300, 2100]);
+  // Saved zoom transform — persists across redraws caused by filter changes
+  const savedTransformRef = useRef<d3.ZoomTransform | null>(null);
 
   const selectedIdRef   = useRef<string | null>(selectedId);
   const focusedGroupRef = useRef<string | null>(null); // focused lane id
@@ -796,6 +798,7 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
     const zoom = d3.zoom<SVGSVGElement, unknown>()
       .scaleExtent([0.03, 600])
       .on('zoom', (event) => {
+        savedTransformRef.current = event.transform;   // persist across redraws
         const newXS = event.transform.rescaleX(xScale);
         currentXSRef.current = newXS;
         renderAll(newXS);
@@ -803,7 +806,29 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
 
     zoomRef.current = zoom;
     svg.call(zoom as never);
-    renderAll(xScale);
+
+    // ── Initial / restored zoom ───────────────────────────────────────────────
+    if (savedTransformRef.current) {
+      // Filter changed: restore exact previous position without animation
+      svg.call(zoom.transform as never, savedTransformRef.current);
+    } else {
+      // First load: zoom to show recorded history (-3400 → 2100) instead of
+      // the full domain which can start at -40000 (prehistoric entities)
+      const INIT_START = -3400;
+      const INIT_END   = 2100;
+      const sx = xScale(INIT_START);
+      const ex = xScale(INIT_END);
+      const span = ex - sx;
+      if (span > 0) {
+        const k  = (W - ML - MR) / span;
+        const tx = ML - sx * k;
+        const t  = d3.zoomIdentity.translate(tx, 0).scale(k);
+        savedTransformRef.current = t;
+        svg.call(zoom.transform as never, t);
+      } else {
+        renderAll(xScale);
+      }
+    }
 
   }, [entities, onSelect]); // selectedId intentionally omitted
 
