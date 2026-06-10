@@ -26,9 +26,13 @@ interface LinkDatum extends d3.SimulationLinkDatum<NodeDatum> {
 }
 
 export default function NetworkView({ entities, selectedId, onSelect }: Props) {
-  const svgRef = useRef<SVGSVGElement>(null);
+  const svgRef      = useRef<SVGSVGElement>(null);
+  const onSelectRef = useRef(onSelect);
+  useEffect(() => { onSelectRef.current = onSelect; }, [onSelect]);
+
   const [hoverId, setHoverId] = useState<string | null>(null);
 
+  // ── Build graph once (or when entities list changes) ─────────────────────────
   useEffect(() => {
     if (!svgRef.current) return;
     const svg = d3.select(svgRef.current);
@@ -39,7 +43,6 @@ export default function NetworkView({ entities, selectedId, onSelect }: Props) {
 
     const entityMap = new Map(entities.map((e) => [e.id, e]));
 
-    // Build nodes & links — only entities that appear in at least one valid relation
     const usedIds = new Set<string>();
     const linksRaw: { from: string; to: string; label: string }[] = [];
 
@@ -53,13 +56,10 @@ export default function NetworkView({ entities, selectedId, onSelect }: Props) {
       });
     });
 
-    // Limit to top-N by importance to avoid overloading the layout
     const MAX_NODES = 120;
-    const sortedIds = Array.from(usedIds).sort((a, b) => {
-      const ia = entityMap.get(a)?.importance ?? 0;
-      const ib = entityMap.get(b)?.importance ?? 0;
-      return ib - ia;
-    }).slice(0, MAX_NODES);
+    const sortedIds = Array.from(usedIds)
+      .sort((a, b) => (entityMap.get(b)?.importance ?? 0) - (entityMap.get(a)?.importance ?? 0))
+      .slice(0, MAX_NODES);
     const kept = new Set(sortedIds);
 
     const nodes: NodeDatum[] = sortedIds.map((id) => {
@@ -72,15 +72,13 @@ export default function NetworkView({ entities, selectedId, onSelect }: Props) {
       .filter((l) => kept.has(l.from) && kept.has(l.to) && l.from !== l.to)
       .map((l) => ({ source: l.from, target: l.to, label: l.label }));
 
-    // D3 force simulation
     const sim = d3.forceSimulation<NodeDatum>(nodes)
       .force('link', d3.forceLink<NodeDatum, LinkDatum>(links).id((d) => d.id).distance(80).strength(0.3))
       .force('charge', d3.forceManyBody().strength(-200))
       .force('center', d3.forceCenter(W / 2, H / 2))
       .force('collide', d3.forceCollide<NodeDatum>().radius((d) => d.size + 4))
-      .alphaDecay(0.03);   // converge más rápido y para solo
+      .alphaDecay(0.03);
 
-    // Zoom container
     const g = svg.append('g');
     svg.call(
       d3.zoom<SVGSVGElement, unknown>()
@@ -88,7 +86,6 @@ export default function NetworkView({ entities, selectedId, onSelect }: Props) {
         .on('zoom', (ev) => g.attr('transform', ev.transform))
     );
 
-    // Arrow marker
     svg.append('defs').append('marker')
       .attr('id', 'arrow')
       .attr('viewBox', '0 -4 8 8')
@@ -97,36 +94,33 @@ export default function NetworkView({ entities, selectedId, onSelect }: Props) {
       .attr('orient', 'auto')
       .append('path').attr('d', 'M0,-4L8,0L0,4').attr('fill', '#d1d5db');
 
-    // Links
     const linkSel = g.append('g').selectAll<SVGLineElement, LinkDatum>('line')
       .data(links).join('line')
       .attr('stroke', '#e5e7eb')
       .attr('stroke-width', 1)
       .attr('marker-end', 'url(#arrow)');
 
-    // Node groups
-    const nodeSel = g.append('g').selectAll<SVGGElement, NodeDatum>('g')
+    const nodeSel = g.append('g').attr('class', 'nodes')
+      .selectAll<SVGGElement, NodeDatum>('g')
       .data(nodes, (d) => d.id)
       .join('g')
       .style('cursor', 'pointer')
       .call(
         d3.drag<SVGGElement, NodeDatum>()
-          .on('start', (ev, d) => { d.fx = d.x; d.fy = d.y; })
-          .on('drag',  (ev, d) => {
-            if (!ev.active) sim.alphaTarget(0.3).restart();
-            d.fx = ev.x; d.fy = ev.y;
-          })
-          .on('end',   (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx = d.x; d.fy = d.y; })
+          .on('start', (_ev, d) => { d.fx = d.x; d.fy = d.y; })
+          .on('drag',  (ev, d)  => { if (!ev.active) sim.alphaTarget(0.3).restart(); d.fx = ev.x; d.fy = ev.y; })
+          .on('end',   (ev, d)  => { if (!ev.active) sim.alphaTarget(0); d.fx = d.x; d.fy = d.y; })
       )
-      .on('click', (_ev, d) => onSelect(d.id))
+      .on('click', (_ev, d) => onSelectRef.current(d.id))
       .on('mouseenter', (_ev, d) => setHoverId(d.id))
       .on('mouseleave', () => setHoverId(null));
 
     nodeSel.append('circle')
+      .attr('class', 'node-circle')
       .attr('r', (d) => d.size)
       .attr('fill', (d) => d.color + 'cc')
-      .attr('stroke', (d) => d.id === selectedId ? '#1f2937' : d.color)
-      .attr('stroke-width', (d) => d.id === selectedId ? 3 : 1.5);
+      .attr('stroke', (d) => d.color)
+      .attr('stroke-width', 1.5);
 
     nodeSel.append('text')
       .text((d) => d.title)
@@ -140,29 +134,36 @@ export default function NetworkView({ entities, selectedId, onSelect }: Props) {
       .style('pointer-events', 'none')
       .style('display', (d) => d.importance >= 6 ? 'block' : 'none');
 
-    // Tick
     sim.on('tick', () => {
       linkSel
         .attr('x1', (d) => (d.source as NodeDatum).x ?? 0)
         .attr('y1', (d) => (d.source as NodeDatum).y ?? 0)
         .attr('x2', (d) => (d.target as NodeDatum).x ?? 0)
         .attr('y2', (d) => (d.target as NodeDatum).y ?? 0);
-
       nodeSel.attr('transform', (d) => `translate(${d.x ?? 0},${d.y ?? 0})`);
     });
 
     return () => { sim.stop(); };
+  // selectedId is intentionally excluded — handled by the effect below
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [entities, selectedId]);
+  }, [entities]);
 
-  // Tooltip for hovered node
+  // ── Update selection highlight without touching the simulation ────────────────
+  useEffect(() => {
+    if (!svgRef.current) return;
+    d3.select(svgRef.current)
+      .selectAll<SVGCircleElement, NodeDatum>('g.nodes g circle.node-circle')
+      .attr('stroke', (d) => d.id === selectedId ? '#1f2937' : d.color)
+      .attr('stroke-width', (d) => d.id === selectedId ? 3 : 1.5)
+      .attr('r', (d) => d.id === selectedId ? d.size + 3 : d.size);
+  }, [selectedId]);
+
   const hoveredEntity = hoverId ? entities.find((e) => e.id === hoverId) : null;
 
   return (
     <div className="relative w-full h-full bg-gray-50">
       <svg ref={svgRef} className="w-full h-full" />
 
-      {/* Hover tooltip */}
       {hoveredEntity && (
         <div className="absolute top-3 left-3 z-20 bg-white border border-gray-200 rounded-xl shadow-lg px-3 py-2 max-w-xs pointer-events-none">
           <p className="font-semibold text-sm text-gray-900">{hoveredEntity.title}</p>
