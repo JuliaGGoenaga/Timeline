@@ -77,7 +77,8 @@ export default function NetworkView({ entities, selectedId, onSelect }: Props) {
       .force('link', d3.forceLink<NodeDatum, LinkDatum>(links).id((d) => d.id).distance(80).strength(0.3))
       .force('charge', d3.forceManyBody().strength(-200))
       .force('center', d3.forceCenter(W / 2, H / 2))
-      .force('collide', d3.forceCollide<NodeDatum>().radius((d) => d.size + 4));
+      .force('collide', d3.forceCollide<NodeDatum>().radius((d) => d.size + 4))
+      .alphaDecay(0.03);   // converge más rápido y para solo
 
     // Zoom container
     const g = svg.append('g');
@@ -110,9 +111,12 @@ export default function NetworkView({ entities, selectedId, onSelect }: Props) {
       .style('cursor', 'pointer')
       .call(
         d3.drag<SVGGElement, NodeDatum>()
-          .on('start', (ev, d) => { if (!ev.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
-          .on('drag',  (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
-          .on('end',   (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
+          .on('start', (ev, d) => { d.fx = d.x; d.fy = d.y; })
+          .on('drag',  (ev, d) => {
+            if (!ev.active) sim.alphaTarget(0.3).restart();
+            d.fx = ev.x; d.fy = ev.y;
+          })
+          .on('end',   (ev, d) => { if (!ev.active) sim.alphaTarget(0); d.fx = d.x; d.fy = d.y; })
       )
       .on('click', (_ev, d) => onSelect(d.id))
       .on('mouseenter', (_ev, d) => setHoverId(d.id))
