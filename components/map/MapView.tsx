@@ -1,21 +1,127 @@
 'use client';
 
-import { useEffect, useRef, useState, useMemo } from 'react';
+import { useEffect, useRef, useState, useMemo, useCallback } from 'react';
 import type { Entity } from '@/types';
 import disciplines from '@/data/disciplines.json';
 import { parseYear } from '@/lib/dateUtils';
 
 const DISC = Object.fromEntries(disciplines.map((d) => [d.id, d]));
 
-// Slider domain — covers all meaningful history
 const SLIDER_MIN = -3500;
 const SLIDER_MAX = 2100;
+const STEP = 10;
 
 function fmtYear(y: number): string {
-  if (y <= 0) return `${Math.abs(y) || '0'} a.C.`;
+  if (y < 0) return `${Math.abs(y)} a.C.`;
+  if (y === 0) return '0';
   return `${y} d.C.`;
 }
 
+// ── Custom dual-handle range slider ──────────────────────────────────────────
+function DualSlider({
+  min, max, step, start, end,
+  onChange,
+}: {
+  min: number; max: number; step: number;
+  start: number; end: number;
+  onChange: (start: number, end: number) => void;
+}) {
+  const trackRef = useRef<HTMLDivElement>(null);
+  const dragging = useRef<'start' | 'end' | null>(null);
+
+  const pct = (v: number) => ((v - min) / (max - min)) * 100;
+
+  const valueFromClientX = useCallback((clientX: number) => {
+    const rect = trackRef.current?.getBoundingClientRect();
+    if (!rect) return 0;
+    const ratio = Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+    const raw = min + ratio * (max - min);
+    return Math.round(raw / step) * step;
+  }, [min, max, step]);
+
+  const onPointerDown = (thumb: 'start' | 'end') =>
+    (e: React.PointerEvent) => {
+      e.currentTarget.setPointerCapture(e.pointerId);
+      dragging.current = thumb;
+    };
+
+  const onPointerMove = (e: React.PointerEvent) => {
+    if (!dragging.current) return;
+    const v = valueFromClientX(e.clientX);
+    if (dragging.current === 'start') {
+      onChange(Math.min(v, end - step), end);
+    } else {
+      onChange(start, Math.max(v, start + step));
+    }
+  };
+
+  const onPointerUp = () => { dragging.current = null; };
+
+  // Also allow clicking on the track itself to move the nearest thumb
+  const onTrackClick = (e: React.MouseEvent) => {
+    if (dragging.current) return;
+    const v = valueFromClientX(e.clientX);
+    const dStart = Math.abs(v - start);
+    const dEnd   = Math.abs(v - end);
+    if (dStart <= dEnd) onChange(Math.min(v, end - step), end);
+    else                onChange(start, Math.max(v, start + step));
+  };
+
+  const ticks = [-3000, -2000, -1000, 0, 500, 1000, 1500, 1800, 2000];
+
+  return (
+    <div>
+      {/* Track area */}
+      <div
+        ref={trackRef}
+        className="relative h-6 flex items-center cursor-pointer mx-2"
+        onClick={onTrackClick}
+      >
+        {/* Background */}
+        <div className="absolute inset-x-0 h-1.5 rounded-full bg-gray-200" />
+
+        {/* Selected range */}
+        <div
+          className="absolute h-1.5 rounded-full bg-blue-500 pointer-events-none"
+          style={{ left: `${pct(start)}%`, right: `${100 - pct(end)}%` }}
+        />
+
+        {/* Start thumb */}
+        <div
+          className="absolute w-4 h-4 rounded-full bg-white border-2 border-blue-500 shadow-md touch-none"
+          style={{ left: `${pct(start)}%`, transform: 'translateX(-50%)', zIndex: 10, cursor: 'grab' }}
+          onPointerDown={onPointerDown('start')}
+          onPointerMove={onPointerMove}
+          onPointerUp={onPointerUp}
+        />
+
+        {/* End thumb */}
+        <div
+          className="absolute w-4 h-4 rounded-full bg-white border-2 border-blue-500 shadow-md touch-none"
+          style={{ left: `${pct(end)}%`, transform: 'translateX(-50%)', zIndex: 10, cursor: 'grab' }}
+          onPointerDown={onPointerDown('end')}
+          onPointerMove={onPointerMove}
+          onPointerUp={onPointerUp}
+        />
+      </div>
+
+      {/* Tick labels */}
+      <div className="relative h-4 mt-0.5 mx-2">
+        {ticks.map((t) => (
+          <span
+            key={t}
+            className="absolute text-[9px] text-gray-400 -translate-x-1/2 whitespace-nowrap pointer-events-none"
+            style={{ left: `${pct(t)}%` }}
+          >
+            {t < 0 ? `${Math.abs(t)}aC` : t === 0 ? '0' : t}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ── MapView ───────────────────────────────────────────────────────────────────
 interface Props {
   entities: Entity[];
   selectedId: string | null;
@@ -29,7 +135,6 @@ export default function MapView({ entities, selectedId, onSelect }: Props) {
   const onSelectRef  = useRef(onSelect);
   useEffect(() => { onSelectRef.current = onSelect; }, [onSelect]);
 
-  // ── Time range filter (local to map) ──────────────────────────────────────
   const [rangeStart, setRangeStart] = useState(SLIDER_MIN);
   const [rangeEnd,   setRangeEnd]   = useState(SLIDER_MAX);
 
@@ -40,15 +145,13 @@ export default function MapView({ entities, selectedId, onSelect }: Props) {
     return s <= rangeEnd && (en ?? s) >= rangeStart;
   }), [entities, rangeStart, rangeEnd]);
 
-  // ── Init map once ──────────────────────────────────────────────────────────
+  // ── Init map ──────────────────────────────────────────────────────────────
   useEffect(() => {
-    if (typeof window === 'undefined') return;
-    if (!containerRef.current) return;
+    if (typeof window === 'undefined' || !containerRef.current) return;
     let destroyed = false;
 
     import('leaflet').then((L) => {
       if (destroyed || !containerRef.current || mapRef.current) return;
-
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       delete (L.Icon.Default.prototype as any)._getIconUrl;
       L.Icon.Default.mergeOptions({
@@ -56,7 +159,6 @@ export default function MapView({ entities, selectedId, onSelect }: Props) {
         iconUrl:       'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
         shadowUrl:     'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
       });
-
       const map = L.map(containerRef.current!, { center: [25, 15], zoom: 2, worldCopyJump: true });
       L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>',
@@ -79,7 +181,7 @@ export default function MapView({ entities, selectedId, onSelect }: Props) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // ── Update markers ──────────────────────────────────────────────────────────
+  // ── Update markers ─────────────────────────────────────────────────────────
   useEffect(() => {
     if (!mapRef.current) return;
     import('leaflet').then((L) => {
@@ -117,90 +219,26 @@ export default function MapView({ entities, selectedId, onSelect }: Props) {
     });
   }, [visibleEntities, selectedId]);
 
-  // ── Slider helpers ─────────────────────────────────────────────────────────
-  const pct = (v: number) => ((v - SLIDER_MIN) / (SLIDER_MAX - SLIDER_MIN)) * 100;
-
-  // Tick marks at meaningful centuries/millennia
-  const ticks = [-3000, -2000, -1000, 0, 500, 1000, 1500, 1800, 1900, 2000];
-
   return (
     <div className="relative w-full h-full flex flex-col">
       {/* Map */}
       <div ref={containerRef} className="flex-1 min-h-0" />
 
-      {/* ── Time range slider strip ── */}
-      <div className="shrink-0 bg-white border-t border-gray-200 px-5 pt-3 pb-4 select-none"
-           style={{ zIndex: 1000 }}>
-
-        {/* Header row */}
-        <div className="flex items-center justify-between mb-2">
+      {/* ── Time range strip ── */}
+      <div className="shrink-0 bg-white border-t border-gray-200 px-4 pt-2 pb-3" style={{ zIndex: 1000 }}>
+        <div className="flex items-center justify-between mb-1.5">
           <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Período</span>
-          <span className="text-xs font-medium text-gray-800 tabular-nums">
+          <span className="text-xs font-medium text-blue-700 tabular-nums">
             {fmtYear(rangeStart)} — {fmtYear(rangeEnd)}
           </span>
           <span className="text-xs text-gray-400">{visibleEntities.length} lugares</span>
         </div>
 
-        {/* Slider track + thumbs */}
-        <div className="relative h-5 flex items-center">
-          {/* Background track */}
-          <div className="absolute inset-x-0 h-1.5 rounded-full bg-gray-200" />
-
-          {/* Selected range highlight */}
-          <div
-            className="absolute h-1.5 rounded-full bg-blue-500"
-            style={{ left: `${pct(rangeStart)}%`, right: `${100 - pct(rangeEnd)}%` }}
-          />
-
-          {/* Start thumb */}
-          <input
-            type="range"
-            min={SLIDER_MIN} max={SLIDER_MAX} step={10}
-            value={rangeStart}
-            onChange={(e) => {
-              const v = parseInt(e.target.value);
-              setRangeStart(Math.min(v, rangeEnd - 10));
-            }}
-            className="absolute inset-0 w-full opacity-0 cursor-pointer"
-            style={{ zIndex: rangeStart > SLIDER_MAX - 100 ? 5 : 3 }}
-          />
-
-          {/* End thumb */}
-          <input
-            type="range"
-            min={SLIDER_MIN} max={SLIDER_MAX} step={10}
-            value={rangeEnd}
-            onChange={(e) => {
-              const v = parseInt(e.target.value);
-              setRangeEnd(Math.max(v, rangeStart + 10));
-            }}
-            className="absolute inset-0 w-full opacity-0 cursor-pointer"
-            style={{ zIndex: 4 }}
-          />
-
-          {/* Visual thumbs */}
-          <div
-            className="absolute w-4 h-4 rounded-full bg-white border-2 border-blue-500 shadow pointer-events-none"
-            style={{ left: `${pct(rangeStart)}%`, transform: 'translateX(-50%)', zIndex: 6 }}
-          />
-          <div
-            className="absolute w-4 h-4 rounded-full bg-white border-2 border-blue-500 shadow pointer-events-none"
-            style={{ left: `${pct(rangeEnd)}%`, transform: 'translateX(-50%)', zIndex: 6 }}
-          />
-        </div>
-
-        {/* Tick labels */}
-        <div className="relative h-4 mt-1">
-          {ticks.map((t) => (
-            <span
-              key={t}
-              className="absolute text-[9px] text-gray-400 -translate-x-1/2 whitespace-nowrap"
-              style={{ left: `${pct(t)}%` }}
-            >
-              {t <= 0 ? `${Math.abs(t)}aC` : t}
-            </span>
-          ))}
-        </div>
+        <DualSlider
+          min={SLIDER_MIN} max={SLIDER_MAX} step={STEP}
+          start={rangeStart} end={rangeEnd}
+          onChange={(s, e) => { setRangeStart(s); setRangeEnd(e); }}
+        />
       </div>
     </div>
   );
