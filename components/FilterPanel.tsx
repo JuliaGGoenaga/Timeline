@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import type { FilterState } from '@/types';
-import { DEFAULT_FILTERS, CONTINENTS } from '@/lib/filters';
+import { DEFAULT_FILTERS, CONTINENTS, ALL_CONTINENT_IDS } from '@/lib/filters';
 import disciplines from '@/data/disciplines.json';
 
 const ENTITY_TYPES = [
@@ -47,10 +47,11 @@ export default function FilterPanel({ filters, onChange, onClose }: Props) {
     onChange(DEFAULT_FILTERS);
   };
 
+  const continentsActive = filters.continents.length < ALL_CONTINENT_IDS.length ? 1 : 0;
   const active =
     filters.disciplines.length +
     filters.types.length +
-    filters.continents.length +
+    continentsActive +
     filters.layers.length +
     (filters.importanceMin > 1 ? 1 : 0) +
     (filters.searchQuery ? 1 : 0);

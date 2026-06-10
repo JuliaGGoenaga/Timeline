@@ -1,12 +1,14 @@
 import type { Entity, FilterState } from '@/types';
 import { parseYear } from './dateUtils';
 
+export const ALL_CONTINENT_IDS = ['europe', 'asia', 'africa', 'americas', 'middle-east', 'oceania', 'global'];
+
 export const DEFAULT_FILTERS: FilterState = {
   disciplines: [],
   periods: [],
   types: [],
   regions: [],
-  continents: [],
+  continents: [...ALL_CONTINENT_IDS],   // all active by default
   layers: [],
   searchQuery: '',
   importanceMin: 1,
@@ -49,11 +51,12 @@ export const CONTINENTS = [
 ];
 
 export function applyFilters(entities: Entity[], filters: FilterState): Entity[] {
-  // Pre-compute the full set of region strings for selected continents
-  const continentRegionSet: Set<string> | null =
-    filters.continents.length > 0
-      ? new Set(filters.continents.flatMap((c) => CONTINENT_REGIONS[c] ?? []))
-      : null;
+  // Pre-compute the full set of region strings for selected continents.
+  // If all continents are selected (or none), skip the filter entirely.
+  const allSelected = filters.continents.length === 0 || filters.continents.length === ALL_CONTINENT_IDS.length;
+  const continentRegionSet: Set<string> | null = allSelected
+    ? null
+    : new Set(filters.continents.flatMap((c) => CONTINENT_REGIONS[c] ?? []));
 
   return entities.filter((e) => {
     if (
