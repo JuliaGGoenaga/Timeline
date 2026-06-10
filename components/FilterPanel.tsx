@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import type { FilterState } from '@/types';
-import { DEFAULT_FILTERS } from '@/lib/filters';
+import { DEFAULT_FILTERS, CONTINENTS } from '@/lib/filters';
 import disciplines from '@/data/disciplines.json';
 
 const ENTITY_TYPES = [
@@ -50,6 +50,7 @@ export default function FilterPanel({ filters, onChange, onClose }: Props) {
   const active =
     filters.disciplines.length +
     filters.types.length +
+    filters.continents.length +
     filters.layers.length +
     (filters.importanceMin > 1 ? 1 : 0) +
     (filters.searchQuery ? 1 : 0);
@@ -113,6 +114,31 @@ export default function FilterPanel({ filters, onChange, onClose }: Props) {
                   style={isActive ? { backgroundColor: d.color, borderColor: d.color } : {}}
                 >
                   {d.icon} {d.label}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Continents */}
+        <div>
+          <p className="text-xs text-gray-500 font-medium mb-1.5">Continente / Región</p>
+          <div className="flex flex-wrap gap-1">
+            {CONTINENTS.map((c) => {
+              const isActive = filters.continents.includes(c.id);
+              return (
+                <button
+                  key={c.id}
+                  onClick={() =>
+                    onChange({ ...filters, continents: toggle(filters.continents, c.id) })
+                  }
+                  className={`text-xs px-2 py-1 rounded-full border transition-colors ${
+                    isActive
+                      ? 'bg-emerald-600 text-white border-emerald-600'
+                      : 'text-gray-500 border-gray-200 hover:border-gray-400'
+                  }`}
+                >
+                  {c.flag} {c.label}
                 </button>
               );
             })}

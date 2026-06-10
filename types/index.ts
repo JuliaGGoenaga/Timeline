@@ -14,6 +14,7 @@ export interface FilterState {
   periods: string[];
   types: string[];
   regions: string[];
+  continents: string[];
   layers: string[];
   searchQuery: string;
   importanceMin: number;
