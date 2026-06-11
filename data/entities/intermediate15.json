@@ -1,0 +1,1099 @@
+[
+  {
+    "id": "archimedes",
+    "title": "Arquímedes",
+    "type": "person",
+    "startDate": "-287",
+    "endDate": "-212",
+    "disciplines": [
+      "science",
+      "mathematics"
+    ],
+    "regions": [
+      "mediterranean"
+    ],
+    "places": [
+      {
+        "name": "Siracusa, Sicilia",
+        "lat": 37.07,
+        "lng": 15.29,
+        "role": "vida y muerte"
+      }
+    ],
+    "importance": 9,
+    "summary": "Matemático y físico griego que formuló el principio de la palanca, calculó el número pi con asombrosa precisión, describió el principio de flotación y diseñó ingenios mecánicos de guerra.",
+    "tags": [
+      "matemáticas",
+      "física",
+      "grecia",
+      "mecánica"
+    ],
+    "relations": [
+      {
+        "targetId": "classical-greece",
+        "relationType": "part_of",
+        "strength": 4
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": "catherine-great",
+    "title": "Catalina la Grande",
+    "type": "person",
+    "startDate": "1729",
+    "endDate": "1796",
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "eastern-europe",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Szczecin (actual Polonia)",
+        "lat": 53.43,
+        "lng": 14.55,
+        "role": "nacimiento"
+      },
+      {
+        "name": "San Petersburgo",
+        "lat": 59.93,
+        "lng": 30.32,
+        "role": "reinado"
+      }
+    ],
+    "importance": 9,
+    "summary": "Emperatriz de Rusia durante 34 años, que modernizó el país, expandió su territorio enormemente y convirtió Rusia en una potencia europea. Gran mecenas de las artes y la Ilustración.",
+    "tags": [
+      "rusia",
+      "ilustración",
+      "imperialismo",
+      "mujer"
+    ],
+    "relations": [
+      {
+        "targetId": "rusia-imperial",
+        "relationType": "led_by",
+        "strength": 5
+      },
+      {
+        "targetId": "enlightenment-movement",
+        "relationType": "inspired_by",
+        "strength": 4
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "sun-yat-sen",
+    "title": "Sun Yat-sen",
+    "type": "person",
+    "startDate": "1866",
+    "endDate": "1925",
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "east-asia",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Guangdong, China",
+        "lat": 22.5,
+        "lng": 113.5,
+        "role": "nacimiento"
+      },
+      {
+        "name": "Nanjing",
+        "lat": 32.06,
+        "lng": 118.79,
+        "role": "primer presidente"
+      }
+    ],
+    "importance": 8,
+    "summary": "Padre de la China moderna, lideró la revolución que derrocó la dinastía Qing en 1911 y fundó la República China. Sus Tres Principios del Pueblo — nacionalismo, democracia y bienestar — siguen siendo referencia.",
+    "tags": [
+      "china",
+      "república",
+      "revolución",
+      "modernización"
+    ],
+    "relations": [
+      {
+        "targetId": "china-imperial",
+        "relationType": "ended",
+        "strength": 4
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": "che-guevara",
+    "title": "Ernesto 'Che' Guevara",
+    "type": "person",
+    "startDate": "1928",
+    "endDate": "1967",
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "south-america",
+      "americas"
+    ],
+    "places": [
+      {
+        "name": "Rosario, Argentina",
+        "lat": -32.95,
+        "lng": -60.67,
+        "role": "nacimiento"
+      },
+      {
+        "name": "La Habana, Cuba",
+        "lat": 23.14,
+        "lng": -82.36,
+        "role": "revolución cubana"
+      },
+      {
+        "name": "La Higuera, Bolivia",
+        "lat": -19.4,
+        "lng": -64.0,
+        "role": "muerte"
+      }
+    ],
+    "importance": 8,
+    "summary": "Revolucionario marxista argentino que participó en la Revolución Cubana junto a Fidel Castro. Ícono global de la contracultura y la lucha antiimperialista, fue ejecutado en Bolivia en 1967.",
+    "tags": [
+      "revolución",
+      "marxismo",
+      "latinoamérica",
+      "cuba"
+    ],
+    "relations": [
+      {
+        "targetId": "cold-war-period",
+        "relationType": "part_of",
+        "strength": 4
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "josephine-baker",
+    "title": "Josephine Baker",
+    "type": "person",
+    "startDate": "1906",
+    "endDate": "1975",
+    "disciplines": [
+      "music",
+      "cinema"
+    ],
+    "regions": [
+      "north-america",
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "St. Louis, Missouri",
+        "lat": 38.63,
+        "lng": -90.2,
+        "role": "nacimiento"
+      },
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "carrera y vida"
+      }
+    ],
+    "importance": 8,
+    "summary": "Cantante, bailarina y actriz afroamericana que triunfó en París en los años 20. Agente de la Resistencia francesa en la WWII, activista por los derechos civiles y primera mujer negra en protagonizar una gran producción cinematográfica.",
+    "tags": [
+      "jazz",
+      "cabaret",
+      "resistencia",
+      "derechos civiles"
+    ],
+    "relations": [
+      {
+        "targetId": "harlem-renaissance",
+        "relationType": "part_of",
+        "strength": 3
+      },
+      {
+        "targetId": "civil-rights-movement",
+        "relationType": "contributed_to",
+        "strength": 4
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.94
+    }
+  },
+  {
+    "id": "wright-brothers",
+    "title": "Hermanos Wright",
+    "type": "person",
+    "startDate": "1867",
+    "endDate": "1948",
+    "disciplines": [
+      "technology",
+      "science"
+    ],
+    "regions": [
+      "north-america"
+    ],
+    "places": [
+      {
+        "name": "Kitty Hawk, Carolina del Norte",
+        "lat": 36.02,
+        "lng": -75.67,
+        "role": "primer vuelo motorizado"
+      }
+    ],
+    "importance": 9,
+    "summary": "Orville y Wilbur Wright realizaron el primer vuelo motorizado controlado de la historia el 17 de diciembre de 1903 en Kitty Hawk, dando inicio a la era de la aviación.",
+    "tags": [
+      "aviación",
+      "invento",
+      "eeuu",
+      "vuelo"
+    ],
+    "relations": [
+      {
+        "targetId": "first-powered-flight",
+        "relationType": "achieved_by",
+        "strength": 5
+      }
+    ],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.97
+    }
+  },
+  {
+    "id": "cinema-birth",
+    "title": "Nacimiento del Cine",
+    "type": "event",
+    "startDate": "1895",
+    "endDate": "1915",
+    "disciplines": [
+      "cinema",
+      "technology"
+    ],
+    "regions": [
+      "western-europe",
+      "global"
+    ],
+    "places": [
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "primera proyección Lumière (1895)"
+      },
+      {
+        "name": "Hollywood, Los Ángeles",
+        "lat": 34.09,
+        "lng": -118.33,
+        "role": "industria cinematográfica"
+      }
+    ],
+    "importance": 9,
+    "summary": "Los hermanos Lumière proyectaron la primera película de la historia en París el 28 de diciembre de 1895. En pocos años el cine pasó de curiosidad científica a arte y gran industria cultural.",
+    "tags": [
+      "cine",
+      "lumière",
+      "arte",
+      "industria"
+    ],
+    "relations": [],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.96
+    }
+  },
+  {
+    "id": "cuban-revolution",
+    "title": "Revolución Cubana",
+    "type": "event",
+    "startDate": "1953",
+    "endDate": "1959",
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "caribbean",
+      "americas"
+    ],
+    "places": [
+      {
+        "name": "La Habana, Cuba",
+        "lat": 23.14,
+        "lng": -82.36,
+        "role": "capital revolucionaria"
+      },
+      {
+        "name": "Sierra Maestra",
+        "lat": 19.9,
+        "lng": -76.8,
+        "role": "guerrilla"
+      }
+    ],
+    "importance": 8,
+    "summary": "El movimiento liderado por Fidel Castro y el Che Guevara derrocó la dictadura de Batista el 1 de enero de 1959, instaurando el primer estado socialista de América. Desencadenó la crisis de los misiles y décadas de tensión con EEUU.",
+    "tags": [
+      "cuba",
+      "socialismo",
+      "castro",
+      "revolución"
+    ],
+    "relations": [
+      {
+        "targetId": "cold-war-period",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "che-guevara",
+        "relationType": "led_by",
+        "strength": 4
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "korean-war",
+    "title": "Guerra de Corea",
+    "type": "event",
+    "startDate": "1950",
+    "endDate": "1953",
+    "disciplines": [
+      "history"
+    ],
+    "regions": [
+      "east-asia",
+      "asia"
+    ],
+    "places": [
+      {
+        "name": "Península de Corea",
+        "lat": 37.57,
+        "lng": 126.98,
+        "role": "escenario"
+      }
+    ],
+    "importance": 7,
+    "summary": "Primer conflicto armado de la Guerra Fría, que dividió la península coreana en dos estados: Corea del Norte (comunista) y Corea del Sur (capitalista). La armisticio de 1953 nunca fue reemplazado por un tratado de paz.",
+    "tags": [
+      "guerra fría",
+      "corea",
+      "eeuu",
+      "china"
+    ],
+    "relations": [
+      {
+        "targetId": "cold-war-period",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "abolition-slavery",
+    "title": "Abolición de la Esclavitud",
+    "type": "event",
+    "startDate": "1833",
+    "endDate": "1888",
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "global"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.1,
+        "role": "Abolition Act británico (1833)"
+      },
+      {
+        "name": "Washington D.C.",
+        "lat": 38.9,
+        "lng": -77.04,
+        "role": "13ª Enmienda EEUU (1865)"
+      },
+      {
+        "name": "Río de Janeiro",
+        "lat": -22.9,
+        "lng": -43.17,
+        "role": "Lei Áurea Brasil (1888)"
+      }
+    ],
+    "importance": 9,
+    "summary": "El proceso de abolición legal de la esclavitud en el mundo occidental, desde el Acta Británica de 1833 hasta Brasil en 1888. Una de las mayores transformaciones morales y sociales de la historia moderna.",
+    "tags": [
+      "esclavitud",
+      "derechos humanos",
+      "abolicionismo",
+      "libertad"
+    ],
+    "relations": [
+      {
+        "targetId": "harriet-tubman",
+        "relationType": "contributed_to",
+        "strength": 4
+      },
+      {
+        "targetId": "civil-rights-movement",
+        "relationType": "precursor_of",
+        "strength": 4
+      }
+    ],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.96
+    }
+  },
+  {
+    "id": "printing3d",
+    "title": "Impresión 3D",
+    "type": "invention",
+    "startDate": "1984",
+    "endDate": null,
+    "disciplines": [
+      "technology"
+    ],
+    "regions": [
+      "north-america",
+      "global"
+    ],
+    "places": [
+      {
+        "name": "California, EEUU",
+        "lat": 37.0,
+        "lng": -120.0,
+        "role": "invención (Chuck Hull, 1984)"
+      }
+    ],
+    "importance": 7,
+    "summary": "Tecnología de fabricación aditiva que construye objetos tridimensionales capa a capa. Está revolucionando la medicina, manufactura, arquitectura y diseño al democratizar la producción física.",
+    "tags": [
+      "fabricación",
+      "tecnología",
+      "manufactura",
+      "futuro"
+    ],
+    "relations": [
+      {
+        "targetId": "ai-revolution",
+        "relationType": "contemporary_of",
+        "strength": 3
+      }
+    ],
+    "layer": "detailed",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.9
+    }
+  },
+  {
+    "id": "dna-discovery",
+    "title": "Descubrimiento del ADN",
+    "type": "event",
+    "startDate": "1953",
+    "endDate": "1953",
+    "disciplines": [
+      "science"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Cambridge",
+        "lat": 52.2,
+        "lng": 0.12,
+        "role": "laboratorio Cavendish"
+      }
+    ],
+    "importance": 10,
+    "summary": "El 25 de abril de 1953, Watson y Crick publicaron en Nature la estructura de doble hélice del ADN, revelando el mecanismo de la herencia genética y fundando la biología molecular moderna.",
+    "tags": [
+      "genética",
+      "biología",
+      "ADN",
+      "watson y crick"
+    ],
+    "relations": [
+      {
+        "targetId": "darwin",
+        "relationType": "built_on",
+        "strength": 4
+      }
+    ],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.98
+    }
+  },
+  {
+    "id": "pop-art",
+    "title": "Pop Art",
+    "type": "movement",
+    "startDate": "1955",
+    "endDate": "1975",
+    "disciplines": [
+      "visual-arts"
+    ],
+    "regions": [
+      "north-america",
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Nueva York",
+        "lat": 40.71,
+        "lng": -74.01,
+        "role": "epicentro americano"
+      },
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.1,
+        "role": "origen británico"
+      }
+    ],
+    "importance": 8,
+    "summary": "Movimiento artístico que incorporó la cultura popular, la publicidad y los medios masivos al arte elevado. Warhol, Lichtenstein y Hamilton transformaron latas de sopa y comics en iconos del siglo XX.",
+    "tags": [
+      "arte",
+      "cultura popular",
+      "consumismo",
+      "eeuu"
+    ],
+    "relations": [
+      {
+        "targetId": "warhol",
+        "relationType": "expressed_by",
+        "strength": 5
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
+  },
+  {
+    "id": "ottoman-architecture",
+    "title": "Arquitectura Otomana Clásica",
+    "type": "movement",
+    "startDate": "1450",
+    "endDate": "1700",
+    "disciplines": [
+      "architecture"
+    ],
+    "regions": [
+      "middle-east",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Estambul",
+        "lat": 41.0,
+        "lng": 28.9,
+        "role": "centro"
+      }
+    ],
+    "importance": 7,
+    "summary": "Estilo arquitectónico del Imperio Otomano caracterizado por grandes cúpulas, minaretes esbeltos y patios con fuentes. La mezquita de Solimán y la de Sultanahmet (Mezquita Azul) son sus obras cumbres.",
+    "tags": [
+      "otomano",
+      "cúpula",
+      "mezquita",
+      "islam"
+    ],
+    "relations": [
+      {
+        "targetId": "ottoman-empire",
+        "relationType": "part_of",
+        "strength": 5
+      },
+      {
+        "targetId": "suleiman-magnificent",
+        "relationType": "patron",
+        "strength": 4
+      }
+    ],
+    "layer": "detailed",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.92
+    }
+  },
+  {
+    "id": "harappan-script",
+    "title": "Escritura del Indo",
+    "type": "invention",
+    "startDate": "-2600",
+    "endDate": "-1900",
+    "disciplines": [
+      "archaeology",
+      "history"
+    ],
+    "regions": [
+      "south-asia"
+    ],
+    "places": [
+      {
+        "name": "Valle del Indo (actuales Pakistán e India)",
+        "lat": 27.0,
+        "lng": 68.0,
+        "role": "origen"
+      }
+    ],
+    "importance": 7,
+    "summary": "Sistema de escritura de la civilización del Valle del Indo, aún no descifrado. Más de 400 signos grabados en sellos de esteatita son el único testimonio escrito de una de las primeras civilizaciones de la humanidad.",
+    "tags": [
+      "escritura",
+      "arqueología",
+      "india",
+      "misterio"
+    ],
+    "relations": [
+      {
+        "targetId": "indus-valley",
+        "relationType": "part_of",
+        "strength": 5
+      }
+    ],
+    "layer": "detailed",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.85
+    }
+  },
+  {
+    "id": "photography-invention",
+    "title": "Invención de la Fotografía",
+    "type": "invention",
+    "startDate": "1826",
+    "endDate": "1839",
+    "disciplines": [
+      "technology",
+      "visual-arts"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Chalon-sur-Saône, Francia",
+        "lat": 46.78,
+        "lng": 4.85,
+        "role": "primera fotografía (Niépce, 1826)"
+      },
+      {
+        "name": "París",
+        "lat": 48.85,
+        "lng": 2.35,
+        "role": "daguerrotipo (Daguerre, 1839)"
+      }
+    ],
+    "importance": 8,
+    "summary": "Niépce capturó la primera imagen fotográfica permanente en 1826; Daguerre presentó el daguerrotipo en 1839. La fotografía transformó el arte, la ciencia, la información y nuestra percepción de la realidad.",
+    "tags": [
+      "fotografía",
+      "tecnología",
+      "arte",
+      "imagen"
+    ],
+    "relations": [
+      {
+        "targetId": "cinema-birth",
+        "relationType": "precursor_of",
+        "strength": 5
+      }
+    ],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.96
+    }
+  },
+  {
+    "id": "magna-carta",
+    "title": "Magna Carta",
+    "type": "event",
+    "startDate": "1215",
+    "endDate": "1215",
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "western-europe",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Runnymede, Surrey, Inglaterra",
+        "lat": 51.44,
+        "lng": -0.56,
+        "role": "firma"
+      }
+    ],
+    "importance": 9,
+    "summary": "El rey Juan Sin Tierra firmó este documento en 1215 limitando por primera vez el poder del monarca ante la ley. Considerada el fundamento del constitucionalismo y del estado de derecho moderno.",
+    "tags": [
+      "derecho",
+      "constitucionalismo",
+      "reino unido",
+      "libertades"
+    ],
+    "relations": [
+      {
+        "targetId": "liberalismo",
+        "relationType": "precursor_of",
+        "strength": 4
+      }
+    ],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.96
+    }
+  },
+  {
+    "id": "apartheid-end",
+    "title": "Fin del Apartheid y elecciones de 1994",
+    "type": "event",
+    "startDate": "1990",
+    "endDate": "1994",
+    "disciplines": [
+      "history",
+      "politics"
+    ],
+    "regions": [
+      "africa",
+      "sub-saharan-africa"
+    ],
+    "places": [
+      {
+        "name": "Johannesburgo / Pretoria, Sudáfrica",
+        "lat": -26.2,
+        "lng": 28.04,
+        "role": "escenario"
+      }
+    ],
+    "importance": 9,
+    "summary": "La liberación de Mandela en 1990 y las primeras elecciones multirraciales de 1994 pusieron fin al apartheid. Considerado uno de los mayores triunfos de la lucha por la dignidad humana del siglo XX.",
+    "tags": [
+      "sudáfrica",
+      "democracia",
+      "reconciliación",
+      "mandela"
+    ],
+    "relations": [
+      {
+        "targetId": "nelson-mandela-detail",
+        "relationType": "achieved_by",
+        "strength": 5
+      },
+      {
+        "targetId": "apartheid",
+        "relationType": "ended",
+        "strength": 5
+      }
+    ],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.97
+    }
+  },
+  {
+    "id": "blue-mosque",
+    "title": "Mezquita Azul (Sultanahmet)",
+    "type": "building",
+    "startDate": "1609",
+    "endDate": "1616",
+    "disciplines": [
+      "architecture",
+      "religion"
+    ],
+    "regions": [
+      "middle-east",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Estambul",
+        "lat": 41.005,
+        "lng": 28.976,
+        "role": "ubicación"
+      }
+    ],
+    "importance": 9,
+    "summary": "Mezquita imperial otomana construida bajo el sultán Ahmed I, famosa por sus seis minaretes y su interior revestido de más de 20.000 azulejos de Iznik en tonos azul-turquesa. Frente a la Hagia Sophia.",
+    "tags": [
+      "otomano",
+      "mezquita",
+      "estambul",
+      "arquitectura"
+    ],
+    "relations": [
+      {
+        "targetId": "ottoman-empire",
+        "relationType": "built_by",
+        "strength": 5
+      },
+      {
+        "targetId": "hagia-sophia",
+        "relationType": "opposite_of",
+        "strength": 3
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.96
+    }
+  },
+  {
+    "id": "palace-topkapi",
+    "title": "Palacio de Topkapi",
+    "type": "building",
+    "startDate": "1459",
+    "endDate": "1856",
+    "disciplines": [
+      "architecture"
+    ],
+    "regions": [
+      "middle-east",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Estambul",
+        "lat": 41.012,
+        "lng": 28.983,
+        "role": "ubicación"
+      }
+    ],
+    "importance": 8,
+    "summary": "Sede del gobierno otomano durante cuatro siglos, residencia de los sultanes y centro del poder del Imperio. Sus patios, harem y tesoros ilustran el esplendor de la civilización otomana.",
+    "tags": [
+      "otomano",
+      "palacio",
+      "estambul",
+      "sultán"
+    ],
+    "relations": [
+      {
+        "targetId": "ottoman-empire",
+        "relationType": "capital_of",
+        "strength": 5
+      },
+      {
+        "targetId": "suleiman-magnificent",
+        "relationType": "resided_in",
+        "strength": 4
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.96
+    }
+  },
+  {
+    "id": "contract-social",
+    "title": "Contrato Social (Rousseau)",
+    "type": "work",
+    "startDate": "1762",
+    "endDate": "1762",
+    "disciplines": [
+      "philosophy",
+      "politics"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Ginebra / París",
+        "lat": 46.2,
+        "lng": 6.15,
+        "role": "publicación"
+      }
+    ],
+    "importance": 9,
+    "summary": "Obra política de Rousseau que afirma que la soberanía reside en el pueblo y que el gobierno debe expresar la voluntad general. Inspiró directamente la Revolución Francesa y las democracias modernas.",
+    "tags": [
+      "filosofía",
+      "democracia",
+      "soberanía",
+      "ilustración"
+    ],
+    "relations": [
+      {
+        "targetId": "rousseau",
+        "relationType": "written_by",
+        "strength": 5
+      },
+      {
+        "targetId": "french-revolution",
+        "relationType": "inspired",
+        "strength": 5
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.96
+    }
+  },
+  {
+    "id": "das-kapital",
+    "title": "El Capital (Marx)",
+    "type": "work",
+    "startDate": "1867",
+    "endDate": "1867",
+    "disciplines": [
+      "philosophy",
+      "economics"
+    ],
+    "regions": [
+      "western-europe"
+    ],
+    "places": [
+      {
+        "name": "Londres",
+        "lat": 51.5,
+        "lng": -0.1,
+        "role": "redacción y publicación"
+      }
+    ],
+    "importance": 9,
+    "summary": "La obra cumbre de Karl Marx analiza el capitalismo como sistema económico y predice su inevitable superación por el socialismo. Ha sido el texto más influyente de la izquierda política durante 150 años.",
+    "tags": [
+      "marxismo",
+      "capitalismo",
+      "economía",
+      "revolución"
+    ],
+    "relations": [
+      {
+        "targetId": "karl-marx",
+        "relationType": "written_by",
+        "strength": 5
+      },
+      {
+        "targetId": "russian-revolution-1917",
+        "relationType": "inspired",
+        "strength": 4
+      }
+    ],
+    "layer": "intermediate",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.96
+    }
+  },
+  {
+    "id": "baroque-style",
+    "title": "Arte Barroco",
+    "type": "style",
+    "startDate": "1600",
+    "endDate": "1750",
+    "disciplines": [
+      "art",
+      "architecture",
+      "music"
+    ],
+    "regions": [
+      "western-europe",
+      "europe"
+    ],
+    "places": [
+      {
+        "name": "Roma",
+        "lat": 41.9,
+        "lng": 12.5,
+        "role": "origen y centro"
+      },
+      {
+        "name": "Versalles",
+        "lat": 48.8,
+        "lng": 2.12,
+        "role": "apogeo francés"
+      }
+    ],
+    "importance": 9,
+    "summary": "Estilo artístico surgido en Roma hacia 1600 que dominó Europa hasta 1750. Caracterizado por el movimiento, la emoción, el dramatismo y la abundancia decorativa. Bernini, Caravaggio, Bach y Rubens son sus figuras cumbres.",
+    "tags": [
+      "arte",
+      "dramatismo",
+      "contrarreforma",
+      "ornamento"
+    ],
+    "relations": [
+      {
+        "targetId": "caravaggio",
+        "relationType": "expressed_by",
+        "strength": 5
+      },
+      {
+        "targetId": "bach",
+        "relationType": "expressed_by",
+        "strength": 5
+      }
+    ],
+    "layer": "global",
+    "validation": {
+      "status": "verified",
+      "confidence": 0.95
+    }
+  }
+]

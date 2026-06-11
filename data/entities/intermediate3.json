@@ -1511,58 +1511,6 @@
     }
   },
   {
-    "id": "pop-art",
-    "title": "Pop Art",
-    "type": "movement",
-    "disciplines": [
-      "art"
-    ],
-    "historicalPeriods": [
-      "cold-war"
-    ],
-    "startDate": "1955",
-    "endDate": "1975",
-    "datePrecision": "year",
-    "summary": "Movimiento artístico que incorporó imágenes de la cultura de masas, la publicidad y el consumo en la alta cultura.",
-    "description": "Andy Warhol, Roy Lichtenstein, Jasper Johns y Richard Hamilton convirtieron latas de sopa, cómics y celebridades en arte. El Pop Art cuestionó los límites entre cultura alta y baja, entre original y reproducción, y anticipó la estetización total de la vida contemporánea.",
-    "importance": 9,
-    "regions": [
-      "north-america",
-      "western-europe"
-    ],
-    "places": [
-      {
-        "name": "Nueva York",
-        "lat": 40.71,
-        "lng": -74.01,
-        "role": "Warhol, Factory"
-      },
-      {
-        "name": "Londres",
-        "lat": 51.51,
-        "lng": -0.12,
-        "role": "precursores británicos"
-      }
-    ],
-    "relations": [],
-    "sources": [
-      {
-        "title": "Pop Art",
-        "author": "Livingstone, M.",
-        "publisher": "Thames and Hudson",
-        "year": "1990",
-        "type": "book",
-        "reliability": "high"
-      }
-    ],
-    "media": [],
-    "validation": {
-      "status": "verified",
-      "lastReviewed": "2024-01-01",
-      "notes": ""
-    }
-  },
-  {
     "id": "brutalismo",
     "title": "Brutalismo",
     "type": "style",
