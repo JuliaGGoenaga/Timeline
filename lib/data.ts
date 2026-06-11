@@ -31,6 +31,7 @@ import intermediate10               from '@/data/entities/intermediate10.json';
 import intermediate11               from '@/data/entities/intermediate11.json';
 import intermediate12               from '@/data/entities/intermediate12.json';
 import intermediate13               from '@/data/entities/intermediate13.json';
+import intermediate14               from '@/data/entities/intermediate14.json';
 
 export const ALL_ENTITIES: Entity[] = [
   ...globalEntities,
@@ -65,6 +66,7 @@ export const ALL_ENTITIES: Entity[] = [
   ...intermediate11,
   ...intermediate12,
   ...intermediate13,
+  ...intermediate14,
 ] as Entity[];
 
 export function getEntityById(id: string): Entity | undefined {

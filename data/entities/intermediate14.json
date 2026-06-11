@@ -1,0 +1,632 @@
+[
+  {
+    "id": "ashoka",
+    "title": "Ashoka el Grande",
+    "type": "person",
+    "startDate": "-304",
+    "endDate": "-232",
+    "disciplines": ["history", "religion"],
+    "regions": ["south-asia", "asia"],
+    "places": [
+      {"name": "Pataliputra (actual Patna)", "lat": 25.6, "lng": 85.1, "role": "capital del Imperio Maurya"},
+      {"name": "Bodh Gaya", "lat": 24.7, "lng": 84.99, "role": "conversión al budismo"}
+    ],
+    "importance": 9,
+    "summary": "Emperador del Imperio Maurya que, tras la sangrienta batalla de Kalinga, se convirtió al budismo y gobernó promoviendo la tolerancia, la no-violencia y el bienestar social. Difundió el budismo por Asia.",
+    "tags": ["india", "budismo", "maurya", "no-violencia"],
+    "relations": [
+      {"targetId": "maurya-empire", "relationType": "led_by", "strength": 5},
+      {"targetId": "buddhism", "relationType": "promoted", "strength": 5}
+    ],
+    "layer": "global",
+    "validation": {"status": "verified", "confidence": 0.94}
+  },
+  {
+    "id": "pachacuti",
+    "title": "Pachacuti Inca Yupanqui",
+    "type": "person",
+    "startDate": "1418",
+    "endDate": "1471",
+    "disciplines": ["history", "politics"],
+    "regions": ["south-america", "americas"],
+    "places": [
+      {"name": "Cusco", "lat": -13.53, "lng": -71.97, "role": "capital"},
+      {"name": "Machu Picchu", "lat": -13.16, "lng": -72.54, "role": "ciudad sagrada construida"}
+    ],
+    "importance": 8,
+    "summary": "Noveno sapa inca que transformó el pequeño reino del Cusco en el Tahuantinsuyo, el mayor imperio de América precolombina. Ordenó la construcción de Machu Picchu y reorganizó el estado inca.",
+    "tags": ["inca", "perú", "andes", "constructor"],
+    "relations": [
+      {"targetId": "inca-empire", "relationType": "founded_by", "strength": 5},
+      {"targetId": "machu-picchu", "relationType": "built", "strength": 5}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.90}
+  },
+  {
+    "id": "timur",
+    "title": "Tamerlán (Timur)",
+    "type": "person",
+    "startDate": "1336",
+    "endDate": "1405",
+    "disciplines": ["history"],
+    "regions": ["central-asia", "asia"],
+    "places": [
+      {"name": "Kesh (actual Shahrisabz, Uzbekistán)", "lat": 38.67, "lng": 66.72, "role": "nacimiento"},
+      {"name": "Samarcanda", "lat": 39.65, "lng": 66.97, "role": "capital del Imperio Timúrida"}
+    ],
+    "importance": 8,
+    "summary": "Conquistador turco-mongol que creó un vasto imperio desde Anatolia hasta la India. Devastador en la guerra, fue también gran mecenas que convirtió Samarcanda en uno de los centros culturales del mundo islámico.",
+    "tags": ["conquista", "asia central", "samarcanda", "timúrida"],
+    "relations": [
+      {"targetId": "mongol-empire", "relationType": "successor_of", "strength": 3}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.93}
+  },
+  {
+    "id": "nzinga",
+    "title": "Reina Nzinga de Ndongo",
+    "type": "person",
+    "startDate": "1583",
+    "endDate": "1663",
+    "disciplines": ["history", "politics"],
+    "regions": ["africa", "sub-saharan-africa"],
+    "places": [
+      {"name": "Ndongo (actual Angola)", "lat": -11.2, "lng": 17.87, "role": "reino"}
+    ],
+    "importance": 8,
+    "summary": "Reina guerrera del reino de Ndongo (actual Angola) que resistió durante décadas la expansión colonial portuguesa y el comercio de esclavos. Una de las figuras más formidables de la resistencia africana colonial.",
+    "tags": ["angola", "resistencia", "colonialismo", "mujer"],
+    "relations": [],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.88}
+  },
+  {
+    "id": "toussaint-louverture",
+    "title": "Toussaint Louverture",
+    "type": "person",
+    "startDate": "1743",
+    "endDate": "1803",
+    "disciplines": ["history", "politics"],
+    "regions": ["caribbean", "americas"],
+    "places": [
+      {"name": "Saint-Domingue (actual Haití)", "lat": 19.1, "lng": -72.3, "role": "nacimiento y lucha"}
+    ],
+    "importance": 8,
+    "summary": "Líder de la Revolución Haitiana, el único esclavo en la historia que liberó a su pueblo con una revolución exitosa. General brillante que venció a los ejércitos de Francia, España e Inglaterra.",
+    "tags": ["haití", "esclavitud", "revolución", "caribe"],
+    "relations": [
+      {"targetId": "haitian-revolution", "relationType": "led_by", "strength": 5}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.94}
+  },
+  {
+    "id": "ataturk",
+    "title": "Mustafá Kemal Atatürk",
+    "type": "person",
+    "startDate": "1881",
+    "endDate": "1938",
+    "disciplines": ["history", "politics"],
+    "regions": ["middle-east", "europe"],
+    "places": [
+      {"name": "Salónica (actual Grecia)", "lat": 40.64, "lng": 22.94, "role": "nacimiento"},
+      {"name": "Ankara", "lat": 39.93, "lng": 32.86, "role": "fundación de Turquía moderna"}
+    ],
+    "importance": 9,
+    "summary": "Fundador y primer presidente de la República de Turquía. Modernizó y secularizó el país adoptando el alfabeto latino, el código civil europeo y los derechos de la mujer, transformando los restos del Imperio Otomano.",
+    "tags": ["turquía", "secularismo", "modernización", "república"],
+    "relations": [
+      {"targetId": "ottoman-empire", "relationType": "successor_of", "strength": 4}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.95}
+  },
+  {
+    "id": "ho-chi-minh",
+    "title": "Ho Chi Minh",
+    "type": "person",
+    "startDate": "1890",
+    "endDate": "1969",
+    "disciplines": ["history", "politics"],
+    "regions": ["southeast-asia", "asia"],
+    "places": [
+      {"name": "Nghe An, Vietnam", "lat": 18.67, "lng": 105.69, "role": "nacimiento"},
+      {"name": "Hanói", "lat": 21.03, "lng": 105.85, "role": "liderazgo"}
+    ],
+    "importance": 8,
+    "summary": "Revolucionario y estadista vietnamita que lideró la independencia de Vietnam frente a Francia y EEUU. Figura central del movimiento de descolonización asiático.",
+    "tags": ["vietnam", "independencia", "comunismo", "descolonización"],
+    "relations": [
+      {"targetId": "vietnam-war", "relationType": "protagonist", "strength": 5},
+      {"targetId": "descolonizacion-africa", "relationType": "contemporary_of", "strength": 3}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.94}
+  },
+  {
+    "id": "rumi",
+    "title": "Rumi",
+    "type": "person",
+    "startDate": "1207",
+    "endDate": "1273",
+    "disciplines": ["literature", "religion", "philosophy"],
+    "regions": ["central-asia", "middle-east"],
+    "places": [
+      {"name": "Balj (actual Afganistán)", "lat": 36.76, "lng": 66.9, "role": "nacimiento"},
+      {"name": "Konya (actual Turquía)", "lat": 37.87, "lng": 32.49, "role": "vida y tumba"}
+    ],
+    "importance": 9,
+    "summary": "Poeta y místico sufí persa autor del Masnavi, una de las obras más leídas de la literatura universal. Su poesía sobre el amor divino trasciende religiones y culturas.",
+    "tags": ["sufismo", "poesía", "mística", "persa"],
+    "relations": [],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.94}
+  },
+  {
+    "id": "omar-khayyam",
+    "title": "Omar Jayam",
+    "type": "person",
+    "startDate": "1048",
+    "endDate": "1131",
+    "disciplines": ["science", "literature", "mathematics"],
+    "regions": ["middle-east", "central-asia"],
+    "places": [
+      {"name": "Nishapur, Irán", "lat": 36.21, "lng": 58.79, "role": "nacimiento y vida"}
+    ],
+    "importance": 8,
+    "summary": "Matemático, astrónomo y poeta persa. Reformó el calendario islámico con más precisión que el gregoriano y escribió los Rubaiyat, cuartetos filosóficos sobre la vida, el vino y la fugacidad.",
+    "tags": ["persia", "matemáticas", "astronomía", "poesía"],
+    "relations": [],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.92}
+  },
+  {
+    "id": "virginia-woolf",
+    "title": "Virginia Woolf",
+    "type": "person",
+    "startDate": "1882",
+    "endDate": "1941",
+    "disciplines": ["literature", "philosophy"],
+    "regions": ["western-europe", "europe"],
+    "places": [
+      {"name": "Londres", "lat": 51.5, "lng": -0.1, "role": "vida y obra"}
+    ],
+    "importance": 9,
+    "summary": "Novelista y ensayista británica pionera del modernismo literario y el stream of consciousness. Mrs. Dalloway, Las olas y Una habitación propia son hitos de la literatura del siglo XX.",
+    "tags": ["modernismo", "feminismo", "literatura", "stream of consciousness"],
+    "relations": [
+      {"targetId": "feminism-waves", "relationType": "contributed_to", "strength": 4}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.95}
+  },
+  {
+    "id": "tchaikovsky",
+    "title": "Piotr Ilich Chaikovski",
+    "type": "person",
+    "startDate": "1840",
+    "endDate": "1893",
+    "disciplines": ["music"],
+    "regions": ["eastern-europe", "europe"],
+    "places": [
+      {"name": "Votkinsk, Rusia", "lat": 57.05, "lng": 53.99, "role": "nacimiento"},
+      {"name": "San Petersburgo", "lat": 59.93, "lng": 30.32, "role": "conservatorio y carrera"}
+    ],
+    "importance": 9,
+    "summary": "Compositor ruso del Romanticismo, autor del Lago de los Cisnes, El Cascanueces y La bella durmiente. Sus sinfonías y conciertos son pilares del repertorio clásico universal.",
+    "tags": ["música clásica", "romanticismo", "ballet", "rusia"],
+    "relations": [
+      {"targetId": "musical-romanticism", "relationType": "part_of", "strength": 5}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.96}
+  },
+  {
+    "id": "verdi",
+    "title": "Giuseppe Verdi",
+    "type": "person",
+    "startDate": "1813",
+    "endDate": "1901",
+    "disciplines": ["music"],
+    "regions": ["western-europe", "europe"],
+    "places": [
+      {"name": "Le Roncole, Parma", "lat": 44.98, "lng": 10.09, "role": "nacimiento"},
+      {"name": "Milán", "lat": 45.46, "lng": 9.19, "role": "óperas y estreno"}
+    ],
+    "importance": 9,
+    "summary": "El mayor compositor de ópera italiano, autor de Rigoletto, La Traviata, Otello y Aida. Sus óperas combinan drama humano y política, convirtiéndose en símbolo del Risorgimento italiano.",
+    "tags": ["ópera", "italia", "romanticismo", "risorgimento"],
+    "relations": [
+      {"targetId": "musical-romanticism", "relationType": "part_of", "strength": 4}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.96}
+  },
+  {
+    "id": "langston-hughes",
+    "title": "Langston Hughes",
+    "type": "person",
+    "startDate": "1902",
+    "endDate": "1967",
+    "disciplines": ["literature", "music"],
+    "regions": ["north-america"],
+    "places": [
+      {"name": "Joplin, Missouri", "lat": 37.08, "lng": -94.51, "role": "nacimiento"},
+      {"name": "Harlem, Nueva York", "lat": 40.81, "lng": -73.95, "role": "escritura y activismo"}
+    ],
+    "importance": 8,
+    "summary": "Poeta, novelista y dramaturgo afroamericano, figura central del Renacimiento de Harlem. Su poesía fusionó el jazz, el blues y la experiencia negra con un lenguaje directo y musical.",
+    "tags": ["poesía", "jazz", "afroamericano", "harlem"],
+    "relations": [
+      {"targetId": "harlem-renaissance", "relationType": "part_of", "strength": 5}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.94}
+  },
+  {
+    "id": "wole-soyinka",
+    "title": "Wole Soyinka",
+    "type": "person",
+    "startDate": "1934",
+    "endDate": null,
+    "disciplines": ["literature"],
+    "regions": ["africa", "west-africa"],
+    "places": [
+      {"name": "Abeokuta, Nigeria", "lat": 7.15, "lng": 3.35, "role": "nacimiento"},
+      {"name": "Lagos / Ibadán", "lat": 6.45, "lng": 3.39, "role": "carrera literaria"}
+    ],
+    "importance": 8,
+    "summary": "Dramaturgo y poeta nigeriano, primer africano en recibir el Premio Nobel de Literatura (1986). Sus obras fusionan la tradición yoruba con el teatro occidental para explorar el poder y la libertad.",
+    "tags": ["nigeria", "nobel", "teatro", "yoruba"],
+    "relations": [],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.94}
+  },
+  {
+    "id": "forbidden-city",
+    "title": "Ciudad Prohibida de Pekín",
+    "type": "building",
+    "startDate": "1406",
+    "endDate": "1420",
+    "disciplines": ["architecture"],
+    "regions": ["east-asia", "asia"],
+    "places": [
+      {"name": "Pekín, China", "lat": 39.916, "lng": 116.391, "role": "ubicación"}
+    ],
+    "importance": 10,
+    "summary": "Palacio imperial chino construido por la dinastía Ming, el mayor complejo de arquitectura de madera del mundo. Sede del poder imperial durante casi 500 años y símbolo de la civilización china.",
+    "tags": ["china", "ming", "palacio", "imperial"],
+    "relations": [
+      {"targetId": "china-imperial", "relationType": "built_by", "strength": 5}
+    ],
+    "layer": "global",
+    "validation": {"status": "verified", "confidence": 0.96}
+  },
+  {
+    "id": "mezquita-cordoba",
+    "title": "Mezquita-Catedral de Córdoba",
+    "type": "building",
+    "startDate": "785",
+    "endDate": "1523",
+    "disciplines": ["architecture", "religion"],
+    "regions": ["western-europe", "europe"],
+    "places": [
+      {"name": "Córdoba, España", "lat": 37.879, "lng": -4.779, "role": "ubicación"}
+    ],
+    "importance": 9,
+    "summary": "Obra maestra del arte islámico en Occidente, construida sobre un templo visigodo y ampliada durante siglos. Sus bosques de columnas bicolores y arcos de herradura son únicos en la arquitectura mundial.",
+    "tags": ["islam", "andalucía", "arquitectura", "califato"],
+    "relations": [],
+    "layer": "global",
+    "validation": {"status": "verified", "confidence": 0.96}
+  },
+  {
+    "id": "chichen-itza",
+    "title": "Chichén Itzá",
+    "type": "building",
+    "startDate": "600",
+    "endDate": "1200",
+    "disciplines": ["architecture", "history"],
+    "regions": ["mesoamerica", "americas"],
+    "places": [
+      {"name": "Yucatán, México", "lat": 20.683, "lng": -88.568, "role": "ubicación"}
+    ],
+    "importance": 9,
+    "summary": "Gran ciudad maya del período Clásico Terminal. El Templo de Kukulcán (El Castillo) es un calendario astronómico en piedra; en los equinoccios, una serpiente de luz desciende por sus escaleras.",
+    "tags": ["maya", "astronomía", "mesoamérica", "templo"],
+    "relations": [
+      {"targetId": "maya-civilization", "relationType": "built_by", "strength": 5}
+    ],
+    "layer": "global",
+    "validation": {"status": "verified", "confidence": 0.95}
+  },
+  {
+    "id": "teotihuacan",
+    "title": "Teotihuacán",
+    "type": "building",
+    "startDate": "100",
+    "endDate": "550",
+    "disciplines": ["architecture", "history"],
+    "regions": ["mesoamerica", "americas"],
+    "places": [
+      {"name": "Valle de México", "lat": 19.692, "lng": -98.844, "role": "ubicación"}
+    ],
+    "importance": 9,
+    "summary": "La mayor ciudad de Mesoamérica en el año 500 d.C., con 125.000 habitantes. La Pirámide del Sol es la tercera más grande del mundo. Su origen y colapso siguen siendo enigmáticos.",
+    "tags": ["mesoamérica", "pirámides", "ciudad", "precolombino"],
+    "relations": [
+      {"targetId": "aztec-empire", "relationType": "precursor_of", "strength": 3}
+    ],
+    "layer": "global",
+    "validation": {"status": "verified", "confidence": 0.90}
+  },
+  {
+    "id": "moai-easter-island",
+    "title": "Moái de la Isla de Pascua",
+    "type": "building",
+    "startDate": "1100",
+    "endDate": "1650",
+    "disciplines": ["architecture", "history"],
+    "regions": ["oceania", "pacific"],
+    "places": [
+      {"name": "Isla de Pascua (Rapa Nui), Chile", "lat": -27.112, "lng": -109.349, "role": "ubicación"}
+    ],
+    "importance": 8,
+    "summary": "Más de 900 estatuas monolíticas talladas por el pueblo rapanui, algunas de más de 10 metros. Representan ancestros deificados y son uno de los enigmas arqueológicos del Pacífico.",
+    "tags": ["oceanía", "pacífico", "estatuas", "rapanui"],
+    "relations": [
+      {"targetId": "polynesian-navigation", "relationType": "result_of", "strength": 4}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.90}
+  },
+  {
+    "id": "san-pedro-vaticano",
+    "title": "Basílica de San Pedro",
+    "type": "building",
+    "startDate": "1506",
+    "endDate": "1626",
+    "disciplines": ["architecture", "religion"],
+    "regions": ["western-europe", "europe"],
+    "places": [
+      {"name": "Ciudad del Vaticano, Roma", "lat": 41.902, "lng": 12.453, "role": "ubicación"}
+    ],
+    "importance": 10,
+    "summary": "La basílica más grande del mundo cristiano, diseñada por Bramante, Rafael y Miguel Ángel. Su cúpula de 136 metros domina Roma y es el corazón espiritual del catolicismo.",
+    "tags": ["vaticano", "catolicismo", "renacimiento", "cúpula"],
+    "relations": [
+      {"targetId": "michelangelo", "relationType": "designed_by", "strength": 4},
+      {"targetId": "renaissance", "relationType": "part_of", "strength": 4}
+    ],
+    "layer": "global",
+    "validation": {"status": "verified", "confidence": 0.97}
+  },
+  {
+    "id": "indus-valley",
+    "title": "Civilización del Valle del Indo",
+    "type": "civilization",
+    "startDate": "-3300",
+    "endDate": "-1300",
+    "disciplines": ["history", "archaeology"],
+    "regions": ["south-asia", "asia"],
+    "places": [
+      {"name": "Mohenjo-daro (actual Pakistán)", "lat": 27.33, "lng": 68.14, "role": "ciudad principal"},
+      {"name": "Harappa (actual Pakistán)", "lat": 30.63, "lng": 72.86, "role": "segunda ciudad"}
+    ],
+    "importance": 9,
+    "summary": "Una de las cuatro civilizaciones más antiguas del mundo, con ciudades planificadas, alcantarillado y pesos estandarizados. Su escritura aún no ha sido descifrada. Se extendió por 1,25 millones de km².",
+    "tags": ["prehistoria", "india", "pakstán", "escritura indescifrada"],
+    "relations": [],
+    "layer": "global",
+    "validation": {"status": "verified", "confidence": 0.90}
+  },
+  {
+    "id": "swahili-coast",
+    "title": "Civilización Swahili",
+    "type": "civilization",
+    "startDate": "800",
+    "endDate": "1500",
+    "disciplines": ["history"],
+    "regions": ["africa", "sub-saharan-africa"],
+    "places": [
+      {"name": "Kilwa (actual Tanzania)", "lat": -8.93, "lng": 39.51, "role": "ciudad principal"},
+      {"name": "Mombasa (actual Kenia)", "lat": -4.05, "lng": 39.67, "role": "puerto comercial"}
+    ],
+    "importance": 7,
+    "summary": "Red de ciudades-estado islámicas en la costa este de África que controlaron el comercio con Arabia, India y China durante siglos, exportando oro, marfil y esclavos a cambio de porcelana y seda.",
+    "tags": ["africa", "comercio", "islam", "costa"],
+    "relations": [],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.88}
+  },
+  {
+    "id": "fall-constantinople",
+    "title": "Caída de Constantinopla",
+    "type": "event",
+    "startDate": "1453",
+    "endDate": "1453",
+    "disciplines": ["history"],
+    "regions": ["middle-east", "europe"],
+    "places": [
+      {"name": "Constantinopla (actual Estambul)", "lat": 41.0, "lng": 28.9, "role": "escenario"}
+    ],
+    "importance": 9,
+    "summary": "El 29 de mayo de 1453, el sultán Mehmed II conquistó Constantinopla poniendo fin al Imperio Bizantino y a la Edad Media. Marcó el inicio de la hegemonía otomana en el Mediterráneo oriental.",
+    "tags": ["constantinopla", "otomanos", "bizancio", "edad media"],
+    "relations": [
+      {"targetId": "ottoman-empire", "relationType": "achieved_by", "strength": 5},
+      {"targetId": "byzantine-empire", "relationType": "ended", "strength": 5}
+    ],
+    "layer": "global",
+    "validation": {"status": "verified", "confidence": 0.97}
+  },
+  {
+    "id": "great-depression",
+    "title": "Gran Depresión",
+    "type": "event",
+    "startDate": "1929",
+    "endDate": "1939",
+    "disciplines": ["history", "economics"],
+    "regions": ["global", "north-america"],
+    "places": [
+      {"name": "Nueva York", "lat": 40.71, "lng": -74.01, "role": "Wall Street, inicio"}
+    ],
+    "importance": 9,
+    "summary": "El Jueves Negro (24 oct. 1929) desencadenó la mayor crisis económica del siglo XX: desempleo masivo, quiebras bancarias y deflación global que allanaron el camino al fascismo y la Segunda Guerra Mundial.",
+    "tags": ["economía", "crisis", "eeuu", "desempleo"],
+    "relations": [
+      {"targetId": "world-war-2", "relationType": "contributed_to", "strength": 4}
+    ],
+    "layer": "global",
+    "validation": {"status": "verified", "confidence": 0.96}
+  },
+  {
+    "id": "independence-india",
+    "title": "Independencia de India",
+    "type": "event",
+    "startDate": "1947",
+    "endDate": "1947",
+    "disciplines": ["history", "politics"],
+    "regions": ["south-asia", "asia"],
+    "places": [
+      {"name": "Nueva Delhi", "lat": 28.61, "lng": 77.21, "role": "capital independiente"}
+    ],
+    "importance": 9,
+    "summary": "El 15 de agosto de 1947 India obtuvo su independencia del Imperio Británico, siendo el mayor proceso de descolonización de la historia. La partición entre India y Pakistán causó uno de los mayores desplazamientos humanos.",
+    "tags": ["india", "independencia", "colonialismo", "gandhi"],
+    "relations": [
+      {"targetId": "mahatma-gandhi", "relationType": "led_by", "strength": 5},
+      {"targetId": "descolonizacion-africa", "relationType": "precursor_of", "strength": 3},
+      {"targetId": "colonialismo-britanico", "relationType": "ended", "strength": 5}
+    ],
+    "layer": "global",
+    "validation": {"status": "verified", "confidence": 0.97}
+  },
+  {
+    "id": "vietnam-war",
+    "title": "Guerra de Vietnam",
+    "type": "event",
+    "startDate": "1955",
+    "endDate": "1975",
+    "disciplines": ["history", "politics"],
+    "regions": ["southeast-asia", "asia"],
+    "places": [
+      {"name": "Saigón (actual Ho Chi Minh)", "lat": 10.82, "lng": 106.63, "role": "capital del sur"},
+      {"name": "Hanói", "lat": 21.03, "lng": 105.85, "role": "capital del norte"}
+    ],
+    "importance": 9,
+    "summary": "Conflicto entre Vietnam del Norte comunista y Vietnam del Sur apoyado por EEUU. La mayor derrota militar estadounidense del siglo XX, que definió la política exterior y la cultura de toda una generación.",
+    "tags": ["guerra fría", "eeuu", "vietnam", "descolonización"],
+    "relations": [
+      {"targetId": "cold-war-period", "relationType": "part_of", "strength": 5},
+      {"targetId": "ho-chi-minh", "relationType": "protagonist", "strength": 5}
+    ],
+    "layer": "global",
+    "validation": {"status": "verified", "confidence": 0.96}
+  },
+  {
+    "id": "shaka-zulu",
+    "title": "Shaka Zulú",
+    "type": "person",
+    "startDate": "1787",
+    "endDate": "1828",
+    "disciplines": ["history"],
+    "regions": ["africa", "sub-saharan-africa"],
+    "places": [
+      {"name": "KwaZulu-Natal, Sudáfrica", "lat": -28.3, "lng": 30.5, "role": "reino"}
+    ],
+    "importance": 8,
+    "summary": "Fundador del Reino Zulú y uno de los mayores estrategas militares africanos. Revolucionó la táctica de combate zulú y construyó un estado centralizado que resistió la expansión colonial.",
+    "tags": ["zulú", "áfrica", "guerra", "estrategia"],
+    "relations": [
+      {"targetId": "zulu-kingdom", "relationType": "founded_by", "strength": 5}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.92}
+  },
+  {
+    "id": "printing-movable-type-china",
+    "title": "Tipos Móviles de Bi Sheng",
+    "type": "invention",
+    "startDate": "1040",
+    "endDate": "1050",
+    "disciplines": ["technology"],
+    "regions": ["east-asia", "asia"],
+    "places": [
+      {"name": "China (dinastía Song)", "lat": 35.0, "lng": 105.0, "role": "invención"}
+    ],
+    "importance": 8,
+    "summary": "El artesano chino Bi Sheng inventó los tipos móviles de arcilla hacia 1040, cuatro siglos antes de Gutenberg. Fue el primer sistema de impresión con tipos reutilizables de la historia.",
+    "tags": ["china", "imprenta", "song", "tecnología"],
+    "relations": [
+      {"targetId": "song-dynasty", "relationType": "part_of", "strength": 5},
+      {"targetId": "imprenta-gutenberg", "relationType": "precursor_of", "strength": 4}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.91}
+  },
+  {
+    "id": "ziggurat-babylon",
+    "title": "Torre de Babel / Zigurat de Babilonia",
+    "type": "building",
+    "startDate": "-600",
+    "endDate": "-500",
+    "disciplines": ["architecture", "religion"],
+    "regions": ["middle-east", "mesopotamia"],
+    "places": [
+      {"name": "Babilonia (actual Irak)", "lat": 32.54, "lng": 44.42, "role": "ubicación"}
+    ],
+    "importance": 8,
+    "summary": "El Etemenanki, zigurat de Babilonia dedicado al dios Marduk, posiblemente la base del mito bíblico de la Torre de Babel. Con 90 metros de altura, fue una de las estructuras más altas del mundo antiguo.",
+    "tags": ["babilonia", "mesopotamia", "religión", "zigurat"],
+    "relations": [
+      {"targetId": "ancient-mesopotamia", "relationType": "part_of", "strength": 4}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.85}
+  },
+  {
+    "id": "library-alexandria",
+    "title": "Biblioteca de Alejandría",
+    "type": "institution",
+    "startDate": "-295",
+    "endDate": "391",
+    "disciplines": ["science", "literature", "philosophy"],
+    "regions": ["north-africa", "mediterranean"],
+    "places": [
+      {"name": "Alejandría, Egipto", "lat": 31.2, "lng": 29.9, "role": "ubicación"}
+    ],
+    "importance": 9,
+    "summary": "La mayor biblioteca del mundo antiguo, que llegó a albergar hasta 700.000 rollos de papiro. Centro del saber helenístico donde trabajaron Euclides, Eratóstenes e Hipatia hasta su destrucción progresiva.",
+    "tags": ["conocimiento", "helenismo", "egipto", "ciencia"],
+    "relations": [
+      {"targetId": "hypatia", "relationType": "associated_with", "strength": 4},
+      {"targetId": "classical-greece", "relationType": "continuation_of", "strength": 3}
+    ],
+    "layer": "global",
+    "validation": {"status": "verified", "confidence": 0.90}
+  },
+  {
+    "id": "hippocrates",
+    "title": "Hipócrates de Cos",
+    "type": "person",
+    "startDate": "-460",
+    "endDate": "-370",
+    "disciplines": ["science"],
+    "regions": ["mediterranean", "europe"],
+    "places": [
+      {"name": "Cos, Grecia", "lat": 36.89, "lng": 27.29, "role": "nacimiento"},
+      {"name": "Grecia y Mediterráneo", "lat": 38.0, "lng": 24.0, "role": "práctica médica"}
+    ],
+    "importance": 9,
+    "summary": "Padre de la medicina occidental que estableció la medicina como disciplina racional separada de la religión. El juramento hipocrático sigue siendo el fundamento ético de la profesión médica.",
+    "tags": ["medicina", "grecia", "ética médica", "ciencia"],
+    "relations": [
+      {"targetId": "classical-greece", "relationType": "part_of", "strength": 4}
+    ],
+    "layer": "intermediate",
+    "validation": {"status": "verified", "confidence": 0.90}
+  }
+]
