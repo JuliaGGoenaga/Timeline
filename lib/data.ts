@@ -39,6 +39,7 @@ import intermediate18               from '@/data/entities/intermediate18.json';
 import intermediate19               from '@/data/entities/intermediate19.json';
 import intermediate20               from '@/data/entities/intermediate20.json';
 import intermediate21               from '@/data/entities/intermediate21.json';
+import economiaPoliticaSociedad     from '@/data/entities/economia_politica_sociedad.json';
 
 export const ALL_ENTITIES: Entity[] = [
   ...globalEntities,
@@ -81,6 +82,7 @@ export const ALL_ENTITIES: Entity[] = [
   ...intermediate19,
   ...intermediate20,
   ...intermediate21,
+  ...economiaPoliticaSociedad,
 ] as Entity[];
 
 export function getEntityById(id: string): Entity | undefined {
