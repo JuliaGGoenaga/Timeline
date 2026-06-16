@@ -1,0 +1,581 @@
+[
+  {
+    "id": "cyrus-great",
+    "title": "Ciro el Grande",
+    "type": "person",
+    "startDate": -600,
+    "endDate": -530,
+    "disciplines": ["politics", "military", "philosophy"],
+    "regions": ["middle-east", "central-asia"],
+    "places": [{ "name": "Pasargadae, Persia", "lat": 30.19, "lng": 53.18 }],
+    "importance": 9,
+    "summary": "Fundador del Imperio Aqueménida y del primer gran imperio multiétnico de la historia. Promulgó el Cilindro de Ciro, considerado el primer documento de derechos humanos, que garantizaba libertad religiosa y abolía la esclavitud en sus territorios conquistados.",
+    "tags": ["persia", "imperio", "derechos humanos", "religión", "tolerancia"],
+    "relations": [
+      { "targetId": "persian-empire", "type": "founded" },
+      { "targetId": "ancient-mesopotamia", "type": "conquered" },
+      { "targetId": "alexander-great", "type": "inspired" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  },
+  {
+    "id": "hammurabi",
+    "title": "Hammurabi",
+    "type": "person",
+    "startDate": -1810,
+    "endDate": -1750,
+    "disciplines": ["politics", "law", "philosophy"],
+    "regions": ["middle-east"],
+    "places": [{ "name": "Babilonia, Iraq", "lat": 32.54, "lng": 44.42 }],
+    "importance": 9,
+    "summary": "Rey de Babilonia que promulgó el Código de Hammurabi, uno de los conjuntos de leyes escritas más antiguos del mundo. Sus 282 leyes establecieron principios de justicia y proporcionalidad que influirían en todos los sistemas legales posteriores.",
+    "tags": ["babilonia", "ley", "código", "mesopotamia", "justicia"],
+    "relations": [
+      { "targetId": "ancient-mesopotamia", "type": "ruled" },
+      { "targetId": "ziggurat-babylon", "type": "built" },
+      { "targetId": "escritura-invencion", "type": "used" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "akhenaten",
+    "title": "Akenatón",
+    "type": "person",
+    "startDate": -1353,
+    "endDate": -1336,
+    "disciplines": ["religion", "politics", "art"],
+    "regions": ["africa", "middle-east"],
+    "places": [{ "name": "Amarna, Egipto", "lat": 27.64, "lng": 30.9 }],
+    "importance": 8,
+    "summary": "Faraón egipcio que instituyó el primer monoteísmo documentado de la historia, adorando exclusivamente a Atón, el disco solar. Trasladó la capital a Amarna y promovió un estilo artístico naturalista radicalmente nuevo que rompió con siglos de tradición egipcia.",
+    "tags": ["egipto", "monoteísmo", "faraón", "Atón", "revolución religiosa"],
+    "relations": [
+      { "targetId": "ancient-egypt", "type": "ruled" },
+      { "targetId": "arte-egipcio", "type": "revolutionized" },
+      { "targetId": "hatshepsut", "type": "precursor" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.80 }
+  },
+  {
+    "id": "murasaki-shikibu",
+    "title": "Murasaki Shikibu",
+    "type": "person",
+    "startDate": 973,
+    "endDate": 1014,
+    "disciplines": ["literature", "art"],
+    "regions": ["east-asia"],
+    "places": [{ "name": "Kioto, Japón", "lat": 35.01, "lng": 135.76 }],
+    "importance": 9,
+    "summary": "Dama de la corte Heian y autora de 'Genji Monogatari' (El cuento de Genji), considerada la primera novela moderna del mundo. Su obra retrata con profundidad psicológica la vida aristocrática japonesa y es una cima de la literatura universal.",
+    "tags": ["literatura", "novela", "Japón", "Heian", "mujer escritora"],
+    "relations": [
+      { "targetId": "japan-feudal", "type": "lived-in" },
+      { "targetId": "vanguardias-literarias", "type": "precursor" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "elizabeth-i",
+    "title": "Isabel I de Inglaterra",
+    "type": "person",
+    "startDate": 1533,
+    "endDate": 1603,
+    "disciplines": ["politics", "art", "literature"],
+    "regions": ["europe"],
+    "places": [{ "name": "Londres, Inglaterra", "lat": 51.51, "lng": -0.12 }],
+    "importance": 9,
+    "summary": "Reina de Inglaterra que presidió la Era Isabelina, período de florecimiento cultural y expansión naval. Derrotó la Armada Invencible española (1588), consolidó el anglicanismo y apoyó a Shakespeare, Francis Drake y la colonización inglesa en América.",
+    "tags": ["Inglaterra", "Tudor", "renacimiento inglés", "armada", "anglicanismo"],
+    "relations": [
+      { "targetId": "shakespeare", "type": "patronized" },
+      { "targetId": "age-of-exploration", "type": "led" },
+      { "targetId": "protestant-reformation", "type": "advanced" },
+      { "targetId": "renaissance", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  },
+  {
+    "id": "bismarck",
+    "title": "Otto von Bismarck",
+    "type": "person",
+    "startDate": 1815,
+    "endDate": 1898,
+    "disciplines": ["politics", "military"],
+    "regions": ["europe"],
+    "places": [{ "name": "Berlín, Alemania", "lat": 52.52, "lng": 13.4 }],
+    "importance": 8,
+    "summary": "Canciller de Hierro que unificó Alemania en 1871 mediante guerras estratégicas contra Dinamarca, Austria y Francia. Creó el estado social bismarckiano (primer sistema de seguridad social moderno) y modeló el equilibrio de poder europeo hasta la Primera Guerra Mundial.",
+    "tags": ["Alemania", "unificación", "canciller", "Prusia", "estado social"],
+    "relations": [
+      { "targetId": "world-war-1", "type": "preceded" },
+      { "targetId": "nationalism", "type": "embodied" },
+      { "targetId": "estado-bienestar", "type": "pioneered" },
+      { "targetId": "european-colonialism", "type": "orchestrated" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "florence-nightingale",
+    "title": "Florence Nightingale",
+    "type": "person",
+    "startDate": 1820,
+    "endDate": 1910,
+    "disciplines": ["science", "philosophy"],
+    "regions": ["europe", "middle-east"],
+    "places": [{ "name": "Londres, Reino Unido", "lat": 51.51, "lng": -0.12 }],
+    "importance": 8,
+    "summary": "Enfermera y estadística británica que revolucionó la medicina hospitalaria durante la Guerra de Crimea. Pionera en el uso de estadística visual (diagramas polares) para demostrar causas de mortalidad y fundadora de la enfermería profesional moderna.",
+    "tags": ["enfermería", "medicina", "estadística", "Crimea", "salud pública"],
+    "relations": [
+      { "targetId": "marie-curie", "type": "contemporary" },
+      { "targetId": "hippocrates", "type": "influenced-by" },
+      { "targetId": "feminism-waves", "type": "preceded" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "emmeline-pankhurst",
+    "title": "Emmeline Pankhurst",
+    "type": "person",
+    "startDate": 1858,
+    "endDate": 1928,
+    "disciplines": ["politics", "philosophy"],
+    "regions": ["europe"],
+    "places": [{ "name": "Manchester, Reino Unido", "lat": 53.48, "lng": -2.24 }],
+    "importance": 8,
+    "summary": "Líder del movimiento sufragista británico y fundadora de la WSPU (Unión Social y Política de Mujeres). Sus tácticas de desobediencia civil, huelgas de hambre y militancia fueron decisivas para conseguir el voto femenino en el Reino Unido en 1918.",
+    "tags": ["sufragio", "feminismo", "voto femenino", "activismo", "Reino Unido"],
+    "relations": [
+      { "targetId": "feminism-waves", "type": "led" },
+      { "targetId": "rosa-parks", "type": "inspired" },
+      { "targetId": "harriet-tubman", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "lincoln",
+    "title": "Abraham Lincoln",
+    "type": "person",
+    "startDate": 1809,
+    "endDate": 1865,
+    "disciplines": ["politics", "philosophy"],
+    "regions": ["north-america"],
+    "places": [{ "name": "Washington D.C., EE.UU.", "lat": 38.9, "lng": -77.04 }],
+    "importance": 9,
+    "summary": "Decimosexto presidente de los Estados Unidos, lideró el país durante la Guerra Civil. Promulgó la Proclamación de Emancipación (1863) que abolió la esclavitud en los estados confederados y fue asesinado en 1865, convirtiéndose en mártir de la unión y la libertad.",
+    "tags": ["Estados Unidos", "presidencia", "esclavitud", "guerra civil", "emancipación"],
+    "relations": [
+      { "targetId": "abolition-slavery", "type": "led" },
+      { "targetId": "american-revolution", "type": "legacy-of" },
+      { "targetId": "martin-luther-king", "type": "inspired" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  },
+  {
+    "id": "buddha",
+    "title": "Siddhartha Gautama (Buda)",
+    "type": "person",
+    "startDate": -563,
+    "endDate": -483,
+    "disciplines": ["religion", "philosophy"],
+    "regions": ["south-asia"],
+    "places": [{ "name": "Bodh Gaya, India", "lat": 24.69, "lng": 84.99 }],
+    "importance": 10,
+    "summary": "Príncipe nepalí convertido en asceta iluminado, fundador del budismo. Su enseñanza de las Cuatro Nobles Verdades y el Noble Óctuple Sendero propone un camino de liberación del sufrimiento y ha guiado a cientos de millones de personas durante más de dos mil años.",
+    "tags": ["budismo", "iluminación", "India", "religión", "meditación", "nirvana"],
+    "relations": [
+      { "targetId": "india-classical", "type": "born-in" },
+      { "targetId": "confucius", "type": "contemporary" },
+      { "targetId": "lao-tzu", "type": "contemporary" },
+      { "targetId": "zen-buddhism", "type": "originated" },
+      { "targetId": "filosofia-oriental", "type": "founded" }
+    ],
+    "layer": "global",
+    "validation": { "isVerified": true, "completeness": 0.90 }
+  },
+  {
+    "id": "muhammad",
+    "title": "Mahoma",
+    "type": "person",
+    "startDate": 570,
+    "endDate": 632,
+    "disciplines": ["religion", "politics", "philosophy"],
+    "regions": ["middle-east"],
+    "places": [{ "name": "La Meca, Arabia Saudita", "lat": 21.38, "lng": 39.82 }],
+    "importance": 10,
+    "summary": "Profeta y fundador del islam. Sus revelaciones, recogidas en el Corán, unificaron las tribus árabes y crearon una civilización que se extendió desde España hasta Asia Central. El islam se convirtió en una de las religiones más grandes del mundo con 1.800 millones de fieles.",
+    "tags": ["islam", "profeta", "Corán", "Arabia", "religión", "hégira"],
+    "relations": [
+      { "targetId": "islam", "type": "founded" },
+      { "targetId": "edad-de-oro-islamica", "type": "originated" },
+      { "targetId": "filosofia-islamica", "type": "inspired" },
+      { "targetId": "mezquita-cordoba", "type": "faith-related" }
+    ],
+    "layer": "global",
+    "validation": { "isVerified": true, "completeness": 0.90 }
+  },
+  {
+    "id": "american-civil-war",
+    "title": "Guerra Civil Americana",
+    "type": "event",
+    "startDate": 1861,
+    "endDate": 1865,
+    "disciplines": ["politics", "military", "philosophy"],
+    "regions": ["north-america"],
+    "places": [{ "name": "Gettysburg, Pensilvania, EE.UU.", "lat": 39.83, "lng": -77.23 }],
+    "importance": 9,
+    "summary": "Conflicto bélico entre los estados del Norte (Unión) y el Sur (Confederación) por la abolición de la esclavitud y los derechos de los estados. La victoria de la Unión preservó los Estados Unidos y resultó en la abolición constitucional de la esclavitud mediante la XIII Enmienda.",
+    "tags": ["esclavitud", "Unión", "Confederación", "Lincoln", "abolición", "EE.UU."],
+    "relations": [
+      { "targetId": "lincoln", "type": "led-by" },
+      { "targetId": "abolition-slavery", "type": "resulted-in" },
+      { "targetId": "american-revolution", "type": "legacy-of" },
+      { "targetId": "movimiento-derechos-civiles", "type": "preceded" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  },
+  {
+    "id": "thirty-years-war",
+    "title": "Guerra de los Treinta Años",
+    "type": "event",
+    "startDate": 1618,
+    "endDate": 1648,
+    "disciplines": ["politics", "military", "religion"],
+    "regions": ["europe"],
+    "places": [{ "name": "Praga, República Checa", "lat": 50.08, "lng": 14.43 }],
+    "importance": 8,
+    "summary": "Devastador conflicto europeo iniciado por disputas religiosas entre católicos y protestantes que destruyó un tercio de la población del Sacro Imperio Romano. Terminó con la Paz de Westfalia (1648), que estableció el principio de soberanía nacional y el orden internacional moderno.",
+    "tags": ["Europa", "catolicismo", "protestantismo", "Westfalia", "soberanía", "religión"],
+    "relations": [
+      { "targetId": "protestant-reformation", "type": "caused-by" },
+      { "targetId": "treaty-westphalia", "type": "ended-by" },
+      { "targetId": "absolutismo", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "treaty-westphalia",
+    "title": "Paz de Westfalia",
+    "type": "event",
+    "startDate": 1648,
+    "endDate": 1648,
+    "disciplines": ["politics", "philosophy"],
+    "regions": ["europe"],
+    "places": [{ "name": "Münster, Alemania", "lat": 51.96, "lng": 7.62 }],
+    "importance": 9,
+    "summary": "Serie de tratados que pusieron fin a la Guerra de los Treinta Años y establecieron los principios fundamentales del sistema internacional moderno: soberanía estatal, no injerencia en asuntos internos y equilibrio de poder entre naciones europeas.",
+    "tags": ["soberanía", "paz", "diplomacia", "Westfalia", "sistema internacional"],
+    "relations": [
+      { "targetId": "thirty-years-war", "type": "ended" },
+      { "targetId": "absolutismo", "type": "reinforced" },
+      { "targetId": "liberalismo", "type": "precursor" },
+      { "targetId": "european-union", "type": "legacy" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "opium-wars",
+    "title": "Guerras del Opio",
+    "type": "event",
+    "startDate": 1839,
+    "endDate": 1860,
+    "disciplines": ["politics", "military", "economics"],
+    "regions": ["east-asia", "europe"],
+    "places": [{ "name": "Cantón, China", "lat": 23.12, "lng": 113.25 }],
+    "importance": 8,
+    "summary": "Dos conflictos militares entre el Imperio Qing de China y potencias occidentales (principalmente Gran Bretaña) por el comercio del opio. La derrota china forzó la apertura de puertos, la cesión de Hong Kong y el inicio del 'siglo de humillación' que transformó China.",
+    "tags": ["China", "imperialismo", "opio", "Gran Bretaña", "Hong Kong", "Qing"],
+    "relations": [
+      { "targetId": "european-colonialism", "type": "example-of" },
+      { "targetId": "china-imperial", "type": "weakened" },
+      { "targetId": "sun-yat-sen", "type": "reaction-led-to" },
+      { "targetId": "meiji-restoration", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "bronze-age-collapse",
+    "title": "Colapso de la Edad del Bronce",
+    "type": "event",
+    "startDate": -1200,
+    "endDate": -1150,
+    "disciplines": ["politics", "science"],
+    "regions": ["europe", "middle-east"],
+    "places": [{ "name": "Mediterráneo Oriental", "lat": 36.5, "lng": 28.0 }],
+    "importance": 9,
+    "summary": "Colapso sistémico de las civilizaciones del Mediterráneo oriental alrededor del 1200 a.C. que destruyó los imperios hitita, micénico y ugáritico. Causado probablemente por una combinación de migraciones de los 'Pueblos del Mar', sequías, terremotos y colapso del comercio internacional.",
+    "tags": ["colapso civilizatorio", "Edad del Bronce", "Mediterráneo", "Pueblos del Mar", "Micenas", "hititas"],
+    "relations": [
+      { "targetId": "bronce-age", "type": "ended" },
+      { "targetId": "ancient-egypt", "type": "destabilized" },
+      { "targetId": "classical-greece", "type": "preceded" },
+      { "targetId": "phoenicians", "type": "survived" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "scramble-africa",
+    "title": "Reparto de África",
+    "type": "event",
+    "startDate": 1881,
+    "endDate": 1914,
+    "disciplines": ["politics", "economics"],
+    "regions": ["africa", "europe"],
+    "places": [{ "name": "Berlín, Alemania", "lat": 52.52, "lng": 13.4 }],
+    "importance": 9,
+    "summary": "Proceso de colonización e invasión de África por las potencias europeas, formalizado en la Conferencia de Berlín (1884-85). En apenas 30 años, Europa controló el 90% del continente africano, trazando fronteras artificiales que ignoraban etnias y culturas y cuyas consecuencias persisten hoy.",
+    "tags": ["colonialismo", "África", "imperialismo", "Conferencia de Berlín", "fronteras artificiales"],
+    "relations": [
+      { "targetId": "european-colonialism", "type": "peak-of" },
+      { "targetId": "bismarck", "type": "orchestrated-by" },
+      { "targetId": "decolonization", "type": "preceded" },
+      { "targetId": "descolonizacion-africa", "type": "preceded" },
+      { "targetId": "apartheid", "type": "led-to" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  },
+  {
+    "id": "borobudur",
+    "title": "Borobudur",
+    "type": "building",
+    "startDate": 750,
+    "endDate": 850,
+    "disciplines": ["art", "religion", "architecture"],
+    "regions": ["southeast-asia"],
+    "places": [{ "name": "Java Central, Indonesia", "lat": -7.6, "lng": 110.2 }],
+    "importance": 9,
+    "summary": "El mayor templo budista del mundo, construido en Java entre los siglos VIII y IX por la dinastía Sailendra. Mandala tridimensional de 2.672 paneles de bajorrelieve y 504 estatuas de Buda, es Patrimonio de la Humanidad y símbolo de la civilización del Sudeste Asiático.",
+    "tags": ["budismo", "templo", "Indonesia", "Java", "Patrimonio UNESCO", "Sailendra"],
+    "relations": [
+      { "targetId": "buddha", "type": "honors" },
+      { "targetId": "angkor-wat", "type": "contemporary" },
+      { "targetId": "silk-road", "type": "connected-via" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "st-basil-cathedral",
+    "title": "Catedral de San Basilio",
+    "type": "building",
+    "startDate": 1555,
+    "endDate": 1561,
+    "disciplines": ["art", "architecture", "religion"],
+    "regions": ["europe"],
+    "places": [{ "name": "Moscú, Rusia", "lat": 55.75, "lng": 37.62 }],
+    "importance": 8,
+    "summary": "Catedral ortodoxa construida por Iván el Terrible en la Plaza Roja de Moscú para celebrar la conquista de Kazán. Sus nueve cúpulas de colores en forma de cebolla, única en el mundo, se convirtió en símbolo de Rusia y de la arquitectura eslava medieval.",
+    "tags": ["Rusia", "Moscú", "ortodoxia", "Iván el Terrible", "arquitectura", "Plaza Roja"],
+    "relations": [
+      { "targetId": "byzantine-empire", "type": "inspired-by" },
+      { "targetId": "ottoman-architecture", "type": "contrasts-with" },
+      { "targetId": "rusia-imperial", "type": "built-in" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "palmyra",
+    "title": "Palmira",
+    "type": "building",
+    "startDate": -100,
+    "endDate": 300,
+    "disciplines": ["art", "architecture", "economics"],
+    "regions": ["middle-east"],
+    "places": [{ "name": "Palmira, Siria", "lat": 34.55, "lng": 38.27 }],
+    "importance": 8,
+    "summary": "Ciudad oasis del desierto sirio que floreció como nudo comercial de la Ruta de la Seda entre Roma y Persia. Sus monumentales columnas, templo de Bel y teatro han sido declarados Patrimonio de la Humanidad. En 2015, el Estado Islámico destruyó parte de sus ruinas.",
+    "tags": ["Siria", "Roma", "Ruta de la Seda", "oasis", "antigüedad", "Patrimonio UNESCO"],
+    "relations": [
+      { "targetId": "roman-empire", "type": "part-of" },
+      { "targetId": "silk-road", "type": "key-node" },
+      { "targetId": "persian-empire", "type": "traded-with" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "zen-buddhism",
+    "title": "Budismo Zen",
+    "type": "concept",
+    "startDate": 500,
+    "endDate": 1900,
+    "disciplines": ["religion", "philosophy", "art"],
+    "regions": ["east-asia"],
+    "places": [{ "name": "Kioto, Japón", "lat": 35.01, "lng": 135.76 }],
+    "importance": 8,
+    "summary": "Escuela del budismo Mahayana que enfatiza la meditación directa (zazen), la experiencia inmediata sobre la doctrina y la transmisión de maestro a discípulo. Desarrollado en China como Chan y refinado en Japón, influyó profundamente en las artes, la arquitectura y la estética japonesa.",
+    "tags": ["meditación", "Japón", "iluminación", "zazen", "estética", "Zen"],
+    "relations": [
+      { "targetId": "buddha", "type": "derived-from" },
+      { "targetId": "japan-feudal", "type": "flourished-in" },
+      { "targetId": "filosofia-oriental", "type": "branch-of" },
+      { "targetId": "lao-tzu", "type": "influenced-by" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "hinduism",
+    "title": "Hinduismo",
+    "type": "concept",
+    "startDate": -1500,
+    "endDate": 2000,
+    "disciplines": ["religion", "philosophy", "art"],
+    "regions": ["south-asia"],
+    "places": [{ "name": "Valle del Indo, India", "lat": 25.0, "lng": 77.0 }],
+    "importance": 10,
+    "summary": "La religión más antigua del mundo aún practicada, con raíces en la civilización védica. Sistema plural de creencias, rituales y filosofías que incluye los Vedas, Upanishads y Bhagavad Gita. Con más de 1.200 millones de seguidores, abarca desde el monoteísmo hasta el politeísmo.",
+    "tags": ["religión", "India", "Vedas", "karma", "dharma", "reencarnación", "Brahma"],
+    "relations": [
+      { "targetId": "indus-valley", "type": "emerged-from" },
+      { "targetId": "india-classical", "type": "dominant-in" },
+      { "targetId": "gupta-empire", "type": "flourished-in" },
+      { "targetId": "buddha", "type": "reacted-against" }
+    ],
+    "layer": "global",
+    "validation": { "isVerified": true, "completeness": 0.88 }
+  },
+  {
+    "id": "anarchism",
+    "title": "Anarquismo",
+    "type": "concept",
+    "startDate": 1840,
+    "endDate": 1940,
+    "disciplines": ["politics", "philosophy"],
+    "regions": ["europe", "north-america"],
+    "places": [{ "name": "París, Francia", "lat": 48.85, "lng": 2.35 }],
+    "importance": 7,
+    "summary": "Filosofía política que rechaza toda forma de jerarquía y autoridad coercitiva, especialmente el Estado. Articulado por Proudhon, Bakunin y Kropotkin, el anarquismo influyó en movimientos obreros, el sindicalismo revolucionario y tuvo papel central en la Guerra Civil Española.",
+    "tags": ["anarquía", "Estado", "Proudhon", "Bakunin", "libertad", "autogestión"],
+    "relations": [
+      { "targetId": "karl-marx", "type": "contemporary-rival" },
+      { "targetId": "movimiento-obrero", "type": "influenced" },
+      { "targetId": "mayo-68", "type": "inspired" },
+      { "targetId": "liberalismo", "type": "related-to" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.81 }
+  },
+  {
+    "id": "utilitarianism",
+    "title": "Utilitarismo",
+    "type": "concept",
+    "startDate": 1780,
+    "endDate": 1900,
+    "disciplines": ["philosophy", "politics"],
+    "regions": ["europe"],
+    "places": [{ "name": "Londres, Reino Unido", "lat": 51.51, "lng": -0.12 }],
+    "importance": 8,
+    "summary": "Doctrina ética fundada por Jeremy Bentham y desarrollada por John Stuart Mill que sostiene que la acción moralmente correcta es la que produce la mayor felicidad para el mayor número de personas. Base filosófica del liberalismo moderno, la democracia y las políticas de bienestar social.",
+    "tags": ["ética", "Bentham", "Mill", "felicidad", "bien común", "filosofía moral"],
+    "relations": [
+      { "targetId": "enlightenment-movement", "type": "product-of" },
+      { "targetId": "john-locke", "type": "influenced-by" },
+      { "targetId": "liberalismo", "type": "informed" },
+      { "targetId": "estado-bienestar", "type": "philosophical-basis" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "antibiotics-discovery",
+    "title": "Descubrimiento de los Antibióticos",
+    "type": "event",
+    "startDate": 1928,
+    "endDate": 1945,
+    "disciplines": ["science"],
+    "regions": ["europe", "north-america"],
+    "places": [{ "name": "Londres, Reino Unido", "lat": 51.51, "lng": -0.12 }],
+    "importance": 10,
+    "summary": "Alexander Fleming descubrió en 1928 que el moho Penicillium inhibía el crecimiento bacteriano. Florey y Chain desarrollaron la penicilina como medicamento durante la Segunda Guerra Mundial. Los antibióticos transformaron la medicina y salvaron cientos de millones de vidas al hacer tratables enfermedades mortales.",
+    "tags": ["penicilina", "Fleming", "medicina", "bacterias", "salud", "ciencia"],
+    "relations": [
+      { "targetId": "world-war-2", "type": "accelerated-by" },
+      { "targetId": "marie-curie", "type": "contemporary" },
+      { "targetId": "hippocrates", "type": "legacy-of" },
+      { "targetId": "pandemic-covid", "type": "contrasts-with" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  },
+  {
+    "id": "charles-babbage",
+    "title": "Charles Babbage",
+    "type": "person",
+    "startDate": 1791,
+    "endDate": 1871,
+    "disciplines": ["science", "technology"],
+    "regions": ["europe"],
+    "places": [{ "name": "Londres, Reino Unido", "lat": 51.51, "lng": -0.12 }],
+    "importance": 8,
+    "summary": "Matemático e inventor británico considerado el padre de la computación. Diseñó la Máquina Diferencial y la Máquina Analítica, precursoras del ordenador moderno con entrada, procesamiento, memoria y salida. Colaboró con Ada Lovelace, quien escribió el primer algoritmo.",
+    "tags": ["computación", "máquina analítica", "ordenador", "matemáticas", "invención"],
+    "relations": [
+      { "targetId": "ada-lovelace", "type": "collaborated-with" },
+      { "targetId": "alan-turing", "type": "preceded" },
+      { "targetId": "ai-revolution", "type": "originated" },
+      { "targetId": "industrial-revolution", "type": "lived-in" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "jesuits",
+    "title": "Compañía de Jesús (Jesuitas)",
+    "type": "concept",
+    "startDate": 1540,
+    "endDate": 2000,
+    "disciplines": ["religion", "science", "philosophy"],
+    "regions": ["europe", "south-america", "east-asia"],
+    "places": [{ "name": "Roma, Italia", "lat": 41.9, "lng": 12.45 }],
+    "importance": 8,
+    "summary": "Orden religiosa fundada por Ignacio de Loyola en 1540 como vanguardia de la Contrarreforma. Los jesuitas combinaron rigor intelectual con misión global: fundaron universidades en todo el mundo, evangelizaron en América, Asia y África, y contribuyeron a la ciencia, la educación y el diálogo intercultural.",
+    "tags": ["Iglesia", "educación", "Contrarreforma", "misiones", "Loyola", "intelectualismo"],
+    "relations": [
+      { "targetId": "protestant-reformation", "type": "counter" },
+      { "targetId": "conquista-america", "type": "participated-in" },
+      { "targetId": "humanismo-renacimiento", "type": "engaged-with" },
+      { "targetId": "scientific-revolution", "type": "participated-in" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "nationalism",
+    "title": "Nacionalismo",
+    "type": "concept",
+    "startDate": 1789,
+    "endDate": 2000,
+    "disciplines": ["politics", "philosophy"],
+    "regions": ["europe", "north-america"],
+    "places": [{ "name": "París, Francia", "lat": 48.85, "lng": 2.35 }],
+    "importance": 9,
+    "summary": "Ideología política y movimiento social que sostiene que los pueblos con cultura, idioma e historia comunes tienen derecho a un Estado propio. Nacido de la Revolución Francesa, impulsó las unificaciones de Italia y Alemania, la independencia latinoamericana y fue motor tanto de guerras devastadoras como de la descolonización.",
+    "tags": ["nación", "Estado", "identidad", "soberanía", "cultura", "patria"],
+    "relations": [
+      { "targetId": "french-revolution", "type": "born-from" },
+      { "targetId": "bismarck", "type": "embodied-by" },
+      { "targetId": "world-war-1", "type": "contributed-to" },
+      { "targetId": "decolonization", "type": "drove" },
+      { "targetId": "simón-bolívar", "type": "expressed-by" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  }
+]
