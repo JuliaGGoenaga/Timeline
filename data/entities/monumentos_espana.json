@@ -1,0 +1,463 @@
+[
+  {
+    "id": "catedral-santiago",
+    "title": "Catedral de Santiago de Compostela",
+    "type": "building",
+    "startDate": 1075,
+    "endDate": 1211,
+    "disciplines": ["art", "architecture", "religion"],
+    "regions": ["europe"],
+    "places": [{ "name": "Santiago de Compostela, España", "lat": 42.88, "lng": -8.54 }],
+    "importance": 10,
+    "summary": "Meta del Camino de Santiago, la peregrinación cristiana más importante de la Edad Media y hoy una de las más transitadas del mundo. Su fachada del Obradoiro (barroca, siglo XVIII) y el interior románico albergan la tumba del apóstol Santiago. Patrimonio de la Humanidad, es el símbolo por excelencia de la identidad cultural europea.",
+    "tags": ["Camino de Santiago", "peregrinación", "Galicia", "románico", "barroco", "Patrimonio UNESCO", "Europa"],
+    "relations": [
+      { "targetId": "reconquista", "type": "built-during" },
+      { "targetId": "gothic-architecture", "type": "precedes" },
+      { "targetId": "catedral-burgos", "type": "connected-via-camino" },
+      { "targetId": "jesuits", "type": "influenced-by" },
+      { "targetId": "arte-romanico", "type": "example-of" }
+    ],
+    "layer": "global",
+    "validation": { "isVerified": true, "completeness": 0.88 }
+  },
+  {
+    "id": "catedral-sevilla",
+    "title": "Catedral de Sevilla",
+    "type": "building",
+    "startDate": 1401,
+    "endDate": 1507,
+    "disciplines": ["art", "architecture", "religion"],
+    "regions": ["europe"],
+    "places": [{ "name": "Sevilla, España", "lat": 37.38, "lng": -5.99 }],
+    "importance": 9,
+    "summary": "La catedral gótica más grande del mundo por volumen y la tercera en tamaño tras San Pedro de Roma y San Pablo de Londres. Construida sobre la mezquita almohade mayor, conserva la Giralda como campanario. Alberga el sepulcro de Cristóbal Colón y el Retablo Mayor, el más grande del mundo. Patrimonio de la Humanidad junto a la Giralda y el Alcázar.",
+    "tags": ["Sevilla", "gótico", "catedral", "Colón", "Patrimonio UNESCO", "más grande", "España"],
+    "relations": [
+      { "targetId": "giralda-sevilla", "type": "incorporates" },
+      { "targetId": "real-alcazar-sevilla", "type": "adjacent" },
+      { "targetId": "gothic-architecture", "type": "largest-example" },
+      { "targetId": "age-of-exploration", "type": "colons-tomb" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.86 }
+  },
+  {
+    "id": "catedral-salamanca",
+    "title": "Catedrales de Salamanca",
+    "type": "building",
+    "startDate": 1102,
+    "endDate": 1733,
+    "disciplines": ["art", "architecture", "religion"],
+    "regions": ["europe"],
+    "places": [{ "name": "Salamanca, España", "lat": 40.96, "lng": -5.66 }],
+    "importance": 8,
+    "summary": "Doble catedral única en España: la Catedral Vieja románica (siglo XII) con su extraordinario cielo de Zamora y la Catedral Nueva gótico-barroca (siglos XVI-XVIII), construidas adosadas. Junto a la Universidad de Salamanca, la más antigua de España (1218), forman el conjunto histórico más impresionante de Castilla. Patrimonio de la Humanidad.",
+    "tags": ["Salamanca", "románico", "gótico", "barroco", "universidad", "Castilla", "Patrimonio UNESCO"],
+    "relations": [
+      { "targetId": "arte-romanico", "type": "example-of" },
+      { "targetId": "gothic-architecture", "type": "example-of" },
+      { "targetId": "catedral-burgos", "type": "contemporary-earlier" },
+      { "targetId": "escolastica", "type": "context-of" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "alcazar-segovia",
+    "title": "Alcázar de Segovia",
+    "type": "building",
+    "startDate": 1120,
+    "endDate": 1587,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Segovia, España", "lat": 40.95, "lng": -4.13 }],
+    "importance": 8,
+    "summary": "Fortaleza palaciega sobre un peñasco en la confluencia de dos ríos, una de las más bellas de Europa. Usado como palacio real por los reyes castellanos, fue residencia de Isabel la Católica y lugar donde fue proclamada reina en 1474. Sus torres con pizarra negra y aspecto de cuento de hadas inspiraron el castillo de Cenicienta de Disney.",
+    "tags": ["Segovia", "castillo", "Isabel la Católica", "Castilla", "Disney", "palacios", "España"],
+    "relations": [
+      { "targetId": "acueducto-segovia", "type": "same-city" },
+      { "targetId": "reconquista", "type": "built-during" },
+      { "targetId": "middle-ages", "type": "example-of" },
+      { "targetId": "gothic-architecture", "type": "features" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "murallas-avila",
+    "title": "Murallas de Ávila",
+    "type": "building",
+    "startDate": 1090,
+    "endDate": 1099,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Ávila, España", "lat": 40.65, "lng": -4.7 }],
+    "importance": 8,
+    "summary": "El recinto amurallado medieval mejor conservado de España y uno de los más completos del mundo. Sus 2,5 km de muralla románica con 88 torres semicirculares y 9 puertas rodean el casco histórico intacto. Construidas por orden de Alfonso VI para defender la frontera cristiana durante la Reconquista. Patrimonio de la Humanidad desde 1985.",
+    "tags": ["Ávila", "murallas", "medieval", "Reconquista", "románico", "Patrimonio UNESCO", "Castilla"],
+    "relations": [
+      { "targetId": "reconquista", "type": "built-for" },
+      { "targetId": "arte-romanico", "type": "example-of" },
+      { "targetId": "alcazar-segovia", "type": "contemporary" },
+      { "targetId": "middle-ages", "type": "example-of" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "torre-del-oro",
+    "title": "Torre del Oro",
+    "type": "building",
+    "startDate": 1220,
+    "endDate": 1221,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Sevilla, España", "lat": 37.38, "lng": -5.99 }],
+    "importance": 7,
+    "summary": "Torre dodecagonal almohade a orillas del Guadalquivir, construida para controlar el acceso fluvial a Sevilla. Su nombre viene de los azulejos dorados que la cubrían o del oro americano que custodiaba. Símbolo de Sevilla, fue utilizada como capilla, prisión y archivo de Indias. Hoy alberga el Museo Naval.",
+    "tags": ["Sevilla", "almohade", "torre", "Guadalquivir", "Al-Ándalus", "oro", "España"],
+    "relations": [
+      { "targetId": "al-andalus", "type": "built-by" },
+      { "targetId": "giralda-sevilla", "type": "same-period" },
+      { "targetId": "real-alcazar-sevilla", "type": "same-city" },
+      { "targetId": "arte-islamico", "type": "example-of" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "mezquita-cordoba-detail",
+    "title": "Bosque de columnas de la Mezquita",
+    "type": "building",
+    "startDate": 784,
+    "endDate": 987,
+    "disciplines": ["art", "architecture", "religion"],
+    "regions": ["europe"],
+    "places": [{ "name": "Córdoba, España", "lat": 37.88, "lng": -4.78 }],
+    "importance": 9,
+    "summary": "El interior de la Mezquita de Córdoba es una de las experiencias arquitectónicas más hipnóticas del mundo: 856 columnas de jaspe, ónix y mármol con arcos bicolores en rojo y blanco crean un bosque infinito. Ampliada por cuatro emires omeyas entre 784 y 987, cada ampliación añadió filas de columnas. El mihrab de Alhakén II es la joya del arte islámico en Occidente.",
+    "tags": ["Córdoba", "columnas", "Omeyas", "mihrab", "Al-Ándalus", "islam", "arquitectura"],
+    "relations": [
+      { "targetId": "mezquita-cordoba", "type": "detail-of" },
+      { "targetId": "al-andalus", "type": "built-by" },
+      { "targetId": "arte-islamico", "type": "pinnacle-of" },
+      { "targetId": "alhambra", "type": "contrasts-with" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  },
+  {
+    "id": "palacio-generalife",
+    "title": "Jardines del Generalife",
+    "type": "building",
+    "startDate": 1302,
+    "endDate": 1319,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Granada, España", "lat": 37.18, "lng": -3.59 }],
+    "importance": 8,
+    "summary": "Palacio de verano y jardines de los sultanes nazaríes de Granada, contiguo a la Alhambra. El Patio de la Acequia con su canal central, los cipreses, los surtidores de agua y las rosas es la síntesis del concepto islámico de jardín como paraíso terrenal. Patrimonio de la Humanidad junto a la Alhambra, es el conjunto de jardines históricos más visitado de España.",
+    "tags": ["Granada", "jardín", "nazarí", "agua", "Alhambra", "paraíso", "Al-Ándalus"],
+    "relations": [
+      { "targetId": "alhambra", "type": "part-of-complex" },
+      { "targetId": "al-andalus", "type": "built-by" },
+      { "targetId": "arte-islamico", "type": "example-of" },
+      { "targetId": "palacio-carlos-v", "type": "adjacent" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "monasterio-poblet",
+    "title": "Monasterio de Poblet",
+    "type": "building",
+    "startDate": 1150,
+    "endDate": 1340,
+    "disciplines": ["art", "architecture", "religion"],
+    "regions": ["europe"],
+    "places": [{ "name": "Vimbodí, Tarragona, España", "lat": 41.38, "lng": 1.07 }],
+    "importance": 8,
+    "summary": "Gran monasterio cisterciense de Cataluña, panteón real de la Corona de Aragón. Sus claustros románico-góticos, la iglesia abacial y las tumbas de reyes aragoneses —Jaime I, Pedro IV, Alfonso V— forman un conjunto excepcional de sobriedad y grandeza. Patrimonio de la Humanidad, es el monasterio cisterciense más completo e importante de España.",
+    "tags": ["Cataluña", "cisterciense", "Corona de Aragón", "panteón real", "Patrimonio UNESCO", "románico"],
+    "relations": [
+      { "targetId": "arte-romanico", "type": "example-of" },
+      { "targetId": "gothic-architecture", "type": "transitions-to" },
+      { "targetId": "reconquista", "type": "built-during" },
+      { "targetId": "catedral-burgos", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "acueducto-merida",
+    "title": "Teatro Romano y Anfiteatro de Mérida",
+    "type": "building",
+    "startDate": -16,
+    "endDate": 8,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Mérida, Badajoz, España", "lat": 38.91, "lng": -6.34 }],
+    "importance": 8,
+    "summary": "Mérida (Augusta Emerita), capital de la Hispania romana, conserva el conjunto de ruinas romanas más importante de España: teatro de 6.000 espectadores con su escena monumental, anfiteatro, circo, arco de Trajano, puente romano sobre el Guadiana y el Museo Nacional de Arte Romano de Rafael Moneo. Patrimonio de la Humanidad desde 1993.",
+    "tags": ["Mérida", "romano", "teatro", "anfiteatro", "Hispania", "Extremadura", "Patrimonio UNESCO"],
+    "relations": [
+      { "targetId": "roman-empire", "type": "built-by" },
+      { "targetId": "rafael-moneo", "type": "museum-by" },
+      { "targetId": "arte-romano", "type": "example-of" },
+      { "targetId": "acueducto-segovia", "type": "contemporary-roman" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "monasterio-guadalupe",
+    "title": "Real Monasterio de Guadalupe",
+    "type": "building",
+    "startDate": 1340,
+    "endDate": 1500,
+    "disciplines": ["art", "architecture", "religion"],
+    "regions": ["europe"],
+    "places": [{ "name": "Guadalupe, Cáceres, España", "lat": 39.45, "lng": -5.3 }],
+    "importance": 8,
+    "summary": "Monasterio de Extremadura que custodia la Virgen de Guadalupe, patrona de Extremadura y símbolo de la hispanidad. Antes de partir a América, Colón y Hernán Cortés vinieron a rezar aquí. Su claustro mudéjar, la sacristía con Zurbaranes y la cámara de la Virgen son obras maestras. Patrimonio de la Humanidad y lugar sagrado de dos continentes.",
+    "tags": ["Guadalupe", "Extremadura", "Virgen", "Colón", "Cortés", "América", "Patrimonio UNESCO"],
+    "relations": [
+      { "targetId": "conquista-america", "type": "spiritually-linked" },
+      { "targetId": "arquitectura-mudejar", "type": "features" },
+      { "targetId": "age-of-exploration", "type": "blessed" },
+      { "targetId": "reconquista", "type": "built-during" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "palacio-aranjuez",
+    "title": "Palacio Real de Aranjuez",
+    "type": "building",
+    "startDate": 1561,
+    "endDate": 1778,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Aranjuez, Madrid, España", "lat": 40.03, "lng": -3.6 }],
+    "importance": 7,
+    "summary": "Residencia real española a orillas del Tajo, iniciada por Felipe II y culminada por Felipe V y Carlos III en estilo borbónico. Sus jardines renacentistas y barrocos —Jardín del Príncipe, Jardín de la Isla— son de los más bellos de España. Paisaje cultural Patrimonio de la Humanidad. El 'Concierto de Aranjuez' de Joaquín Rodrigo inmortalizó su belleza.",
+    "tags": ["Aranjuez", "palacio real", "Madrid", "jardines", "Felipe II", "Borbones", "Rodrigo"],
+    "relations": [
+      { "targetId": "felipe-ii", "type": "initiated-by" },
+      { "targetId": "el-escorial", "type": "contemporary" },
+      { "targetId": "palace-versailles", "type": "inspired-by" },
+      { "targetId": "arquitectura-barroca", "type": "example-of" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "palacio-real-madrid",
+    "title": "Palacio Real de Madrid",
+    "type": "building",
+    "startDate": 1738,
+    "endDate": 1764,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Madrid, España", "lat": 40.42, "lng": -3.71 }],
+    "importance": 8,
+    "summary": "El palacio real más grande de Europa occidental en extensión, con 3.418 habitaciones. Encargado por Felipe V tras el incendio del antiguo Alcázar, fue diseñado por Filippo Juvara y Juan Bautista Sacchetti en estilo neoclásico italiano. Alberga colecciones de Goya, Velázquez, tapices flamencos y la armería real más importante del mundo.",
+    "tags": ["Madrid", "palacio real", "Borbones", "neoclásico", "Felipe V", "España", "arte"],
+    "relations": [
+      { "targetId": "neoclasicismo-arquitectura", "type": "example-of" },
+      { "targetId": "velazquez", "type": "collection" },
+      { "targetId": "palace-versailles", "type": "inspired-by" },
+      { "targetId": "el-escorial", "type": "replaced" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "museo-prado",
+    "title": "Museo del Prado",
+    "type": "building",
+    "startDate": 1785,
+    "endDate": 1819,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Madrid, España", "lat": 40.41, "lng": -3.69 }],
+    "importance": 10,
+    "summary": "El mayor museo del mundo de pintura española y uno de los más importantes de arte europeo. Su colección de Velázquez —Las Meninas—, Goya —La maja desnuda, los Fusilamientos—, El Greco, Tiziano, Rubens y El Bosco es insuperable. Fundado en 1819 con la colección real, el edificio neoclásico de Juan de Villanueva es una joya del Madrid ilustrado.",
+    "tags": ["Madrid", "museo", "Velázquez", "Goya", "arte", "España", "colección real", "Las Meninas"],
+    "relations": [
+      { "targetId": "velazquez", "type": "holds-masterworks" },
+      { "targetId": "neoclasicismo-arquitectura", "type": "example-of" },
+      { "targetId": "rafael-moneo", "type": "expanded-by" },
+      { "targetId": "museum-guggenheim-bilbao", "type": "contrasts-with" }
+    ],
+    "layer": "global",
+    "validation": { "isVerified": true, "completeness": 0.88 }
+  },
+  {
+    "id": "casas-colgadas-cuenca",
+    "title": "Casas Colgadas de Cuenca",
+    "type": "building",
+    "startDate": 1300,
+    "endDate": 1400,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Cuenca, España", "lat": 40.07, "lng": -2.13 }],
+    "importance": 7,
+    "summary": "Casas medievales que literalmente cuelgan sobre el barranco del Huécar en Cuenca, con sus balcones de madera volando sobre el vacío. Símbolo de la ciudad de Cuenca, Patrimonio de la Humanidad. Una de ellas alberga hoy el Museo de Arte Abstracto Español con obras de Chillida, Tàpies y Saura, convirtiendo la arquitectura histórica en contenedor de vanguardia.",
+    "tags": ["Cuenca", "casas colgadas", "medieval", "barranco", "Patrimonio UNESCO", "arte abstracto"],
+    "relations": [
+      { "targetId": "middle-ages", "type": "built-in" },
+      { "targetId": "arte-conceptual", "type": "hosts" },
+      { "targetId": "minimalismo-arte", "type": "hosts" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "anfiteatro-tarraco",
+    "title": "Conjunto Romano de Tarragona",
+    "type": "building",
+    "startDate": -27,
+    "endDate": 200,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Tarragona, España", "lat": 41.12, "lng": 1.25 }],
+    "importance": 8,
+    "summary": "Tarraco fue la capital de la Hispania Citerior y la ciudad romana más importante de la Península Ibérica. Conserva un anfiteatro junto al mar, el circo (el más grande del Imperio), el foro provincial, la necrópolis paleocristiana y la Via Augusta. Su conjunto arqueológico es Patrimonio de la Humanidad y testimonio de tres siglos de dominación romana.",
+    "tags": ["Tarragona", "romano", "anfiteatro", "circo", "Hispania", "Cataluña", "Patrimonio UNESCO"],
+    "relations": [
+      { "targetId": "roman-empire", "type": "capital-of-province" },
+      { "targetId": "arte-romano", "type": "example-of" },
+      { "targetId": "acueducto-segovia", "type": "contemporary" },
+      { "targetId": "acueducto-merida", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "puente-alcantara",
+    "title": "Puente de Alcántara",
+    "type": "building",
+    "startDate": 104,
+    "endDate": 106,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Alcántara, Cáceres, España", "lat": 39.72, "lng": -6.9 }],
+    "importance": 8,
+    "summary": "Puente romano sobre el Tajo, construido bajo Trajano, con seis arcos de granito que alcanzan 48 metros de altura. La inscripción en su arco de triunfo central dice: 'Construí un puente que durará eternamente'. Dos mil años después, sigue en pie. Es el puente romano más alto conservado y uno de los más perfectos de la ingeniería romana.",
+    "tags": ["puente", "romano", "Trajano", "Extremadura", "ingeniería", "granito", "eterno"],
+    "relations": [
+      { "targetId": "roman-empire", "type": "built-by" },
+      { "targetId": "acueducto-segovia", "type": "contemporary" },
+      { "targetId": "arte-romano", "type": "engineering-of" },
+      { "targetId": "pont-du-gard", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "ciudad-rodrigo",
+    "title": "Ciudad amurallada de Ciudad Rodrigo",
+    "type": "building",
+    "startDate": 1100,
+    "endDate": 1300,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Ciudad Rodrigo, Salamanca, España", "lat": 40.6, "lng": -6.53 }],
+    "importance": 6,
+    "summary": "Ciudad castellana de frontera con Portugal, con murallas romanas reforzadas en la Edad Media, catedral románico-gótica y un imponente castillo. Escenario de la Guerra de la Independencia (1812), donde Wellington derrotó a las tropas napoleónicas. Su casco histórico intacto es una cápsula del tiempo de la España medieval y renacentista.",
+    "tags": ["Salamanca", "murallas", "medieval", "frontera", "Portugal", "Wellington", "Castilla"],
+    "relations": [
+      { "targetId": "murallas-avila", "type": "similar-to" },
+      { "targetId": "middle-ages", "type": "built-in" },
+      { "targetId": "arte-romanico", "type": "features" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.78 }
+  },
+  {
+    "id": "palacio-generalitat-barcelona",
+    "title": "Palau de la Generalitat de Catalunya",
+    "type": "building",
+    "startDate": 1403,
+    "endDate": 1630,
+    "disciplines": ["art", "architecture", "politics"],
+    "regions": ["europe"],
+    "places": [{ "name": "Barcelona, España", "lat": 41.38, "lng": 2.17 }],
+    "importance": 7,
+    "summary": "Sede del gobierno catalán desde el siglo XV, uno de los edificios medievales de gobierno más antiguos del mundo en uso continuo. Su fachada gótica de Marc Safont, el patio gótico de Sant Jordi y la capilla de Sant Jordi son joyas del gótico civil catalán. Símbolo de la autonomía y la identidad catalana, es el centro político de Cataluña desde hace 600 años.",
+    "tags": ["Barcelona", "Cataluña", "gótico", "Generalitat", "gobierno", "Sant Jordi", "medieval"],
+    "relations": [
+      { "targetId": "gothic-architecture", "type": "example-of" },
+      { "targetId": "palau-musica-catalana", "type": "same-city" },
+      { "targetId": "reconquista", "type": "contemporary" },
+      { "targetId": "al-andalus", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "colegiata-santillana",
+    "title": "Colegiata de Santillana del Mar",
+    "type": "building",
+    "startDate": 1120,
+    "endDate": 1200,
+    "disciplines": ["art", "architecture", "religion"],
+    "regions": ["europe"],
+    "places": [{ "name": "Santillana del Mar, Cantabria, España", "lat": 43.39, "lng": -4.1 }],
+    "importance": 7,
+    "summary": "Románico cántabro en el pueblo medieval más hermoso de España. La colegiata con su claustro y sus capiteles historiados es una joya del arte románico. El pueblo de Santillana, con sus calles empedradas y casonas blasonadas intactas, fue llamado por Sartre 'el pueblo más bello de España'. Junto a la cueva de Altamira, Patrimonio de la Humanidad.",
+    "tags": ["Cantabria", "románico", "medieval", "Santillana", "claustro", "Sartre", "Altamira"],
+    "relations": [
+      { "targetId": "arte-romanico", "type": "example-of" },
+      { "targetId": "arte-rupestre", "type": "nearby" },
+      { "targetId": "catedral-santiago", "type": "camino-related" },
+      { "targetId": "middle-ages", "type": "example-of" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.81 }
+  },
+  {
+    "id": "lonja-seda-valencia",
+    "title": "Lonja de la Seda de Valencia",
+    "type": "building",
+    "startDate": 1482,
+    "endDate": 1548,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Valencia, España", "lat": 39.47, "lng": -0.37 }],
+    "importance": 8,
+    "summary": "Bolsa de comercio medieval de Valencia, Patrimonio de la Humanidad. Su Sala de Contratación, con sus esbeltas columnas helicoidales de 17 metros que soportan bóvedas estrelladas, es una de las obras maestras del gótico civil europeo. Construida en el momento de máximo esplendor mercantil valenciano, es el mayor edificio civil gótico de la península.",
+    "tags": ["Valencia", "gótico", "comercio", "seda", "Patrimonio UNESCO", "columnas", "medieval"],
+    "relations": [
+      { "targetId": "gothic-architecture", "type": "civil-example" },
+      { "targetId": "mercantilismo", "type": "symbolizes" },
+      { "targetId": "ciudad-artes-ciencias", "type": "same-city" },
+      { "targetId": "palau-musica-catalana", "type": "contrasts-with" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "castillo-coca",
+    "title": "Castillo de Coca",
+    "type": "building",
+    "startDate": 1453,
+    "endDate": 1480,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Coca, Segovia, España", "lat": 41.22, "lng": -4.52 }],
+    "importance": 7,
+    "summary": "Considerado el castillo mudéjar más importante de España y una de las fortalezas más hermosas de Europa. Construido en ladrillo rojo con una elaborada decoración de lacería mudéjar, fosos secos y múltiples anillos defensivos. Paradójicamente, siendo una fortaleza militar, su acabado decorativo lo acerca más al arte que a la funcionalidad bélica.",
+    "tags": ["castillo", "mudéjar", "Segovia", "ladrillo", "fortaleza", "Castilla", "España"],
+    "relations": [
+      { "targetId": "arquitectura-mudejar", "type": "example-of" },
+      { "targetId": "alcazar-segovia", "type": "same-province" },
+      { "targetId": "reconquista", "type": "built-during" },
+      { "targetId": "arte-islamico", "type": "influenced-by" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  }
+]
