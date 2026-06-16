@@ -41,6 +41,7 @@ import intermediate20               from '@/data/entities/intermediate20.json';
 import intermediate21               from '@/data/entities/intermediate21.json';
 import economiaPoliticaSociedad     from '@/data/entities/economia_politica_sociedad.json';
 import monumentosEspana             from '@/data/entities/monumentos_espana.json';
+import arquitecturaModerna          from '@/data/entities/arquitectura_moderna.json';
 
 export const ALL_ENTITIES: Entity[] = [
   ...globalEntities,
@@ -85,6 +86,7 @@ export const ALL_ENTITIES: Entity[] = [
   ...intermediate21,
   ...economiaPoliticaSociedad,
   ...monumentosEspana,
+  ...arquitecturaModerna,
 ] as Entity[];
 
 export function getEntityById(id: string): Entity | undefined {
