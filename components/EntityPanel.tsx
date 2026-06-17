@@ -103,7 +103,7 @@ export default function EntityPanel({ entity, onSelectEntity, onClose }: Props) 
           <div>
             <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1.5">Relaciones</h3>
             <ul className="space-y-0.5">
-              {entity.relations.map((rel) => {
+              {(entity.relations ?? []).map((rel) => {
                 const target = related.find((r) => r.id === rel.targetId);
                 if (!target) return null;
                 return (

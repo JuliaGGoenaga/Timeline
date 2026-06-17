@@ -47,7 +47,7 @@ export default function NetworkView({ entities, selectedId, onSelect }: Props) {
     const linksRaw: { from: string; to: string; label: string }[] = [];
 
     entities.forEach((e) => {
-      e.relations.forEach((r) => {
+      (e.relations ?? []).forEach((r) => {
         if (entityMap.has(r.targetId)) {
           usedIds.add(e.id);
           usedIds.add(r.targetId);
