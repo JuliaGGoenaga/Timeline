@@ -43,6 +43,7 @@ import economiaPoliticaSociedad     from '@/data/entities/economia_politica_soci
 import monumentosEspana             from '@/data/entities/monumentos_espana.json';
 import arquitecturaModerna          from '@/data/entities/arquitectura_moderna.json';
 import arquitecturaModernaEspana    from '@/data/entities/arquitectura_moderna_espana.json';
+import arquitecturaModernaEuropa    from '@/data/entities/arquitectura_moderna_europa.json';
 
 export const ALL_ENTITIES: Entity[] = [
   ...globalEntities,
@@ -89,6 +90,7 @@ export const ALL_ENTITIES: Entity[] = [
   ...monumentosEspana,
   ...arquitecturaModerna,
   ...arquitecturaModernaEspana,
+  ...arquitecturaModernaEuropa,
 ] as Entity[];
 
 export function getEntityById(id: string): Entity | undefined {

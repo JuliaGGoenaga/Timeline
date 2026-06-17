@@ -1,0 +1,422 @@
+[
+  {
+    "id": "philharmonie-berlin",
+    "title": "Filarmónica de Berlín",
+    "type": "building",
+    "startDate": 1956,
+    "endDate": 1963,
+    "disciplines": ["art", "architecture", "music"],
+    "regions": ["europe"],
+    "places": [{ "name": "Berlín, Alemania", "lat": 52.51, "lng": 13.37 }],
+    "importance": 9,
+    "summary": "Sala de conciertos diseñada por Hans Scharoun en Berlín, considerada la mejor acústica del mundo y la más influyente del siglo XX. Su forma de tienda de circo con el director de orquesta en el centro rodeado por el público —y no en el frontal tradicional— revolucionó la tipología de sala de conciertos. El concepto 'vineyard' de Scharoun fue copiado por todas las grandes salas posteriores, desde el Elbe Philharmonic hasta el Auditorio de Tenerife.",
+    "tags": ["Berlín", "Scharoun", "música", "acústica", "filarmónica", "Berlín Occidental", "expresionismo"],
+    "relations": [
+      { "targetId": "elbphilharmonie", "type": "inspired" },
+      { "targetId": "auditorio-tenerife", "type": "inspired" },
+      { "targetId": "organicist-architecture", "type": "example-of" },
+      { "targetId": "berliner-philharmoniker", "type": "houses" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  },
+  {
+    "id": "neue-nationalgalerie",
+    "title": "Neue Nationalgalerie",
+    "type": "building",
+    "startDate": 1965,
+    "endDate": 1968,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Berlín, Alemania", "lat": 52.5, "lng": 13.37 }],
+    "importance": 8,
+    "summary": "El último gran edificio de Mies van der Rohe: una cubierta de acero de 64 x 64 metros suspendida sobre ocho pilares de acero, con un espacio interior diáfano de cristal al nivel de la plaza. El sótano alberga la colección permanente mientras la planta principal es un espacio universal para exposiciones temporales. Último testamento del racionalismo puro en un contexto dominado ya por el brutalismo.",
+    "tags": ["Berlín", "Mies van der Rohe", "racionalismo", "acero", "cristal", "museo", "modernismo"],
+    "relations": [
+      { "targetId": "mies-van-der-rohe", "type": "designed-by" },
+      { "targetId": "pabellon-aleman-barcelona", "type": "same-architect" },
+      { "targetId": "bauhaus", "type": "continuation-of" },
+      { "targetId": "seagram-building", "type": "same-architect" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "reichstag-berlin",
+    "title": "Cúpula del Reichstag (Foster)",
+    "type": "building",
+    "startDate": 1992,
+    "endDate": 1999,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Berlín, Alemania", "lat": 52.52, "lng": 13.38 }],
+    "importance": 9,
+    "summary": "Norman Foster añadió al Parlamento alemán (Reichstag, 1894) una cúpula de cristal y acero que ha pasado a ser el símbolo de la democracia transparente alemana. El espiral interior sube rodeando un cono de espejos que refleja la luz natural al hemiciclo inferior. Coincidió con la reunificación del Bundestag en Berlín, convirtiendo la reconstrucción arquitectónica en metáfora de la reunificación alemana.",
+    "tags": ["Berlín", "Foster", "Reichstag", "cúpula", "cristal", "democracia", "reunificación"],
+    "relations": [
+      { "targetId": "norman-foster", "type": "designed-by" },
+      { "targetId": "caida-muro-berlin", "type": "consequence-of" },
+      { "targetId": "torre-collserola", "type": "same-architect" },
+      { "targetId": "aeropuerto-barajas-t4", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  },
+  {
+    "id": "olympiastadion-munich",
+    "title": "Estadio Olímpico de Múnich",
+    "type": "building",
+    "startDate": 1968,
+    "endDate": 1972,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Múnich, Alemania", "lat": 48.17, "lng": 11.55 }],
+    "importance": 8,
+    "summary": "Estadio de los Juegos Olímpicos de Múnich 1972, diseñado por Günter Behnisch con ingeniería de Frei Otto. Su cubierta tensada de acrílico transparente sobre mástiles —que imita las tentáculas de una medusa o una telaraña— fue la mayor estructura tensada jamás construida hasta entonces. Los JJ.OO. del 72 estuvieron marcados por el atentado del grupo Septiembre Negro, con 11 atletas israelíes muertos.",
+    "tags": ["Múnich", "Behnisch", "Olimpiadas 1972", "cubierta tensada", "Frei Otto", "Septiembre Negro", "Alemania"],
+    "relations": [
+      { "targetId": "olimpiadas-munich-1972", "type": "venue-for" },
+      { "targetId": "high-tech-architecture", "type": "precursor" },
+      { "targetId": "bird-nest-beijing", "type": "inspired" },
+      { "targetId": "estadio-olimpico-barcelona", "type": "parallel" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  },
+  {
+    "id": "mercedes-benz-museum",
+    "title": "Museo Mercedes-Benz (Stuttgart)",
+    "type": "building",
+    "startDate": 2003,
+    "endDate": 2006,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Stuttgart, Alemania", "lat": 48.83, "lng": 9.26 }],
+    "importance": 7,
+    "summary": "Museo diseñado por el estudio holandés UNStudio (Ben van Berkel) en forma de trébol de doble espiral que entrelaza dos narrativas: la historia de Mercedes-Benz y la historia del automóvil. 9 pisos, 16.500 m² de exposición, 160 vehículos expuestos. La geometría de doble hélice permite recorridos no lineales donde los visitantes saltan entre las dos colecciones. Obra cumbre del parametricismo.",
+    "tags": ["Stuttgart", "UNStudio", "Mercedes", "museo", "automóvil", "espiral", "parametricismo"],
+    "relations": [
+      { "targetId": "parametric-architecture", "type": "example-of" },
+      { "targetId": "zaha-hadid", "type": "contemporary-movement" },
+      { "targetId": "guggenheim-museum-ny", "type": "spiral-concept" },
+      { "targetId": "heydar-aliyev-center", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "kunsthaus-graz",
+    "title": "Kunsthaus Graz",
+    "type": "building",
+    "startDate": 2000,
+    "endDate": 2003,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Graz, Austria", "lat": 47.07, "lng": 15.44 }],
+    "importance": 7,
+    "summary": "Centro de arte contemporáneo diseñado por Peter Cook y Colin Fournier para la capitalidad cultural europea de Graz 2003. Su forma de burbuja azul iridiscente, bautizada como el 'Alien' o 'el pulmón amigable', contrasta deliberadamente con el centro histórico de Graz (Patrimonio UNESCO). 930 nodos BIX luminosos en su piel permiten convertirlo en pantalla de arte. Manifiesto del blob-architecture.",
+    "tags": ["Graz", "Cook", "Fournier", "blob", "burbuja", "arte contemporáneo", "Austria"],
+    "relations": [
+      { "targetId": "deconstructivism", "type": "evolved-from" },
+      { "targetId": "parametric-architecture", "type": "example-of" },
+      { "targetId": "kunsthaus-zurich", "type": "same-typology" },
+      { "targetId": "center-pompidou", "type": "conceptual-parallel" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "haas-haus-viena",
+    "title": "Haas Haus (Viena)",
+    "type": "building",
+    "startDate": 1985,
+    "endDate": 1990,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Viena, Austria", "lat": 48.21, "lng": 16.37 }],
+    "importance": 7,
+    "summary": "Edificio comercial diseñado por Hans Hollein en el centro histórico de Viena, frente a la Catedral de San Esteban. Su fachada curva de cristal y acero que refleja distorsionado el Stephansdom generó uno de los debates arquitectónicos más encendidos de los años 90: ¿puede la arquitectura contemporánea dialogar con el patrimonio histórico sin mimetizarse? Hoy se considera un modelo de diálogo entre lo antiguo y lo moderno.",
+    "tags": ["Viena", "Hollein", "cristal", "Stephansdom", "posmoderno", "Austria", "controversia"],
+    "relations": [
+      { "targetId": "catedral-san-esteban-viena", "type": "dialogues-with" },
+      { "targetId": "arquitectura-posmoderna", "type": "example-of" },
+      { "targetId": "louvre-pyramid", "type": "contemporary-controversy" },
+      { "targetId": "tate-modern", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "instituto-mundo-arabe",
+    "title": "Institut du Monde Arabe (París)",
+    "type": "building",
+    "startDate": 1981,
+    "endDate": 1987,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "París, Francia", "lat": 48.85, "lng": 2.35 }],
+    "importance": 8,
+    "summary": "Instituto diseñado por Jean Nouvel en París para difundir la cultura árabe. Su fachada sur está formada por 240 mashrabiyyas mecánicas —celosías de aluminio que se abren y cierran según la luz solar como un diafragma fotográfico, combinando tecnología europea con geometría árabe islámica. La obra que puso a Nouvel en el mapa internacional y fundó el concepto de 'fachada inteligente'.",
+    "tags": ["París", "Nouvel", "árabe", "mashrabiya", "celosía", "fachada inteligente", "Francia"],
+    "relations": [
+      { "targetId": "jean-nouvel", "type": "designed-by" },
+      { "targetId": "torre-agbar", "type": "same-architect" },
+      { "targetId": "arquitectura-islamica", "type": "references" },
+      { "targetId": "high-tech-architecture", "type": "example-of" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "bibliotheque-nationale-france",
+    "title": "Bibliothèque nationale de France (Perrault)",
+    "type": "building",
+    "startDate": 1989,
+    "endDate": 1995,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "París, Francia", "lat": 48.84, "lng": 2.37 }],
+    "importance": 8,
+    "summary": "Biblioteca nacional diseñada por Dominique Perrault en París: cuatro torres de cristal en forma de libro abierto en las esquinas de un gran podio de madera que rodea un jardín de pinos. Parte de los Grands Travaux de Mitterrand (junto al Arco de la Défense y la Pirámide del Louvre). La paradoja famosa: las torres de cristal fueron diseñadas para bibliotecas con libros, y los libros deben protegerse del sol.",
+    "tags": ["París", "Perrault", "biblioteca", "libros", "torres cristal", "Mitterrand", "Francia"],
+    "relations": [
+      { "targetId": "grande-arche-defense", "type": "same-programme" },
+      { "targetId": "louvre-pyramid", "type": "same-programme" },
+      { "targetId": "fondation-louis-vuitton", "type": "same-city" },
+      { "targetId": "new-brutalism", "type": "contrasts-with" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "fondation-louis-vuitton",
+    "title": "Fondation Louis Vuitton",
+    "type": "building",
+    "startDate": 2006,
+    "endDate": 2014,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "París, Francia", "lat": 48.88, "lng": 2.27 }],
+    "importance": 8,
+    "summary": "Museo y fundación de arte diseñado por Frank Gehry en el Bois de Boulogne de París. Doce velas de vidrio curvo de 3.600 paneles únicos se despliegan sobre un iceberg de cemento blanco. El primero de los grandes museos de Francia en manos privadas y símbolo del mecenazgo del lujo en el arte contemporáneo. La tecnología digital de diseño permitió fabricar piezas imposibles de producir hasta entonces.",
+    "tags": ["París", "Gehry", "Louis Vuitton", "musée", "velas", "cristal", "Francia", "LVMH"],
+    "relations": [
+      { "targetId": "museo-guggenheim-bilbao", "type": "same-architect" },
+      { "targetId": "bodegas-marques-riscal", "type": "same-architect" },
+      { "targetId": "deconstructivism", "type": "example-of" },
+      { "targetId": "heydar-aliyev-center", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "philharmonie-paris",
+    "title": "Philharmonie de Paris",
+    "type": "building",
+    "startDate": 2006,
+    "endDate": 2015,
+    "disciplines": ["art", "architecture", "music"],
+    "regions": ["europe"],
+    "places": [{ "name": "París, Francia", "lat": 48.89, "lng": 2.39 }],
+    "importance": 7,
+    "summary": "Gran sala de conciertos diseñada por Jean Nouvel en el parc de la Villette de París con capacidad para 2.400 personas. Su cubierta fragmentada de aluminio anodizado gris parece despegarse del suelo y flotar. La sala interior adopta el modelo 'vineyard' de Scharoun con la orquesta en el centro. Su presupuesto superado (de 173 a 386 millones) generó un escándalo político en Francia.",
+    "tags": ["París", "Nouvel", "música", "filarmónica", "Villette", "Francia", "acústica"],
+    "relations": [
+      { "targetId": "jean-nouvel", "type": "designed-by" },
+      { "targetId": "philharmonie-berlin", "type": "inspired-by" },
+      { "targetId": "elbphilharmonie", "type": "contemporary" },
+      { "targetId": "instituto-mundo-arabe", "type": "same-architect" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "cite-sciences-industrie",
+    "title": "Cité des Sciences et de l'Industrie",
+    "type": "building",
+    "startDate": 1980,
+    "endDate": 1986,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "París, Francia", "lat": 48.9, "lng": 2.39 }],
+    "importance": 7,
+    "summary": "Mayor museo de ciencia de Europa, diseñado por Adrien Fainsilber en el parc de la Villette de París. Tres cúpulas geodésicas de cristal de 32 metros de diámetro asoman sobre un enorme cubo de 300 x 110 metros. Las cúpulas de GEODE, el domo de 36 metros completamente espejado que refleja el canal, se convirtió en el símbolo de la Villette. Parte de los Grands Travaux de Mitterrand.",
+    "tags": ["París", "ciencia", "museo", "Villette", "geodésica", "Mitterrand", "Francia"],
+    "relations": [
+      { "targetId": "philharmonie-paris", "type": "same-park" },
+      { "targetId": "centre-pompidou", "type": "same-program" },
+      { "targetId": "bibliotheque-nationale-france", "type": "same-grands-travaux" },
+      { "targetId": "geodesic-dome", "type": "uses" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "maxxi-roma",
+    "title": "MAXXI – Museo de Arte del Siglo XXI (Roma)",
+    "type": "building",
+    "startDate": 1998,
+    "endDate": 2010,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Roma, Italia", "lat": 41.93, "lng": 12.47 }],
+    "importance": 8,
+    "summary": "Museo nacional de arte contemporáneo diseñado por Zaha Hadid en Roma: un entramado de tubos de hormigón superpuestos que se cruzan y fluyen como ríos de concreto, con una escalera central que parece desafiar la gravedad. Premio Stirling 2010. El primer gran museo de arte contemporáneo construido en Roma en décadas, en una ciudad que históricamente ha resistido la arquitectura contemporánea.",
+    "tags": ["Roma", "Hadid", "arte contemporáneo", "hormigón", "Italia", "Premio Stirling", "museo"],
+    "relations": [
+      { "targetId": "zaha-hadid", "type": "designed-by" },
+      { "targetId": "heydar-aliyev-center", "type": "same-architect" },
+      { "targetId": "pabellon-puente-zaragoza", "type": "same-architect" },
+      { "targetId": "deconstructivism", "type": "example-of" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "auditorium-parco-musica",
+    "title": "Auditorium Parco della Musica (Roma)",
+    "type": "building",
+    "startDate": 1994,
+    "endDate": 2002,
+    "disciplines": ["art", "architecture", "music"],
+    "regions": ["europe"],
+    "places": [{ "name": "Roma, Italia", "lat": 41.93, "lng": 12.47 }],
+    "importance": 7,
+    "summary": "Complejo de tres salas de conciertos diseñado por Renzo Piano en Roma: tres escarabajos de plomo plateado con acústica diferente (700, 1.200 y 2.800 plazas) que rodean un anfiteatro romano al aire libre descubierto durante las obras. Piano integró el hallazgo arqueológico en el diseño. El mayor complejo musical de Europa y referencia mundial de las salas de conciertos del siglo XXI.",
+    "tags": ["Roma", "Piano", "música", "acústica", "tres salas", "arqueología", "Italia"],
+    "relations": [
+      { "targetId": "renzo-piano", "type": "designed-by" },
+      { "targetId": "centro-botin", "type": "same-architect" },
+      { "targetId": "philharmonie-berlin", "type": "conceptual-parallel" },
+      { "targetId": "elbphilharmonie", "type": "same-typology" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "fondazione-prada-milan",
+    "title": "Fondazione Prada (Milán)",
+    "type": "building",
+    "startDate": 2008,
+    "endDate": 2015,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Milán, Italia", "lat": 45.44, "lng": 9.19 }],
+    "importance": 7,
+    "summary": "Fundación de arte diseñada por Rem Koolhaas/OMA en una antigua destilería de Milán. En lugar de demoler las naves industriales, OMA mezcló las preexistencias con nuevas construcciones doradas y una torre de espejos de 9 plantas. Koolhaas planteó una 'condición inestable' entre lo viejo y lo nuevo. Incluye la 'Haunted House', cubierta en láminas de oro que la hace brillar como una joya.",
+    "tags": ["Milán", "OMA", "Koolhaas", "Prada", "destilería", "arte", "Italia"],
+    "relations": [
+      { "targetId": "rem-koolhaas", "type": "designed-by" },
+      { "targetId": "cctv-beijing", "type": "same-architect" },
+      { "targetId": "tate-modern", "type": "industrial-conversion" },
+      { "targetId": "caixaforum-madrid", "type": "same-typology" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "museo-stedellijk-amsterdam",
+    "title": "Stedelijk Museum (Ámsterdam)",
+    "type": "building",
+    "startDate": 1895,
+    "endDate": 2012,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Ámsterdam, Países Bajos", "lat": 52.36, "lng": 4.88 }],
+    "importance": 7,
+    "summary": "Museo de arte moderno y diseño de Ámsterdam, fundado en 1895 y ampliado en 2012 por Benthem Crouwel con una gran extensión bautizada como 'la bañera': un volumen blanco que parece deslizarse sobre el edificio histórico de ladrillo. El Stedelijk alberga la mayor colección de Malevich fuera de Rusia y obras de Mondrian, De Stijl, Cobra y arte povera.",
+    "tags": ["Ámsterdam", "Benthem Crouwel", "arte moderno", "diseño", "Malevich", "De Stijl", "Países Bajos"],
+    "relations": [
+      { "targetId": "de-stijl", "type": "houses" },
+      { "targetId": "mondrian", "type": "houses-works" },
+      { "targetId": "tate-modern", "type": "same-typology" },
+      { "targetId": "macba-barcelona", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "epfl-learning-center",
+    "title": "Rolex Learning Center (EPFL, Lausana)",
+    "type": "building",
+    "startDate": 2004,
+    "endDate": 2010,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Lausana, Suiza", "lat": 46.52, "lng": 6.57 }],
+    "importance": 8,
+    "summary": "Centro de aprendizaje de la EPFL diseñado por SANAA (Kazuyo Sejima y Ryue Nishizawa). Una única planta ondulante de 160 x 120 metros sin paredes interiores —todas las funciones conviven en un paisaje continuo con colinas y valles de hormigón. Ganadora del Premio Pritzker 2010 para sus arquitectas. Encarna el concepto de 'espacio sin programa fijo' que redefine cómo se aprende y trabaja.",
+    "tags": ["Lausana", "SANAA", "Sejima", "Nishizawa", "Suiza", "universidad", "Pritzker"],
+    "relations": [
+      { "targetId": "pritzker-prize", "type": "won-by-architects" },
+      { "targetId": "parametric-architecture", "type": "example-of" },
+      { "targetId": "heydar-aliyev-center", "type": "contemporary-fluid" },
+      { "targetId": "louvre-lens", "type": "same-architects" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "30-st-mary-axe",
+    "title": "30 St Mary Axe (El Pepinillo, Londres)",
+    "type": "building",
+    "startDate": 2001,
+    "endDate": 2003,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Londres, Reino Unido", "lat": 51.51, "lng": -0.08 }],
+    "importance": 8,
+    "summary": "Torre de 180 metros diseñada por Norman Foster para la compañía Swiss Re en la City de Londres, popularmente conocida como 'el Gherkin' (el pepinillo). Su forma aerodinámica de bala reduce la presión del viento y mejora la eficiencia energética un 50% respecto a un rascacielos convencional. Fue el primer rascacielos ecológicamente sostenible de Londres y transformó el perfil de la City.",
+    "tags": ["Londres", "Foster", "Gherkin", "Swiss Re", "City", "sostenible", "rascacielos"],
+    "relations": [
+      { "targetId": "norman-foster", "type": "designed-by" },
+      { "targetId": "the-shard", "type": "same-city" },
+      { "targetId": "reichstag-berlin", "type": "same-architect" },
+      { "targetId": "torre-collserola", "type": "same-architect" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "barbican-estate",
+    "title": "Barbican Estate (Londres)",
+    "type": "building",
+    "startDate": 1965,
+    "endDate": 1982,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Londres, Reino Unido", "lat": 51.52, "lng": -0.09 }],
+    "importance": 8,
+    "summary": "El mayor conjunto residencial brutalista de Europa, diseñado por Chamberlin, Powell y Bon en la City de Londres para 6.500 residentes. Torres de hormigón en bruto, terrazas elevadas, lagos artificiales y el Arts Centre con sala de conciertos y teatro forman una ciudad dentro de la ciudad. Originalmente criticado como inhabitable, hoy es uno de los conjuntos residenciales más cotizados y deseados de Londres.",
+    "tags": ["Londres", "Chamberlin", "brutalismo", "vivienda", "City", "Arts Centre", "hormigón"],
+    "relations": [
+      { "targetId": "new-brutalism", "type": "example-of" },
+      { "targetId": "unite-habitation", "type": "parallel" },
+      { "targetId": "high-tech-architecture", "type": "contrasts-with" },
+      { "targetId": "30-st-mary-axe", "type": "same-district" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "millennium-dome",
+    "title": "The O2 Arena (Millennium Dome, Londres)",
+    "type": "building",
+    "startDate": 1996,
+    "endDate": 1999,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Londres, Reino Unido", "lat": 51.5, "lng": 0.0 }],
+    "importance": 7,
+    "summary": "Cúpula de 365 metros de diámetro diseñada por Richard Rogers para las celebraciones del milenio en Greenwich: el mayor edificio con techo del mundo en su apertura. Su cubierta de teflón blanco sujeta por 12 mástiles de 100 metros. Costó 789 millones de libras, fue un fracaso como atracción del Nuevo Año 2000 y posterior éxito absoluto reconvertido en arena de conciertos (The O2), el recinto de espectáculos más visitado del mundo.",
+    "tags": ["Londres", "Rogers", "milenio", "cúpula", "O2", "Greenwich", "Reino Unido"],
+    "relations": [
+      { "targetId": "center-pompidou", "type": "same-architect" },
+      { "targetId": "aeropuerto-barajas-t4", "type": "same-architect" },
+      { "targetId": "bird-nest-beijing", "type": "structural-parallel" },
+      { "targetId": "30-st-mary-axe", "type": "same-city" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  }
+]
