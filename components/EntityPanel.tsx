@@ -49,17 +49,17 @@ export default function EntityPanel({ entity, onSelectEntity, onClose }: Props) 
       {/* Body */}
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
         {/* Image */}
-        {entity.media.filter((m) => m.type === 'image').length > 0 && (
+        {(entity.media ?? []).filter((m) => m.type === 'image').length > 0 && (
           <div className="rounded-xl overflow-hidden border border-gray-100">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src={entity.media.find((m) => m.type === 'image')!.url}
-              alt={entity.media.find((m) => m.type === 'image')!.caption ?? entity.title}
+              src={(entity.media ?? []).find((m) => m.type === 'image')!.url}
+              alt={(entity.media ?? []).find((m) => m.type === 'image')!.caption ?? entity.title}
               className="w-full h-36 object-cover"
               onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
             />
-            {entity.media[0].caption && (
-              <p className="text-xs text-gray-400 p-2 italic">{entity.media[0].caption}</p>
+            {entity.media![0].caption && (
+              <p className="text-xs text-gray-400 p-2 italic">{entity.media![0].caption}</p>
             )}
           </div>
         )}
