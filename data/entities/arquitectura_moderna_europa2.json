@@ -1,0 +1,401 @@
+[
+  {
+    "id": "musee-orsay",
+    "title": "Museo de Orsay (París)",
+    "type": "building",
+    "startDate": 1900,
+    "endDate": 1986,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "París, Francia", "lat": 48.86, "lng": 2.33 }],
+    "importance": 9,
+    "summary": "Antigua estación de tren de 1900 (Victor Laloux) reconvertida en museo del impresionismo en 1986 por ACT Architecture e Italo Rota. Alberga la mayor colección de pintura impresionista y postimpresionista del mundo: Monet, Renoir, Degas, Van Gogh, Cézanne, Gauguin. El gran reloj de la fachada interior se convirtió en el símbolo visual del museo. Modelo mundial de reciclaje de arquitectura industrial en patrimonio cultural.",
+    "tags": ["París", "impresionismo", "estación", "ferrocarril", "Orsay", "Francia", "museo"],
+    "relations": [
+      { "targetId": "impresionismo", "type": "houses" },
+      { "targetId": "claude-monet", "type": "houses-works" },
+      { "targetId": "postimpresionismo", "type": "houses" },
+      { "targetId": "tate-modern", "type": "industrial-conversion" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.86 }
+  },
+  {
+    "id": "musee-quai-branly",
+    "title": "Museo del Quai Branly (París)",
+    "type": "building",
+    "startDate": 2001,
+    "endDate": 2006,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "París, Francia", "lat": 48.86, "lng": 2.3 }],
+    "importance": 7,
+    "summary": "Museo de artes y civilizaciones de África, Asia, Oceanía y América diseñado por Jean Nouvel junto a la Torre Eiffel. Su jardín vertical de Patrick Blanc —una fachada de 800 m² cubierta de 15.000 plantas— se convirtió en el referente mundial del jardín vertical. El edificio se eleva sobre pilotes sobre un jardín de niebla de Patrick Blanc, como si flotara sobre una selva en la orilla del Sena.",
+    "tags": ["París", "Nouvel", "jardín vertical", "Patrick Blanc", "África", "Asia", "Francia"],
+    "relations": [
+      { "targetId": "jean-nouvel", "type": "designed-by" },
+      { "targetId": "instituto-mundo-arabe", "type": "same-architect" },
+      { "targetId": "philharmonie-paris", "type": "same-architect" },
+      { "targetId": "fondation-louis-vuitton", "type": "same-arrondissement" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "centre-pompidou-metz",
+    "title": "Centre Pompidou-Metz",
+    "type": "building",
+    "startDate": 2006,
+    "endDate": 2010,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Metz, Francia", "lat": 49.12, "lng": 6.18 }],
+    "importance": 7,
+    "summary": "Antena regional del Centre Pompidou de París diseñada por Shigeru Ban y Jean de Gastines. Su cubierta hexagonal de madera laminada recubierta de membrana translúcida recuerda un sombrero chino de paja o un paraguas geométrico. Shigeru Ban, conocido por su arquitectura de emergencia con cartón, aquí demostró que la madera puede crear estructuras de gran escala con una ligereza extraordinaria.",
+    "tags": ["Metz", "Shigeru Ban", "madera", "Pompidou", "membrana", "Francia", "estructura"],
+    "relations": [
+      { "targetId": "center-pompidou", "type": "extension-of" },
+      { "targetId": "shigeru-ban", "type": "designed-by" },
+      { "targetId": "metropol-parasol", "type": "wooden-structure" },
+      { "targetId": "cite-sciences-industrie", "type": "same-program" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "stade-france",
+    "title": "Stade de France (Saint-Denis)",
+    "type": "building",
+    "startDate": 1994,
+    "endDate": 1998,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Saint-Denis, Francia", "lat": 48.93, "lng": 2.36 }],
+    "importance": 7,
+    "summary": "El estadio nacional de Francia, diseñado por Zublena, Regembal, Constantini y Macary para el Mundial de 1998. Capacidad de 81.000 espectadores bajo una cubierta suspendida en forma de platillo que rodea completamente el campo. En él Francia ganó su primer Mundial (1998) y su primera Eurocopa (2000). Su estructura de cubierta sin pilares en los cuatro ángulos fue un hito de la ingeniería de estadios.",
+    "tags": ["Saint-Denis", "estadio", "Francia", "Mundial 1998", "cubierta", "fútbol", "rugby"],
+    "relations": [
+      { "targetId": "bird-nest-beijing", "type": "structural-parallel" },
+      { "targetId": "estadio-olimpico-barcelona", "type": "same-generation" },
+      { "targetId": "wembley-stadium", "type": "contemporary" },
+      { "targetId": "olympiastadion-munich", "type": "same-typology" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "louvre-lens",
+    "title": "Louvre-Lens",
+    "type": "building",
+    "startDate": 2009,
+    "endDate": 2012,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Lens, Francia", "lat": 50.43, "lng": 2.79 }],
+    "importance": 7,
+    "summary": "Antena del Louvre en la antigua cuenca minera del Norte de Francia, diseñada por SANAA (Kazuyo Sejima y Ryue Nishizawa). Cinco pabellones de aluminio pulido que reflejan el paisaje como espejos se despliegan sobre una antigua escombrera carbonífera. La iniciativa formó parte de la regeneración cultural de una región devastada por el cierre de las minas. La Galerie du Temps exhibe 205 obras maestras del Louvre en orden cronológico.",
+    "tags": ["Lens", "SANAA", "Louvre", "aluminio", "cuenca minera", "Francia", "regeneración"],
+    "relations": [
+      { "targetId": "epfl-learning-center", "type": "same-architects" },
+      { "targetId": "louvre-pyramid", "type": "louvre-family" },
+      { "targetId": "guggenheim-bilbao-effect", "type": "inspired-by" },
+      { "targetId": "tate-modern", "type": "regional-museum" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "tour-montparnasse",
+    "title": "Torre Montparnasse (París)",
+    "type": "building",
+    "startDate": 1969,
+    "endDate": 1973,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "París, Francia", "lat": 48.84, "lng": 2.32 }],
+    "importance": 7,
+    "summary": "La única torre de oficinas del centro histórico de París, de 210 metros de altura. Su construcción fue tan impactante y descontextualizada que el gobierno francés aprobó en 1977 una ley que prohibía los rascacielos en París intramuros —ley que sigue vigente. Hoy, la mejor vista de París desde su terraza es justamente la de una ciudad sin la Torre Montparnasse a la vista.",
+    "tags": ["París", "rascacielos", "prohibición", "Montparnasse", "1973", "Francia", "polémica"],
+    "relations": [
+      { "targetId": "haussmann-paris", "type": "violates" },
+      { "targetId": "grande-arche-defense", "type": "consequence-alternative" },
+      { "targetId": "torres-kio", "type": "contemporary" },
+      { "targetId": "bibliotheque-nationale-france", "type": "same-arrondissement" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "national-theatre-london",
+    "title": "Teatro Nacional de Londres (South Bank)",
+    "type": "building",
+    "startDate": 1963,
+    "endDate": 1976,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Londres, Reino Unido", "lat": 51.51, "lng": -0.11 }],
+    "importance": 8,
+    "summary": "El mayor centro teatral del mundo, diseñado por Denys Lasdun en la orilla sur del Támesis. Tres auditorios (Olivier, Lyttelton, Dorfman) de diferentes configuraciones en un edificio de terrazas de hormigón en bruto que escalona hacia el río. Ejemplo máximo del brutalismo cultural británico, el NT fue amado por actores y creadores pero durante décadas criticado como 'una central eléctrica' por el gran público londinense.",
+    "tags": ["Londres", "Lasdun", "teatro", "brutalismo", "South Bank", "Támesis", "Reino Unido"],
+    "relations": [
+      { "targetId": "new-brutalism", "type": "example-of" },
+      { "targetId": "barbican-estate", "type": "same-style" },
+      { "targetId": "tate-modern", "type": "same-bank" },
+      { "targetId": "royal-festival-hall", "type": "neighbor" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "one-canada-square",
+    "title": "One Canada Square (Canary Wharf, Londres)",
+    "type": "building",
+    "startDate": 1988,
+    "endDate": 1991,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Londres, Reino Unido", "lat": 51.5, "lng": -0.02 }],
+    "importance": 7,
+    "summary": "La primera y más emblemática torre de Canary Wharf, diseñada por César Pelli. De 235 metros, fue el rascacielos más alto de Reino Unido hasta que The Shard lo superó en 2012. Su pirámide de acero inoxidable que remata el edificio y sus cuatro lados lisos de acero pulido convirtieron la ex zona portuaria de los Docklands londinenses en el segundo distrito financiero de Europa, rivalizando con la City.",
+    "tags": ["Londres", "Pelli", "Canary Wharf", "rascacielos", "Docklands", "financiero", "acero"],
+    "relations": [
+      { "targetId": "the-shard", "type": "surpassed-by" },
+      { "targetId": "torre-iberdrola", "type": "same-architect" },
+      { "targetId": "30-st-mary-axe", "type": "same-city" },
+      { "targetId": "barbican-estate", "type": "same-city" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "wembley-stadium",
+    "title": "Estadio de Wembley (Londres)",
+    "type": "building",
+    "startDate": 2002,
+    "endDate": 2007,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Londres, Reino Unido", "lat": 51.56, "lng": -0.28 }],
+    "importance": 8,
+    "summary": "El estadio nacional de Inglaterra, diseñado por HOK Sport (Populous) y Norman Foster, con un arco de acero de 133 metros de altura que se ha convertido en el elemento más reconocible del horizonte norte de Londres. Capacidad de 90.000 espectadores, la mayor de Europa. El arco soporta la cubierta retráctil sin necesidad de postes, garantizando visibilidad perfecta desde todos los asientos.",
+    "tags": ["Londres", "Foster", "Wembley", "estadio", "fútbol", "arco", "Reino Unido"],
+    "relations": [
+      { "targetId": "norman-foster", "type": "designed-by" },
+      { "targetId": "estadio-santiago-bernabeu", "type": "comparable" },
+      { "targetId": "stade-france", "type": "contemporary" },
+      { "targetId": "bird-nest-beijing", "type": "same-generation" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "atomium",
+    "title": "Atomium (Bruselas)",
+    "type": "building",
+    "startDate": 1956,
+    "endDate": 1958,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Bruselas, Bélgica", "lat": 50.89, "lng": 4.34 }],
+    "importance": 8,
+    "summary": "Escultura-edificio de 102 metros diseñada por André Waterkeyn para la Exposición Universal de Bruselas 1958: nueve esferas de acero inoxidable que reproducen la estructura cúbica centrada en las caras de un cristal de hierro ampliada 165.000 millones de veces. Construido para durar seis meses, sigue en pie décadas después. Símbolo de la era atómica y del optimismo tecnológico de la posguerra.",
+    "tags": ["Bruselas", "Waterkeyn", "Expo 1958", "átomo", "acero", "esferas", "Bélgica"],
+    "relations": [
+      { "targetId": "era-atomica", "type": "symbol-of" },
+      { "targetId": "torre-eiffel", "type": "structural-parallel" },
+      { "targetId": "crystal-palace", "type": "expo-tradition" },
+      { "targetId": "cite-sciences-industrie", "type": "science-museum" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "erasmusbrug",
+    "title": "Puente Erasmus (Róterdam)",
+    "type": "building",
+    "startDate": 1990,
+    "endDate": 1996,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Róterdam, Países Bajos", "lat": 51.9, "lng": 4.49 }],
+    "importance": 8,
+    "summary": "Puente atirantado de 802 metros diseñado por Ben van Berkel (UNStudio) sobre el río Mosa en Róterdam. Su único pilono de 139 metros en forma de cisne —apodado 'el Cisne' por los locales— unió el centro histórico con la Kop van Zuid, transformando el barrio sur en el nuevo distrito financiero de Róterdam. El puente fue el catalizador de la reconversión urbana más ambiciosa de los Países Bajos.",
+    "tags": ["Róterdam", "Van Berkel", "UNStudio", "puente", "Mosa", "cisne", "Países Bajos"],
+    "relations": [
+      { "targetId": "mercedes-benz-museum", "type": "same-architect" },
+      { "targetId": "puente-zubizuri", "type": "contemporary" },
+      { "targetId": "markthal-rotterdam", "type": "same-city" },
+      { "targetId": "de-rotterdam", "type": "same-waterfront" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "markthal-rotterdam",
+    "title": "Markthal (Róterdam)",
+    "type": "building",
+    "startDate": 2009,
+    "endDate": 2014,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Róterdam, Países Bajos", "lat": 51.92, "lng": 4.49 }],
+    "importance": 8,
+    "summary": "Mercado cubierto diseñado por MVRDV en Róterdam: un arco de 40 metros de altura con 228 apartamentos integrados en las paredes que forman la propia estructura del edificio. El techo interior de 11.000 m² está decorado con un mural fotográfico de frutas y vegetales gigantes de Arno Coenen. El concepto de 'habitar el mercado' —donde la vivienda y el comercio son un único edificio— fue inédito en Europa.",
+    "tags": ["Róterdam", "MVRDV", "mercado", "vivienda", "arco", "mural", "Países Bajos"],
+    "relations": [
+      { "targetId": "de-rotterdam", "type": "same-architects" },
+      { "targetId": "erasmusbrug", "type": "same-city" },
+      { "targetId": "stedelijk-museum-amsterdam", "type": "contemporary-dutch" },
+      { "targetId": "fondazione-prada-milan", "type": "commercial-culture-mix" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "de-rotterdam",
+    "title": "De Rotterdam (Koolhaas/OMA)",
+    "type": "building",
+    "startDate": 2009,
+    "endDate": 2013,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Róterdam, Países Bajos", "lat": 51.9, "lng": 4.49 }],
+    "importance": 7,
+    "summary": "Torre vertical diseñada por Rem Koolhaas/OMA en la Kop van Zuid de Róterdam: tres torres apiladas que se desplazan entre sí creando voladizos escalonados. El edificio combina 160.000 m² de hoteles, oficinas, apartamentos y restaurantes en una única megaestructura. Considerado el edificio más grande de los Países Bajos, encarna el concepto de 'ciudad condensada' de Koolhaas.",
+    "tags": ["Róterdam", "OMA", "Koolhaas", "torre", "ciudad vertical", "Países Bajos", "mixed-use"],
+    "relations": [
+      { "targetId": "rem-koolhaas", "type": "designed-by" },
+      { "targetId": "cctv-beijing", "type": "same-architect" },
+      { "targetId": "fondazione-prada-milan", "type": "same-architect" },
+      { "targetId": "erasmusbrug", "type": "same-waterfront" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "casa-musica-porto",
+    "title": "Casa da Música (Oporto)",
+    "type": "building",
+    "startDate": 1999,
+    "endDate": 2005,
+    "disciplines": ["art", "architecture", "music"],
+    "regions": ["europe"],
+    "places": [{ "name": "Oporto, Portugal", "lat": 41.16, "lng": -8.63 }],
+    "importance": 8,
+    "summary": "Sala de conciertos diseñada por Rem Koolhaas/OMA en Oporto para la Capitalidad Europea de la Cultura 2001. Un poliedro irregular de hormigón blanco como una piedra semipreciosa tallada emerge de una plaza ondulante de piedra blanca. El interior combina la sala principal 'shoebox' con el azulejo portugués tradicional en las paredes laterales. Premio Mies van der Rohe 2007.",
+    "tags": ["Oporto", "OMA", "Koolhaas", "música", "poliedro", "Portugal", "Capital Cultural"],
+    "relations": [
+      { "targetId": "rem-koolhaas", "type": "designed-by" },
+      { "targetId": "de-rotterdam", "type": "same-architect" },
+      { "targetId": "philharmonie-berlin", "type": "same-typology" },
+      { "targetId": "elbphilharmonie", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "pavilhao-portugal",
+    "title": "Pabellón de Portugal (Lisboa)",
+    "type": "building",
+    "startDate": 1997,
+    "endDate": 1998,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Lisboa, Portugal", "lat": 38.76, "lng": -9.09 }],
+    "importance": 8,
+    "summary": "Pabellón de Portugal para la Expo 98 diseñado por Álvaro Siza Vieira: una cubierta de hormigón de 70 x 50 metros sin apoyos intermedios que cuelga entre dos pórticos como una hoja de papel suspendida. Su delgadez extrema —apenas 20 cm de espesor para un vano de 65 metros— es un prodigio de ingeniería de Cecílio de Campos. La máxima expresión de la levedad en el hormigón del siglo XX.",
+    "tags": ["Lisboa", "Siza", "Portugal", "Expo 98", "hormigón", "cubierta", "levedad"],
+    "relations": [
+      { "targetId": "alvaro-siza", "type": "designed-by" },
+      { "targetId": "parametric-architecture", "type": "precedes" },
+      { "targetId": "casa-musica-porto", "type": "same-country" },
+      { "targetId": "epfl-learning-center", "type": "structural-lightness" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "vitra-campus",
+    "title": "Campus Vitra (Weil am Rhein)",
+    "type": "building",
+    "startDate": 1981,
+    "endDate": 2014,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Weil am Rhein, Alemania", "lat": 47.59, "lng": 7.62 }],
+    "importance": 9,
+    "summary": "El campus arquitectónico más extraordinario del mundo en una fábrica de muebles suiza: edificios de Frank Gehry (1989, primer obra de Gehry en Europa), Zaha Hadid (su primer edificio construido, la estación de bomberos, 1993), Tadao Ando, Álvaro Siza, SANAA, Herzog & de Meuron, Buckminster Fuller y Carsten Höller. El museo de diseño de Vitra recoge la mayor colección de sillas de diseño del mundo.",
+    "tags": ["Weil am Rhein", "Vitra", "Gehry", "Hadid", "SANAA", "Ando", "diseño", "Alemania"],
+    "relations": [
+      { "targetId": "museo-guggenheim-bilbao", "type": "gehry-portfolio" },
+      { "targetId": "maxxi-roma", "type": "hadid-first-buildings" },
+      { "targetId": "epfl-learning-center", "type": "sanaa-portfolio" },
+      { "targetId": "mercedes-benz-museum", "type": "same-region" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  },
+  {
+    "id": "oodi-helsinki",
+    "title": "Biblioteca Central Oodi (Helsinki)",
+    "type": "building",
+    "startDate": 2013,
+    "endDate": 2018,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Helsinki, Finlandia", "lat": 60.17, "lng": 24.94 }],
+    "importance": 8,
+    "summary": "Biblioteca pública de Helsinki diseñada por ALA Architects: tres pisos con funciones radicalmente distintas que se apilan bajo una gran cubierta curvada de madera. La planta baja es un espacio abierto de tránsito; la primera planta alberga salas de reunión, impresión 3D y talleres; el tercer nivel es la biblioteca con vistas al Parlamento. Elegida mejor biblioteca pública del mundo en 2019. Ejemplo del modelo nórdico de biblioteca como tercer lugar cívico.",
+    "tags": ["Helsinki", "ALA", "biblioteca", "madera", "Finlandia", "espacio público", "cívico"],
+    "relations": [
+      { "targetId": "epfl-learning-center", "type": "same-concept" },
+      { "targetId": "centro-botin", "type": "cultural-civic" },
+      { "targetId": "ciudad-artes-ciencias", "type": "civic-culture" },
+      { "targetId": "barbican-estate", "type": "public-culture" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "opera-copenhague",
+    "title": "Ópera de Copenhague",
+    "type": "building",
+    "startDate": 2001,
+    "endDate": 2004,
+    "disciplines": ["art", "architecture", "music"],
+    "regions": ["europe"],
+    "places": [{ "name": "Copenhague, Dinamarca", "lat": 55.68, "lng": 12.6 }],
+    "importance": 7,
+    "summary": "Ópera nacional de Dinamarca diseñada por Henning Larsen en la isla de Holmen, frente al Palacio de Amalienborg. Su marquesina de 32 metros de voladizo es la más grande del mundo en un edificio de ópera. Donada por el naviero Mærsk McKinney Møller al Estado danés, costó 300 millones de euros. El 'conflicto de ego' entre el donante —que quería más tradición— y el arquitecto —que insistía en la modernidad— es legendario en la arquitectura escandinava.",
+    "tags": ["Copenhague", "Larsen", "ópera", "Dinamarca", "Holmen", "Mærsk", "voladizo"],
+    "relations": [
+      { "targetId": "oslo-opera-house", "type": "contemporary-rival" },
+      { "targetId": "sydney-opera-house", "type": "same-typology" },
+      { "targetId": "palau-de-les-arts", "type": "same-typology" },
+      { "targetId": "elbphilharmonie", "type": "same-region" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "palace-culture-warsaw",
+    "title": "Palacio de la Cultura y la Ciencia (Varsovia)",
+    "type": "building",
+    "startDate": 1952,
+    "endDate": 1955,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Varsovia, Polonia", "lat": 52.23, "lng": 21.0 }],
+    "importance": 8,
+    "summary": "Torre estalinista de 234 metros diseñada por Lev Rudnev y 'donada' por la Unión Soviética al pueblo polaco. Con sus agujas y ornamentos de terraza en teraza, es el ejemplo más puro del 'pastel de bodas' de la arquitectura soviética en Europa del Este. Sigue siendo el edificio más alto de Polonia. Objeto de intenso debate sobre demolerlo o preservarlo: ¿patrimonio histórico o símbolo de la opresión soviética?",
+    "tags": ["Varsovia", "Rudnev", "estalinismo", "URSS", "Polonia", "altura", "debate"],
+    "relations": [
+      { "targetId": "arquitectura-sovietica", "type": "example-of" },
+      { "targetId": "caida-muro-berlin", "type": "political-context" },
+      { "targetId": "tour-montparnasse", "type": "european-skyscraper" },
+      { "targetId": "haussmann-paris", "type": "urban-imposition" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  }
+]
