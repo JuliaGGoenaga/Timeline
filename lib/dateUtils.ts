@@ -1,15 +1,20 @@
-export function parseYear(dateStr: string | undefined): number | null {
-  if (!dateStr) return null;
+export function parseYear(dateStr: string | number | undefined | null): number | null {
+  if (dateStr === undefined || dateStr === null) return null;
+
+  // Numeric dates (e.g. startDate: 1887 or -3000) — used in simplified entities
+  if (typeof dateStr === 'number') return isNaN(dateStr) ? null : dateStr;
+
+  const s = String(dateStr);
+  if (!s) return null;
 
   // Negative years (a.C.) start with '-', e.g. "-3100", "-447"
-  // A plain split('-') on "-3100" gives ["", "3100"] — first token is "" → NaN.
-  if (dateStr.startsWith('-')) {
-    const n = parseInt(dateStr.slice(1).split('-')[0], 10);
+  if (s.startsWith('-')) {
+    const n = parseInt(s.slice(1).split('-')[0], 10);
     return isNaN(n) ? null : -n;
   }
 
   // Positive years: "1789", "1685-03-31" → take the year part
-  const n = parseInt(dateStr.split('-')[0], 10);
+  const n = parseInt(s.split('-')[0], 10);
   return isNaN(n) ? null : n;
 }
 
