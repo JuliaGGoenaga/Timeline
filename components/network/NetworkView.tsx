@@ -51,7 +51,7 @@ export default function NetworkView({ entities, selectedId, onSelect }: Props) {
         if (entityMap.has(r.targetId)) {
           usedIds.add(e.id);
           usedIds.add(r.targetId);
-          linksRaw.push({ from: e.id, to: r.targetId, label: r.relationType.replace(/_/g, ' ') });
+          linksRaw.push({ from: e.id, to: r.targetId, label: (r.relationType ?? (r as never as {type:string}).type ?? '').replace(/_/g, ' ') });
         }
       });
     });

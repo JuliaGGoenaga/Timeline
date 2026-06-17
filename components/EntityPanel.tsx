@@ -24,7 +24,7 @@ export default function EntityPanel({ entity, onSelectEntity, onClose }: Props) 
           <div className="flex items-center gap-2 mb-1 flex-wrap">
             <EntityTypeIcon type={entity.type} />
             <span className="text-xs text-gray-400">{getEntityLabel(entity.type)}</span>
-            <ValidationBadge status={entity.validation.status} />
+            <ValidationBadge status={entity.validation?.status} />
           </div>
           <h2 className="text-base font-bold leading-tight text-gray-900">{entity.title}</h2>
           <p className="text-xs text-gray-400 mt-0.5">
@@ -77,7 +77,7 @@ export default function EntityPanel({ entity, onSelectEntity, onClose }: Props) 
         {/* Description */}
         <div>
           <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1.5">Descripción</h3>
-          <p className="text-sm text-gray-700 leading-relaxed">{entity.description}</p>
+          <p className="text-sm text-gray-700 leading-relaxed">{entity.description ?? ''}</p>
         </div>
 
         {/* Places */}
@@ -116,13 +116,15 @@ export default function EntityPanel({ entity, onSelectEntity, onClose }: Props) 
                       <span className="flex-1 min-w-0">
                         <span className="text-gray-800 font-medium">{target.title}</span>
                         <span className="block text-xs text-gray-400">
-                          {rel.relationType.replace(/_/g, ' ')}
+                          {(rel.relationType ?? (rel as never as {type:string}).type ?? '').replace(/_/g, ' ')}
                           {rel.note && ` — ${rel.note}`}
                         </span>
                       </span>
-                      <span className="text-gray-200 text-xs shrink-0">
-                        {Array(rel.strength).fill('●').join('')}
-                      </span>
+                      {rel.strength && (
+                        <span className="text-gray-200 text-xs shrink-0">
+                          {Array(rel.strength).fill('●').join('')}
+                        </span>
+                      )}
                     </button>
                   </li>
                 );
@@ -132,11 +134,11 @@ export default function EntityPanel({ entity, onSelectEntity, onClose }: Props) 
         )}
 
         {/* Sources */}
-        {entity.sources.length > 0 && (
+        {(entity.sources ?? []).length > 0 && (
           <div>
             <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1.5">Fuentes</h3>
             <ul className="space-y-2">
-              {entity.sources.map((s, i) => (
+              {(entity.sources ?? []).map((s, i) => (
                 <li key={i} className="text-xs text-gray-500 border-l-2 border-gray-100 pl-2">
                   <span className="text-gray-700 font-medium">{s.title}</span>
                   {s.author && <span> · {s.author}</span>}
