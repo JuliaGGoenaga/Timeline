@@ -104,7 +104,7 @@ export function getEntityById(id: string): Entity | undefined {
 }
 
 export function getRelatedEntities(entity: Entity): Entity[] {
-  const ids = entity.relations.map((r) => r.targetId);
+  const ids = (entity.relations ?? []).map((r) => r.targetId);
   return ALL_ENTITIES.filter((e) => ids.includes(e.id));
 }
 
