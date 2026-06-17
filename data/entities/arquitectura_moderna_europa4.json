@@ -1,0 +1,380 @@
+[
+  {
+    "id": "phaeno-wolfsburg",
+    "title": "Phaeno Centro de Ciencias (Wolfsburg)",
+    "type": "building",
+    "startDate": 2000,
+    "endDate": 2005,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Wolfsburg, Alemania", "lat": 52.42, "lng": 10.79 }],
+    "importance": 8,
+    "summary": "Centro de ciencias diseñado por Zaha Hadid en Wolfsburg: un enorme cono invertido que flota sobre diez cráteres de hormigón que son a la vez pilares y espacios habitables. El primer gran edificio público de Hadid en Alemania y uno de los más radicales de su carrera. El suelo se inclina y los muros se doblan: ninguna superficie es perpendicular a otra. Premio Stirling 2005. Encarna el concepto de 'paisaje fluido' de Hadid.",
+    "tags": ["Wolfsburg", "Hadid", "ciencias", "cono", "Alemania", "Premio Stirling", "fluido"],
+    "relations": [
+      { "targetId": "zaha-hadid", "type": "designed-by" },
+      { "targetId": "maxxi-roma", "type": "same-architect" },
+      { "targetId": "pabellon-puente-zaragoza", "type": "same-architect" },
+      { "targetId": "heydar-aliyev-center", "type": "same-architect" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "allianz-arena",
+    "title": "Allianz Arena (Múnich)",
+    "type": "building",
+    "startDate": 2002,
+    "endDate": 2005,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Múnich, Alemania", "lat": 48.22, "lng": 11.62 }],
+    "importance": 8,
+    "summary": "Estadio diseñado por Herzog & de Meuron para el Mundial 2006: 2.874 cojines de ETFE inflados cubren la fachada entera y pueden iluminarse de rojo (Bayern), blanco (Alemania) o azul (TSV 1860). Primer estadio del mundo con fachada luminosa activa. La misma tecnología de ETFE que usó Grimshaw en el Eden Project, aquí aplicada a un estadio de fútbol. Premio Stirling 2006.",
+    "tags": ["Múnich", "Herzog & de Meuron", "estadio", "ETFE", "Bayern", "fútbol", "Alemania"],
+    "relations": [
+      { "targetId": "tate-modern", "type": "same-architects" },
+      { "targetId": "bird-nest-beijing", "type": "contemporary-stadium" },
+      { "targetId": "eden-project", "type": "same-material" },
+      { "targetId": "olympiastadion-munich", "type": "same-city" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "viaduc-millau",
+    "title": "Viaducto de Millau",
+    "type": "building",
+    "startDate": 2001,
+    "endDate": 2004,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Millau, Francia", "lat": 44.09, "lng": 3.02 }],
+    "importance": 9,
+    "summary": "Puente atirantado diseñado por Norman Foster e ingeniería de Michel Virlogeux sobre el valle del Tarn en Aveyron. Sus siete pilares llegan hasta 341 metros —más alto que la Torre Eiffel— haciendo de él el puente de carretera más alto del mundo. El tablero parece flotar sobre las nubes que llenan el valle. Abrió en 2004 y resolvió el colapso de tráfico que cada verano paralizaba la A75 entre París y Barcelona.",
+    "tags": ["Millau", "Foster", "Virlogeux", "puente", "viaducto", "Francia", "más alto del mundo"],
+    "relations": [
+      { "targetId": "norman-foster", "type": "designed-by" },
+      { "targetId": "reichstag-berlin", "type": "same-architect" },
+      { "targetId": "puente-zubizuri", "type": "same-typology" },
+      { "targetId": "erasmusbrug", "type": "same-typology" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  },
+  {
+    "id": "therme-vals",
+    "title": "Termas de Vals (Zumthor)",
+    "type": "building",
+    "startDate": 1990,
+    "endDate": 1996,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Vals, Graubünden, Suiza", "lat": 46.62, "lng": 9.18 }],
+    "importance": 9,
+    "summary": "Balneario diseñado por Peter Zumthor en los Alpes suizos: capas horizontales de pizarra de Vals separadas por rendijas de luz crean una cueva de piedra que emerge del prado alpino. La luz entra en destellos, el agua fluye entre bloques de piedra, el sonido se amortigua. Considerado el edificio más influyente de la arquitectura suiza del siglo XX y uno de los mejores del mundo. Zumthor fue el arquitecto menos conocido hasta ganar el Pritzker 2009.",
+    "tags": ["Vals", "Zumthor", "termas", "pizarra", "Suiza", "Pritzker", "agua"],
+    "relations": [
+      { "targetId": "peter-zumthor", "type": "designed-by" },
+      { "targetId": "fondation-beyeler", "type": "same-country" },
+      { "targetId": "epfl-learning-center", "type": "same-country" },
+      { "targetId": "tadao-ando", "type": "same-minimalist-approach" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.86 }
+  },
+  {
+    "id": "jubilee-church-rome",
+    "title": "Iglesia del Jubileo (Roma)",
+    "type": "building",
+    "startDate": 1996,
+    "endDate": 2003,
+    "disciplines": ["art", "architecture", "religion"],
+    "regions": ["europe"],
+    "places": [{ "name": "Roma, Italia", "lat": 41.87, "lng": 12.62 }],
+    "importance": 7,
+    "summary": "Iglesia diseñada por Richard Meier en un barrio periférico de Roma para el Jubileo del año 2000. Tres conchas de hormigón blanco curvo —de distintos radios— se elevan como las velas de un barco o las branquias de un pez. El hormigón es fotocatalítico: absorbe y destruye la contaminación del aire circundante. Fue la última iglesia de gran relevancia arquitectónica construida en Roma.",
+    "tags": ["Roma", "Meier", "iglesia", "Jubileo", "hormigón blanco", "Italia", "conchas"],
+    "relations": [
+      { "targetId": "macba-barcelona", "type": "same-architect" },
+      { "targetId": "palazzo-civilta-italiana", "type": "same-city" },
+      { "targetId": "auditorium-parco-musica", "type": "same-city" },
+      { "targetId": "maxxi-roma", "type": "same-city" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "tgv-liege",
+    "title": "Estación de Lieja-Guillemins (Calatrava)",
+    "type": "building",
+    "startDate": 1996,
+    "endDate": 2009,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Lieja, Bélgica", "lat": 50.62, "lng": 5.57 }],
+    "importance": 8,
+    "summary": "Estación de tren de alta velocidad diseñada por Santiago Calatrava en Lieja: una cúpula de acero y cristal de 200 metros que recuerda un esqueleto de ballena o un arco gótico translúcido. Los cinco niveles de andenes están cubiertos por la bóveda blanca sin un solo pilar central. Considerada la estación más bella construida en Europa en el siglo XXI. Calatrava aplicó aquí la misma lógica ósea que en Tenerife y Bilbao.",
+    "tags": ["Lieja", "Calatrava", "estación", "AVE", "Bélgica", "cristal", "bóveda"],
+    "relations": [
+      { "targetId": "santiago-calatrava", "type": "designed-by" },
+      { "targetId": "puente-zubizuri", "type": "same-architect" },
+      { "targetId": "auditorio-tenerife", "type": "same-architect" },
+      { "targetId": "ciudad-artes-ciencias", "type": "same-architect" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "coventry-cathedral",
+    "title": "Catedral de Coventry (Spence)",
+    "type": "building",
+    "startDate": 1951,
+    "endDate": 1962,
+    "disciplines": ["art", "architecture", "religion"],
+    "regions": ["europe"],
+    "places": [{ "name": "Coventry, Reino Unido", "lat": 52.41, "lng": -1.51 }],
+    "importance": 8,
+    "summary": "Nueva catedral diseñada por Basil Spence junto a las ruinas de la catedral medieval destruida por los bombardeos nazis de 1940. La ruina se conserva como memorial al aire libre; la nueva nave de arenisca rosa conecta con ella. El baptisterio tiene una ventana de John Piper de 70 colores; el tapiz del ábside de Graham Sutherland —el mayor del mundo— muestra a Cristo en gloria. Símbolo de la reconciliación y la reconstrucción postbélica.",
+    "tags": ["Coventry", "Spence", "catedral", "bombardeo", "ruinas", "WWII", "Reino Unido"],
+    "relations": [
+      { "targetId": "segunda-guerra-mundial", "type": "memorial-of" },
+      { "targetId": "national-theatre-london", "type": "contemporary" },
+      { "targetId": "neues-museum-berlin", "type": "ruins-integration" },
+      { "targetId": "berlin-holocaust-memorial", "type": "post-war-memory" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "royal-festival-hall",
+    "title": "Royal Festival Hall (Londres)",
+    "type": "building",
+    "startDate": 1948,
+    "endDate": 1951,
+    "disciplines": ["art", "architecture", "music"],
+    "regions": ["europe"],
+    "places": [{ "name": "Londres, Reino Unido", "lat": 51.51, "lng": -0.12 }],
+    "importance": 8,
+    "summary": "Sala de conciertos construida para el Festival de Gran Bretaña de 1951, diseñada por Leslie Martin y Peter Moro. Primer edificio público importante de la posguerra en Londres: su modernismo racionalista con ventanales abiertos al Támesis fue un manifiesto contra el academicismo imperial. Única edificación superviviente del Festival. Inició la transformación del South Bank en el mayor distrito cultural de Europa.",
+    "tags": ["Londres", "Martin", "Festival de Gran Bretaña", "1951", "modernismo", "South Bank", "música"],
+    "relations": [
+      { "targetId": "national-theatre-london", "type": "same-bank" },
+      { "targetId": "tate-modern", "type": "same-bank" },
+      { "targetId": "barbican-estate", "type": "contemporary" },
+      { "targetId": "philharmonie-berlin", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "acropolis-museum-athens",
+    "title": "Museo de la Acrópolis (Atenas)",
+    "type": "building",
+    "startDate": 2001,
+    "endDate": 2009,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Atenas, Grecia", "lat": 37.97, "lng": 23.73 }],
+    "importance": 9,
+    "summary": "Museo diseñado por Bernard Tschumi en Atenas para albergar los mármoles del Partenón. Su tercera planta —la galería del Partenón— está girada exactamente para alinear sus ventanales con la Acrópolis visible al fondo. El museo fue construido sobre ruinas arqueológicas que se exhiben en el suelo de cristal de la planta baja. Tschumi lo concibió como argumento para reclamar la devolución de los Mármoles de Elgin al British Museum.",
+    "tags": ["Atenas", "Tschumi", "Partenón", "mármoles", "Grecia", "museo", "Elgin"],
+    "relations": [
+      { "targetId": "partenon-atenas", "type": "houses-related-art" },
+      { "targetId": "neues-museum-berlin", "type": "archaeological-museum" },
+      { "targetId": "louvre-pyramid", "type": "contemporary" },
+      { "targetId": "british-museum", "type": "controversy-with" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  },
+  {
+    "id": "hungarian-parliament",
+    "title": "Parlamento de Budapest",
+    "type": "building",
+    "startDate": 1885,
+    "endDate": 1902,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Budapest, Hungría", "lat": 47.51, "lng": 19.05 }],
+    "importance": 8,
+    "summary": "El tercer edificio parlamentario más grande del mundo, diseñado por Imre Steindl en Budapest: una cúpula central neogótica de 96 metros —en alusión al año de la fundación de Hungría— flanqueada por dos alas simétricas que se reflejan en el Danubio. 691 habitaciones, 29 escaleras, 40 km de pasillos. El neogoticismo de Steindl era deliberado: mientras Westminster hablaba de democracia liberal, Budapest reclamaba ser su igual europeo.",
+    "tags": ["Budapest", "Steindl", "parlamento", "neogótico", "Danubio", "Hungría", "cúpula"],
+    "relations": [
+      { "targetId": "neogótico", "type": "example-of" },
+      { "targetId": "reichstag-berlin", "type": "same-typology" },
+      { "targetId": "palace-culture-warsaw", "type": "same-region" },
+      { "targetId": "scottish-parliament", "type": "contrasts-with" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "narkomfin",
+    "title": "Edificio Narkomfin (Moscú)",
+    "type": "building",
+    "startDate": 1928,
+    "endDate": 1932,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Moscú, Rusia", "lat": 55.76, "lng": 37.6 }],
+    "importance": 8,
+    "summary": "Edificio de apartamentos diseñado por Moisei Ginzburg en Moscú como experimento de vida comunal: 54 apartamentos dúplex de distintos tipos conectados por corredores exteriores, con lavandería, cocina y guardería comunitarias en bloques anexos. Le Corbusier lo visitó y lo llamó 'el mejor edificio del mundo'. La Unité d'Habitation de Le Corbusier es su heredero directo. Símbolo del constructivismo soviético y las utopías de vivienda colectiva.",
+    "tags": ["Moscú", "Ginzburg", "constructivismo", "soviético", "vivienda colectiva", "Rusia", "utopía"],
+    "relations": [
+      { "targetId": "constructivismo", "type": "example-of" },
+      { "targetId": "unite-habitation", "type": "inspired" },
+      { "targetId": "bauhaus-dessau", "type": "contemporary" },
+      { "targetId": "barbican-estate", "type": "conceptual-descendant" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "museum-brandhorst",
+    "title": "Museum Brandhorst (Múnich)",
+    "type": "building",
+    "startDate": 2005,
+    "endDate": 2009,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Múnich, Alemania", "lat": 48.15, "lng": 11.57 }],
+    "importance": 7,
+    "summary": "Museo de arte contemporáneo diseñado por Sauerbruch Hutton en Múnich: su fachada de 36.000 varillas cerámicas de 23 colores distintos crea un efecto de 'pixelado analógico' que cambia según el ángulo de visión. La colección incluye la mayor concentración del mundo de obras de Cy Twombly —35 pinturas donadas por Udo Brandhorst— y obras de Warhol, Basquiat y Koons. La fachada de color es un comentario sobre la pintura contemporánea.",
+    "tags": ["Múnich", "Sauerbruch Hutton", "arte contemporáneo", "color", "cerámica", "Alemania", "Twombly"],
+    "relations": [
+      { "targetId": "neue-nationalgalerie", "type": "same-city" },
+      { "targetId": "bmw-welt", "type": "same-city" },
+      { "targetId": "tate-modern", "type": "same-typology" },
+      { "targetId": "fondation-beyeler", "type": "contemporary-art-museum" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "citylife-milan",
+    "title": "CityLife (Milán)",
+    "type": "building",
+    "startDate": 2004,
+    "endDate": 2017,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Milán, Italia", "lat": 45.48, "lng": 9.15 }],
+    "importance": 7,
+    "summary": "Nuevo distrito de Milán sobre la antigua feria internacional, con tres rascacielos de firma: el 'Lo Storto' de Zaha Hadid (209 m, en espiral), el 'Il Dritto' de Arata Isozaki (207 m, recto) y el 'Il Curvo' de Daniel Libeskind (175 m, curvado). El único proyecto urbano del mundo con tres ganadores del Premio Pritzker simultáneamente. Transformó el antiguo recinto ferial en el nuevo skyline de Milán.",
+    "tags": ["Milán", "Hadid", "Isozaki", "Libeskind", "rascacielos", "Pritzker", "Italia"],
+    "relations": [
+      { "targetId": "zaha-hadid", "type": "designed-by" },
+      { "targetId": "fondazione-prada-milan", "type": "same-city" },
+      { "targetId": "pirelli-tower", "type": "same-city" },
+      { "targetId": "jewish-museum-berlin", "type": "libeskind" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "cite-du-vin-bordeaux",
+    "title": "Cité du Vin (Burdeos)",
+    "type": "building",
+    "startDate": 2012,
+    "endDate": 2016,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Burdeos, Francia", "lat": 44.87, "lng": -0.55 }],
+    "importance": 7,
+    "summary": "Museo del vino diseñado por XTU Architects en Burdeos: una silueta fluida de metal y cristal que evoca el vino girando en la copa, el río Garona y el nenúfar. Parte de la regeneración del frente fluvial de Burdeos, junto al Pont de Pierre y el tranvía que transformaron la ciudad en Patrimonio UNESCO. La 'Cité du Vin' convirtió Burdeos en capital mundial del turismo enológico, rivalizando con las Bodegas Marqués de Riscal de Gehry.",
+    "tags": ["Burdeos", "XTU", "vino", "Garona", "Francia", "turismo", "copa"],
+    "relations": [
+      { "targetId": "bodegas-marques-riscal", "type": "wine-tourism-rival" },
+      { "targetId": "mucem-marseille", "type": "french-cultural-city" },
+      { "targetId": "centre-pompidou-metz", "type": "french-regional-culture" },
+      { "targetId": "fondation-louis-vuitton", "type": "cultural-institution" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "serpentine-pavilion",
+    "title": "Serpentine Pavilion (Londres)",
+    "type": "building",
+    "startDate": 2000,
+    "endDate": 2024,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Kensington Gardens, Londres, Reino Unido", "lat": 51.5, "lng": -0.18 }],
+    "importance": 8,
+    "summary": "Serie anual de pabellones temporales encargados por la Serpentine Gallery a arquitectos de talla mundial que nunca han construido en el Reino Unido. Desde 2000 han participado Zaha Hadid, Daniel Libeskind, Oscar Niemeyer, Toyo Ito, Álvaro Siza, Peter Zumthor, Jean Nouvel, Frank Gehry, Bjarke Ingels y muchos más. El programa más influyente de encargos de arquitectura experimental en el mundo: el primer edificio construido de varios Pritzker fue aquí.",
+    "tags": ["Londres", "Serpentine", "pabellón", "temporal", "Kensington", "experimental", "Reino Unido"],
+    "relations": [
+      { "targetId": "zaha-hadid", "type": "first-uk-building" },
+      { "targetId": "therme-vals", "type": "zumthor-pavilion" },
+      { "targetId": "eden-project", "type": "same-country" },
+      { "targetId": "vitra-campus", "type": "comparable-series" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "porto-metro-stations",
+    "title": "Metro de Oporto (Álvaro Siza)",
+    "type": "building",
+    "startDate": 1997,
+    "endDate": 2002,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Oporto, Portugal", "lat": 41.16, "lng": -8.63 }],
+    "importance": 7,
+    "summary": "Red de metro de Oporto diseñada por Álvaro Siza con intervenciones artísticas de Eduardo Souto de Moura y varios artistas portugueses. Las estaciones de la línea D en el centro histórico están revestidas con azulejos de cerámica blanca que crean un ambiente luminoso bajo tierra. La integración del azulejo portugués en arquitectura contemporánea de primera línea convirtió el metro de Oporto en un proyecto cultural de referencia.",
+    "tags": ["Oporto", "Siza", "metro", "azulejo", "Portugal", "cerámica", "transporte"],
+    "relations": [
+      { "targetId": "alvaro-siza", "type": "designed-by" },
+      { "targetId": "pavilhao-portugal", "type": "same-architect" },
+      { "targetId": "casa-musica-porto", "type": "same-city" },
+      { "targetId": "berlin-hauptbahnhof", "type": "same-typology" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "palau-justicia-barcelona-nouveau",
+    "title": "Palau de Justícia de Barcelona (domaine)",
+    "type": "building",
+    "startDate": 1887,
+    "endDate": 1908,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Barcelona, España", "lat": 41.38, "lng": 2.18 }],
+    "importance": 6,
+    "summary": "Palacio de Justicia de Barcelona diseñado por Josep Domènech i Estapà y Enric Sagnier en estilo ecléctico con elementos renacentistas y barrocos. Su gran cúpula de pizarra y su fachada monumental de piedra son un ejemplo del eclecticismo institucional catalán de finales del siglo XIX, contemporáneo del modernismo pero opuesto a él en espíritu. Sede de la Audiencia Provincial de Barcelona.",
+    "tags": ["Barcelona", "Domènech i Estapà", "Justicia", "ecléctico", "cúpula", "Cataluña", "España"],
+    "relations": [
+      { "targetId": "modernisme-catala", "type": "contrasts-with" },
+      { "targetId": "palau-musica-catalana", "type": "contemporary" },
+      { "targetId": "sagrada-familia", "type": "contemporary" },
+      { "targetId": "casa-batllo", "type": "same-era" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.79 }
+  },
+  {
+    "id": "amsterdam-central-station",
+    "title": "Estación Central de Ámsterdam",
+    "type": "building",
+    "startDate": 1881,
+    "endDate": 1889,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Ámsterdam, Países Bajos", "lat": 52.38, "lng": 4.9 }],
+    "importance": 7,
+    "summary": "La gran estación de Ámsterdam diseñada por Pierre Cuypers (el mismo del Rijksmuseum) en estilo neorrenacentista holandés. Construida sobre tres islas artificiales y 8.687 pilotes de madera. Su fachada simétrica de ladrillo rojo con torres y frontones es la imagen más reconocida de Ámsterdam después de los canales. Genera 250.000 viajeros diarios. Cuypers mezcló los ladrillos del norte con las proporciones renacentistas del sur.",
+    "tags": ["Ámsterdam", "Cuypers", "estación", "neorrenacentista", "pilotes", "Países Bajos", "canales"],
+    "relations": [
+      { "targetId": "rijksmuseum", "type": "same-architect" },
+      { "targetId": "de-rotterdam", "type": "same-city" },
+      { "targetId": "cube-houses-rotterdam", "type": "same-country" },
+      { "targetId": "berlin-hauptbahnhof", "type": "same-typology" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  }
+]

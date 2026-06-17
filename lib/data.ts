@@ -46,6 +46,7 @@ import arquitecturaModernaEspana    from '@/data/entities/arquitectura_moderna_e
 import arquitecturaModernaEuropa    from '@/data/entities/arquitectura_moderna_europa.json';
 import arquitecturaModernaEuropa2   from '@/data/entities/arquitectura_moderna_europa2.json';
 import arquitecturaModernaEuropa3   from '@/data/entities/arquitectura_moderna_europa3.json';
+import arquitecturaModernaEuropa4   from '@/data/entities/arquitectura_moderna_europa4.json';
 
 export const ALL_ENTITIES: Entity[] = [
   ...globalEntities,
@@ -95,6 +96,7 @@ export const ALL_ENTITIES: Entity[] = [
   ...arquitecturaModernaEuropa,
   ...arquitecturaModernaEuropa2,
   ...arquitecturaModernaEuropa3,
+  ...arquitecturaModernaEuropa4,
 ] as Entity[];
 
 export function getEntityById(id: string): Entity | undefined {
