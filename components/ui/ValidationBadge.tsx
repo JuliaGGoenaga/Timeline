@@ -15,8 +15,9 @@ const STATUS_CONFIG: Record<ValidationStatus, { label: string; classes: string }
   },
 };
 
-export default function ValidationBadge({ status }: { status: ValidationStatus }) {
-  const cfg = STATUS_CONFIG[status];
+export default function ValidationBadge({ status }: { status?: ValidationStatus }) {
+  const cfg = status ? STATUS_CONFIG[status] : null;
+  if (!cfg) return null;
   return (
     <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded border text-xs font-medium ${cfg.classes}`}>
       <span className="w-1.5 h-1.5 rounded-full bg-current" />
