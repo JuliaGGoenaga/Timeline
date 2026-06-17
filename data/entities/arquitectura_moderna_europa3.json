@@ -1,0 +1,401 @@
+[
+  {
+    "id": "berlin-holocaust-memorial",
+    "title": "Memorial del Holocausto (Berlín)",
+    "type": "building",
+    "startDate": 1999,
+    "endDate": 2005,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Berlín, Alemania", "lat": 52.51, "lng": 13.38 }],
+    "importance": 9,
+    "summary": "Memorial diseñado por Peter Eisenman en el centro de Berlín: 2.711 estelas de hormigón de distintas alturas sobre un terreno ondulante que produce desorientación al caminar entre ellas. Cada estela es diferente; ninguna tiene inscripción. Al adentrarse, la ciudad desaparece y el visitante queda solo entre los bloques. Uno de los memoriales más influyentes del siglo XX y modelo de arquitectura de la memoria.",
+    "tags": ["Berlín", "Eisenman", "Holocausto", "memoria", "estelas", "hormigón", "Alemania"],
+    "relations": [
+      { "targetId": "jewish-museum-berlin", "type": "same-theme" },
+      { "targetId": "caida-muro-berlin", "type": "political-context" },
+      { "targetId": "reichstag-berlin", "type": "same-district" },
+      { "targetId": "deconstructivism", "type": "associated-with" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.86 }
+  },
+  {
+    "id": "neues-museum-berlin",
+    "title": "Neues Museum (Berlín)",
+    "type": "building",
+    "startDate": 1843,
+    "endDate": 2009,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Berlín, Alemania", "lat": 52.52, "lng": 13.4 }],
+    "importance": 8,
+    "summary": "Museo de 1843 (Friedrich August Stüler) destruido en la Segunda Guerra Mundial y restaurado entre 1997 y 2009 por David Chipperfield. En lugar de reconstruir lo perdido o renovar lo existente, Chipperfield optó por integrar las ruinas históricas con añadidos contemporáneos mínimos: columnas de ladrillo nuevo junto a columnas originales quemadas, cicatrices visibles. Alberga el busto de Nefertiti. Premio Mies van der Rohe 2011.",
+    "tags": ["Berlín", "Chipperfield", "restauración", "ruinas", "WWII", "Nefertiti", "Alemania"],
+    "relations": [
+      { "targetId": "neue-nationalgalerie", "type": "same-island" },
+      { "targetId": "jewish-museum-berlin", "type": "same-city" },
+      { "targetId": "tate-modern", "type": "industrial-reuse" },
+      { "targetId": "segunda-guerra-mundial", "type": "damaged-by" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "berlin-hauptbahnhof",
+    "title": "Estación Central de Berlín",
+    "type": "building",
+    "startDate": 1995,
+    "endDate": 2006,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Berlín, Alemania", "lat": 52.52, "lng": 13.37 }],
+    "importance": 7,
+    "summary": "La mayor estación de cruce de Europa, diseñada por Meinhard von Gerkan (gmp): una cubierta de vidrio y acero de 430 metros cruza en ángulo recto con otra de 170 metros, creando un nudo ferroviario de cinco pisos. Inaugurada para el Mundial 2006 en Berlín, simbolizó la reunificación de la red ferroviaria alemana. Su atrio de cristal de 14.000 m² es el espacio cubierto más espectacular de cualquier estación europea.",
+    "tags": ["Berlín", "Von Gerkan", "estación", "tren", "cristal", "Alemania", "reunificación"],
+    "relations": [
+      { "targetId": "caida-muro-berlin", "type": "post-reunification" },
+      { "targetId": "reichstag-berlin", "type": "same-district" },
+      { "targetId": "berlin-holocaust-memorial", "type": "same-district" },
+      { "targetId": "high-tech-architecture", "type": "example-of" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "bmw-welt",
+    "title": "BMW Welt (Múnich)",
+    "type": "building",
+    "startDate": 2001,
+    "endDate": 2007,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Múnich, Alemania", "lat": 48.18, "lng": 11.56 }],
+    "importance": 7,
+    "summary": "Centro de entrega y exposición de BMW diseñado por Coop Himmelb(l)au en Múnich. Una nube doble de acero y cristal de 16.000 m² flota sobre el espacio de entrega como un tornado congelado. El edificio forma un trío con la Torre BMW (1972) y el Museo BMW (1973), convirtiendo el barrio norte de Múnich en el campus automovilístico más visitado del mundo (más de un millón de visitantes al año).",
+    "tags": ["Múnich", "Coop Himmelb(l)au", "BMW", "automovilismo", "cristal", "Alemania", "exposición"],
+    "relations": [
+      { "targetId": "mercedes-benz-museum", "type": "same-industry" },
+      { "targetId": "olympiastadion-munich", "type": "same-district" },
+      { "targetId": "parametric-architecture", "type": "example-of" },
+      { "targetId": "deconstructivism", "type": "example-of" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "lingotto-turin",
+    "title": "Lingotto (Turín)",
+    "type": "building",
+    "startDate": 1916,
+    "endDate": 1994,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Turín, Italia", "lat": 45.03, "lng": 7.65 }],
+    "importance": 8,
+    "summary": "La antigua fábrica de FIAT de 1923 —con su célebre pista de pruebas en el tejado donde se rodó la persecución de 'El Italiano'— reconvertida en complejo cultural y comercial por Renzo Piano entre 1989 y 2003. Piano añadió en el techo una cúpula de vidrio para conferencias ('la burbuja'), un helipuerto y un hotel de lujo. Modelo mundial de recuperación de patrimonio industrial para usos culturales.",
+    "tags": ["Turín", "Piano", "FIAT", "fábrica", "pista tejado", "Italia", "patrimonio industrial"],
+    "relations": [
+      { "targetId": "renzo-piano", "type": "restored-by" },
+      { "targetId": "tate-modern", "type": "same-typology" },
+      { "targetId": "fondazione-prada-milan", "type": "industrial-reuse" },
+      { "targetId": "auditorium-parco-musica", "type": "same-architect" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "pirelli-tower",
+    "title": "Torre Pirelli (Milán)",
+    "type": "building",
+    "startDate": 1956,
+    "endDate": 1958,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Milán, Italia", "lat": 45.48, "lng": 9.2 }],
+    "importance": 8,
+    "summary": "Rascacielos de 127 metros diseñado por Gio Ponti con ingeniería de Pier Luigi Nervi en Milán: el primer gran rascacielos de Italia y uno de los más elegantes del siglo XX. Su planta hexagonal adelgazada en los extremos —que le da apariencia de lápiz— y su estructura de hormigón visto aparente son la síntesis perfecta entre la ingeniería de Nervi y el sentido estético de Ponti. Hoy sede de la Región de Lombardía.",
+    "tags": ["Milán", "Ponti", "Nervi", "rascacielos", "Italia", "modernismo", "hormigón"],
+    "relations": [
+      { "targetId": "pier-luigi-nervi", "type": "structural-engineer" },
+      { "targetId": "fondazione-prada-milan", "type": "same-city" },
+      { "targetId": "lingotto-turin", "type": "same-country" },
+      { "targetId": "seagram-building", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "palazzo-civilta-italiana",
+    "title": "Palazzo della Civiltà Italiana (Roma)",
+    "type": "building",
+    "startDate": 1938,
+    "endDate": 1943,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Roma, Italia", "lat": 41.83, "lng": 12.47 }],
+    "importance": 8,
+    "summary": "El 'Coliseo Cuadrado' del EUR de Roma, diseñado por Guerrini, La Padula y Romano para la Exposición Universal de 1942. Seis pisos de arcos de travertino en perfecto orden geométrico: 9 × 9 arcadas de cada cara, totalizando 216. El racionalismo italiano más puro al servicio de la retórica fascista. Hoy sede de Fendi. Uno de los edificios más fotografiados e influyentes de la arquitectura del siglo XX.",
+    "tags": ["Roma", "EUR", "fascismo", "Mussolini", "travertino", "racionalismo", "Italia", "Fendi"],
+    "relations": [
+      { "targetId": "arquitectura-fascista", "type": "example-of" },
+      { "targetId": "palace-culture-warsaw", "type": "authoritarian-architecture" },
+      { "targetId": "maxxi-roma", "type": "same-city" },
+      { "targetId": "segunda-guerra-mundial", "type": "built-during" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "mucem-marseille",
+    "title": "MuCEM (Marsella)",
+    "type": "building",
+    "startDate": 2009,
+    "endDate": 2013,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Marsella, Francia", "lat": 43.3, "lng": 5.36 }],
+    "importance": 8,
+    "summary": "Museo de las Civilizaciones de Europa y el Mediterráneo diseñado por Rudy Ricciotti en Marsella, Capital Europea de la Cultura 2013. Un cubo de hormigón ultraresistente envuelto en una celosía de hormigón negro que filtra el sol mediterráneo como una mashrabiyya. Una pasarela aérea lo conecta con el fuerte histórico de Saint-Jean. La celosía, de solo 3 cm de espesor, fue el límite tecnológico del hormigón armado de su época.",
+    "tags": ["Marsella", "Ricciotti", "Mediterráneo", "celosía", "hormigón", "Francia", "Capital Cultural"],
+    "relations": [
+      { "targetId": "instituto-mundo-arabe", "type": "mashrabiyya-concept" },
+      { "targetId": "centro-botin", "type": "waterfront-museum" },
+      { "targetId": "tate-modern", "type": "same-typology" },
+      { "targetId": "fondation-louis-vuitton", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "opera-lyon",
+    "title": "Ópera de Lyon (Nouvel)",
+    "type": "building",
+    "startDate": 1985,
+    "endDate": 1993,
+    "disciplines": ["art", "architecture", "music"],
+    "regions": ["europe"],
+    "places": [{ "name": "Lyon, Francia", "lat": 45.77, "lng": 4.83 }],
+    "importance": 7,
+    "summary": "Renovación del teatro de la ópera de Lyon (1831) por Jean Nouvel: conservó la fachada neoclásica original y añadió una bóveda de acero y cristal negro de medio cilindro que emerge desde el interior. Los pisos bajo la cúpula son completamente negros. El contraste entre la fachada histórica beige y el cilindro negro contemporáneo es deliberadamente brutal y fue enormemente polémico. Hoy es referencia del diálogo entre patrimonio y arquitectura contemporánea.",
+    "tags": ["Lyon", "Nouvel", "ópera", "renovación", "Francia", "cilindro", "contraste"],
+    "relations": [
+      { "targetId": "jean-nouvel", "type": "designed-by" },
+      { "targetId": "instituto-mundo-arabe", "type": "same-architect" },
+      { "targetId": "haas-haus-viena", "type": "same-debate" },
+      { "targetId": "neues-museum-berlin", "type": "heritage-contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "fondation-beyeler",
+    "title": "Fondation Beyeler (Basilea)",
+    "type": "building",
+    "startDate": 1992,
+    "endDate": 1997,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Riehen, Basilea, Suiza", "lat": 47.59, "lng": 7.65 }],
+    "importance": 8,
+    "summary": "Museo diseñado por Renzo Piano en Riehen (Basilea) para albergar la colección Beyeler, una de las más importantes colecciones privadas de arte moderno del mundo. Techo de alabastro traslúcido que filtra la luz natural perfectamente. La colección incluye Picasso, Bacon, Warhol, Rothko y arte africano oceánico. El edificio de Piano —largo, bajo, con una fila de salas que abren al jardín y al estanque— es la síntesis perfecta entre museo y paisaje.",
+    "tags": ["Basilea", "Piano", "colección", "arte moderno", "luz", "alabastro", "Suiza"],
+    "relations": [
+      { "targetId": "renzo-piano", "type": "designed-by" },
+      { "targetId": "centro-botin", "type": "same-architect" },
+      { "targetId": "vitra-campus", "type": "same-region" },
+      { "targetId": "auditorium-parco-musica", "type": "same-architect" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "kunsthal-rotterdam",
+    "title": "Kunsthal (Róterdam)",
+    "type": "building",
+    "startDate": 1988,
+    "endDate": 1992,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Róterdam, Países Bajos", "lat": 51.9, "lng": 4.47 }],
+    "importance": 7,
+    "summary": "Sala de exposiciones diseñada por Rem Koolhaas/OMA en el parque Museumpark de Róterdam. El edificio define el urbanismo de Koolhaas en estado puro: un cubo de 90 x 90 metros cortado por una calle y una rampa que permiten atravesarlo a nivel de suelo sin entrar al museo. Cuatro salas completamente diferentes entre sí —vidrio, madera, cemento, acero corrugado— demuestran que no existe material 'noble' en arquitectura.",
+    "tags": ["Róterdam", "OMA", "Koolhaas", "exposiciones", "rampa", "Países Bajos", "museo"],
+    "relations": [
+      { "targetId": "rem-koolhaas", "type": "designed-by" },
+      { "targetId": "de-rotterdam", "type": "same-architect-city" },
+      { "targetId": "casa-musica-porto", "type": "same-architect" },
+      { "targetId": "markthal-rotterdam", "type": "same-city" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "cube-houses-rotterdam",
+    "title": "Casas Cubo (Róterdam)",
+    "type": "building",
+    "startDate": 1978,
+    "endDate": 1984,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Róterdam, Países Bajos", "lat": 51.92, "lng": 4.5 }],
+    "importance": 7,
+    "summary": "38 casas diseñadas por Piet Blom en Róterdam: cubos de colores rotados 45 grados sobre pilares hexagonales, como un bosque de árboles geométricos. En su interior, los suelos son diagonales y las esquinas se convierten en ventanas triangulares. Concebidas como un 'bosque habitable' que cruza sobre una calle peatonal, son el ejemplo más conocido del Estructuralismo holandés y uno de los iconos del urbanismo experimental europeo.",
+    "tags": ["Róterdam", "Piet Blom", "casas cubo", "Países Bajos", "experimental", "urbanismo", "vivienda"],
+    "relations": [
+      { "targetId": "de-rotterdam", "type": "same-city" },
+      { "targetId": "markthal-rotterdam", "type": "same-city" },
+      { "targetId": "barbican-estate", "type": "experimental-housing" },
+      { "targetId": "erasmusbrug", "type": "same-city" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "dancing-house-prague",
+    "title": "Casa Danzante (Praga)",
+    "type": "building",
+    "startDate": 1992,
+    "endDate": 1996,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Praga, República Checa", "lat": 50.08, "lng": 14.41 }],
+    "importance": 7,
+    "summary": "Edificio de oficinas diseñado por Frank Gehry y Vladimír Milunić en Praga: dos torres sinuosas que evocan a Fred Astaire y Ginger Rogers bailando. Una de vidrio que se dobla, otra de hormigón que la sujeta. El primer edificio de Gehry en Europa del Este, construido justo después de la caída del comunismo, fue tan polémico que el presidente Havel —que vivía enfrente— tuvo que defenderlo. Símbolo de la renovación cultural de Praga postsoviética.",
+    "tags": ["Praga", "Gehry", "Milunić", "Fred y Ginger", "República Checa", "postsocialismo", "curvilíneo"],
+    "relations": [
+      { "targetId": "museum-guggenheim-bilbao", "type": "same-architect" },
+      { "targetId": "deconstructivism", "type": "example-of" },
+      { "targetId": "palace-culture-warsaw", "type": "same-region" },
+      { "targetId": "kunsthaus-graz", "type": "contemporary" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "scottish-parliament",
+    "title": "Parlamento Escocés (Edimburgo)",
+    "type": "building",
+    "startDate": 1998,
+    "endDate": 2004,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Edimburgo, Escocia", "lat": 55.95, "lng": -3.18 }],
+    "importance": 7,
+    "summary": "Sede del Parlamento de Escocia diseñada por el catalán Enric Miralles, quien murió antes de verla terminada. Sus formas orgánicas inspiradas en hojas inversas, barcas vueltas del revés y el paisaje de Arthur's Seat crean una democracia encarnada en piedra escocesa local, madera de roble y acero. Sobrepasó cinco veces su presupuesto inicial. Premio Stirling 2005 del RIBA. La obra de Miralles más conocida internacionalmente.",
+    "tags": ["Edimburgo", "Miralles", "Escocia", "parlamento", "orgánico", "democracia", "Reino Unido"],
+    "relations": [
+      { "targetId": "enric-miralles", "type": "designed-by" },
+      { "targetId": "kursaal-donostia", "type": "same-country" },
+      { "targetId": "reichstag-berlin", "type": "same-typology" },
+      { "targetId": "high-tech-architecture", "type": "contrasts-with" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "eden-project",
+    "title": "Eden Project (Cornualles)",
+    "type": "building",
+    "startDate": 1998,
+    "endDate": 2001,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "St Austell, Cornualles, Reino Unido", "lat": 50.36, "lng": -4.74 }],
+    "importance": 8,
+    "summary": "Complejo de biomas geodésicos diseñado por Nicholas Grimshaw en una antigua cantera de caolín en Cornualles. Sus cúpulas hexagonales de ETFE —el mayor invernadero del mundo— albergan ecosistemas tropicales y mediterráneos completos. Las celdas hexagonales de plástico hinchado pesan 1% de lo que pesaría vidrio equivalente. Transformó una zona industrial abandonada en el atractivo turístico más visitado del Reino Unido.",
+    "tags": ["Cornualles", "Grimshaw", "biomas", "ETFE", "invernadero", "hexagonal", "Reino Unido"],
+    "relations": [
+      { "targetId": "geodesic-dome", "type": "uses" },
+      { "targetId": "crystal-palace", "type": "greenhouse-tradition" },
+      { "targetId": "high-tech-architecture", "type": "example-of" },
+      { "targetId": "metropol-parasol", "type": "light-structure" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "sage-gateshead",
+    "title": "Sage Gateshead (Newcastle)",
+    "type": "building",
+    "startDate": 1997,
+    "endDate": 2004,
+    "disciplines": ["art", "architecture", "music"],
+    "regions": ["europe"],
+    "places": [{ "name": "Gateshead, Reino Unido", "lat": 54.97, "lng": -1.6 }],
+    "importance": 7,
+    "summary": "Centro musical diseñado por Norman Foster en las orillas del Tyne en Gateshead, frente a Newcastle. Su cubierta de acero y cristal como un gusano o una caterpillar de 40 metros envuelve tres auditorios y un espacio de ensayo para orquestas. Parte de la regeneración del río Tyne —junto al Baltic Centre y el Millennium Bridge—, el Sage fue el catalizador del renacimiento del nordeste industrial inglés mediante la cultura.",
+    "tags": ["Gateshead", "Foster", "música", "Tyne", "acero", "cubierta", "Reino Unido"],
+    "relations": [
+      { "targetId": "norman-foster", "type": "designed-by" },
+      { "targetId": "wembley-stadium", "type": "same-architect" },
+      { "targetId": "elbphilharmonie", "type": "same-typology" },
+      { "targetId": "philharmonie-berlin", "type": "same-typology" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.82 }
+  },
+  {
+    "id": "temppeliaukio",
+    "title": "Iglesia de la Roca (Temppeliaukio, Helsinki)",
+    "type": "building",
+    "startDate": 1961,
+    "endDate": 1969,
+    "disciplines": ["art", "architecture", "religion"],
+    "regions": ["europe"],
+    "places": [{ "name": "Helsinki, Finlandia", "lat": 60.17, "lng": 24.93 }],
+    "importance": 7,
+    "summary": "Iglesia luterana excavada directamente en la roca viva del centro de Helsinki, diseñada por Timo y Tuomo Suomalainen. El techo de cobre y vidrio —una cúpula de 24 metros sostenida por vigas de hormigón sobre la roca irregular sin revestir— permite que la luz entre en 180 franjas alrededor de todo el perímetro. La acústica natural de la caverna de roca es tan extraordinaria que la iglesia es también sala de conciertos.",
+    "tags": ["Helsinki", "Suomalainen", "roca", "iglesia", "luterana", "cúpula", "Finlandia"],
+    "relations": [
+      { "targetId": "oodi-helsinki", "type": "same-city" },
+      { "targetId": "bagsvaerd-church", "type": "nordic-church" },
+      { "targetId": "organicist-architecture", "type": "example-of" },
+      { "targetId": "fundacio-joan-miro", "type": "light-architecture" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.83 }
+  },
+  {
+    "id": "stockholm-public-library",
+    "title": "Biblioteca Pública de Estocolmo (Asplund)",
+    "type": "building",
+    "startDate": 1918,
+    "endDate": 1928,
+    "disciplines": ["art", "architecture"],
+    "regions": ["europe"],
+    "places": [{ "name": "Estocolmo, Suecia", "lat": 59.34, "lng": 18.06 }],
+    "importance": 8,
+    "summary": "Biblioteca pública diseñada por Erik Gunnar Asplund: un cilindro de libros de tres pisos emerge de un bloque cúbico neoclásico. Al entrar, el visitante sube por una rampa oscura y accede de golpe al gran cilindro bañado de luz cenital: 300.000 libros al alcance directo de los lectores. Una de las obras fundacionales del modernismo nórdico y de la tipología de biblioteca pública del siglo XX.",
+    "tags": ["Estocolmo", "Asplund", "biblioteca", "cilindro", "Suecia", "modernismo nórdico", "libros"],
+    "relations": [
+      { "targetId": "oodi-helsinki", "type": "library-tradition" },
+      { "targetId": "biblioteque-nationale-france", "type": "same-typology" },
+      { "targetId": "bagsvaerd-church", "type": "nordic-modernism" },
+      { "targetId": "neue-nationalgalerie", "type": "universal-space" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.84 }
+  },
+  {
+    "id": "bagsvaerd-church",
+    "title": "Iglesia de Bagsværd (Utzon)",
+    "type": "building",
+    "startDate": 1968,
+    "endDate": 1976,
+    "disciplines": ["art", "architecture", "religion"],
+    "regions": ["europe"],
+    "places": [{ "name": "Bagsværd, Dinamarca", "lat": 55.76, "lng": 12.43 }],
+    "importance": 8,
+    "summary": "Iglesia diseñada por Jørn Utzon en un suburbio de Copenhague: la nave exterior es de módulos prefabricados industriales, pero la cubierta interior es una secuencia de bóvedas de hormigón blanco que ondula como nubes o agua. Utzon llamó a este principio 'la plataforma y el tejado': un contenedor anónimo exterior con un espacio interior extraordinario. Considerada por muchos críticos la obra maestra de Utzon, por encima incluso de la Ópera de Sidney.",
+    "tags": ["Bagsværd", "Utzon", "iglesia", "bóvedas", "Dinamarca", "hormigón", "nórdico"],
+    "relations": [
+      { "targetId": "jorn-utzon", "type": "designed-by" },
+      { "targetId": "sydney-opera-house", "type": "same-architect" },
+      { "targetId": "opera-copenhague", "type": "same-country" },
+      { "targetId": "temppeliaukio", "type": "nordic-church" }
+    ],
+    "layer": "intermediate",
+    "validation": { "isVerified": true, "completeness": 0.85 }
+  }
+]
