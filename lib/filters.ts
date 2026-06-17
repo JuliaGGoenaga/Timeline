@@ -86,7 +86,7 @@ export function applyFilters(entities: Entity[], filters: FilterState): Entity[]
 
     if (
       filters.validationStatus.length > 0 &&
-      !filters.validationStatus.includes(e.validation.status)
+      !filters.validationStatus.includes(e.validation?.status)
     )
       return false;
 
