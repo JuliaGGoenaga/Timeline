@@ -668,19 +668,22 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
           if (isBar) {
             // ── Movement / event / style bar ──
             const barW = Math.max(ex - sx, 10);
+            // barH must fit within the slot — remove the 12px floor that caused overflow
             const barH = isThinLine
               ? (isSel ? 3 : 2)
-              : Math.max(12, Math.min(20, slotH * 0.62));
+              : Math.max(4, Math.min(20, slotH * 0.62));
 
-            // Clamp bar rect so it never bleeds outside the lane boundaries
-            const barTop = Math.max(-barH / 2, gi.y - cy + 2);
-            const barBot = Math.min( barH / 2, gi.y + gi.h - cy - 2);
-            const clampedBarH = Math.max(isThinLine ? 1 : 4, barBot - barTop);
+            // Clamp rect to lane visual boundaries (border inset 3px top/bottom)
+            const laneInner = { top: gi.y + 3, bot: gi.y + gi.h - 3 };
+            const barTop = Math.max(-barH / 2, laneInner.top - cy);
+            const barBot = Math.min( barH / 2, laneInner.bot - cy);
+            const clampedBarH = Math.max(isThinLine ? 1 : 3, barBot - barTop);
+            const clampedRx   = isThinLine ? 1 : Math.min(clampedBarH / 2, 6);
 
             g.append('rect') // main bar / line
               .attr('x', 0).attr('y', barTop)
               .attr('width', barW).attr('height', clampedBarH)
-              .attr('rx', isThinLine ? 1 : barH / 2)
+              .attr('rx', clampedRx)
               .attr('fill', discColor)
               .attr('fill-opacity', isThinLine ? (isSel ? 0.35 : 0.18) : (isSel ? 0.22 : 0.13))
               .attr('stroke', discColor)
@@ -699,7 +702,7 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
 
               // Clamp Y so text never exits the lane boundary
               // Thin lines: place label just above the line stroke, not halfway up the slot
-              const rawLabelY = isThinLine ? -(barH / 2) - fontSize - 1 : 0;
+              const rawLabelY = isThinLine ? -(barH / 2) - fontSize + 1 : 0;
               const minLabelY = gi.y - cy + fontSize / 2 + 1;
               const maxLabelY = gi.y + gi.h - cy - fontSize / 2 - 1;
               const labelY    = Math.max(minLabelY, Math.min(maxLabelY, rawLabelY));
@@ -749,7 +752,7 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
               const maxLabelY = gi.y + gi.h - cy - fontSize / 2 - 1;
               const labelY    = Math.max(minLabelY, Math.min(maxLabelY, 0));
               g.append('text')
-                .attr('x', iconR + 4).attr('y', labelY)
+                .attr('x', iconR + 2).attr('y', labelY)
                 .attr('dominant-baseline', 'middle')
                 .attr('fill', isSel ? '#111827' : '#374151')
                 .attr('font-size', fontSize)
