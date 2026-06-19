@@ -310,8 +310,8 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
         ? Math.max(22, Math.floor((laneAreaH - (GROUPS.length - 1) * GROUP_GAP) / GROUPS.length))
         : 0;
 
-      // subRows per lane
-      function laneSubRows(h: number) { return Math.min(10, Math.max(3, Math.floor(h / 14))); }
+      // subRows per lane — tighter packing than h/14 so icons cluster more compactly
+      function laneSubRows(h: number) { return Math.min(10, Math.max(3, Math.floor(h / 11))); }
       const subRows = laneSubRows(laneH);
 
       // gInfo — lanes positioned in the BOTTOM zone
@@ -631,7 +631,7 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
           const labelW   = wLabel ? Math.min(entity.title.length * 6, 120) : 0;
           const GAP      = isBar ? (isCtx ? 4 : 8) : 12;
           const itemLeft  = isBar ? sx - 2 : sx - iconR - 2;
-          const itemRight = isBar ? ex + 4 : sx + iconR + 4;
+          const itemRight = isBar ? ex + 4 : sx + iconR + labelW + 6;
 
           const isThinLine = isBar && (isCtx || zl >= 4);
 
@@ -652,10 +652,13 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
           rowEndsArr[row] = itemRight + GAP;
 
           // Bars: cy grows from lane bottom upward (row 0 = bottom edge).
-          // Points: cy grows from lane top downward (row 0 = top).
+          // Points: cy grows from lane top downward (row 0 = top), with a small
+          // id-based jitter so rows feel organic rather than a rigid grid.
+          const idHash = entity.id.split('').reduce((a, c) => a + c.charCodeAt(0), 0);
+          const jitter = isBar ? 0 : ((idHash % 9) - 4) * Math.min(2.5, slotH * 0.12);
           const cy = isBar
             ? gi.y + gi.h - slotH * row - slotH / 2
-            : gi.y + slotH * row + slotH / 2;
+            : gi.y + slotH * row + slotH / 2 + jitter;
 
           const g = itemsG.append('g')
             .attr('transform', `translate(${sx},${cy})`)
@@ -669,9 +672,14 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
               ? (isSel ? 3 : 2)
               : Math.max(12, Math.min(20, slotH * 0.62));
 
+            // Clamp bar rect so it never bleeds outside the lane boundaries
+            const barTop = Math.max(-barH / 2, gi.y - cy + 2);
+            const barBot = Math.min( barH / 2, gi.y + gi.h - cy - 2);
+            const clampedBarH = Math.max(isThinLine ? 1 : 4, barBot - barTop);
+
             g.append('rect') // main bar / line
-              .attr('x', 0).attr('y', -barH / 2)
-              .attr('width', barW).attr('height', barH)
+              .attr('x', 0).attr('y', barTop)
+              .attr('width', barW).attr('height', clampedBarH)
               .attr('rx', isThinLine ? 1 : barH / 2)
               .attr('fill', discColor)
               .attr('fill-opacity', isThinLine ? (isSel ? 0.35 : 0.18) : (isSel ? 0.22 : 0.13))
@@ -690,7 +698,8 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
               const labelX = Math.max(4, Math.min(barW - 4, visMid));
 
               // Clamp Y so text never exits the lane boundary
-              const rawLabelY = isThinLine ? -(slotH / 2) + 2 : 0;
+              // Thin lines: place label just above the line stroke, not halfway up the slot
+              const rawLabelY = isThinLine ? -(barH / 2) - fontSize - 1 : 0;
               const minLabelY = gi.y - cy + fontSize / 2 + 1;
               const maxLabelY = gi.y + gi.h - cy - fontSize / 2 - 1;
               const labelY    = Math.max(minLabelY, Math.min(maxLabelY, rawLabelY));
@@ -735,20 +744,16 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
             if (wLabel) {
               const fontSize = isSel ? 11 : 10;
               const lbl = entity.title.length > 22 ? entity.title.slice(0, 22) + '…' : entity.title;
-              // Place label above symbol — eliminates horizontal overlap between adjacent entities
-              const rawLabelY = -iconR - 2;
-              const minLabelY = gi.y - cy + fontSize + 1;
-              const labelY    = Math.max(minLabelY, rawLabelY);
+              // Label to the right of the symbol, vertically centered on it
+              const minLabelY = gi.y - cy + fontSize / 2 + 1;
+              const maxLabelY = gi.y + gi.h - cy - fontSize / 2 - 1;
+              const labelY    = Math.max(minLabelY, Math.min(maxLabelY, 0));
               g.append('text')
-                .attr('x', 0).attr('y', labelY)
-                .attr('text-anchor', 'middle').attr('dominant-baseline', 'auto')
+                .attr('x', iconR + 4).attr('y', labelY)
+                .attr('dominant-baseline', 'middle')
                 .attr('fill', isSel ? '#111827' : '#374151')
                 .attr('font-size', fontSize)
                 .attr('font-weight', isSel ? 700 : 500)
-                .attr('paint-order', 'stroke')
-                .attr('stroke', 'white')
-                .attr('stroke-width', 3)
-                .attr('stroke-linejoin', 'round')
                 .text(lbl);
             }
           }
