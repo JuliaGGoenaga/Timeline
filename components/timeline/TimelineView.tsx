@@ -106,7 +106,7 @@ function showLabel(e: Entity, zl: number): boolean {
   if (d < 0)  return false;
   if (d === 0) return e.importance >= 9;
   if (d === 1) return e.importance >= 8;
-  if (d === 2) return e.importance >= 6;
+  if (d === 2) return e.importance >= 7;
   return e.importance >= 4;
 }
 
@@ -301,7 +301,7 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
       const PILL_H   = Math.min(24, Math.max(14, Math.floor((epochAreaH - 12) / 16)));
       const PILL_GAP = 3;
       const MAX_ROWS = epochAreaH > 20
-        ? Math.max(4, Math.floor((epochAreaH - 12) / (PILL_H + PILL_GAP)))
+        ? Math.max(6, Math.floor((epochAreaH - 12) / (PILL_H + PILL_GAP)))
         : 0;
       const pillAreaTop = epochAreaTop + 4;
 
@@ -458,7 +458,7 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
               .attr('x', pSX + bw / 2).attr('y', pillY + PILL_H / 2)
               .attr('text-anchor', 'middle').attr('dominant-baseline', 'middle')
               .attr('fill', baseColor)
-              .attr('font-size', Math.min(10, PILL_H - 3))
+              .attr('font-size', Math.min(11, PILL_H - 2))
               .attr('font-weight', overlaps ? 500 : 700)
               .text(txt);
           }
@@ -631,7 +631,7 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
           const labelW   = wLabel ? Math.min(entity.title.length * 6, 120) : 0;
           const GAP      = isBar ? (isCtx ? 4 : 8) : 12;
           const itemLeft  = isBar ? sx - 2 : sx - iconR - 2;
-          const itemRight = isBar ? ex + 4  : sx + iconR + labelW + 6;
+          const itemRight = isBar ? ex + 4 : sx + iconR + 4;
 
           const isThinLine = isBar && (isCtx || zl >= 4);
 
@@ -680,7 +680,7 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
               .attr('stroke-opacity', isThinLine ? (isSel ? 1 : 0.7) : (isSel ? 1 : 0.85));
 
             if (wLabel) {
-              const fontSize = isThinLine ? 9 : 10;
+              const fontSize = isThinLine ? 9 : 11;
               const lbl = entity.title.length > 26 ? entity.title.slice(0, 26) + '…' : entity.title;
 
               // Label centered on visible portion of bar (stays on screen for wide bars)
@@ -733,19 +733,22 @@ export default function TimelineView({ entities, selectedId, onSelect }: Props) 
               });
 
             if (wLabel) {
-              const fontSize = isSel ? 10 : 9;
+              const fontSize = isSel ? 11 : 10;
               const lbl = entity.title.length > 22 ? entity.title.slice(0, 22) + '…' : entity.title;
-              // Clamp Y so text never exits the lane boundary
-              const rawLabelY = 0;
-              const minLabelY = gi.y - cy + fontSize / 2 + 1;
-              const maxLabelY = gi.y + gi.h - cy - fontSize / 2 - 1;
-              const labelY    = Math.max(minLabelY, Math.min(maxLabelY, rawLabelY));
+              // Place label above symbol — eliminates horizontal overlap between adjacent entities
+              const rawLabelY = -iconR - 2;
+              const minLabelY = gi.y - cy + fontSize + 1;
+              const labelY    = Math.max(minLabelY, rawLabelY);
               g.append('text')
-                .attr('x', iconR + 4).attr('y', labelY)
-                .attr('dominant-baseline', 'middle')
+                .attr('x', 0).attr('y', labelY)
+                .attr('text-anchor', 'middle').attr('dominant-baseline', 'auto')
                 .attr('fill', isSel ? '#111827' : '#374151')
                 .attr('font-size', fontSize)
-                .attr('font-weight', isSel ? 600 : 400)
+                .attr('font-weight', isSel ? 700 : 500)
+                .attr('paint-order', 'stroke')
+                .attr('stroke', 'white')
+                .attr('stroke-width', 3)
+                .attr('stroke-linejoin', 'round')
                 .text(lbl);
             }
           }
